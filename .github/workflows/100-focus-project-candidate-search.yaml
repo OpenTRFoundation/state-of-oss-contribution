@@ -1,0 +1,134 @@
+name: 100 - Search focus org/project candidates
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  # run periodically
+  schedule:
+    - cron: '1,21,41 * * * *'   # at :01, :21, :41 past every hour every day
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# do not run this workflow, when there's another instance is running for the same workflow
+concurrency:
+  group: 100-focus-project-candidate-search
+  # If this is enabled it will cancel current running and start latest
+  cancel-in-progress: false
+
+env:
+  # workflow related
+  BRANCH_NAME: 100-focus-project-candidate-search
+  ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG }}
+  # cuttlecat related
+  SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/100-focus-project-candidate-search
+  EXTRACT_DATA_DIRECTORY: ${{ github.workspace }}/200-focus-project-extract
+  INTERVAL_CAP: 7
+
+jobs:
+  job-100-focus-project-candidate-search:
+    name: run focusProjectCandidateSearch, focusOrgExtract and focusRepositoryExtract
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set env ENABLE_DEBUG_LOGGING
+        run: |
+          if [[ "${ACTIONS_RUNNER_DEBUG:-false}" == true ]]; then
+            echo "LOG_LEVEL=debug" >> "$GITHUB_ENV"
+          else
+            echo "LOG_LEVEL=info" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/hydrogen'
+
+      # if local actions testing, do not check out the branch
+      - uses: actions/checkout@v4
+        if: ${{ !github.event.act }} # skip during local actions testing
+        with:
+          fetch-depth: 100
+          ref: ${{ env.BRANCH_NAME }}
+      - uses: actions/checkout@v4
+        if: ${{ github.event.act }} # skip during local actions testing
+
+      - name: Print environment
+        run: |
+          node --version
+          npm --version
+          echo "GITHUB_WORKSPACE: ${{ github.workspace }}"
+          echo "BRANCH_NAME: ${{ env.BRANCH_NAME }}"
+          echo "ACTIONS_RUNNER_DEBUG: ${{ env.ACTIONS_RUNNER_DEBUG }}"
+          echo "SEARCH_DATA_DIRECTORY: ${{ env.SEARCH_DATA_DIRECTORY }}"
+          echo "EXTRACT_DATA_DIRECTORY: ${{ env.EXTRACT_DATA_DIRECTORY }}"
+          echo "INTERVAL_CAP: ${{ env.INTERVAL_CAP }}"
+          echo "LOG_LEVEL: ${{ env.LOG_LEVEL }}"
+
+      - name: Rebase onto main
+        if: ${{ !github.event.act }} # skip during local actions testing
+        run: |
+          git config user.name "Ali Ok"
+          git config user.email "aliok@redhat.com"
+          git fetch origin
+          git rebase origin/main --strategy-option=theirs
+          git push --force origin ${{ env.BRANCH_NAME }}
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Build
+        run: |
+          npm run build
+
+      - name: Start process
+        run: |
+          echo "Printing cuttlecat version:"
+          cat node_modules/@opentr/cuttlecat/package.json | jq '.version'
+          
+          echo "Running on branch ${{ github.ref }}"
+          echo "Running on commit ${{ github.sha }}"
+          
+          echo "Starting focus-project-candidate-search"
+          node node_modules/@opentr/cuttlecat/dist/index.js execute \
+            --command-file="${{ github.workspace }}/dist/100-focus-project-candidate-search/focusProjectCandidateSearch.js" \
+            --github-token="${{ secrets.GITHUB_TOKEN }}" \
+            --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
+            --interval-cap="${{ env.INTERVAL_CAP }}" \
+            --log-level="${{ env.LOG_LEVEL }}"
+               
+          echo "Starting extract-focus-orgs"
+          node ${{ github.workspace }}/dist/200-focus-project-extract/focusOrgExtractIndex.js \
+          --focus-project-candidate-search-data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
+          --output-directory="${{ env.EXTRACT_DATA_DIRECTORY }}"
+
+          echo "Starting extract-focus-repositories"
+          node ${{ github.workspace }}/dist/200-focus-project-extract/focusRepositoryExtractIndex.js" \
+          --focus-project-candidate-search-data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
+          --output-directory="${{ env.EXTRACT_DATA_DIRECTORY }}" \
+          --exclude-list-file="${{ env.EXTRACT_DATA_DIRECTORY }}/repository-exclude-list.json"
+
+      - name: Commit
+        if: ${{ !github.event.act }} # skip during local actions testing
+        run: |
+          git add -A
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "There are changes, committing and pushing."
+            git commit -m "Automated - focus-project-candidate-search"
+            git push --force origin ${{ env.BRANCH_NAME }}
+          
+            echo "Checking if latest process state file is complete"
+            complete=$(node node_modules/@opentr/cuttlecat/dist/index.js latest-queue-complete --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}")
+          
+            if [ "$complete" = "true" ]; then
+              echo "Process is complete, creating a PR"
+              # create the PR from a temporary branch
+              AFFIX=$(date +%s) 
+              TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
+              git checkout -b "${TMP_BRANCH_NAME}"
+              git push --force origin "${TMP_BRANCH_NAME}"
+              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] Focus org candidates" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
+            fi
+          fi

@@ -1,0 +1,57 @@
+{
+  "name": "@opentr/state-of-oss-contribution",
+  "version": "0.0.1",
+  "description": "Data, stats and analysis about the state of OSS contribution in Turkey",
+  "keywords": [
+    "github",
+    "graphql",
+    "open source",
+    "contributors",
+    "contributions"
+  ],
+  "author": "Ali Ok",
+  "license": "Apache-2.0",
+  "homepage": "https://opentr.foundation/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenTRFoundation/state-of-oss-contribution"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run compile && npm run lint",
+    "test": "npm run build && mocha './src/**/*.test.ts' --recursive",
+    "clean": "rimraf ./dist",
+    "compile": "tsc",
+    "lint": "eslint ."
+  },
+  "type": "module",
+  "dependencies": {
+    "@opentr/cuttlecat": "0.0.8",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@types/chai": "^4.3.11",
+    "@types/chai-as-promised": "^7.1.8",
+    "@types/mocha": "^10.0.6",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@types/yargs": "^17.0.29",
+    "chai": "^4.3.10",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.52.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "mocha": "^10.2.0",
+    "nock": "^13.4.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "@types/mock-fs": "^4.13.3",
+    "mock-fs": "^5.2.0"
+  }
+}

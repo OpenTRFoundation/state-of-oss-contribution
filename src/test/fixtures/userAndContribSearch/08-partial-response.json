@@ -1,0 +1,146 @@
+[
+  {
+    "scope": "https://api.github.com:443",
+    "method": "POST",
+    "path": "/graphql",
+    "body": {
+      "query": "\nquery UserAndContribSearch($searchString: String!, $first: Int!, $after:String, $contribFrom: DateTime!, $contribTo: DateTime!){\n    rateLimit {\n        cost\n        limit\n        nodeCount\n        remaining\n        resetAt\n        used\n    }\n    search(type: USER, query:$searchString, first:$first, after:$after) {\n        pageInfo {\n            startCursor\n            hasNextPage\n            endCursor\n        }\n        userCount\n        nodes {\n            ... on User {\n                ...UserAndContribSearchResult\n            }\n        }\n    }\n}\nfragment UserAndContribSearchResult on User {\n    login\n    company\n    name\n    createdAt\n    email\n    followers {\n        totalCount\n    }\n    gists {\n        totalCount\n    }\n    issueComments {\n        totalCount\n    }\n    issues {\n        totalCount\n    }\n    location\n    pullRequests {\n        totalCount\n    }\n    repositories {\n        totalCount\n    }\n    repositoriesContributedTo {\n        totalCount\n    }\n    repositoryDiscussionComments {\n        totalCount\n    }\n    repositoryDiscussions {\n        totalCount\n    }\n    socialAccounts(first: 100) {\n        edges {\n            node {\n                ... on SocialAccount {\n                    displayName\n                    provider\n                    url\n                }\n            }\n        }\n    }\n    sponsoring {\n        totalCount\n    }\n    sponsors {\n        totalCount\n    }\n    twitterUsername\n    websiteUrl\n    contributionsCollection(from: $contribFrom, to: $contribTo) {\n        startedAt\n        endedAt\n        totalIssueContributions\n        totalCommitContributions\n        totalPullRequestContributions\n        totalPullRequestReviewContributions\n        totalRepositoriesWithContributedIssues\n        totalRepositoriesWithContributedCommits\n        totalRepositoriesWithContributedPullRequests\n        totalRepositoriesWithContributedPullRequestReviews\n        issueContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n        commitContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n        pullRequestContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n        pullRequestReviewContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n    }\n}\nfragment UserSearchRepositoryId on Repository {\n    nameWithOwner\n    isInOrganization\n    owner {\n        login\n    }\n}\n",
+      "variables": {
+        "searchString": "location:Foo followers:>=100 repos:>=50 created:2023-01-01..2023-01-01",
+        "first": 100,
+        "after": null,
+        "contribFrom": "2023-01-02T00:00:00+00:00",
+        "contribTo": "2023-01-02T23:59:59+00:00"
+      }
+    },
+    "status": 200,
+    "response": {
+      "data": {
+        "rateLimit": {
+          "limit": 5000,
+          "remaining": 4967,
+          "used": 33
+        },
+        "search": {
+          "pageInfo": {
+            "startCursor": "not_used",
+            "hasNextPage": false,
+            "endCursor": "not_used"
+          },
+          "userCount": 1,
+          "nodes": [
+            {
+              "login": "user_1",
+              "contributionsCollection": {
+                "commitContributionsByRepository": [
+                  {
+                    "contributions": {
+                      "totalCount": 1
+                    },
+                    "repository": {
+                      "nameWithOwner": "org/repo_1"
+                    }
+                  },
+                  {
+                    "contributions": {
+                      "totalCount": 2
+                    },
+                    "repository": {
+                      "nameWithOwner": "org/repo_2"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rawHeaders": [
+      "Server",
+      "GitHub.com"
+    ],
+    "responseIsBinary": false
+  },
+  {
+    "scope": "https://api.github.com:443",
+    "method": "POST",
+    "path": "/graphql",
+    "body": {
+      "query": "\nquery UserAndContribSearch($searchString: String!, $first: Int!, $after:String, $contribFrom: DateTime!, $contribTo: DateTime!){\n    rateLimit {\n        cost\n        limit\n        nodeCount\n        remaining\n        resetAt\n        used\n    }\n    search(type: USER, query:$searchString, first:$first, after:$after) {\n        pageInfo {\n            startCursor\n            hasNextPage\n            endCursor\n        }\n        userCount\n        nodes {\n            ... on User {\n                ...UserAndContribSearchResult\n            }\n        }\n    }\n}\nfragment UserAndContribSearchResult on User {\n    login\n    company\n    name\n    createdAt\n    email\n    followers {\n        totalCount\n    }\n    gists {\n        totalCount\n    }\n    issueComments {\n        totalCount\n    }\n    issues {\n        totalCount\n    }\n    location\n    pullRequests {\n        totalCount\n    }\n    repositories {\n        totalCount\n    }\n    repositoriesContributedTo {\n        totalCount\n    }\n    repositoryDiscussionComments {\n        totalCount\n    }\n    repositoryDiscussions {\n        totalCount\n    }\n    socialAccounts(first: 100) {\n        edges {\n            node {\n                ... on SocialAccount {\n                    displayName\n                    provider\n                    url\n                }\n            }\n        }\n    }\n    sponsoring {\n        totalCount\n    }\n    sponsors {\n        totalCount\n    }\n    twitterUsername\n    websiteUrl\n    contributionsCollection(from: $contribFrom, to: $contribTo) {\n        startedAt\n        endedAt\n        totalIssueContributions\n        totalCommitContributions\n        totalPullRequestContributions\n        totalPullRequestReviewContributions\n        totalRepositoriesWithContributedIssues\n        totalRepositoriesWithContributedCommits\n        totalRepositoriesWithContributedPullRequests\n        totalRepositoriesWithContributedPullRequestReviews\n        issueContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n        commitContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n        pullRequestContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n        pullRequestReviewContributionsByRepository(maxRepositories: 100) {\n            contributions{\n                totalCount\n            }\n            repository {\n                ...UserSearchRepositoryId\n            }\n        }\n    }\n}\nfragment UserSearchRepositoryId on Repository {\n    nameWithOwner\n    isInOrganization\n    owner {\n        login\n    }\n}\n",
+      "variables": {
+        "searchString": "location:Foo followers:>=100 repos:>=50 created:2023-01-02..2023-01-02",
+        "first": 100,
+        "after": null,
+        "contribFrom": "2023-01-03T00:00:00+00:00",
+        "contribTo": "2023-01-03T23:59:59+00:00"
+      }
+    },
+    "status": 200,
+    "response": {
+      "data": {
+        "rateLimit": {
+          "limit": 5000,
+          "remaining": 4967,
+          "used": 33
+        },
+        "search": {
+          "pageInfo": {
+            "startCursor": "not_used",
+            "hasNextPage": false,
+            "endCursor": "not_used"
+          },
+          "userCount": 1,
+          "nodes": [
+            {
+              "login": "user_2",
+              "contributionsCollection": {
+                "commitContributionsByRepository": [
+                  {
+                    "contributions": {
+                      "totalCount": 3
+                    },
+                    "repository": {
+                      "nameWithOwner": "org/repo_1"
+                    }
+                  },
+                  {
+                    "contributions": {
+                      "totalCount": 4
+                    },
+                    "repository": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "errors": [
+        {
+          "type": "FORBIDDEN",
+          "path": [
+            "search",
+            "nodes",
+            2
+          ],
+          "extensions": {
+            "saml_failure": false
+          },
+          "locations": [
+            {
+              "line": 18,
+              "column": 5
+            }
+          ],
+          "message": "Although you appear to have the correct authorization credentials, the `Shopify` organization has an IP allow list enabled, and your IP address is not permitted to access this resource."
+        }
+      ]
+    },
+    "rawHeaders": [
+      "Server",
+      "GitHub.com"
+    ],
+    "responseIsBinary": false
+  }
+]

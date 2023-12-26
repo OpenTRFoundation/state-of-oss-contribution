@@ -1,0 +1,110 @@
+name: 250 - generate locations data
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  # run periodically
+  schedule:
+    - cron: '10 0 * * 1'   # at 00:10 on Monday, once a week
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# do not run this workflow, when there's another instance is running for the same workflow
+concurrency:
+  group: 250-location-generation
+  # If this is enabled it will cancel current running and start latest
+  cancel-in-progress: false
+
+env:
+  # workflow related
+  BRANCH_NAME: 250-location-generation
+  ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG }}
+  # cuttlecat related
+  DATA_DIRECTORY: ${{ github.workspace }}/250-location-generation
+
+jobs:
+  job-250-location-generation:
+    name: run 250-location-generation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set env ENABLE_DEBUG_LOGGING
+        run: |
+          if [[ "${ACTIONS_RUNNER_DEBUG:-false}" == true ]]; then
+            echo "LOG_LEVEL=debug" >> "$GITHUB_ENV"
+          else
+            echo "LOG_LEVEL=info" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/hydrogen'
+
+      # if local actions testing, do not check out the branch
+      - uses: actions/checkout@v4
+        if: ${{ !github.event.act }} # skip during local actions testing
+        with:
+          fetch-depth: 100
+          ref: ${{ env.BRANCH_NAME }}
+      - uses: actions/checkout@v4
+        if: ${{ github.event.act }} # skip during local actions testing
+
+      - name: Print environment
+        run: |
+          node --version
+          npm --version
+          echo "GITHUB_WORKSPACE: ${{ github.workspace }}"
+          echo "BRANCH_NAME: ${{ env.BRANCH_NAME }}"
+          echo "ACTIONS_RUNNER_DEBUG: ${{ env.ACTIONS_RUNNER_DEBUG }}"
+          echo "DATA_DIRECTORY: ${{ env.DATA_DIRECTORY }}"
+          echo "LOG_LEVEL: ${{ env.LOG_LEVEL }}"
+
+      - name: Rebase onto main
+        if: ${{ !github.event.act }} # skip during local actions testing
+        run: |
+          git config user.name "Ali Ok"
+          git config user.email "aliok@redhat.com"
+          git fetch origin
+          git rebase origin/main --strategy-option=theirs
+          git push --force origin ${{ env.BRANCH_NAME }}
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Build
+        run: |
+          npm run build
+
+      - name: Start process
+        run: |
+          echo "Running on branch ${{ github.ref }}"
+          echo "Running on commit ${{ github.sha }}"
+          
+          echo "Starting locationGeneration"
+          node ${{ github.workspace }}/dist/250-location-generation/locationGenerationIndex.js \
+          --locations-master-file="${{ env.DATA_DIRECTORY }}/locations-master.json" \
+          --locations-additional-file="${{ env.DATA_DIRECTORY }}/locations-additional.json" \
+          --locations-exclude-file="${{ env.DATA_DIRECTORY }}/locations-exclude.json" \
+          --output-file="${{ env.DATA_DIRECTORY }}/locations.json"
+
+      - name: Commit
+        if: ${{ !github.event.act }} # skip during local actions testing
+        run: |
+          git add -A
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "There are changes, committing and pushing."
+            git commit -m "Automated - generate-locations"
+            git push --force origin ${{ env.BRANCH_NAME }}
+          
+            echo "Process is complete, creating a PR"
+            # create the PR from a temporary branch
+            AFFIX=$(date +%s) 
+            TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
+            git checkout -b "${TMP_BRANCH_NAME}"
+            git push --force origin "${TMP_BRANCH_NAME}"
+            GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] Location list" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
+          fi
