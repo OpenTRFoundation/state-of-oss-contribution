@@ -28,7 +28,7 @@ export interface UserCountSearchConfig {
 
 const DEFAULT_CONFIG:UserCountSearchConfig = {
     // ------ CRITERIA - described above --------
-    locationJsonFile: join(__dirname, "..", "..", "..", "250-location-generation", "locations.json"),
+    locationJsonFile: join(__dirname, "..", "..", "250-location-generation", "locations.json"),
     minRepositories: 0,
     minFollowers: 0,
 };

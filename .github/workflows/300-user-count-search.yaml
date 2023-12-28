@@ -23,7 +23,6 @@ env:
   ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG }}
   # cuttlecat related
   SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/300-user-count-search
-  LOCATIONS_FILE: ${{ github.workspace }}/250-location-generation/locations.json
   INTERVAL_CAP: 7
 
 jobs:
@@ -96,7 +95,6 @@ jobs:
             --github-token="${{ secrets.GITHUB_TOKEN }}" \
             --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
             --interval-cap="${{ env.INTERVAL_CAP }}" \
-            --location-json-file="${{ env.LOCATIONS_FILE }}" \
             --log-level="${{ env.LOG_LEVEL }}"
 
       - name: Commit
