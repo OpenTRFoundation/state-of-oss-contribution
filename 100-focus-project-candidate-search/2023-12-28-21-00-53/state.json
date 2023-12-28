@@ -1,230 +1,8 @@
 {
   "startDate": "2023-12-28T21:00:53.999Z",
-  "completionDate": null,
+  "completionDate": "2023-12-28T21:06:03.399Z",
   "completionError": null,
-  "unresolved": {
-    "35db973a-f34c-4d4d-9dc1-f6ce0016503e": {
-      "id": "35db973a-f34c-4d4d-9dc1-f6ce0016503e",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-01-16",
-      "createdBefore": "2022-01-20",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "a409bfe9-5ff2-4d7a-aaf4-399b03a651f0": {
-      "id": "a409bfe9-5ff2-4d7a-aaf4-399b03a651f0",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-12-12",
-      "createdBefore": "2022-12-16",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "56a0002c-cc31-4025-bfa6-545dcdd60b87": {
-      "id": "56a0002c-cc31-4025-bfa6-545dcdd60b87",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-05-11",
-      "createdBefore": "2022-05-15",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "f1d909b3-e15b-420f-9f34-59481de016a7": {
-      "id": "f1d909b3-e15b-420f-9f34-59481de016a7",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-04-16",
-      "createdBefore": "2022-04-20",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "35e68b56-4805-47a1-bdbb-007ad166397b": {
-      "id": "35e68b56-4805-47a1-bdbb-007ad166397b",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-11-27",
-      "createdBefore": "2022-12-01",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "16e53b44-29bc-4c11-b233-37e85eb40c9f": {
-      "id": "16e53b44-29bc-4c11-b233-37e85eb40c9f",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-12-02",
-      "createdBefore": "2022-12-06",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "c6cf126e-ab16-4bfa-a88d-63552c932051": {
-      "id": "c6cf126e-ab16-4bfa-a88d-63552c932051",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-06-15",
-      "createdBefore": "2022-06-19",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "a366291d-fefd-436c-9ddd-31b61488652b": {
-      "id": "a366291d-fefd-436c-9ddd-31b61488652b",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-02-05",
-      "createdBefore": "2022-02-09",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "dcab85c1-3cb0-45ea-81da-39051ff22a10": {
-      "id": "dcab85c1-3cb0-45ea-81da-39051ff22a10",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-02-25",
-      "createdBefore": "2022-03-01",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "37f8141b-9f3f-4cb8-ad37-b103854dac49": {
-      "id": "37f8141b-9f3f-4cb8-ad37-b103854dac49",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-10-28",
-      "createdBefore": "2022-11-01",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "d47fcf63-bba4-440e-afe7-cbc71dc0f930": {
-      "id": "d47fcf63-bba4-440e-afe7-cbc71dc0f930",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-04-21",
-      "createdBefore": "2022-04-25",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "aa2adeeb-5e8e-4968-82a7-064ac699932d": {
-      "id": "aa2adeeb-5e8e-4968-82a7-064ac699932d",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-01-11",
-      "createdBefore": "2022-01-15",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "cebff556-a9d1-47c8-b132-4c3c66497d0d": {
-      "id": "cebff556-a9d1-47c8-b132-4c3c66497d0d",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-06-25",
-      "createdBefore": "2022-06-29",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "0d695941-ace8-469e-8760-5eeebbdaee98": {
-      "id": "0d695941-ace8-469e-8760-5eeebbdaee98",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-10-23",
-      "createdBefore": "2022-10-27",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "7ffef767-7bff-4fc3-87dc-cb780a98bf03": {
-      "id": "7ffef767-7bff-4fc3-87dc-cb780a98bf03",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-05-31",
-      "createdBefore": "2022-06-04",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "d81f57a3-505c-4e83-85e3-fd97980b4c95": {
-      "id": "d81f57a3-505c-4e83-85e3-fd97980b4c95",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-12-22",
-      "createdBefore": "2022-12-26",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "0ff8881a-6e2b-454e-b05f-efa51ca36993": {
-      "id": "0ff8881a-6e2b-454e-b05f-efa51ca36993",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-09-29",
-      "createdAfter": "2022-07-20",
-      "createdBefore": "2022-07-24",
-      "pageSize": 100,
-      "startCursor": null
-    }
-  },
+  "unresolved": {},
   "resolved": {
     "3eb8e9f7-c92a-43b5-b520-1870981bf00b": {
       "task": {
@@ -1082,6 +860,266 @@
         "hasActivityAfter": "2023-09-29",
         "createdAfter": "2022-05-01",
         "createdBefore": "2022-05-05",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "35e68b56-4805-47a1-bdbb-007ad166397b": {
+      "task": {
+        "id": "35e68b56-4805-47a1-bdbb-007ad166397b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-11-27",
+        "createdBefore": "2022-12-01",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "a409bfe9-5ff2-4d7a-aaf4-399b03a651f0": {
+      "task": {
+        "id": "a409bfe9-5ff2-4d7a-aaf4-399b03a651f0",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-12-12",
+        "createdBefore": "2022-12-16",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "56a0002c-cc31-4025-bfa6-545dcdd60b87": {
+      "task": {
+        "id": "56a0002c-cc31-4025-bfa6-545dcdd60b87",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-05-11",
+        "createdBefore": "2022-05-15",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "f1d909b3-e15b-420f-9f34-59481de016a7": {
+      "task": {
+        "id": "f1d909b3-e15b-420f-9f34-59481de016a7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-04-16",
+        "createdBefore": "2022-04-20",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "16e53b44-29bc-4c11-b233-37e85eb40c9f": {
+      "task": {
+        "id": "16e53b44-29bc-4c11-b233-37e85eb40c9f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-12-02",
+        "createdBefore": "2022-12-06",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "35db973a-f34c-4d4d-9dc1-f6ce0016503e": {
+      "task": {
+        "id": "35db973a-f34c-4d4d-9dc1-f6ce0016503e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-01-16",
+        "createdBefore": "2022-01-20",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "c6cf126e-ab16-4bfa-a88d-63552c932051": {
+      "task": {
+        "id": "c6cf126e-ab16-4bfa-a88d-63552c932051",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-06-15",
+        "createdBefore": "2022-06-19",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "37f8141b-9f3f-4cb8-ad37-b103854dac49": {
+      "task": {
+        "id": "37f8141b-9f3f-4cb8-ad37-b103854dac49",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-10-28",
+        "createdBefore": "2022-11-01",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "cebff556-a9d1-47c8-b132-4c3c66497d0d": {
+      "task": {
+        "id": "cebff556-a9d1-47c8-b132-4c3c66497d0d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-06-25",
+        "createdBefore": "2022-06-29",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "a366291d-fefd-436c-9ddd-31b61488652b": {
+      "task": {
+        "id": "a366291d-fefd-436c-9ddd-31b61488652b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-02-05",
+        "createdBefore": "2022-02-09",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "dcab85c1-3cb0-45ea-81da-39051ff22a10": {
+      "task": {
+        "id": "dcab85c1-3cb0-45ea-81da-39051ff22a10",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-02-25",
+        "createdBefore": "2022-03-01",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-09-29 created:2022-02-25..2022-03-01\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task dcab85c1-3cb0-45ea-81da-39051ff22a10: Request failed due to following response errors:\n - Although you appear to have the correct authorization credentials, the `Shopify` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Dec 2023 21:05:42 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"GitHub.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"CFC0:0BF4:159D15F:2D955D1:658DE322\",\"x-ratelimit-limit\":\"1000\",\"x-ratelimit-remaining\":\"897\",\"x-ratelimit-reset\":\"1703800599\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"103\",\"x-xss-protection\":\"0\"}. Error: Although you appear to have the correct authorization credentials, the `Shopify` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":1000,\"nodeCount\":100,\"remaining\":897,\"resetAt\":\"2023-12-28T21:56:39Z\",\"used\":103},\"search\":{\"pageInfo\":{\"startCursor\":\"Y3Vyc29yOjE=\",\"hasNextPage\":false,\"endCursor\":\"Y3Vyc29yOjQz\"},\"repositoryCount\":43,\"nodes\":[{\"nameWithOwner\":\"triggerdotdev/jsonhero-web\",\"isInOrganization\":true,\"owner\":{\"login\":\"triggerdotdev\"},\"forkCount\":410,\"stargazerCount\":8286,\"pullRequests\":{\"totalCount\":71},\"issues\":{\"totalCount\":102},\"mentionableUsers\":{\"totalCount\":27},\"watchers\":{\"totalCount\":42}},{\"nameWithOwner\":\"getlago/lago\",\"isInOrganization\":true,\"owner\":{\"login\":\"getlago\"},\"forkCount\":189,\"stargazerCount\":4938,\"pullRequests\":{\"totalCount\":142},\"issues\":{\"totalCount\":160},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":38}},{\"nameWithOwner\":\"Ashinch/ReadYou\",\"isInOrganization\":false,\"owner\":{\"login\":\"Ashinch\"},\"forkCount\":141,\"stargazerCount\":3255,\"pullRequests\":{\"totalCount\":163},\"issues\":{\"totalCount\":313},\"mentionableUsers\":{\"totalCount\":74},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"cheatsnake/backend-cheats\",\"isInOrganization\":false,\"owner\":{\"login\":\"cheatsnake\"},\"forkCount\":206,\"stargazerCount\":2011,\"pullRequests\":{\"totalCount\":5},\"issues\":{\"totalCount\":12},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":33}},{\"nameWithOwner\":\"tuyoogame/YooAsset\",\"isInOrganization\":true,\"owner\":{\"login\":\"tuyoogame\"},\"forkCount\":377,\"stargazerCount\":1833,\"pullRequests\":{\"totalCount\":42},\"issues\":{\"totalCount\":182},\"mentionableUsers\":{\"totalCount\":16},\"watchers\":{\"totalCount\":45}},{\"nameWithOwner\":\"themesberg/flowbite-svelte\",\"isInOrganization\":true,\"owner\":{\"login\":\"themesberg\"},\"forkCount\":191,\"stargazerCount\":1668,\"pullRequests\":{\"totalCount\":605},\"issues\":{\"totalCount\":532},\"mentionableUsers\":{\"totalCount\":88},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"dotnet-presentations/dotnet-maui-workshop\",\"isInOrganization\":true,\"owner\":{\"login\":\"dotnet-presentations\"},\"forkCount\":509,\"stargazerCount\":1648,\"pullRequests\":{\"totalCount\":69},\"issues\":{\"totalCount\":51},\"mentionableUsers\":{\"totalCount\":25},\"watchers\":{\"totalCount\":64}},{\"nameWithOwner\":\"shufflewzc/faker2\",\"isInOrganization\":false,\"owner\":{\"login\":\"shufflewzc\"},\"forkCount\":478,\"stargazerCount\":1634,\"pullRequests\":{\"totalCount\":49},\"issues\":{\"totalCount\":108},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"themesberg/flowbite-react\",\"isInOrganization\":true,\"owner\":{\"login\":\"themesberg\"},\"forkCount\":326,\"stargazerCount\":1517,\"pullRequests\":{\"totalCount\":511},\"issues\":{\"totalCount\":599},\"mentionableUsers\":{\"totalCount\":112},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"mianfeifq/share\",\"isInOrganization\":false,\"owner\":{\"login\":\"mianfeifq\"},\"forkCount\":153,\"stargazerCount\":1479,\"pullRequests\":{\"totalCount\":0},\"issues\":{\"totalCount\":11},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":55}},{\"nameWithOwner\":\"arriven/db1000n\",\"isInOrganization\":false,\"owner\":{\"login\":\"arriven\"},\"forkCount\":214,\"stargazerCount\":1174,\"pullRequests\":{\"totalCount\":306},\"issues\":{\"totalCount\":251},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":26}},null,{\"nameWithOwner\":\"nhaouari/obsidian-textgenerator-plugin\",\"isInOrganization\":false,\"owner\":{\"login\":\"nhaouari\"},\"forkCount\":100,\"stargazerCount\":1090,\"pullRequests\":{\"totalCount\":23},\"issues\":{\"totalCount\":152},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"1amSimp1e/dots\",\"isInOrganization\":false,\"owner\":{\"login\":\"1amSimp1e\"},\"forkCount\":65,\"stargazerCount\":973,\"pullRequests\":{\"totalCount\":55},\"issues\":{\"totalCount\":24},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"trickest/inventory\",\"isInOrganization\":true,\"owner\":{\"login\":\"trickest\"},\"forkCount\":186,\"stargazerCount\":962,\"pullRequests\":{\"totalCount\":10},\"issues\":{\"totalCount\":5},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":42}},{\"nameWithOwner\":\"lisonge/vite-plugin-monkey\",\"isInOrganization\":false,\"owner\":{\"login\":\"lisonge\"},\"forkCount\":54,\"stargazerCount\":948,\"pullRequests\":{\"totalCount\":12},\"issues\":{\"totalCount\":91},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"bufanyun/hotgo\",\"isInOrganization\":false,\"owner\":{\"login\":\"bufanyun\"},\"forkCount\":178,\"stargazerCount\":655,\"pullRequests\":{\"totalCount\":38},\"issues\":{\"totalCount\":37},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"0x7c13/Pal3.Unity\",\"isInOrganization\":false,\"owner\":{\"login\":\"0x7c13\"},\"forkCount\":104,\"stargazerCount\":640,\"pullRequests\":{\"totalCount\":25},\"issues\":{\"totalCount\":3},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"koolkishan/chat-app-react-nodejs\",\"isInOrganization\":false,\"owner\":{\"login\":\"koolkishan\"},\"forkCount\":462,\"stargazerCount\":540,\"pullRequests\":{\"totalCount\":7},\"issues\":{\"totalCount\":25},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"kilograham/rp2040-doom\",\"isInOrganization\":false,\"owner\":{\"login\":\"kilograham\"},\"forkCount\":65,\"stargazerCount\":535,\"pullRequests\":{\"totalCount\":5},\"issues\":{\"totalCount\":13},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"pytorch/executorch\",\"isInOrganization\":true,\"owner\":{\"login\":\"pytorch\"},\"forkCount\":82,\"stargazerCount\":525,\"pullRequests\":{\"totalCount\":1411},\"issues\":{\"totalCount\":86},\"mentionableUsers\":{\"totalCount\":128},\"watchers\":{\"totalCount\":40}},{\"nameWithOwner\":\"hpcaitech/FastFold\",\"isInOrganization\":true,\"owner\":{\"login\":\"hpcaitech\"},\"forkCount\":76,\"stargazerCount\":517,\"pullRequests\":{\"totalCount\":113},\"issues\":{\"totalCount\":72},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"419Labs/starknet-ecosystem.com\",\"isInOrganization\":true,\"owner\":{\"login\":\"419Labs\"},\"forkCount\":448,\"stargazerCount\":506,\"pullRequests\":{\"totalCount\":503},\"issues\":{\"totalCount\":8},\"mentionableUsers\":{\"totalCount\":168},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"TfTHacker/DashboardPlusPlus\",\"isInOrganization\":false,\"owner\":{\"login\":\"TfTHacker\"},\"forkCount\":285,\"stargazerCount\":501,\"pullRequests\":{\"totalCount\":2},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"openspout/openspout\",\"isInOrganization\":true,\"owner\":{\"login\":\"openspout\"},\"forkCount\":70,\"stargazerCount\":489,\"pullRequests\":{\"totalCount\":146},\"issues\":{\"totalCount\":63},\"mentionableUsers\":{\"totalCount\":64},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"url-kaist/patchwork-plusplus\",\"isInOrganization\":true,\"owner\":{\"login\":\"url-kaist\"},\"forkCount\":71,\"stargazerCount\":454,\"pullRequests\":{\"totalCount\":6},\"issues\":{\"totalCount\":37},\"mentionableUsers\":{\"totalCount\":15},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"Accenture/VulFi\",\"isInOrganization\":true,\"owner\":{\"login\":\"Accenture\"},\"forkCount\":54,\"stargazerCount\":447,\"pullRequests\":{\"totalCount\":6},\"issues\":{\"totalCount\":12},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"datreeio/CRDs-catalog\",\"isInOrganization\":true,\"owner\":{\"login\":\"datreeio\"},\"forkCount\":114,\"stargazerCount\":356,\"pullRequests\":{\"totalCount\":199},\"issues\":{\"totalCount\":52},\"mentionableUsers\":{\"totalCount\":86},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"benjamincrozat/legacy-blog\",\"isInOrganization\":false,\"owner\":{\"login\":\"benjamincrozat\"},\"forkCount\":87,\"stargazerCount\":342,\"pullRequests\":{\"totalCount\":10},\"issues\":{\"totalCount\":17},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"eco-stake/restake\",\"isInOrganization\":true,\"owner\":{\"login\":\"eco-stake\"},\"forkCount\":281,\"stargazerCount\":313,\"pullRequests\":{\"totalCount\":567},\"issues\":{\"totalCount\":164},\"mentionableUsers\":{\"totalCount\":116},\"watchers\":{\"totalCount\":5}},{\"nameWithOwner\":\"mawoka-myblock/ClassQuiz\",\"isInOrganization\":false,\"owner\":{\"login\":\"mawoka-myblock\"},\"forkCount\":51,\"stargazerCount\":310,\"pullRequests\":{\"totalCount\":154},\"issues\":{\"totalCount\":155},\"mentionableUsers\":{\"totalCount\":36},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"fankes/AndroidNotifyIconAdapt\",\"isInOrganization\":false,\"owner\":{\"login\":\"fankes\"},\"forkCount\":82,\"stargazerCount\":274,\"pullRequests\":{\"totalCount\":267},\"issues\":{\"totalCount\":178},\"mentionableUsers\":{\"totalCount\":52},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"codebucks27/The-Weirdos-NFT-Website-Starter-Code\",\"isInOrganization\":false,\"owner\":{\"login\":\"codebucks27\"},\"forkCount\":200,\"stargazerCount\":272,\"pullRequests\":{\"totalCount\":10},\"issues\":{\"totalCount\":4},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":3}},{\"nameWithOwner\":\"thinh-vu/vnstock\",\"isInOrganization\":false,\"owner\":{\"login\":\"thinh-vu\"},\"forkCount\":94,\"stargazerCount\":249,\"pullRequests\":{\"totalCount\":61},\"issues\":{\"totalCount\":43},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"apache/dubbo-rust\",\"isInOrganization\":true,\"owner\":{\"login\":\"apache\"},\"forkCount\":62,\"stargazerCount\":248,\"pullRequests\":{\"totalCount\":104},\"issues\":{\"totalCount\":65},\"mentionableUsers\":{\"totalCount\":117},\"watchers\":{\"totalCount\":61}},{\"nameWithOwner\":\"getlago/lago-api\",\"isInOrganization\":true,\"owner\":{\"login\":\"getlago\"},\"forkCount\":52,\"stargazerCount\":221,\"pullRequests\":{\"totalCount\":1443},\"issues\":{\"totalCount\":131},\"mentionableUsers\":{\"totalCount\":18},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"lavanet/lava\",\"isInOrganization\":true,\"owner\":{\"login\":\"lavanet\"},\"forkCount\":124,\"stargazerCount\":193,\"pullRequests\":{\"totalCount\":1074},\"issues\":{\"totalCount\":6},\"mentionableUsers\":{\"totalCount\":33},\"watchers\":{\"totalCount\":3}},{\"nameWithOwner\":\"KonBAI-Q/RuoYi-Flowable-Plus\",\"isInOrganization\":false,\"owner\":{\"login\":\"KonBAI-Q\"},\"forkCount\":65,\"stargazerCount\":182,\"pullRequests\":{\"totalCount\":3},\"issues\":{\"totalCount\":4},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"OpenDriveLab/Openpilot-Deepdive\",\"isInOrganization\":true,\"owner\":{\"login\":\"OpenDriveLab\"},\"forkCount\":51,\"stargazerCount\":158,\"pullRequests\":{\"totalCount\":0},\"issues\":{\"totalCount\":31},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"matrix-org/matrix-spec\",\"isInOrganization\":true,\"owner\":{\"login\":\"matrix-org\"},\"forkCount\":79,\"stargazerCount\":140,\"pullRequests\":{\"totalCount\":323},\"issues\":{\"totalCount\":1348},\"mentionableUsers\":{\"totalCount\":186},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"cisco/cisco-mibs\",\"isInOrganization\":true,\"owner\":{\"login\":\"cisco\"},\"forkCount\":89,\"stargazerCount\":100,\"pullRequests\":{\"totalCount\":42},\"issues\":{\"totalCount\":7},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"huggingface/optimum-habana\",\"isInOrganization\":true,\"owner\":{\"login\":\"huggingface\"},\"forkCount\":68,\"stargazerCount\":76,\"pullRequests\":{\"totalCount\":562},\"issues\":{\"totalCount\":54},\"mentionableUsers\":{\"totalCount\":185},\"watchers\":{\"totalCount\":38}},{\"nameWithOwner\":\"aptos-labs/explorer\",\"isInOrganization\":true,\"owner\":{\"login\":\"aptos-labs\"},\"forkCount\":66,\"stargazerCount\":74,\"pullRequests\":{\"totalCount\":607},\"issues\":{\"totalCount\":38},\"mentionableUsers\":{\"totalCount\":25},\"watchers\":{\"totalCount\":37}}]}}.",
+        "date": "2023-12-28T21:05:42.196Z"
+      }
+    },
+    "d47fcf63-bba4-440e-afe7-cbc71dc0f930": {
+      "task": {
+        "id": "d47fcf63-bba4-440e-afe7-cbc71dc0f930",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-04-21",
+        "createdBefore": "2022-04-25",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "0d695941-ace8-469e-8760-5eeebbdaee98": {
+      "task": {
+        "id": "0d695941-ace8-469e-8760-5eeebbdaee98",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-10-23",
+        "createdBefore": "2022-10-27",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "aa2adeeb-5e8e-4968-82a7-064ac699932d": {
+      "task": {
+        "id": "aa2adeeb-5e8e-4968-82a7-064ac699932d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-01-11",
+        "createdBefore": "2022-01-15",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "d81f57a3-505c-4e83-85e3-fd97980b4c95": {
+      "task": {
+        "id": "d81f57a3-505c-4e83-85e3-fd97980b4c95",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-12-22",
+        "createdBefore": "2022-12-26",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "0ff8881a-6e2b-454e-b05f-efa51ca36993": {
+      "task": {
+        "id": "0ff8881a-6e2b-454e-b05f-efa51ca36993",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-07-20",
+        "createdBefore": "2022-07-24",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "7ffef767-7bff-4fc3-87dc-cb780a98bf03": {
+      "task": {
+        "id": "7ffef767-7bff-4fc3-87dc-cb780a98bf03",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-09-29",
+        "createdAfter": "2022-05-31",
+        "createdBefore": "2022-06-04",
         "pageSize": 100,
         "startCursor": null
       }
