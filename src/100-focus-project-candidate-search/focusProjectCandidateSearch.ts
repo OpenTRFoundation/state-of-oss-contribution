@@ -58,7 +58,7 @@ export interface FocusProjectCandidateSearchConfig {
 
 const DEFAULT_CONFIG:FocusProjectCandidateSearchConfig = {
     // ------ CRITERIA - described above --------
-    excludeRepositoriesCreatedBefore: "2022-01-01",
+    excludeRepositoriesCreatedBefore: "2008-01-01",
     minAgeInDays: 365,
     maxInactivityDays: 90,
     minStars: 50,
