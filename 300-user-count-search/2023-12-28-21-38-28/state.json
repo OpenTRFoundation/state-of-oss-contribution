@@ -3,14 +3,6 @@
   "completionDate": null,
   "completionError": null,
   "unresolved": {
-    "5c25eb54-548f-423d-9da5-fc3dee95f113": {
-      "id": "5c25eb54-548f-423d-9da5-fc3dee95f113",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Unye",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "b0964d31-96d6-457d-99ce-a3a1044cf01d": {
       "id": "b0964d31-96d6-457d-99ce-a3a1044cf01d",
       "parentId": null,
@@ -21593,6 +21585,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Ula",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "5c25eb54-548f-423d-9da5-fc3dee95f113": {
+      "task": {
+        "id": "5c25eb54-548f-423d-9da5-fc3dee95f113",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Unye",
         "minRepositories": 0,
         "minFollowers": 0
       }
