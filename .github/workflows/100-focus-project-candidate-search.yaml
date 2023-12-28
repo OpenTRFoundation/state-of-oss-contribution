@@ -100,12 +100,12 @@ jobs:
             --log-level="${{ env.LOG_LEVEL }}"
                
           echo "Starting extract-focus-orgs"
-          node ${{ github.workspace }}/dist/200-focus-project-extract/focusOrgExtractIndex.js \
+          node "${{ github.workspace }}/dist/200-focus-project-extract/focusOrgExtractIndex.js" \
           --focus-project-candidate-search-data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
           --output-directory="${{ env.EXTRACT_DATA_DIRECTORY }}"
 
           echo "Starting extract-focus-repositories"
-          node ${{ github.workspace }}/dist/200-focus-project-extract/focusRepositoryExtractIndex.js" \
+          node "${{ github.workspace }}/dist/200-focus-project-extract/focusRepositoryExtractIndex.js" \
           --focus-project-candidate-search-data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
           --output-directory="${{ env.EXTRACT_DATA_DIRECTORY }}" \
           --exclude-list-file="${{ env.EXTRACT_DATA_DIRECTORY }}/repository-exclude-list.json"
