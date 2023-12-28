@@ -42,6 +42,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
+          # TODO: use the nvmrc file
           node-version: 'lts/hydrogen'
 
       # if local actions testing, do not check out the branch
