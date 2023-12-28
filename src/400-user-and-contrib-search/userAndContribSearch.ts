@@ -6,7 +6,7 @@ import {Task} from "@opentr/cuttlecat/dist/graphql/task.js";
 import {TaskResult} from "@opentr/cuttlecat/dist/graphql/taskResult.js";
 import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
 import {TaskSpec} from "@opentr/cuttlecat/dist/graphql/taskSpec.js";
-import {ProcessState} from "@opentr/cuttlecat/dist/main.js";
+import {ProcessState} from "@opentr/cuttlecat/dist/subcommand/execute.js";
 import {ProcessFileHelper} from "@opentr/cuttlecat/dist/processFileHelper.js";
 import {
     addDays,

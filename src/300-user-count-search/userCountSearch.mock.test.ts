@@ -3,7 +3,7 @@ import {graphql} from "@octokit/graphql";
 
 import {TaskContext} from "@opentr/cuttlecat/dist/graphql/context.js";
 import * as log from "@opentr/cuttlecat/dist/log.js";
-import {addErroredToUnresolved, initializeQueue, startTaskQueue} from "@opentr/cuttlecat/dist/main.js";
+import {addErroredToUnresolved, initializeQueue, startTaskQueue} from "@opentr/cuttlecat/dist/subcommand/execute.js";
 import {TaskQueue, TaskStore} from "@opentr/cuttlecat/dist/queue/taskqueue.js";
 import nock from "nock";
 import fetch from "node-fetch";
