@@ -1,0 +1,289 @@
+{
+  "Agri": {
+    "parentMustBeInUserLocation": true
+  },
+  "Akkus": {
+    "parentMustBeInUserLocation": true
+  },
+  "Aksu": {
+    "parentMustBeInUserLocation": true
+  },
+  "Aliaga": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "ph"
+    ]
+  },
+  "Araban": {
+    "parentMustBeInUserLocation": true
+  },
+  "Ayas": {
+    "parentMustBeInUserLocation": true
+  },
+  "Bala": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "kalpak",
+      "PA",
+      "ruse",
+      "cyn"
+    ]
+  },
+  "Batman": {
+    "parentMustBeInUserLocation": true
+  },
+  "Bayat": {
+    "parentMustBeInUserLocation": true
+  },
+  "Belen": {
+    "parentMustBeInUserLocation": true
+  },
+  "Biga": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "lang",
+      "vite"
+    ]
+  },
+  "Bolu": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "roh"
+    ]
+  },
+  "Bor": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "str",
+      "der"
+    ]
+  },
+  "Bunyan": {
+    "parentMustBeInUserLocation": true
+  },
+  "Cal": {
+    "parentMustBeInUserLocation": true
+  },
+  "Camas": {
+    "parentMustBeInUserLocation": true
+  },
+  "Can": {
+    "parentMustBeInUserLocation": true
+  },
+  "Cat": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "str",
+      "more",
+      "tree"
+    ]
+  },
+  "Cay": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "tren",
+      "road",
+      "str"
+    ]
+  },
+  "Derbent": {
+    "parentMustBeInUserLocation": true
+  },
+  "Derik": {
+    "parentMustBeInUserLocation": true
+  },
+  "Evren": {
+    "parentMustBeInUserLocation": true
+  },
+  "Foca": {
+    "parentMustBeInUserLocation": true
+  },
+  "Gole": {
+    "parentMustBeInUserLocation": true
+  },
+  "Gordes": {
+    "parentMustBeInUserLocation": true
+  },
+  "Gurun": {
+    "parentMustBeInUserLocation": true
+  },
+  "Hani": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "road",
+      "Yunnan"
+    ]
+  },
+  "Hassa": {
+    "parentMustBeInUserLocation": true
+  },
+  "Hazro": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "str"
+    ]
+  },
+  "Kale": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kaman": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kargi": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kars": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "Toko"
+    ]
+  },
+  "Kas": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kemah": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kozluk": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kula": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kulu": {
+    "parentMustBeInUserLocation": true
+  },
+  "Kure": {
+    "parentMustBeInUserLocation": true
+  },
+  "Lice": {
+    "parentMustBeInUserLocation": true
+  },
+  "Mamak": {
+    "parentMustBeInUserLocation": true
+  },
+  "Manisa": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "ndia"
+    ]
+  },
+  "Mengen": {
+    "parentMustBeInUserLocation": true
+  },
+  "Ordu": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "str"
+    ]
+  },
+  "Orta": {
+    "parentMustBeInUserLocation": true
+  },
+  "Palu": {
+    "parentMustBeInUserLocation": true
+  },
+  "Pazar": {
+    "parentMustBeInUserLocation": true
+  },
+  "Saray": {
+    "parentMustBeInUserLocation": true
+  },
+  "Sile": {
+    "parentMustBeInUserLocation": true
+  },
+  "Sinop": {
+    "parentMustBeInUserLocation": true
+  },
+  "Siran": {
+    "parentMustBeInUserLocation": true
+  },
+  "Soma": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "Cal",
+      "Fran"
+    ]
+  },
+  "Taskent": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "zb"
+    ]
+  },
+  "Terme": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "Italy",
+      "BO"
+    ]
+  },
+  "TR": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "View",
+      "Italy",
+      "304",
+      "KPK",
+      "Tr.",
+      "str",
+      " rd",
+      "</"
+    ]
+  },
+  "Tut": {
+    "parentMustBeInUserLocation": true,
+    "mustNotBeInUserLocation": [
+      "str"
+    ]
+  },
+  "Tur": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "th",
+      "el",
+      "Koda",
+      "din"
+    ]
+  },
+  "Turkey": {
+    "parentMustBeInUserLocation": false,
+    "mustNotBeInUserLocation": [
+      "Road",
+      "Town"
+    ]
+  },
+  "Tuzla": {
+    "parentMustBeInUserLocation": true
+  },
+  "Ulas": {
+    "parentMustBeInUserLocation": true
+  },
+  "Ulus": {
+    "parentMustBeInUserLocation": true
+  },
+  "Van": {
+    "mustNotBeInUserLocation": [
+      "Viet Nam",
+      "Vietnam",
+      "Ha Noi",
+      "Hanoi",
+      "Europe",
+      "Trang",
+      "Trung",
+      "Binh",
+      "minh",
+      "street",
+      "district",
+      "str"
+    ],
+    "parentMustBeInUserLocation": true,
+    "_comment": "Often location entry by user includes the text 'TR', which makes checking for parent insufficient"
+  },
+  "Vize": {
+    "parentMustBeInUserLocation": true
+  },
+  "Zara": {
+    "parentMustBeInUserLocation": true
+  }
+}

@@ -70,7 +70,7 @@ const DEFAULT_CONFIG:FocusProjectCandidateSearchConfig = {
     pageSize: 100,
 };
 
-interface RepositorySummaryFragment {
+export interface RepositorySummaryFragment {
     nameWithOwner:string;
     isInOrganization:boolean;
     owner:{
