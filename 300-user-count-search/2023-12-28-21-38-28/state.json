@@ -19,14 +19,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "c8b99bd0-61bc-416b-910c-bd34cc02d55b": {
-      "id": "c8b99bd0-61bc-416b-910c-bd34cc02d55b",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Doğanyol",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "35519751-9cff-47f5-a660-5da49fe2e93c": {
       "id": "35519751-9cff-47f5-a660-5da49fe2e93c",
       "parentId": null,
@@ -24583,6 +24575,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Gaziosmanpaşa",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "c8b99bd0-61bc-416b-910c-bd34cc02d55b": {
+      "task": {
+        "id": "c8b99bd0-61bc-416b-910c-bd34cc02d55b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Doğanyol",
         "minRepositories": 0,
         "minFollowers": 0
       }
