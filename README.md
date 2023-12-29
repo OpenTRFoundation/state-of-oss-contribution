@@ -53,6 +53,7 @@ node "${CWD}/dist/900-report-data-truthmap/buildTruthMapsIndex.js" \
     --focus-project-extract-data-directory="${CWD}/200-focus-project-extract" \
     --locations-file-path="${CWD}/250-location-generation/locations.json" \
     --location-resolution-rules-file-path="${CWD}/900-report-data-truthmap/input-location-resolution-rules.json" \
+    --user-and-contrib-search-data-directory="${CWD}/400-user-and-contrib-search" \
     --output-directory="${CWD}/900-report-data-truthmap"
 ```
 

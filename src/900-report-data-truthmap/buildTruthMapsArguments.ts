@@ -30,6 +30,11 @@ export function addArguments(y:Argv<any>) {
                 desc: "Path to the location resolution rules file.",
                 demandOption: true,
             },
+            "user-and-contrib-search-data-directory": {
+                type: "string",
+                desc: "Path to the user and contrib search data directory.",
+                demandOption: true,
+            },
             "output-directory": {
                 type: "string",
                 desc: "Path to the output directory.",

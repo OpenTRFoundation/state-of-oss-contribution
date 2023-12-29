@@ -15,6 +15,7 @@ import {addArguments, getYargs} from "./buildTruthMapsArguments.js";
         focusProjectExtractDataDirectory: argv.focusProjectExtractDataDirectory,
         locationsFilePath: argv.locationsFilePath,
         locationResolutionRulesFilePath: argv.locationResolutionRulesFilePath,
+        userAndContribSearchDataDirectory: argv.userAndContribSearchDataDirectory,
         outputDirectory: argv.outputDirectory,
     });
 })();
