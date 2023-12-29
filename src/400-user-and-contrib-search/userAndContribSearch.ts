@@ -6,8 +6,8 @@ import {Task} from "@opentr/cuttlecat/dist/graphql/task.js";
 import {TaskResult} from "@opentr/cuttlecat/dist/graphql/taskResult.js";
 import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
 import {TaskSpec} from "@opentr/cuttlecat/dist/graphql/taskSpec.js";
-import {ProcessState} from "@opentr/cuttlecat/dist/subcommand/execute.js";
 import {ProcessFileHelper} from "@opentr/cuttlecat/dist/processFileHelper.js";
+import {ProcessState} from "@opentr/cuttlecat/dist/subcommand/execute.js";
 import {
     addDays,
     daysInPeriod,
@@ -537,10 +537,13 @@ export class UserAndContribSearchTask extends Task<UserAndContribSearchTaskResul
 
         for (let i = 0; i < nodes.length; i++) {
             const fragment = <UserAndContribSearchResultFragment>nodes[i];
-            // TODO: clip the email address
-            // fragment.email
             // items in the array might be null, in case of partial responses
             if (fragment) {
+                if (fragment.email && fragment.email.indexOf("@") > -1) {
+                    // discard the first part of the email address
+                    fragment.email = fragment.email.split("@")[1];
+                }
+
                 context.currentRunOutput.push({
                     taskId: this.getId(context),
                     result: fragment,
