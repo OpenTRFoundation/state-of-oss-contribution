@@ -106,18 +106,18 @@ export interface UserAndContribSearchConfig {
 
 const DEFAULT_CONFIG:UserAndContribSearchConfig = {
     // ------ CRITERIA - described above --------
-    minRepositories: 1,
+    minRepositories: 0,
     minFollowers: 0,
     excludeUsersSignedUpBefore: "2008-01-01",
     minUserAge: 0,
-    contribMaxAge: 365,
+    contribMaxAge: 90,
     contribMinAge: 0,
 
     // ------ SEARCH tuning --------
     // Path to the directory that contains files with user counts per location. Search will be done for the locations
     // that has some users in it. Also, the number of users in a location will help with
     // the batch size to avoid making search calls that take huge amount of time.
-    userCountPerLocationFilesDir: join(__dirname, "..", "..", "..", "300-user-count-search"),
+    userCountPerLocationFilesDir: join(__dirname, "..", "..", "300-user-count-search"),
 
     // Length of the search date range per 10000 users to search for users for a location in one call.
     searchPeriodInDaysFor10000Users: 5,
