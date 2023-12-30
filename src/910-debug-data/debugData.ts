@@ -203,7 +203,9 @@ function buildResolvedUserLocationStringsPerProvinceMap(config:Config) {
     //       "Ankara"
     //     ]
     //   },
-    for (const [_username, userLocation] of Object.entries(truthMapUserLocations)) {
+    for (const username in Object.entries(truthMapUserLocations)) {
+        const userLocation = truthMapUserLocations[username];
+
         // DEBUG
         // if(username !== "user1" && username !== "user2") {
         //     continue;
