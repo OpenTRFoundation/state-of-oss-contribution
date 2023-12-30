@@ -13,6 +13,7 @@ import {addArguments, getYargs} from "./debugDataArguments.js";
     await main({
         userCountSearchDataDirectory: argv.userCountSearchDataDirectory,
         userAndContribSearchDataDirectory: argv.userAndContribSearchDataDirectory,
+        reportDataTruthMapDirectory: argv.reportDataTruthMapDirectory,
         outputDirectory: argv.outputDirectory,
     });
 })();

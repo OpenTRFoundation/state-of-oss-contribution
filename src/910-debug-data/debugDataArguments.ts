@@ -20,6 +20,11 @@ export function addArguments(y:Argv<any>) {
                 desc: "Path to the user and contrib search data directory.",
                 demandOption: true,
             },
+            "report-data-truth-map-directory": {
+                type: "string",
+                desc: "Path to the report data truth map directory.",
+                demandOption: true,
+            },
             "output-directory": {
                 type: "string",
                 desc: "Path to the output directory.",

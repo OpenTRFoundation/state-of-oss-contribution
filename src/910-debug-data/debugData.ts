@@ -8,19 +8,24 @@ import {ProcessState} from "@opentr/cuttlecat/dist/subcommand/execute.js";
 import {readSlurpJsonFileSync} from "@opentr/cuttlecat/dist/utils.js";
 import {UserAndContribSearchTaskSpec} from "../400-user-and-contrib-search/userAndContribSearch.js";
 
+const UnknownProvince = "-Unknown-";
+
 export interface Config {
     userCountSearchDataDirectory:string;
     userAndContribSearchDataDirectory:string;
+    reportDataTruthMapDirectory:string;
     outputDirectory:string;
 }
 
 export async function main(config:Config) {
     const userCountPerLocationSearchTermMap = buildUserCountPerLocationSearchTermMap(config);
     const locationStringPerLocationSearchTermMap = buildLocationStringPerLocationSearchTermMap(config);
+    const resolvedUserLocationStringsPerProvinceMap = buildResolvedUserLocationStringsPerProvinceMap(config);
 
 
     fs.writeFileSync(join(config.outputDirectory, "100-user-count-per-location-search-term.json"), JSON.stringify(userCountPerLocationSearchTermMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "200-location-string-per-location-search-term.json"), JSON.stringify(locationStringPerLocationSearchTermMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "300-resolved-user-location-strings-per-province.json"), JSON.stringify(resolvedUserLocationStringsPerProvinceMap, null, 2));
 }
 
 /**
@@ -151,5 +156,87 @@ function buildLocationStringPerLocationSearchTermMap(config:Config) {
         // sort the found location strings by length
         outputEntry[1].foundLocationStrings.sort((a, b) => a.length - b.length);
     }
+    return sortedOutput;
+}
+
+/**
+ * Reads the output from the user location truth map and builds a map of the resolved user location strings per province.
+ *
+ * Example map:
+ * - Istanbul:
+ *    - Istanbul
+ *    - İstanbul / TURKEY
+ *    - Kartal,İstanbul
+ * - Ankara:
+ *   - Ankara, Turkey
+ *   - Ankara
+ * - -Unknown-:
+ *   - turkey
+ *   - TR
+ *
+ * @param config
+ */
+function buildResolvedUserLocationStringsPerProvinceMap(config:Config) {
+    // 1. read the output from 900-report-data-truthmap/truth-map-user-locations.json file
+    // 2. for each user, get the resolved province
+    // 3. add the user entered location string to the resolved province entry
+
+    const truthMapUserLocationsFilePath = join(config.reportDataTruthMapDirectory, "truth-map-user-locations.json");
+    const truthMapUserLocations:{[username:string]:{province:string, enteredLocation:string}} = JSON.parse(fs.readFileSync(truthMapUserLocationsFilePath, "utf8"));
+
+    const output:{[province:string]:string[]} = {};
+
+    // entries:
+    // "user1": {
+    //     "province": null,
+    //     "locationSearchBucket": "Turkey",
+    //     "enteredLocation": "turkey ",
+    //     "allLocationSearchBuckets": [
+    //       "Turkey"
+    //     ]
+    //   },
+    //   "user2": {
+    //     "province": "Ankara",
+    //     "locationSearchBucket": "Ankara",
+    //     "enteredLocation": "Ankara",
+    //     "allLocationSearchBuckets": [
+    //       "Ankara"
+    //     ]
+    //   },
+    for (const [_username, userLocation] of Object.entries(truthMapUserLocations)) {
+        // DEBUG
+        // if(username !== "user1" && username !== "user2") {
+        //     continue;
+        // }
+
+        let province = userLocation.province;
+        if (!province) {
+            province = UnknownProvince;
+        }
+
+        // DEBUG
+        // if(province === UnknownProvince) {
+        //     console.log(`User ${_username} has unknown province, entered location: ${userLocation.enteredLocation}`);
+        // }
+
+        if (!output[province]) {
+            output[province] = [];
+        }
+
+        output[province].push(userLocation.enteredLocation);
+        // deduplicate the found location strings
+        output[province] = [...new Set(output[province])];
+    }
+
+    // sort the output by number of user location strings
+    const outputEntries = Object.entries(output);
+    outputEntries.sort((a, b) => b[1].length - a[1].length);
+    const sortedOutput:{[province:string]:string[]} = {};
+    for (const outputEntry of outputEntries) {
+        sortedOutput[outputEntry[0]] = outputEntry[1];
+        // sort the found location strings by length
+        outputEntry[1].sort((a, b) => a.length - b.length);
+    }
+
     return sortedOutput;
 }

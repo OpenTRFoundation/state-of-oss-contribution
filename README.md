@@ -65,6 +65,7 @@ CWD="$(pwd)"
 node "${CWD}/dist/910-debug-data/debugDataIndex.js" \
     --user-count-search-data-directory="${CWD}/300-user-count-search" \
     --user-and-contrib-search-data-directory="${CWD}/400-user-and-contrib-search" \
+    --report-data-truth-map-directory="${CWD}/900-report-data-truthmap" \
     --output-directory="${CWD}/910-debug-data"
 ```
 
