@@ -57,6 +57,17 @@ node "${CWD}/dist/900-report-data-truthmap/buildTruthMapsIndex.js" \
     --output-directory="${CWD}/900-report-data-truthmap"
 ```
 
+Debug data:
+```shell
+npm run build
+CWD="$(pwd)"
+
+node "${CWD}/dist/910-debug-data/debugDataIndex.js" \
+    --user-count-search-data-directory="${CWD}/300-user-count-search" \
+    --user-and-contrib-search-data-directory="${CWD}/400-user-and-contrib-search" \
+    --output-directory="${CWD}/910-debug-data"
+```
+
 TODO:
 - Unit tests
 - Mock tests
