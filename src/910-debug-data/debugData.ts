@@ -7,6 +7,7 @@ import {ProcessState} from "@opentr/cuttlecat/dist/subcommand/execute.js";
 
 import {readSlurpJsonFileSync} from "@opentr/cuttlecat/dist/utils.js";
 import {UserAndContribSearchTaskSpec} from "../400-user-and-contrib-search/userAndContribSearch.js";
+import {readPartitioned} from "../util/partition.js";
 
 const UnknownProvince = "-Unknown-";
 
@@ -21,7 +22,6 @@ export async function main(config:Config) {
     const userCountPerLocationSearchTermMap = buildUserCountPerLocationSearchTermMap(config);
     const locationStringPerLocationSearchTermMap = buildLocationStringPerLocationSearchTermMap(config);
     const resolvedUserLocationStringsPerProvinceMap = buildResolvedUserLocationStringsPerProvinceMap(config);
-
 
     fs.writeFileSync(join(config.outputDirectory, "100-user-count-per-location-search-term.json"), JSON.stringify(userCountPerLocationSearchTermMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "200-location-string-per-location-search-term.json"), JSON.stringify(locationStringPerLocationSearchTermMap, null, 2));
@@ -177,13 +177,11 @@ function buildLocationStringPerLocationSearchTermMap(config:Config) {
  * @param config
  */
 function buildResolvedUserLocationStringsPerProvinceMap(config:Config) {
-    // 1. read the output from 900-report-data-truthmap/truth-map-user-locations.json file
+    // 1. read the output from 900-report-data-truthmap/truth-map-user-locations.N.json files
     // 2. for each user, get the resolved province
     // 3. add the user entered location string to the resolved province entry
 
-    const truthMapUserLocationsFilePath = join(config.reportDataTruthMapDirectory, "truth-map-user-locations.json");
-    const truthMapUserLocations:{[username:string]:{province:string, enteredLocation:string}} = JSON.parse(fs.readFileSync(truthMapUserLocationsFilePath, "utf8"));
-
+    const truthMapUserLocations:{[username:string]:{province:string, enteredLocation:string}} = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-locations.index.json");
     const output:{[province:string]:string[]} = {};
 
     // entries:

@@ -9,6 +9,7 @@ import {readSlurpJsonFileSync} from "@opentr/cuttlecat/dist/utils.js";
 import {RepositorySummaryFragment} from "../100-focus-project-candidate-search/focusProjectCandidateSearch.js";
 import {LocationsOutput} from "../250-location-generation/locationGeneration.js";
 import {UserAndContribSearchTaskSpec} from "../400-user-and-contrib-search/userAndContribSearch.js";
+import {writePartitioned} from "../util/partition.js";
 
 export type FocusOrganization = {
     name:string;
@@ -57,6 +58,8 @@ export interface Config {
 }
 
 export async function main(config:Config) {
+    // TODO: clean up target directory first
+
     // build the repository truth map, which contains all the repositories that were marked as "focus projects" in the extract process.
     const repositoryTruthMap = buildFocusRepositoryTruthMap(config);
 
@@ -84,11 +87,11 @@ export async function main(config:Config) {
     const userAndContribTruthMap = buildUserAndContribTruthMap(userAndContribSearchOutputItems, userLocationTruthMap, userAndContribSearchProcessState);
 
     // write the truth maps to files
-    fs.writeFileSync(join(config.outputDirectory, "truth-map-focus-repositories.json"), JSON.stringify(repositoryTruthMap, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "truth-map-focus-organizations.json"), JSON.stringify(orgTruthMap, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "truth-map-locations.json"), JSON.stringify(locationTruthMap, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "truth-map-user-locations.json"), JSON.stringify(userLocationTruthMap, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "truth-map-user-and-contrib.json"), JSON.stringify(userAndContribTruthMap, null, 2));
+    writePartitioned(config.outputDirectory, "truth-map-focus-repositories", 50000, repositoryTruthMap);
+    writePartitioned(config.outputDirectory, "truth-map-focus-organizations", 50000, orgTruthMap);
+    writePartitioned(config.outputDirectory, "truth-map-locations", 50000, locationTruthMap);
+    writePartitioned(config.outputDirectory, "truth-map-user-locations", 50000, userLocationTruthMap);
+    writePartitioned(config.outputDirectory, "truth-map-user-and-contrib", 10000, userAndContribTruthMap);
 
     // for debugging
     // fs.writeFileSync(join(config.outputDirectory, "debug-user-and-contrib-search-output-items.json"), JSON.stringify(userAndContribSearchOutputItems, null, 2));
