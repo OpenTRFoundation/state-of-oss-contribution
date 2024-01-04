@@ -1,6 +1,6 @@
-import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
 import * as fs from "fs";
 import {join} from "path";
+import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
 import {RepositorySummaryFragment} from "../100-focus-project-candidate-search/focusProjectCandidateSearch.js";
 import {
     ContributionByRepositoryFragment,

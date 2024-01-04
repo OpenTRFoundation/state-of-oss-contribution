@@ -618,10 +618,3 @@ function includes(enteredLocation:string, str:string) {
         ||
         enteredLocation.toLocaleLowerCase("tr").includes(str.toLocaleLowerCase("tr"));
 }
-
-function sortByKey<T>(input:{ [key:string]:T }) {
-    return Object.fromEntries(
-        Object.entries(input)
-            .sort((a, b) => a[0].toLocaleLowerCase("en").localeCompare(b[0].toLocaleLowerCase("en")))
-    );
-}
