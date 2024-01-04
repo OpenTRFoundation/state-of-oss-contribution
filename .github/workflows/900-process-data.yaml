@@ -98,8 +98,6 @@ jobs:
             --output-directory="${{ github.workspace }}/910-debug-data"
           
           echo "Starting reportDataIndex"
-          node "${{ github.workspace }}/dist/910-debug-data/debugDataIndex.js" \
-          
           node "${{ github.workspace }}/dist/990-report-data/reportDataIndex.js" \
             --report-data-truth-map-directory="${{ github.workspace }}/900-report-data-truthmap" \
             --output-directory="${{ github.workspace }}/990-report-data"
