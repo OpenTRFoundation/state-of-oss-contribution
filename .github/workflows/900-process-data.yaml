@@ -118,5 +118,5 @@ jobs:
             TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
             git checkout -b "${TMP_BRANCH_NAME}"
             git push --force origin "${TMP_BRANCH_NAME}"
-            GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] User and contributions" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
+            GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] Report data" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
           fi
