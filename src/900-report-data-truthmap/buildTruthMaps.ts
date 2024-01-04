@@ -9,6 +9,7 @@ import {readSlurpJsonFileSync} from "@opentr/cuttlecat/dist/utils.js";
 import {RepositorySummaryFragment} from "../100-focus-project-candidate-search/focusProjectCandidateSearch.js";
 import {LocationsOutput} from "../250-location-generation/locationGeneration.js";
 import {UserAndContribSearchTaskSpec} from "../400-user-and-contrib-search/userAndContribSearch.js";
+import {header, log} from "../util/log.js";
 import {writePartitioned} from "../util/partition.js";
 
 export type FocusOrganization = {
@@ -58,34 +59,46 @@ export interface Config {
 }
 
 export async function main(config:Config) {
-    // TODO: clean up target directory first
+    header(`Building truth maps...`);
+    log(`Config: ${JSON.stringify(config, null, 2)}`);
 
+    header(`Going to clean up the output directory`);
+    cleanUpOutputDirectory(config);
+
+    header(`Going to build the focus repository truth map`);
     // build the repository truth map, which contains all the repositories that were marked as "focus projects" in the extract process.
     const repositoryTruthMap = buildFocusRepositoryTruthMap(config);
 
+    header(`Going to build the focus organization truth map`);
     // build the org truth map, which contains all the organizations.
     const orgTruthMap = buildFocusOrgTruthMap(config);
 
+    header(`Going to build the location truth map`);
     // build the location truth map, which contains all the locations, their alternatives, and the resolution rules.
     const locationTruthMap = buildLocationTruthMap(config);
 
+    header(`Going to read the user and contrib search output items`);
     // build a map of users and the task outputs for them (the task outputs are the users that were found in the user and contrib search).
     // discard the fetched data from archived tasks.
     const userAndContribSearchOutputItems = readAllUserAndContribSearchOutputItems(config);
 
+    header(`Going to read the user and contrib search process state`);
     // read the process state for the user and contrib search, which will be used to filter out the outputs from the tasks
     // that were ran for an alternative location for the same user. We only want to keep the outputs from the tasks that were
     // ran for the resolved location for the user.
     const userAndContribSearchProcessState:ProcessState = readUserAndContribSearchProcessState(config);
 
+    header(`Going to build the user location truth map`);
     // build the user location truth map, which contains all the users, their locations, and how they were matched with the locations.
     // this information is used to filter out the user and contrib search outputs for the users that were matched with multiple locations.
     const userLocationTruthMap = buildUserLocationTruthMap(locationTruthMap, userAndContribSearchOutputItems, userAndContribSearchProcessState);
 
+    header(`Going to build the user and contrib truth map`);
     // build a map of users and their contributions.
     // filter out the task outputs for the tasks that were ran for an alternative location for the same user.
     const userAndContribTruthMap = buildUserAndContribTruthMap(userAndContribSearchOutputItems, userLocationTruthMap, userAndContribSearchProcessState);
 
+    header(`Going to write the truth maps to files`);
     // write the truth maps to files
     writePartitioned(config.outputDirectory, "truth-map-focus-repositories", 50000, repositoryTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-focus-organizations", 50000, orgTruthMap);
@@ -97,12 +110,29 @@ export async function main(config:Config) {
     // fs.writeFileSync(join(config.outputDirectory, "debug-user-and-contrib-search-output-items.json"), JSON.stringify(userAndContribSearchOutputItems, null, 2));
 }
 
+function cleanUpOutputDirectory(config:Config) {
+    log(`Cleaning up output directory ${config.outputDirectory}`);
+
+    if (!fs.existsSync(config.outputDirectory)) {
+        log(`Creating output directory ${config.outputDirectory}`);
+        fs.mkdirSync(config.outputDirectory);
+    }
+    for (const file of fs.readdirSync(config.outputDirectory)) {
+        if(file.startsWith("truth-map-") && file.endsWith(".json")){
+            log(`Deleting ${file}`);
+            fs.rmSync(join(config.outputDirectory, file));
+        }
+    }
+}
+
 /**
  * Build a truth map of repositories that are marked as "focus projects" in the focus project extract data.
  * These are the repositories that are not in an organization and have a high number of stars, forks, pull requests, and mentionable users.
  * @param config
  */
 export function buildFocusRepositoryTruthMap(config:Config) {
+    log(`Building focus repository truth map...`);
+
     // 1. Read the candidate search output files. These have all the repositories that were found in the candidate search.
     // 2. Read the extract output file for focus repositories. These have the repositories that were marked as "focus projects" in the extract process.
     // 3. Build a map of repositories that are marked as "focus projects" in the extract process.
@@ -119,6 +149,8 @@ export function buildFocusRepositoryTruthMap(config:Config) {
         filteredMap[nameWithOwner] = theMap[nameWithOwner];
     }
 
+    log(`Found ${Object.keys(filteredMap).length} focus repositories`);
+
     return filteredMap;
 }
 
@@ -127,6 +159,8 @@ export function buildFocusRepositoryTruthMap(config:Config) {
  * @param config
  */
 function buildFocusOrgTruthMap(config:Config) {
+    log(`Building focus organization truth map...`);
+
     // 1. Read the candidate search output files. These have all the repositories that were found in the candidate search.
     // 2. Read the extract output file for organizations.
     // 3. Build a map of organizations with their matching repositories.
@@ -159,6 +193,8 @@ function buildFocusOrgTruthMap(config:Config) {
         focusOrgMap[orgName].matchingRepositories.sort();
     }
 
+    log(`Found ${Object.keys(focusOrgMap).length} focus organizations`);
+
     return focusOrgMap;
 }
 
@@ -167,6 +203,8 @@ function buildFocusOrgTruthMap(config:Config) {
  * @param config
  */
 export function buildLocationTruthMap(config:Config):LocationTruthMap {
+    log(`Building location truth map...`);
+
     // 1. Read the locations file.
     // 2. Read the location resolution rules file.
     // 3. Build a map of locations with their alternatives. Each alternative has a reference to the main entry and the resolution rule.
@@ -190,6 +228,9 @@ export function buildLocationTruthMap(config:Config):LocationTruthMap {
             };
         });
     }
+
+    log(`Found ${Object.keys(locationTruthMap).length} locations`);
+
     return locationTruthMap;
 }
 
@@ -207,6 +248,7 @@ function readAllCandidateRepositories(config:Config) {
     // build a map of all repositories that were found in the candidate search. we will filter this map later.
     const theMap:{ [nameWithOwner:string]:RepositorySummaryFragment } = {};
     for (const processOutputFile of projectCandidateSearchProcessOutputFiles) {
+        log(`Reading ${processOutputFile}`);
         const processOutput:TaskRunOutputItem[] = readSlurpJsonFileSync(processOutputFile);
         for (const fileOutput of processOutput) {
             const repositoryFragment = fileOutput.result as RepositorySummaryFragment;
@@ -223,6 +265,8 @@ function readAllCandidateRepositories(config:Config) {
  * @param config
  */
 export function readAllUserAndContribSearchOutputItems(config:Config):{ [username:string]:TaskRunOutputItem[] } {
+    log(`Building user and contrib search output map...`);
+
     const userAndContribFileHelper = new ProcessFileHelper(config.userAndContribSearchDataDirectory);
     const latestProcessStateDirectory = userAndContribFileHelper.getLatestProcessStateDirectory();
     if (!latestProcessStateDirectory) {
@@ -232,7 +276,7 @@ export function readAllUserAndContribSearchOutputItems(config:Config):{ [usernam
     const processStateFilePath = userAndContribFileHelper.getProcessStateFilePath(latestProcessStateDirectory);
 
     const processState:ProcessState = JSON.parse(fs.readFileSync(processStateFilePath, "utf8"));
-    // TODO
+    // as the branch of this code will only contain the completed tasks, we don't need to check if the process is complete.
     // if (processState.completionDate == null) {
     //     throw new Error("Latest process is not complete");
     // }
@@ -244,6 +288,7 @@ export function readAllUserAndContribSearchOutputItems(config:Config):{ [usernam
     // collect all data from all process output files, per user
     const output:{ [username:string]:TaskRunOutputItem[] } = {};
     for (const processOutputFile of processOutputFiles) {
+        log(`Reading ${processOutputFile}`);
         const processOutput:TaskRunOutputItem[] = readSlurpJsonFileSync(processOutputFile);
         for (const fileOutput of processOutput) {
             if (processState.archived[fileOutput.taskId]) {
@@ -265,10 +310,15 @@ export function readAllUserAndContribSearchOutputItems(config:Config):{ [usernam
             output[username].push(fileOutput);
         }
     }
+
+    log(`Found ${Object.keys(output).length} users`);
+
     return output;
 }
 
 function readUserAndContribSearchProcessState(config:Config) {
+    log(`Reading user and contrib search process state...`);
+
     const userAndContribFileHelper = new ProcessFileHelper(config.userAndContribSearchDataDirectory);
     const latestProcessStateDirectory = userAndContribFileHelper.getLatestProcessStateDirectory();
     if (!latestProcessStateDirectory) {
@@ -277,6 +327,7 @@ function readUserAndContribSearchProcessState(config:Config) {
 
     const processStateFilePath = userAndContribFileHelper.getProcessStateFilePath(latestProcessStateDirectory);
 
+    log(`Reading ${processStateFilePath}`);
     const processState:ProcessState = JSON.parse(fs.readFileSync(processStateFilePath, "utf8"));
     return processState;
 }
@@ -296,11 +347,14 @@ function readUserAndContribSearchProcessState(config:Config) {
  * @param userAndContribSearchProcessState
  */
 export function buildUserLocationTruthMap(locationTruthMap:LocationTruthMap, userAndContribSearchOutputItems:{[username:string]:TaskRunOutputItem[]}, userAndContribSearchProcessState:ProcessState):UserLocationTruthMap {
+    log(`Building user location truth map...`);
+
     type IntermediateUserLocationEntries = {
         enteredLocation:string;
         locationBuckets:Set<string>;
     }
 
+    log(`Building intermediate user location entries map...`);
     // collect all location buckets for each user
     // for example, for a user that entered "Istanbul, Turkey" as their location,
     // we will have entries for them in searches for Istanbul and Turkey.
@@ -311,12 +365,10 @@ export function buildUserLocationTruthMap(locationTruthMap:LocationTruthMap, use
         const outputsForUser = userAndContribSearchOutputItems[user];
 
         for (const output of outputsForUser) {
-            // TODO: debugging shit
-            // TODO: check this user again...
-            // if(username !== "evgcorp") {
+            // Debugging manually
+            // if(username !== "user1") {
             //     return;
             // }
-            // console.log(fileOutput.result.location);
 
             // this is how we got this user entry
             // the user might be matched with other locations too!
@@ -337,6 +389,7 @@ export function buildUserLocationTruthMap(locationTruthMap:LocationTruthMap, use
     }
 
 
+    log(`Resolving user locations...`);
     // Let's identify user locations!
     //
     // Say user has this information in their profile:
@@ -411,8 +464,7 @@ export function buildUserLocationTruthMap(locationTruthMap:LocationTruthMap, use
         };
     }
 
-    // sort the user location map by username
-    return sortByKey(userLocationMap);
+    return userLocationMap;
 }
 
 /**
@@ -424,6 +476,7 @@ export function buildUserLocationTruthMap(locationTruthMap:LocationTruthMap, use
  * @param userAndContribSearchProcessState
  */
 function buildUserAndContribTruthMap(userAndContribSearchOutputItems:{[username:string]:TaskRunOutputItem[]}, userLocationTruthMap:UserLocationTruthMap, userAndContribSearchProcessState:ProcessState) {
+    log(`Building user and contrib truth map...`);
     const newMap:{[username:string]:TaskRunOutputItem[]} = {};
     // iterate over users and contributions. discard the outputs that are found when the location is not the one that the user is matched with.
     // remember, there might be same results for the same user, but with different locations.
@@ -443,6 +496,7 @@ function buildUserAndContribTruthMap(userAndContribSearchOutputItems:{[username:
             }
         }
     }
+    log(`Found ${Object.keys(newMap).length} users`);
     return newMap;
 }
 
@@ -469,7 +523,7 @@ function resolveLocationBuckets(locationTruthMap:LocationTruthMap, locationBucke
 function resolveBucket(locationTruthMap:LocationTruthMap, locationBucketName:string, enteredLocation:string) {
     const truthForBucket = locationTruthMap[locationBucketName];
     if (!truthForBucket) {
-        console.log(`Location ${locationBucketName} is not in the locations list`);
+        log(`Location ${locationBucketName} is not in the locations list`);
         return false;
     }
     const locationResolutionRule = truthForBucket.resolutionRule;
@@ -495,7 +549,7 @@ function resolveBucket(locationTruthMap:LocationTruthMap, locationBucketName:str
 
         // check if the location is in the list. it should be, otherwise, why did we search users for this location?
         if (!bucketMainEntry) {
-            console.log(`Location ${locationBucketName} is not in the locations list`);
+            log(`Location ${locationBucketName} is not in the locations list`);
             return false;
         }
 
@@ -540,13 +594,13 @@ function getLocationDepth(locationTruthMap:LocationTruthMap, location:string):nu
 function getProvince(locationTruthMap:LocationTruthMap, location:string):string | null {
     const locationTruth = locationTruthMap[location];
     if (!locationTruth) {
-        console.log(`Location ${location} is not in the locations list`);
+        log(`Location ${location} is not in the locations list`);
         return null;
     }
 
     const mainEntry = locationTruth.mainEntry;
     if (!mainEntry) {
-        console.log(`Location alternative ${location} is not in the locations list`);
+        log(`Location alternative ${location} is not in the locations list`);
         return null;
     }
     const parent = locationTruthMap[mainEntry].parentMainEntry;

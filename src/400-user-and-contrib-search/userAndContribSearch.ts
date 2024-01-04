@@ -139,6 +139,13 @@ export interface UserSearchRepositoryIdFragment {
     };
 }
 
+export interface ContributionByRepositoryFragment {
+    contributions:{
+        totalCount:number;
+    };
+    repository:UserSearchRepositoryIdFragment;
+}
+
 export interface UserAndContribSearchResultFragment {
     login:string;
     company:string | null;
@@ -201,36 +208,10 @@ export interface UserAndContribSearchResultFragment {
         totalRepositoriesWithContributedCommits:number;
         totalRepositoriesWithContributedPullRequests:number;
         totalRepositoriesWithContributedPullRequestReviews:number;
-        issueContributionsByRepository:{
-            contributions:{
-                totalCount:number;
-            };
-            repository:{
-                nameWithOwner:string;
-                isInOrganization:boolean;
-                owner:{
-                    login:string;
-                };
-            };
-        };
-        commitContributionsByRepository:{
-            contributions:{
-                totalCount:number;
-            };
-            repository:UserSearchRepositoryIdFragment;
-        };
-        pullRequestContributionsByRepository:{
-            contributions:{
-                totalCount:number;
-            };
-            repository:UserSearchRepositoryIdFragment;
-        };
-        pullRequestReviewContributionsByRepository:{
-            contributions:{
-                totalCount:number;
-            };
-            repository:UserSearchRepositoryIdFragment;
-        };
+        issueContributionsByRepository:ContributionByRepositoryFragment[];
+        commitContributionsByRepository:ContributionByRepositoryFragment[];
+        pullRequestContributionsByRepository:ContributionByRepositoryFragment[];
+        pullRequestReviewContributionsByRepository:ContributionByRepositoryFragment[];
     };
 }
 

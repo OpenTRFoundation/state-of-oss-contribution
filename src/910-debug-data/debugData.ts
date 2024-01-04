@@ -9,7 +9,7 @@ import {readSlurpJsonFileSync} from "@opentr/cuttlecat/dist/utils.js";
 import {UserAndContribSearchTaskSpec} from "../400-user-and-contrib-search/userAndContribSearch.js";
 import {readPartitioned} from "../util/partition.js";
 
-const UnknownProvince = "-Unknown-";
+const UNKNOWN_PROVINCE = "-Unknown-";
 
 export interface Config {
     userCountSearchDataDirectory:string;
@@ -216,11 +216,11 @@ function buildResolvedUserLocationStringsPerProvinceMap(config:Config) {
 
         let province = userLocation.province;
         if (!province) {
-            province = UnknownProvince;
+            province = UNKNOWN_PROVINCE;
         }
 
         // DEBUG
-        // if(province === UnknownProvince) {
+        // if(province === UNKNOWN_PROVINCE) {
         //     console.log(`User ${_username} has unknown province, entered location: ${userLocation.enteredLocation}`);
         // }
 

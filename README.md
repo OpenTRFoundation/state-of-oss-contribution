@@ -33,13 +33,13 @@ npm run build
 CWD="$(pwd)"
 node "${CWD}/node_modules/@opentr/cuttlecat/dist/index.js" requeue-tasks \
     --requeue-type="non-critical-errored" \
-    --data-directory="${CWD}/100-focus-project-candidate-search" \
-    --timestamp="2023-12-28-21-14-17"
+    --data-directory="${CWD}/400-user-and-contrib-search" \
+    --timestamp="2023-12-29-17-19-22"
     
 node node_modules/@opentr/cuttlecat/dist/index.js execute \
     --command-file="${CWD}/dist/100-focus-project-candidate-search/focusProjectCandidateSearch.js" \
-    --github-token="$(gh auth token)" \
-    --data-directory="${CWD}/100-focus-project-candidate-search" \
+    --github-token="" \
+    --data-directory="${CWD}/400-user-and-contrib-search" \
     --interval-cap="7"
 ```
 
@@ -67,6 +67,16 @@ node "${CWD}/dist/910-debug-data/debugDataIndex.js" \
     --user-and-contrib-search-data-directory="${CWD}/400-user-and-contrib-search" \
     --report-data-truth-map-directory="${CWD}/900-report-data-truthmap" \
     --output-directory="${CWD}/910-debug-data"
+```
+
+Report data:
+```shell
+npm run build
+CWD="$(pwd)"
+
+node "${CWD}/dist/990-report-data/reportDataIndex.js" \
+    --report-data-truth-map-directory="${CWD}/900-report-data-truthmap" \
+    --output-directory="${CWD}/990-report-data"
 ```
 
 TODO:
