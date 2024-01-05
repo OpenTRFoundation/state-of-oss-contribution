@@ -3,19 +3,6 @@
   "completionDate": null,
   "completionError": null,
   "unresolved": {
-    "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe": {
-      "id": "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-05-07",
-      "createdBefore": "2020-05-11",
-      "pageSize": 100,
-      "startCursor": null
-    },
     "14da18a3-94cd-4da6-9ab0-e0fb53214153": {
       "id": "14da18a3-94cd-4da6-9ab0-e0fb53214153",
       "parentId": null,
@@ -29,42 +16,16 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "186695d7-9ece-43b4-9b5f-c6b12a1e876a": {
-      "id": "186695d7-9ece-43b4-9b5f-c6b12a1e876a",
-      "parentId": null,
+    "156693c6-1b79-44b9-aef5-db73fa2abf8b": {
+      "id": "156693c6-1b79-44b9-aef5-db73fa2abf8b",
+      "parentId": "286be279-ebc7-4aee-b86a-c4593937f2bf",
       "originatingTaskId": null,
       "minStars": 50,
       "minForks": 50,
       "minSizeInKb": 1000,
       "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2012-05-19",
-      "createdBefore": "2012-05-23",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "18687805-ff69-4d62-a531-faf8eddcad46": {
-      "id": "18687805-ff69-4d62-a531-faf8eddcad46",
-      "parentId": "ff8cdddc-f36e-4d1b-9142-36258dfa9664",
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-03-27",
-      "createdBefore": "2019-03-28",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "1d027741-5eae-4eda-a1a2-ca2901bc4d39": {
-      "id": "1d027741-5eae-4eda-a1a2-ca2901bc4d39",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2018-10-10",
-      "createdBefore": "2018-10-14",
+      "createdAfter": "2016-10-13",
+      "createdBefore": "2016-10-14",
       "pageSize": 100,
       "startCursor": null
     },
@@ -107,68 +68,16 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "286be279-ebc7-4aee-b86a-c4593937f2bf": {
-      "id": "286be279-ebc7-4aee-b86a-c4593937f2bf",
+    "341dd1d2-b375-4e2d-80b0-165000846755": {
+      "id": "341dd1d2-b375-4e2d-80b0-165000846755",
       "parentId": null,
-      "originatingTaskId": null,
+      "originatingTaskId": "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe",
       "minStars": 50,
       "minForks": 50,
       "minSizeInKb": 1000,
       "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2016-10-10",
-      "createdBefore": "2016-10-14",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "29f18e36-a729-45d0-9f4f-421d9f23b1e8": {
-      "id": "29f18e36-a729-45d0-9f4f-421d9f23b1e8",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2018-04-23",
-      "createdBefore": "2018-04-27",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "3ee4d40c-9a0d-4d29-b722-ac7bf686d4cc": {
-      "id": "3ee4d40c-9a0d-4d29-b722-ac7bf686d4cc",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2012-08-07",
-      "createdBefore": "2012-08-11",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "44759e60-28aa-406a-adf5-8741e0b13b53": {
-      "id": "44759e60-28aa-406a-adf5-8741e0b13b53",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2011-12-06",
-      "createdBefore": "2011-12-10",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "4d13d23c-a782-4e97-9176-28d3526bd83d": {
-      "id": "4d13d23c-a782-4e97-9176-28d3526bd83d",
-      "parentId": null,
-      "originatingTaskId": "ee126bfe-aed0-41fd-b05f-0ba65158f02c",
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-03-18",
-      "createdBefore": "2020-03-22",
+      "createdAfter": "2020-05-07",
+      "createdBefore": "2020-05-11",
       "pageSize": 100,
       "startCursor": "Y3Vyc29yOjEwMA=="
     },
@@ -185,19 +94,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "52a7121a-c0f2-4444-8dcc-cda5c5111b56": {
-      "id": "52a7121a-c0f2-4444-8dcc-cda5c5111b56",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2018-07-17",
-      "createdBefore": "2018-07-21",
-      "pageSize": 100,
-      "startCursor": null
-    },
     "55384d9d-51eb-43c4-aee5-32d0b7d34c3b": {
       "id": "55384d9d-51eb-43c4-aee5-32d0b7d34c3b",
       "parentId": null,
@@ -211,19 +107,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "5bc934d5-6730-4ae0-a221-9cf534265210": {
-      "id": "5bc934d5-6730-4ae0-a221-9cf534265210",
-      "parentId": null,
-      "originatingTaskId": "b048478e-d67e-49bb-a0ac-eed402704a70",
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-03-23",
-      "createdBefore": "2020-03-27",
-      "pageSize": 100,
-      "startCursor": "Y3Vyc29yOjEwMA=="
-    },
     "5c388421-99ac-41a1-9d5d-3d4d8be7bd2f": {
       "id": "5c388421-99ac-41a1-9d5d-3d4d8be7bd2f",
       "parentId": null,
@@ -234,19 +117,6 @@
       "hasActivityAfter": "2023-10-07",
       "createdAfter": "2020-07-06",
       "createdBefore": "2020-07-10",
-      "pageSize": 100,
-      "startCursor": "Y3Vyc29yOjEwMA=="
-    },
-    "5e36bef4-5880-4412-94a2-e35fb8d0deba": {
-      "id": "5e36bef4-5880-4412-94a2-e35fb8d0deba",
-      "parentId": null,
-      "originatingTaskId": "0b2fd4b3-f21b-4538-9221-1c9038e5e9a2",
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-05-13",
-      "createdBefore": "2019-05-17",
       "pageSize": 100,
       "startCursor": "Y3Vyc29yOjEwMA=="
     },
@@ -263,19 +133,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "6e1eda27-29c1-41f5-99e2-d05a979bd860": {
-      "id": "6e1eda27-29c1-41f5-99e2-d05a979bd860",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2015-06-23",
-      "createdBefore": "2015-06-27",
-      "pageSize": 100,
-      "startCursor": null
-    },
     "6fbdee5a-b872-4d50-bd0f-bb06e94f523e": {
       "id": "6fbdee5a-b872-4d50-bd0f-bb06e94f523e",
       "parentId": null,
@@ -286,32 +143,6 @@
       "hasActivityAfter": "2023-10-07",
       "createdAfter": "2020-04-07",
       "createdBefore": "2020-04-11",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "7674ed30-549a-41b7-b02b-caf1dd3ce24e": {
-      "id": "7674ed30-549a-41b7-b02b-caf1dd3ce24e",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2016-05-18",
-      "createdBefore": "2016-05-22",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "769dc66e-ce5f-49b6-ad3b-8472d6a977de": {
-      "id": "769dc66e-ce5f-49b6-ad3b-8472d6a977de",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2017-12-04",
-      "createdBefore": "2017-12-08",
       "pageSize": 100,
       "startCursor": null
     },
@@ -341,19 +172,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129": {
-      "id": "8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-06-07",
-      "createdBefore": "2019-06-11",
-      "pageSize": 100,
-      "startCursor": null
-    },
     "921ed5a5-9d32-4b0a-a54f-ae5e873a3dfe": {
       "id": "921ed5a5-9d32-4b0a-a54f-ae5e873a3dfe",
       "parentId": null,
@@ -377,32 +195,6 @@
       "hasActivityAfter": "2023-10-07",
       "createdAfter": "2019-08-31",
       "createdBefore": "2019-09-04",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "9828300d-bdc4-4b48-8cd0-8045777f2b64": {
-      "id": "9828300d-bdc4-4b48-8cd0-8045777f2b64",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2008-04-05",
-      "createdBefore": "2008-04-09",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "9bc176dc-77dc-4e3d-85c3-ef0d328f5766": {
-      "id": "9bc176dc-77dc-4e3d-85c3-ef0d328f5766",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2016-10-20",
-      "createdBefore": "2016-10-24",
       "pageSize": 100,
       "startCursor": null
     },
@@ -432,32 +224,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "b2905605-6410-404a-86f2-810cbd5a9ca3": {
-      "id": "b2905605-6410-404a-86f2-810cbd5a9ca3",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2022-03-13",
-      "createdBefore": "2022-03-17",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "bf41b9ef-5a95-412e-9e05-05256dcfeb00": {
-      "id": "bf41b9ef-5a95-412e-9e05-05256dcfeb00",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2012-12-05",
-      "createdBefore": "2012-12-09",
-      "pageSize": 100,
-      "startCursor": null
-    },
     "c2e1ce25-92ae-4f75-bb8a-036c6626135e": {
       "id": "c2e1ce25-92ae-4f75-bb8a-036c6626135e",
       "parentId": null,
@@ -484,29 +250,16 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "d74f3a08-5f71-48cf-bcad-f004192116ff": {
-      "id": "d74f3a08-5f71-48cf-bcad-f004192116ff",
-      "parentId": "ff8cdddc-f36e-4d1b-9142-36258dfa9664",
+    "d19df078-7e03-40fb-9ea3-e3f9b60d794a": {
+      "id": "d19df078-7e03-40fb-9ea3-e3f9b60d794a",
+      "parentId": "286be279-ebc7-4aee-b86a-c4593937f2bf",
       "originatingTaskId": null,
       "minStars": 50,
       "minForks": 50,
       "minSizeInKb": 1000,
       "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-03-24",
-      "createdBefore": "2019-03-26",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "d91ea6b9-98c7-4ed6-8726-d43a71a63f3c": {
-      "id": "d91ea6b9-98c7-4ed6-8726-d43a71a63f3c",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2008-11-11",
-      "createdBefore": "2008-11-15",
+      "createdAfter": "2016-10-10",
+      "createdBefore": "2016-10-12",
       "pageSize": 100,
       "startCursor": null
     },
@@ -523,32 +276,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "dca35179-f810-4c1f-ad0b-caecfe345b0a": {
-      "id": "dca35179-f810-4c1f-ad0b-caecfe345b0a",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2018-09-30",
-      "createdBefore": "2018-10-04",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "dda209f2-b489-45b0-ae1e-3751da5368d7": {
-      "id": "dda209f2-b489-45b0-ae1e-3751da5368d7",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2009-12-26",
-      "createdBefore": "2009-12-30",
-      "pageSize": 100,
-      "startCursor": null
-    },
     "ef5d513d-e7c7-4409-a1f8-09e935b71233": {
       "id": "ef5d513d-e7c7-4409-a1f8-09e935b71233",
       "parentId": null,
@@ -559,32 +286,6 @@
       "hasActivityAfter": "2023-10-07",
       "createdAfter": "2020-02-17",
       "createdBefore": "2020-02-21",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "f9e33c63-d00b-4a50-a990-edc47ce60237": {
-      "id": "f9e33c63-d00b-4a50-a990-edc47ce60237",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-02-27",
-      "createdBefore": "2019-03-03",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "ff30b850-b1c9-4706-92bc-5444feb112b7": {
-      "id": "ff30b850-b1c9-4706-92bc-5444feb112b7",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2008-07-04",
-      "createdBefore": "2008-07-08",
       "pageSize": 100,
       "startCursor": null
     }
@@ -1655,6 +1356,26 @@
         "startCursor": null
       }
     },
+    "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe": {
+      "task": {
+        "id": "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-05-07",
+        "createdBefore": "2020-05-11",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-05-07..2020-05-11\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 0fdfa03e-e1f1-4137-8863-1a64ff02f0fe: Request failed due to following response errors:\n - Although you appear to have the correct authorization credentials, the `trailheadapps` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Fri, 05 Jan 2024 11:28:32 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"GitHub.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"FFC2:1385:8991686:11DC4278:6597E7D7\",\"x-ratelimit-limit\":\"1000\",\"x-ratelimit-remaining\":\"999\",\"x-ratelimit-reset\":\"1704457703\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"1\",\"x-xss-protection\":\"0\"}. Error: Although you appear to have the correct authorization credentials, the `trailheadapps` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":1000,\"nodeCount\":100,\"remaining\":999,\"resetAt\":\"2024-01-05T12:28:23Z\",\"used\":1},\"search\":{\"pageInfo\":{\"startCursor\":\"Y3Vyc29yOjE=\",\"hasNextPage\":true,\"endCursor\":\"Y3Vyc29yOjEwMA==\"},\"repositoryCount\":109,\"nodes\":[{\"nameWithOwner\":\"PaddlePaddle/PaddleOCR\",\"isInOrganization\":true,\"owner\":{\"login\":\"PaddlePaddle\"},\"forkCount\":6991,\"stargazerCount\":35605,\"pullRequests\":{\"totalCount\":2809},\"issues\":{\"totalCount\":8387},\"mentionableUsers\":{\"totalCount\":176},\"watchers\":{\"totalCount\":415}},{\"nameWithOwner\":\"dotnet/maui\",\"isInOrganization\":true,\"owner\":{\"login\":\"dotnet\"},\"forkCount\":1486,\"stargazerCount\":20467,\"pullRequests\":{\"totalCount\":6925},\"issues\":{\"totalCount\":10495},\"mentionableUsers\":{\"totalCount\":2862},\"watchers\":{\"totalCount\":664}},{\"nameWithOwner\":\"amplication/amplication\",\"isInOrganization\":true,\"owner\":{\"login\":\"amplication\"},\"forkCount\":1321,\"stargazerCount\":12951,\"pullRequests\":{\"totalCount\":4411},\"issues\":{\"totalCount\":3200},\"mentionableUsers\":{\"totalCount\":243},\"watchers\":{\"totalCount\":93}},{\"nameWithOwner\":\"hediet/vscode-drawio\",\"isInOrganization\":false,\"owner\":{\"login\":\"hediet\"},\"forkCount\":394,\"stargazerCount\":8896,\"pullRequests\":{\"totalCount\":122},\"issues\":{\"totalCount\":283},\"mentionableUsers\":{\"totalCount\":23},\"watchers\":{\"totalCount\":65}},{\"nameWithOwner\":\"obsidianmd/obsidian-releases\",\"isInOrganization\":true,\"owner\":{\"login\":\"obsidianmd\"},\"forkCount\":1663,\"stargazerCount\":7001,\"pullRequests\":{\"totalCount\":2890},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":1184},\"watchers\":{\"totalCount\":89}},{\"nameWithOwner\":\"anchore/syft\",\"isInOrganization\":true,\"owner\":{\"login\":\"anchore\"},\"forkCount\":463,\"stargazerCount\":5044,\"pullRequests\":{\"totalCount\":1545},\"issues\":{\"totalCount\":909},\"mentionableUsers\":{\"totalCount\":150},\"watchers\":{\"totalCount\":56}},{\"nameWithOwner\":\"TanStack/virtual\",\"isInOrganization\":true,\"owner\":{\"login\":\"TanStack\"},\"forkCount\":244,\"stargazerCount\":4695,\"pullRequests\":{\"totalCount\":270},\"issues\":{\"totalCount\":233},\"mentionableUsers\":{\"totalCount\":84},\"watchers\":{\"totalCount\":38}},{\"nameWithOwner\":\"jinwyp/one_click_script\",\"isInOrganization\":false,\"owner\":{\"login\":\"jinwyp\"},\"forkCount\":1409,\"stargazerCount\":4399,\"pullRequests\":{\"totalCount\":11},\"issues\":{\"totalCount\":235},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":69}},{\"nameWithOwner\":\"ddd-crew/ddd-starter-modelling-process\",\"isInOrganization\":true,\"owner\":{\"login\":\"ddd-crew\"},\"forkCount\":373,\"stargazerCount\":4170,\"pullRequests\":{\"totalCount\":29},\"issues\":{\"totalCount\":17},\"mentionableUsers\":{\"totalCount\":20},\"watchers\":{\"totalCount\":164}},{\"nameWithOwner\":\"leits/MeetingBar\",\"isInOrganization\":false,\"owner\":{\"login\":\"leits\"},\"forkCount\":175,\"stargazerCount\":4006,\"pullRequests\":{\"totalCount\":252},\"issues\":{\"totalCount\":389},\"mentionableUsers\":{\"totalCount\":78},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"umicro/uView\",\"isInOrganization\":true,\"owner\":{\"login\":\"umicro\"},\"forkCount\":776,\"stargazerCount\":3883,\"pullRequests\":{\"totalCount\":171},\"issues\":{\"totalCount\":1117},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":57}},{\"nameWithOwner\":\"badtuxx/DescomplicandoKubernetes\",\"isInOrganization\":false,\"owner\":{\"login\":\"badtuxx\"},\"forkCount\":1184,\"stargazerCount\":3633,\"pullRequests\":{\"totalCount\":168},\"issues\":{\"totalCount\":25},\"mentionableUsers\":{\"totalCount\":59},\"watchers\":{\"totalCount\":260}},{\"nameWithOwner\":\"MaggieAppleton/digital-gardeners\",\"isInOrganization\":false,\"owner\":{\"login\":\"MaggieAppleton\"},\"forkCount\":180,\"stargazerCount\":3521,\"pullRequests\":{\"totalCount\":98},\"issues\":{\"totalCount\":12},\"mentionableUsers\":{\"totalCount\":55},\"watchers\":{\"totalCount\":94}},{\"nameWithOwner\":\"Snailclimb/guide-rpc-framework\",\"isInOrganization\":false,\"owner\":{\"login\":\"Snailclimb\"},\"forkCount\":1891,\"stargazerCount\":3475,\"pullRequests\":{\"totalCount\":38},\"issues\":{\"totalCount\":40},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":48}},{\"nameWithOwner\":\"privatenumber/esbuild-loader\",\"isInOrganization\":false,\"owner\":{\"login\":\"privatenumber\"},\"forkCount\":104,\"stargazerCount\":3475,\"pullRequests\":{\"totalCount\":136},\"issues\":{\"totalCount\":128},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"qd-today/qd\",\"isInOrganization\":true,\"owner\":{\"login\":\"qd-today\"},\"forkCount\":492,\"stargazerCount\":3345,\"pullRequests\":{\"totalCount\":106},\"issues\":{\"totalCount\":305},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":30}},{\"nameWithOwner\":\"akinsho/bufferline.nvim\",\"isInOrganization\":false,\"owner\":{\"login\":\"akinsho\"},\"forkCount\":158,\"stargazerCount\":2881,\"pullRequests\":{\"totalCount\":293},\"issues\":{\"totalCount\":555},\"mentionableUsers\":{\"totalCount\":102},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"fbdesignpro/sweetviz\",\"isInOrganization\":false,\"owner\":{\"login\":\"fbdesignpro\"},\"forkCount\":265,\"stargazerCount\":2741,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":128},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":52}},{\"nameWithOwner\":\"HobbitLong/SupContrast\",\"isInOrganization\":false,\"owner\":{\"login\":\"HobbitLong\"},\"forkCount\":499,\"stargazerCount\":2735,\"pullRequests\":{\"totalCount\":17},\"issues\":{\"totalCount\":125},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"NeuromatchAcademy/course-content\",\"isInOrganization\":true,\"owner\":{\"login\":\"NeuromatchAcademy\"},\"forkCount\":964,\"stargazerCount\":2527,\"pullRequests\":{\"totalCount\":867},\"issues\":{\"totalCount\":204},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":96}},{\"nameWithOwner\":\"projen/projen\",\"isInOrganization\":true,\"owner\":{\"login\":\"projen\"},\"forkCount\":346,\"stargazerCount\":2312,\"pullRequests\":{\"totalCount\":2183},\"issues\":{\"totalCount\":991},\"mentionableUsers\":{\"totalCount\":195},\"watchers\":{\"totalCount\":29}},{\"nameWithOwner\":\"xou816/spot\",\"isInOrganization\":false,\"owner\":{\"login\":\"xou816\"},\"forkCount\":111,\"stargazerCount\":2139,\"pullRequests\":{\"totalCount\":391},\"issues\":{\"totalCount\":297},\"mentionableUsers\":{\"totalCount\":56},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"alias-rahil/handwritten.js\",\"isInOrganization\":false,\"owner\":{\"login\":\"alias-rahil\"},\"forkCount\":89,\"stargazerCount\":1900,\"pullRequests\":{\"totalCount\":48},\"issues\":{\"totalCount\":26},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"nandorojo/dripsy\",\"isInOrganization\":false,\"owner\":{\"login\":\"nandorojo\"},\"forkCount\":72,\"stargazerCount\":1879,\"pullRequests\":{\"totalCount\":84},\"issues\":{\"totalCount\":186},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"pmndrs/react-xr\",\"isInOrganization\":true,\"owner\":{\"login\":\"pmndrs\"},\"forkCount\":124,\"stargazerCount\":1823,\"pullRequests\":{\"totalCount\":137},\"issues\":{\"totalCount\":131},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":35}},{\"nameWithOwner\":\"primocms/primo\",\"isInOrganization\":true,\"owner\":{\"login\":\"primocms\"},\"forkCount\":385,\"stargazerCount\":1753,\"pullRequests\":{\"totalCount\":160},\"issues\":{\"totalCount\":177},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"vuejs/babel-plugin-jsx\",\"isInOrganization\":true,\"owner\":{\"login\":\"vuejs\"},\"forkCount\":142,\"stargazerCount\":1645,\"pullRequests\":{\"totalCount\":476},\"issues\":{\"totalCount\":209},\"mentionableUsers\":{\"totalCount\":84},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"sindresorhus/KeyboardShortcuts\",\"isInOrganization\":false,\"owner\":{\"login\":\"sindresorhus\"},\"forkCount\":156,\"stargazerCount\":1577,\"pullRequests\":{\"totalCount\":64},\"issues\":{\"totalCount\":89},\"mentionableUsers\":{\"totalCount\":31},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"tighten/takeout\",\"isInOrganization\":true,\"owner\":{\"login\":\"tighten\"},\"forkCount\":83,\"stargazerCount\":1560,\"pullRequests\":{\"totalCount\":161},\"issues\":{\"totalCount\":157},\"mentionableUsers\":{\"totalCount\":65},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"sm64pc/sm64ex\",\"isInOrganization\":true,\"owner\":{\"login\":\"sm64pc\"},\"forkCount\":437,\"stargazerCount\":1451,\"pullRequests\":{\"totalCount\":232},\"issues\":{\"totalCount\":308},\"mentionableUsers\":{\"totalCount\":57},\"watchers\":{\"totalCount\":69}},{\"nameWithOwner\":\"denoland/vscode_deno\",\"isInOrganization\":true,\"owner\":{\"login\":\"denoland\"},\"forkCount\":140,\"stargazerCount\":1446,\"pullRequests\":{\"totalCount\":349},\"issues\":{\"totalCount\":572},\"mentionableUsers\":{\"totalCount\":64},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"OmGodse/Notally\",\"isInOrganization\":false,\"owner\":{\"login\":\"OmGodse\"},\"forkCount\":140,\"stargazerCount\":1391,\"pullRequests\":{\"totalCount\":74},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":28},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"farridav/django-jazzmin\",\"isInOrganization\":false,\"owner\":{\"login\":\"farridav\"},\"forkCount\":232,\"stargazerCount\":1391,\"pullRequests\":{\"totalCount\":262},\"issues\":{\"totalCount\":248},\"mentionableUsers\":{\"totalCount\":53},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"google-github-actions/release-please-action\",\"isInOrganization\":true,\"owner\":{\"login\":\"google-github-actions\"},\"forkCount\":168,\"stargazerCount\":1220,\"pullRequests\":{\"totalCount\":646},\"issues\":{\"totalCount\":275},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"aesmail/kaffy\",\"isInOrganization\":false,\"owner\":{\"login\":\"aesmail\"},\"forkCount\":146,\"stargazerCount\":1219,\"pullRequests\":{\"totalCount\":128},\"issues\":{\"totalCount\":175},\"mentionableUsers\":{\"totalCount\":39},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"veb-101/Data-Science-Projects\",\"isInOrganization\":false,\"owner\":{\"login\":\"veb-101\"},\"forkCount\":342,\"stargazerCount\":1168,\"pullRequests\":{\"totalCount\":7},\"issues\":{\"totalCount\":2},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"IzzelAliz/Arclight\",\"isInOrganization\":false,\"owner\":{\"login\":\"IzzelAliz\"},\"forkCount\":172,\"stargazerCount\":1164,\"pullRequests\":{\"totalCount\":90},\"issues\":{\"totalCount\":1021},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"Shuffle/Shuffle\",\"isInOrganization\":true,\"owner\":{\"login\":\"Shuffle\"},\"forkCount\":290,\"stargazerCount\":1154,\"pullRequests\":{\"totalCount\":364},\"issues\":{\"totalCount\":911},\"mentionableUsers\":{\"totalCount\":34},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"nolanlawson/emoji-picker-element\",\"isInOrganization\":false,\"owner\":{\"login\":\"nolanlawson\"},\"forkCount\":77,\"stargazerCount\":1152,\"pullRequests\":{\"totalCount\":291},\"issues\":{\"totalCount\":103},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"Jean-Tinland/simple-bar\",\"isInOrganization\":false,\"owner\":{\"login\":\"Jean-Tinland\"},\"forkCount\":114,\"stargazerCount\":1098,\"pullRequests\":{\"totalCount\":149},\"issues\":{\"totalCount\":231},\"mentionableUsers\":{\"totalCount\":57},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"quran/quran.com-frontend-next\",\"isInOrganization\":true,\"owner\":{\"login\":\"quran\"},\"forkCount\":322,\"stargazerCount\":1087,\"pullRequests\":{\"totalCount\":1714},\"issues\":{\"totalCount\":340},\"mentionableUsers\":{\"totalCount\":51},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"google/xls\",\"isInOrganization\":true,\"owner\":{\"login\":\"google\"},\"forkCount\":162,\"stargazerCount\":1083,\"pullRequests\":{\"totalCount\":228},\"issues\":{\"totalCount\":1003},\"mentionableUsers\":{\"totalCount\":77},\"watchers\":{\"totalCount\":63}},{\"nameWithOwner\":\"lf2021/Front-End-Interview\",\"isInOrganization\":false,\"owner\":{\"login\":\"lf2021\"},\"forkCount\":117,\"stargazerCount\":973,\"pullRequests\":{\"totalCount\":12},\"issues\":{\"totalCount\":8},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"pmndrs/react-postprocessing\",\"isInOrganization\":true,\"owner\":{\"login\":\"pmndrs\"},\"forkCount\":95,\"stargazerCount\":966,\"pullRequests\":{\"totalCount\":122},\"issues\":{\"totalCount\":131},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"ranahanocka/point2mesh\",\"isInOrganization\":false,\"owner\":{\"login\":\"ranahanocka\"},\"forkCount\":114,\"stargazerCount\":949,\"pullRequests\":{\"totalCount\":8},\"issues\":{\"totalCount\":31},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":35}},{\"nameWithOwner\":\"agemagician/ProtTrans\",\"isInOrganization\":false,\"owner\":{\"login\":\"agemagician\"},\"forkCount\":137,\"stargazerCount\":931,\"pullRequests\":{\"totalCount\":4},\"issues\":{\"totalCount\":133},\"mentionableUsers\":{\"totalCount\":4},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"projectdiscovery/public-bugbounty-programs\",\"isInOrganization\":true,\"owner\":{\"login\":\"projectdiscovery\"},\"forkCount\":365,\"stargazerCount\":925,\"pullRequests\":{\"totalCount\":637},\"issues\":{\"totalCount\":24},\"mentionableUsers\":{\"totalCount\":202},\"watchers\":{\"totalCount\":48}},{\"nameWithOwner\":\"bnpr/Malt\",\"isInOrganization\":true,\"owner\":{\"login\":\"bnpr\"},\"forkCount\":74,\"stargazerCount\":902,\"pullRequests\":{\"totalCount\":32},\"issues\":{\"totalCount\":182},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":40}},{\"nameWithOwner\":\"wangchucheng/hugo-eureka\",\"isInOrganization\":false,\"owner\":{\"login\":\"wangchucheng\"},\"forkCount\":200,\"stargazerCount\":876,\"pullRequests\":{\"totalCount\":54},\"issues\":{\"totalCount\":116},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"CardboardPowered/cardboard\",\"isInOrganization\":true,\"owner\":{\"login\":\"CardboardPowered\"},\"forkCount\":58,\"stargazerCount\":867,\"pullRequests\":{\"totalCount\":30},\"issues\":{\"totalCount\":420},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":31}},{\"nameWithOwner\":\"qiniu/goc\",\"isInOrganization\":true,\"owner\":{\"login\":\"qiniu\"},\"forkCount\":109,\"stargazerCount\":739,\"pullRequests\":{\"totalCount\":201},\"issues\":{\"totalCount\":157},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"pnpm/action-setup\",\"isInOrganization\":true,\"owner\":{\"login\":\"pnpm\"},\"forkCount\":60,\"stargazerCount\":682,\"pullRequests\":{\"totalCount\":39},\"issues\":{\"totalCount\":68},\"mentionableUsers\":{\"totalCount\":50},\"watchers\":{\"totalCount\":5}},{\"nameWithOwner\":\"aws-solutions/workload-discovery-on-aws\",\"isInOrganization\":true,\"owner\":{\"login\":\"aws-solutions\"},\"forkCount\":80,\"stargazerCount\":665,\"pullRequests\":{\"totalCount\":216},\"issues\":{\"totalCount\":268},\"mentionableUsers\":{\"totalCount\":58},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"Ryuk17/SpeechAlgorithms\",\"isInOrganization\":false,\"owner\":{\"login\":\"Ryuk17\"},\"forkCount\":270,\"stargazerCount\":665,\"pullRequests\":{\"totalCount\":1},\"issues\":{\"totalCount\":9},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"SilverFruity/OCRunner\",\"isInOrganization\":false,\"owner\":{\"login\":\"SilverFruity\"},\"forkCount\":148,\"stargazerCount\":642,\"pullRequests\":{\"totalCount\":11},\"issues\":{\"totalCount\":23},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"samapriya/awesome-gee-community-datasets\",\"isInOrganization\":false,\"owner\":{\"login\":\"samapriya\"},\"forkCount\":98,\"stargazerCount\":639,\"pullRequests\":{\"totalCount\":15},\"issues\":{\"totalCount\":181},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":27}},{\"nameWithOwner\":\"handsonscala/handsonscala\",\"isInOrganization\":true,\"owner\":{\"login\":\"handsonscala\"},\"forkCount\":159,\"stargazerCount\":634,\"pullRequests\":{\"totalCount\":10},\"issues\":{\"totalCount\":26},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"BanqiJane/Bilibili_Danmuji\",\"isInOrganization\":false,\"owner\":{\"login\":\"BanqiJane\"},\"forkCount\":90,\"stargazerCount\":583,\"pullRequests\":{\"totalCount\":14},\"issues\":{\"totalCount\":65},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":5}},{\"nameWithOwner\":\"plexsystems/sinker\",\"isInOrganization\":true,\"owner\":{\"login\":\"plexsystems\"},\"forkCount\":52,\"stargazerCount\":579,\"pullRequests\":{\"totalCount\":39},\"issues\":{\"totalCount\":37},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"greentfrapp/lucent\",\"isInOrganization\":false,\"owner\":{\"login\":\"greentfrapp\"},\"forkCount\":81,\"stargazerCount\":568,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":29},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"o0HalfLife0o/list\",\"isInOrganization\":false,\"owner\":{\"login\":\"o0HalfLife0o\"},\"forkCount\":97,\"stargazerCount\":558,\"pullRequests\":{\"totalCount\":11},\"issues\":{\"totalCount\":16},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"Visual-Regression-Tracker/Visual-Regression-Tracker\",\"isInOrganization\":true,\"owner\":{\"login\":\"Visual-Regression-Tracker\"},\"forkCount\":53,\"stargazerCount\":549,\"pullRequests\":{\"totalCount\":70},\"issues\":{\"totalCount\":349},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"OpenSourceAP/CrossSection\",\"isInOrganization\":false,\"owner\":{\"login\":\"OpenSourceAP\"},\"forkCount\":201,\"stargazerCount\":544,\"pullRequests\":{\"totalCount\":31},\"issues\":{\"totalCount\":109},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":29}},{\"nameWithOwner\":\"rosehgal/TrashEmail\",\"isInOrganization\":false,\"owner\":{\"login\":\"rosehgal\"},\"forkCount\":67,\"stargazerCount\":531,\"pullRequests\":{\"totalCount\":73},\"issues\":{\"totalCount\":60},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"corona-warn-app/cwa-website\",\"isInOrganization\":true,\"owner\":{\"login\":\"corona-warn-app\"},\"forkCount\":241,\"stargazerCount\":529,\"pullRequests\":{\"totalCount\":2564},\"issues\":{\"totalCount\":932},\"mentionableUsers\":{\"totalCount\":108},\"watchers\":{\"totalCount\":69}},{\"nameWithOwner\":\"pbcquoc/vietocr\",\"isInOrganization\":false,\"owner\":{\"login\":\"pbcquoc\"},\"forkCount\":184,\"stargazerCount\":520,\"pullRequests\":{\"totalCount\":7},\"issues\":{\"totalCount\":106},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"fclairamb/ftpserver\",\"isInOrganization\":false,\"owner\":{\"login\":\"fclairamb\"},\"forkCount\":86,\"stargazerCount\":516,\"pullRequests\":{\"totalCount\":1183},\"issues\":{\"totalCount\":42},\"mentionableUsers\":{\"totalCount\":20},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"microsoft/vscode-hexeditor\",\"isInOrganization\":true,\"owner\":{\"login\":\"microsoft\"},\"forkCount\":80,\"stargazerCount\":464,\"pullRequests\":{\"totalCount\":112},\"issues\":{\"totalCount\":352},\"mentionableUsers\":{\"totalCount\":10000},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"alibaba/intelligent-test-platform\",\"isInOrganization\":true,\"owner\":{\"login\":\"alibaba\"},\"forkCount\":162,\"stargazerCount\":450,\"pullRequests\":{\"totalCount\":10},\"issues\":{\"totalCount\":28},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":33}},{\"nameWithOwner\":\"modrinth/labrinth\",\"isInOrganization\":true,\"owner\":{\"login\":\"modrinth\"},\"forkCount\":63,\"stargazerCount\":445,\"pullRequests\":{\"totalCount\":513},\"issues\":{\"totalCount\":264},\"mentionableUsers\":{\"totalCount\":38},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"ROS-Mobile/ROS-Mobile-Android\",\"isInOrganization\":true,\"owner\":{\"login\":\"ROS-Mobile\"},\"forkCount\":140,\"stargazerCount\":412,\"pullRequests\":{\"totalCount\":26},\"issues\":{\"totalCount\":80},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"OpenOrbis/OpenOrbis-PS4-Toolchain\",\"isInOrganization\":true,\"owner\":{\"login\":\"OpenOrbis\"},\"forkCount\":86,\"stargazerCount\":412,\"pullRequests\":{\"totalCount\":129},\"issues\":{\"totalCount\":126},\"mentionableUsers\":{\"totalCount\":30},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"w3bdesign/nextjs-woocommerce\",\"isInOrganization\":false,\"owner\":{\"login\":\"w3bdesign\"},\"forkCount\":100,\"stargazerCount\":400,\"pullRequests\":{\"totalCount\":1154},\"issues\":{\"totalCount\":44},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"kubernetes-csi/csi-driver-smb\",\"isInOrganization\":true,\"owner\":{\"login\":\"kubernetes-csi\"},\"forkCount\":117,\"stargazerCount\":395,\"pullRequests\":{\"totalCount\":471},\"issues\":{\"totalCount\":222},\"mentionableUsers\":{\"totalCount\":88},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"ic3w0lf22/Roblox-Account-Manager\",\"isInOrganization\":false,\"owner\":{\"login\":\"ic3w0lf22\"},\"forkCount\":236,\"stargazerCount\":386,\"pullRequests\":{\"totalCount\":23},\"issues\":{\"totalCount\":289},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"VictoriaMetrics/operator\",\"isInOrganization\":true,\"owner\":{\"login\":\"VictoriaMetrics\"},\"forkCount\":127,\"stargazerCount\":361,\"pullRequests\":{\"totalCount\":446},\"issues\":{\"totalCount\":395},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"huyanxin/DeepComplexCRN\",\"isInOrganization\":false,\"owner\":{\"login\":\"huyanxin\"},\"forkCount\":93,\"stargazerCount\":345,\"pullRequests\":{\"totalCount\":1},\"issues\":{\"totalCount\":24},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":9}},null,{\"nameWithOwner\":\"histolab/histolab\",\"isInOrganization\":true,\"owner\":{\"login\":\"histolab\"},\"forkCount\":51,\"stargazerCount\":310,\"pullRequests\":{\"totalCount\":525},\"issues\":{\"totalCount\":142},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"iotaledger/wasp\",\"isInOrganization\":true,\"owner\":{\"login\":\"iotaledger\"},\"forkCount\":137,\"stargazerCount\":278,\"pullRequests\":{\"totalCount\":2812},\"issues\":{\"totalCount\":399},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"googlevr/cardboard-xr-plugin\",\"isInOrganization\":true,\"owner\":{\"login\":\"googlevr\"},\"forkCount\":116,\"stargazerCount\":276,\"pullRequests\":{\"totalCount\":7},\"issues\":{\"totalCount\":27},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"ain-soph/trojanzoo\",\"isInOrganization\":false,\"owner\":{\"login\":\"ain-soph\"},\"forkCount\":60,\"stargazerCount\":259,\"pullRequests\":{\"totalCount\":126},\"issues\":{\"totalCount\":74},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"microsoft/onnxruntime-training-examples\",\"isInOrganization\":true,\"owner\":{\"login\":\"microsoft\"},\"forkCount\":56,\"stargazerCount\":245,\"pullRequests\":{\"totalCount\":133},\"issues\":{\"totalCount\":43},\"mentionableUsers\":{\"totalCount\":10000},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"BayraktarLab/cell2location\",\"isInOrganization\":true,\"owner\":{\"login\":\"BayraktarLab\"},\"forkCount\":54,\"stargazerCount\":238,\"pullRequests\":{\"totalCount\":77},\"issues\":{\"totalCount\":195},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"Romantic-Lei/Learning-in-practice\",\"isInOrganization\":false,\"owner\":{\"login\":\"Romantic-Lei\"},\"forkCount\":232,\"stargazerCount\":231,\"pullRequests\":{\"totalCount\":3},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":2}},{\"nameWithOwner\":\"GeekyAnts/flick-video-player\",\"isInOrganization\":true,\"owner\":{\"login\":\"GeekyAnts\"},\"forkCount\":230,\"stargazerCount\":229,\"pullRequests\":{\"totalCount\":60},\"issues\":{\"totalCount\":194},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"SR-Sunny-Raj/Hacktoberfest2021-DSA\",\"isInOrganization\":false,\"owner\":{\"login\":\"SR-Sunny-Raj\"},\"forkCount\":1023,\"stargazerCount\":227,\"pullRequests\":{\"totalCount\":1433},\"issues\":{\"totalCount\":115},\"mentionableUsers\":{\"totalCount\":855},\"watchers\":{\"totalCount\":5}},{\"nameWithOwner\":\"MetaMask/detect-provider\",\"isInOrganization\":true,\"owner\":{\"login\":\"MetaMask\"},\"forkCount\":71,\"stargazerCount\":227,\"pullRequests\":{\"totalCount\":65},\"issues\":{\"totalCount\":31},\"mentionableUsers\":{\"totalCount\":203},\"watchers\":{\"totalCount\":47}},{\"nameWithOwner\":\"google-pay/google-pay-button\",\"isInOrganization\":true,\"owner\":{\"login\":\"google-pay\"},\"forkCount\":61,\"stargazerCount\":220,\"pullRequests\":{\"totalCount\":171},\"issues\":{\"totalCount\":56},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"scikit-hep/uproot5\",\"isInOrganization\":true,\"owner\":{\"login\":\"scikit-hep\"},\"forkCount\":62,\"stargazerCount\":206,\"pullRequests\":{\"totalCount\":625},\"issues\":{\"totalCount\":291},\"mentionableUsers\":{\"totalCount\":50},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"act10ns/slack\",\"isInOrganization\":true,\"owner\":{\"login\":\"act10ns\"},\"forkCount\":56,\"stargazerCount\":178,\"pullRequests\":{\"totalCount\":234},\"issues\":{\"totalCount\":36},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":3}},{\"nameWithOwner\":\"zalopay-oss/jmeter-grpc-request\",\"isInOrganization\":true,\"owner\":{\"login\":\"zalopay-oss\"},\"forkCount\":63,\"stargazerCount\":169,\"pullRequests\":{\"totalCount\":158},\"issues\":{\"totalCount\":101},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"SoulBrowser/SoulBrowser\",\"isInOrganization\":false,\"owner\":{\"login\":\"SoulBrowser\"},\"forkCount\":52,\"stargazerCount\":147,\"pullRequests\":{\"totalCount\":38},\"issues\":{\"totalCount\":140},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"ThibaultBee/StreamPack\",\"isInOrganization\":false,\"owner\":{\"login\":\"ThibaultBee\"},\"forkCount\":53,\"stargazerCount\":139,\"pullRequests\":{\"totalCount\":35},\"issues\":{\"totalCount\":55},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"hbctraining/DGE_workshop_salmon_online\",\"isInOrganization\":true,\"owner\":{\"login\":\"hbctraining\"},\"forkCount\":67,\"stargazerCount\":138,\"pullRequests\":{\"totalCount\":17},\"issues\":{\"totalCount\":30},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"admin-shell-io/aasx-package-explorer\",\"isInOrganization\":true,\"owner\":{\"login\":\"admin-shell-io\"},\"forkCount\":63,\"stargazerCount\":131,\"pullRequests\":{\"totalCount\":516},\"issues\":{\"totalCount\":163},\"mentionableUsers\":{\"totalCount\":37},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"axios/axios-docs\",\"isInOrganization\":true,\"owner\":{\"login\":\"axios\"},\"forkCount\":124,\"stargazerCount\":126,\"pullRequests\":{\"totalCount\":137},\"issues\":{\"totalCount\":36},\"mentionableUsers\":{\"totalCount\":50},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"OpenTournament/OpenTournament\",\"isInOrganization\":true,\"owner\":{\"login\":\"OpenTournament\"},\"forkCount\":65,\"stargazerCount\":123,\"pullRequests\":{\"totalCount\":135},\"issues\":{\"totalCount\":163},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"siemens/meta-iot2050\",\"isInOrganization\":true,\"owner\":{\"login\":\"siemens\"},\"forkCount\":63,\"stargazerCount\":118,\"pullRequests\":{\"totalCount\":360},\"issues\":{\"totalCount\":155},\"mentionableUsers\":{\"totalCount\":31},\"watchers\":{\"totalCount\":22}},{\"nameWithOwner\":\"jdf2e/nutui-demo\",\"isInOrganization\":true,\"owner\":{\"login\":\"jdf2e\"},\"forkCount\":68,\"stargazerCount\":114,\"pullRequests\":{\"totalCount\":9},\"issues\":{\"totalCount\":11},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":23}}]}}.",
+        "date": "2024-01-05T11:28:32.037Z"
+      }
+    },
     "10099c85-f98b-43e5-b642-805bf978734d": {
       "task": {
         "id": "10099c85-f98b-43e5-b642-805bf978734d",
@@ -2150,6 +1871,36 @@
         "startCursor": null
       }
     },
+    "186695d7-9ece-43b4-9b5f-c6b12a1e876a": {
+      "task": {
+        "id": "186695d7-9ece-43b4-9b5f-c6b12a1e876a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2012-05-19",
+        "createdBefore": "2012-05-23",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "18687805-ff69-4d62-a531-faf8eddcad46": {
+      "task": {
+        "id": "18687805-ff69-4d62-a531-faf8eddcad46",
+        "parentId": "ff8cdddc-f36e-4d1b-9142-36258dfa9664",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-03-27",
+        "createdBefore": "2019-03-28",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "1888812a-2871-4391-a007-6016ac772abc": {
       "task": {
         "id": "1888812a-2871-4391-a007-6016ac772abc",
@@ -2531,6 +2282,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2018-01-03",
         "createdBefore": "2018-01-07",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "1d027741-5eae-4eda-a1a2-ca2901bc4d39": {
+      "task": {
+        "id": "1d027741-5eae-4eda-a1a2-ca2901bc4d39",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-10-10",
+        "createdBefore": "2018-10-14",
         "pageSize": 100,
         "startCursor": null
       }
@@ -3571,6 +3337,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2021-10-14",
         "createdBefore": "2021-10-18",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "29f18e36-a729-45d0-9f4f-421d9f23b1e8": {
+      "task": {
+        "id": "29f18e36-a729-45d0-9f4f-421d9f23b1e8",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-04-23",
+        "createdBefore": "2018-04-27",
         "pageSize": 100,
         "startCursor": null
       }
@@ -4835,6 +4616,21 @@
         "date": "2024-01-05T07:28:28.043Z"
       }
     },
+    "3ee4d40c-9a0d-4d29-b722-ac7bf686d4cc": {
+      "task": {
+        "id": "3ee4d40c-9a0d-4d29-b722-ac7bf686d4cc",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2012-08-07",
+        "createdBefore": "2012-08-11",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "3f06db2e-5fe1-40e5-bdc1-20d386f72325": {
       "task": {
         "id": "3f06db2e-5fe1-40e5-bdc1-20d386f72325",
@@ -5061,6 +4857,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2011-03-06",
         "createdBefore": "2011-03-10",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "44759e60-28aa-406a-adf5-8741e0b13b53": {
+      "task": {
+        "id": "44759e60-28aa-406a-adf5-8741e0b13b53",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2011-12-06",
+        "createdBefore": "2011-12-10",
         "pageSize": 100,
         "startCursor": null
       }
@@ -5473,6 +5284,21 @@
         "createdBefore": "2008-03-20",
         "pageSize": 100,
         "startCursor": null
+      }
+    },
+    "4d13d23c-a782-4e97-9176-28d3526bd83d": {
+      "task": {
+        "id": "4d13d23c-a782-4e97-9176-28d3526bd83d",
+        "parentId": null,
+        "originatingTaskId": "ee126bfe-aed0-41fd-b05f-0ba65158f02c",
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-03-18",
+        "createdBefore": "2020-03-22",
+        "pageSize": 100,
+        "startCursor": "Y3Vyc29yOjEwMA=="
       }
     },
     "4d20118b-ff27-4674-a00c-561d1cea0d52": {
@@ -5986,6 +5812,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2011-01-30",
         "createdBefore": "2011-02-03",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "52a7121a-c0f2-4444-8dcc-cda5c5111b56": {
+      "task": {
+        "id": "52a7121a-c0f2-4444-8dcc-cda5c5111b56",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-07-17",
+        "createdBefore": "2018-07-21",
         "pageSize": 100,
         "startCursor": null
       }
@@ -6650,6 +6491,21 @@
         "startCursor": null
       }
     },
+    "5bc934d5-6730-4ae0-a221-9cf534265210": {
+      "task": {
+        "id": "5bc934d5-6730-4ae0-a221-9cf534265210",
+        "parentId": null,
+        "originatingTaskId": "b048478e-d67e-49bb-a0ac-eed402704a70",
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-03-23",
+        "createdBefore": "2020-03-27",
+        "pageSize": 100,
+        "startCursor": "Y3Vyc29yOjEwMA=="
+      }
+    },
     "5bdbbe2e-53b2-4131-b592-d0e9676c433c": {
       "task": {
         "id": "5bdbbe2e-53b2-4131-b592-d0e9676c433c",
@@ -6828,6 +6684,21 @@
         "createdBefore": "2010-04-29",
         "pageSize": 100,
         "startCursor": null
+      }
+    },
+    "5e36bef4-5880-4412-94a2-e35fb8d0deba": {
+      "task": {
+        "id": "5e36bef4-5880-4412-94a2-e35fb8d0deba",
+        "parentId": null,
+        "originatingTaskId": "0b2fd4b3-f21b-4538-9221-1c9038e5e9a2",
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-05-13",
+        "createdBefore": "2019-05-17",
+        "pageSize": 100,
+        "startCursor": "Y3Vyc29yOjEwMA=="
       }
     },
     "5e76d3e6-0aa6-432a-97b7-d27a5660f443": {
@@ -7905,6 +7776,21 @@
         "date": "2024-01-05T09:30:28.966Z"
       }
     },
+    "6e1eda27-29c1-41f5-99e2-d05a979bd860": {
+      "task": {
+        "id": "6e1eda27-29c1-41f5-99e2-d05a979bd860",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2015-06-23",
+        "createdBefore": "2015-06-27",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "6e30fdb6-fc54-49f0-a1d5-467606dd94ed": {
       "task": {
         "id": "6e30fdb6-fc54-49f0-a1d5-467606dd94ed",
@@ -8410,6 +8296,21 @@
         "startCursor": null
       }
     },
+    "7674ed30-549a-41b7-b02b-caf1dd3ce24e": {
+      "task": {
+        "id": "7674ed30-549a-41b7-b02b-caf1dd3ce24e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2016-05-18",
+        "createdBefore": "2016-05-22",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "767f8732-990b-47a6-84ce-c5e1fcec3692": {
       "task": {
         "id": "767f8732-990b-47a6-84ce-c5e1fcec3692",
@@ -8423,6 +8324,26 @@
         "createdBefore": "2014-06-17",
         "pageSize": 100,
         "startCursor": null
+      }
+    },
+    "769dc66e-ce5f-49b6-ad3b-8472d6a977de": {
+      "task": {
+        "id": "769dc66e-ce5f-49b6-ad3b-8472d6a977de",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2017-12-04",
+        "createdBefore": "2017-12-08",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2017-12-04..2017-12-08\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 769dc66e-ce5f-49b6-ad3b-8472d6a977de: Request failed due to following response errors:\n - Although you appear to have the correct authorization credentials, the `confluentinc` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Fri, 05 Jan 2024 11:28:30 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"GitHub.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"FFC1:22CE:EE748E5:1F0EEDD8:6597E7D7\",\"x-ratelimit-limit\":\"1000\",\"x-ratelimit-remaining\":\"997\",\"x-ratelimit-reset\":\"1704457703\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"3\",\"x-xss-protection\":\"0\"}. Error: Although you appear to have the correct authorization credentials, the `confluentinc` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":1000,\"nodeCount\":100,\"remaining\":997,\"resetAt\":\"2024-01-05T12:28:23Z\",\"used\":3},\"search\":{\"pageInfo\":{\"startCursor\":\"Y3Vyc29yOjE=\",\"hasNextPage\":false,\"endCursor\":\"Y3Vyc29yOjc2\"},\"repositoryCount\":76,\"nodes\":[{\"nameWithOwner\":\"mml-book/mml-book.github.io\",\"isInOrganization\":true,\"owner\":{\"login\":\"mml-book\"},\"forkCount\":2292,\"stargazerCount\":12006,\"pullRequests\":{\"totalCount\":14},\"issues\":{\"totalCount\":753},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":471}},{\"nameWithOwner\":\"linkerd/linkerd2\",\"isInOrganization\":true,\"owner\":{\"login\":\"linkerd\"},\"forkCount\":1261,\"stargazerCount\":10095,\"pullRequests\":{\"totalCount\":7395},\"issues\":{\"totalCount\":3755},\"mentionableUsers\":{\"totalCount\":337},\"watchers\":{\"totalCount\":192}},{\"nameWithOwner\":\"googleforgames/agones\",\"isInOrganization\":true,\"owner\":{\"login\":\"googleforgames\"},\"forkCount\":771,\"stargazerCount\":5634,\"pullRequests\":{\"totalCount\":2449},\"issues\":{\"totalCount\":1113},\"mentionableUsers\":{\"totalCount\":213},\"watchers\":{\"totalCount\":161}},{\"nameWithOwner\":\"bubkoo/html-to-image\",\"isInOrganization\":false,\"owner\":{\"login\":\"bubkoo\"},\"forkCount\":500,\"stargazerCount\":4785,\"pullRequests\":{\"totalCount\":145},\"issues\":{\"totalCount\":300},\"mentionableUsers\":{\"totalCount\":39},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"kata-containers/kata-containers\",\"isInOrganization\":true,\"owner\":{\"login\":\"kata-containers\"},\"forkCount\":1024,\"stargazerCount\":4523,\"pullRequests\":{\"totalCount\":4157},\"issues\":{\"totalCount\":4583},\"mentionableUsers\":{\"totalCount\":334},\"watchers\":{\"totalCount\":100}},{\"nameWithOwner\":\"gnif/LookingGlass\",\"isInOrganization\":false,\"owner\":{\"login\":\"gnif\"},\"forkCount\":255,\"stargazerCount\":4290,\"pullRequests\":{\"totalCount\":726},\"issues\":{\"totalCount\":376},\"mentionableUsers\":{\"totalCount\":62},\"watchers\":{\"totalCount\":120}},{\"nameWithOwner\":\"google/clasp\",\"isInOrganization\":true,\"owner\":{\"login\":\"google\"},\"forkCount\":436,\"stargazerCount\":4205,\"pullRequests\":{\"totalCount\":472},\"issues\":{\"totalCount\":522},\"mentionableUsers\":{\"totalCount\":82},\"watchers\":{\"totalCount\":60}},{\"nameWithOwner\":\"virtual-kubelet/virtual-kubelet\",\"isInOrganization\":true,\"owner\":{\"login\":\"virtual-kubelet\"},\"forkCount\":615,\"stargazerCount\":4007,\"pullRequests\":{\"totalCount\":786},\"issues\":{\"totalCount\":368},\"mentionableUsers\":{\"totalCount\":130},\"watchers\":{\"totalCount\":104}},{\"nameWithOwner\":\"genuinetools/img\",\"isInOrganization\":true,\"owner\":{\"login\":\"genuinetools\"},\"forkCount\":229,\"stargazerCount\":3840,\"pullRequests\":{\"totalCount\":118},\"issues\":{\"totalCount\":247},\"mentionableUsers\":{\"totalCount\":52},\"watchers\":{\"totalCount\":52}},{\"nameWithOwner\":\"Yelp/detect-secrets\",\"isInOrganization\":true,\"owner\":{\"login\":\"Yelp\"},\"forkCount\":419,\"stargazerCount\":3297,\"pullRequests\":{\"totalCount\":477},\"issues\":{\"totalCount\":302},\"mentionableUsers\":{\"totalCount\":125},\"watchers\":{\"totalCount\":47}},{\"nameWithOwner\":\"arkadiyt/bounty-targets-data\",\"isInOrganization\":false,\"owner\":{\"login\":\"arkadiyt\"},\"forkCount\":583,\"stargazerCount\":2837,\"pullRequests\":{\"totalCount\":9},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":224}},{\"nameWithOwner\":\"betterlockscreen/betterlockscreen\",\"isInOrganization\":true,\"owner\":{\"login\":\"betterlockscreen\"},\"forkCount\":182,\"stargazerCount\":2369,\"pullRequests\":{\"totalCount\":154},\"issues\":{\"totalCount\":237},\"mentionableUsers\":{\"totalCount\":54},\"watchers\":{\"totalCount\":22}},{\"nameWithOwner\":\"archerysec/archerysec\",\"isInOrganization\":true,\"owner\":{\"login\":\"archerysec\"},\"forkCount\":517,\"stargazerCount\":2161,\"pullRequests\":{\"totalCount\":370},\"issues\":{\"totalCount\":255},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":97}},{\"nameWithOwner\":\"MasoniteFramework/masonite\",\"isInOrganization\":true,\"owner\":{\"login\":\"MasoniteFramework\"},\"forkCount\":130,\"stargazerCount\":2110,\"pullRequests\":{\"totalCount\":356},\"issues\":{\"totalCount\":400},\"mentionableUsers\":{\"totalCount\":74},\"watchers\":{\"totalCount\":63}},{\"nameWithOwner\":\"wesbos/css-grid\",\"isInOrganization\":false,\"owner\":{\"login\":\"wesbos\"},\"forkCount\":2850,\"stargazerCount\":2067,\"pullRequests\":{\"totalCount\":68},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":28},\"watchers\":{\"totalCount\":103}},{\"nameWithOwner\":\"Syknapse/Contribute-To-This-Project\",\"isInOrganization\":false,\"owner\":{\"login\":\"Syknapse\"},\"forkCount\":2763,\"stargazerCount\":1999,\"pullRequests\":{\"totalCount\":3387},\"issues\":{\"totalCount\":75},\"mentionableUsers\":{\"totalCount\":2296},\"watchers\":{\"totalCount\":31}},{\"nameWithOwner\":\"filecoin-project/venus\",\"isInOrganization\":true,\"owner\":{\"login\":\"filecoin-project\"},\"forkCount\":460,\"stargazerCount\":1983,\"pullRequests\":{\"totalCount\":2955},\"issues\":{\"totalCount\":3153},\"mentionableUsers\":{\"totalCount\":153},\"watchers\":{\"totalCount\":137}},{\"nameWithOwner\":\"powerfulseal/powerfulseal\",\"isInOrganization\":true,\"owner\":{\"login\":\"powerfulseal\"},\"forkCount\":170,\"stargazerCount\":1915,\"pullRequests\":{\"totalCount\":203},\"issues\":{\"totalCount\":162},\"mentionableUsers\":{\"totalCount\":29},\"watchers\":{\"totalCount\":49}},{\"nameWithOwner\":\"fluttercommunity/flutter_launcher_icons\",\"isInOrganization\":true,\"owner\":{\"login\":\"fluttercommunity\"},\"forkCount\":372,\"stargazerCount\":1882,\"pullRequests\":{\"totalCount\":155},\"issues\":{\"totalCount\":379},\"mentionableUsers\":{\"totalCount\":53},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"fluttercommunity/chewie\",\"isInOrganization\":true,\"owner\":{\"login\":\"fluttercommunity\"},\"forkCount\":932,\"stargazerCount\":1797,\"pullRequests\":{\"totalCount\":171},\"issues\":{\"totalCount\":634},\"mentionableUsers\":{\"totalCount\":70},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"HDInnovations/UNIT3D-Community-Edition\",\"isInOrganization\":true,\"owner\":{\"login\":\"HDInnovations\"},\"forkCount\":344,\"stargazerCount\":1787,\"pullRequests\":{\"totalCount\":2075},\"issues\":{\"totalCount\":739},\"mentionableUsers\":{\"totalCount\":104},\"watchers\":{\"totalCount\":56}},{\"nameWithOwner\":\"spacemeowx2/switch-lan-play\",\"isInOrganization\":false,\"owner\":{\"login\":\"spacemeowx2\"},\"forkCount\":185,\"stargazerCount\":1742,\"pullRequests\":{\"totalCount\":22},\"issues\":{\"totalCount\":134},\"mentionableUsers\":{\"totalCount\":15},\"watchers\":{\"totalCount\":45}},{\"nameWithOwner\":\"zhenglibao/FlexLib\",\"isInOrganization\":false,\"owner\":{\"login\":\"zhenglibao\"},\"forkCount\":267,\"stargazerCount\":1662,\"pullRequests\":{\"totalCount\":4},\"issues\":{\"totalCount\":117},\"mentionableUsers\":{\"totalCount\":4},\"watchers\":{\"totalCount\":50}},{\"nameWithOwner\":\"brave/brave-ios\",\"isInOrganization\":true,\"owner\":{\"login\":\"brave\"},\"forkCount\":450,\"stargazerCount\":1614,\"pullRequests\":{\"totalCount\":3671},\"issues\":{\"totalCount\":4882},\"mentionableUsers\":{\"totalCount\":111},\"watchers\":{\"totalCount\":65}},{\"nameWithOwner\":\"liaochong/myexcel\",\"isInOrganization\":false,\"owner\":{\"login\":\"liaochong\"},\"forkCount\":322,\"stargazerCount\":1600,\"pullRequests\":{\"totalCount\":158},\"issues\":{\"totalCount\":254},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":61}},{\"nameWithOwner\":\"jaywcjlove/awesome-uikit\",\"isInOrganization\":false,\"owner\":{\"login\":\"jaywcjlove\"},\"forkCount\":178,\"stargazerCount\":1450,\"pullRequests\":{\"totalCount\":26},\"issues\":{\"totalCount\":3},\"mentionableUsers\":{\"totalCount\":20},\"watchers\":{\"totalCount\":51}},{\"nameWithOwner\":\"CloudburstMC/Nukkit\",\"isInOrganization\":true,\"owner\":{\"login\":\"CloudburstMC\"},\"forkCount\":415,\"stargazerCount\":1152,\"pullRequests\":{\"totalCount\":1397},\"issues\":{\"totalCount\":745},\"mentionableUsers\":{\"totalCount\":69},\"watchers\":{\"totalCount\":82}},{\"nameWithOwner\":\"maximkulkin/esp-homekit\",\"isInOrganization\":false,\"owner\":{\"login\":\"maximkulkin\"},\"forkCount\":169,\"stargazerCount\":1073,\"pullRequests\":{\"totalCount\":47},\"issues\":{\"totalCount\":169},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":89}},{\"nameWithOwner\":\"rust-ethereum/evm\",\"isInOrganization\":true,\"owner\":{\"login\":\"rust-ethereum\"},\"forkCount\":316,\"stargazerCount\":1047,\"pullRequests\":{\"totalCount\":213},\"issues\":{\"totalCount\":51},\"mentionableUsers\":{\"totalCount\":45},\"watchers\":{\"totalCount\":30}},{\"nameWithOwner\":\"proplot-dev/proplot\",\"isInOrganization\":true,\"owner\":{\"login\":\"proplot-dev\"},\"forkCount\":88,\"stargazerCount\":1024,\"pullRequests\":{\"totalCount\":108},\"issues\":{\"totalCount\":336},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"maximkulkin/esp-homekit-demo\",\"isInOrganization\":false,\"owner\":{\"login\":\"maximkulkin\"},\"forkCount\":235,\"stargazerCount\":796,\"pullRequests\":{\"totalCount\":40},\"issues\":{\"totalCount\":400},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":96}},{\"nameWithOwner\":\"aneagoie/robofriends\",\"isInOrganization\":false,\"owner\":{\"login\":\"aneagoie\"},\"forkCount\":1439,\"stargazerCount\":694,\"pullRequests\":{\"totalCount\":81},\"issues\":{\"totalCount\":17},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"brotzeit/rustic\",\"isInOrganization\":false,\"owner\":{\"login\":\"brotzeit\"},\"forkCount\":94,\"stargazerCount\":684,\"pullRequests\":{\"totalCount\":260},\"issues\":{\"totalCount\":280},\"mentionableUsers\":{\"totalCount\":123},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"jamesmontemagno/monkey-cache\",\"isInOrganization\":false,\"owner\":{\"login\":\"jamesmontemagno\"},\"forkCount\":103,\"stargazerCount\":637,\"pullRequests\":{\"totalCount\":43},\"issues\":{\"totalCount\":92},\"mentionableUsers\":{\"totalCount\":15},\"watchers\":{\"totalCount\":35}},{\"nameWithOwner\":\"apache/mynewt-nimble\",\"isInOrganization\":true,\"owner\":{\"login\":\"apache\"},\"forkCount\":371,\"stargazerCount\":610,\"pullRequests\":{\"totalCount\":1402},\"issues\":{\"totalCount\":267},\"mentionableUsers\":{\"totalCount\":128},\"watchers\":{\"totalCount\":46}},{\"nameWithOwner\":\"graphql-dotnet/graphql-client\",\"isInOrganization\":true,\"owner\":{\"login\":\"graphql-dotnet\"},\"forkCount\":130,\"stargazerCount\":586,\"pullRequests\":{\"totalCount\":279},\"issues\":{\"totalCount\":320},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"adobe/jsonschema2md\",\"isInOrganization\":true,\"owner\":{\"login\":\"adobe\"},\"forkCount\":153,\"stargazerCount\":556,\"pullRequests\":{\"totalCount\":385},\"issues\":{\"totalCount\":172},\"mentionableUsers\":{\"totalCount\":263},\"watchers\":{\"totalCount\":44}},{\"nameWithOwner\":\"alexed1/LightningFlowComponents\",\"isInOrganization\":false,\"owner\":{\"login\":\"alexed1\"},\"forkCount\":533,\"stargazerCount\":535,\"pullRequests\":{\"totalCount\":860},\"issues\":{\"totalCount\":647},\"mentionableUsers\":{\"totalCount\":97},\"watchers\":{\"totalCount\":55}},{\"nameWithOwner\":\"MockBukkit/MockBukkit\",\"isInOrganization\":true,\"owner\":{\"login\":\"MockBukkit\"},\"forkCount\":123,\"stargazerCount\":505,\"pullRequests\":{\"totalCount\":801},\"issues\":{\"totalCount\":137},\"mentionableUsers\":{\"totalCount\":75},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"apache/servicecomb-website\",\"isInOrganization\":true,\"owner\":{\"login\":\"apache\"},\"forkCount\":97,\"stargazerCount\":488,\"pullRequests\":{\"totalCount\":296},\"issues\":{\"totalCount\":7},\"mentionableUsers\":{\"totalCount\":89},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"hadronepoch/PHP-FFmpeg-video-streaming\",\"isInOrganization\":true,\"owner\":{\"login\":\"hadronepoch\"},\"forkCount\":153,\"stargazerCount\":484,\"pullRequests\":{\"totalCount\":23},\"issues\":{\"totalCount\":112},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"serputko/performance-testing-framework\",\"isInOrganization\":false,\"owner\":{\"login\":\"serputko\"},\"forkCount\":202,\"stargazerCount\":384,\"pullRequests\":{\"totalCount\":16},\"issues\":{\"totalCount\":25},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":42}},{\"nameWithOwner\":\"javascript-tutorial/ja.javascript.info\",\"isInOrganization\":true,\"owner\":{\"login\":\"javascript-tutorial\"},\"forkCount\":120,\"stargazerCount\":383,\"pullRequests\":{\"totalCount\":331},\"issues\":{\"totalCount\":12},\"mentionableUsers\":{\"totalCount\":250},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"cashapp/misk\",\"isInOrganization\":true,\"owner\":{\"login\":\"cashapp\"},\"forkCount\":154,\"stargazerCount\":368,\"pullRequests\":{\"totalCount\":2704},\"issues\":{\"totalCount\":351},\"mentionableUsers\":{\"totalCount\":201},\"watchers\":{\"totalCount\":33}},null,{\"nameWithOwner\":\"jodit/jodit-react\",\"isInOrganization\":false,\"owner\":{\"login\":\"jodit\"},\"forkCount\":118,\"stargazerCount\":329,\"pullRequests\":{\"totalCount\":31},\"issues\":{\"totalCount\":212},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"manfredsteyer/angular-crud\",\"isInOrganization\":false,\"owner\":{\"login\":\"manfredsteyer\"},\"forkCount\":140,\"stargazerCount\":313,\"pullRequests\":{\"totalCount\":42},\"issues\":{\"totalCount\":18},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":22}},{\"nameWithOwner\":\"AOMediaCodec/av1-spec\",\"isInOrganization\":true,\"owner\":{\"login\":\"AOMediaCodec\"},\"forkCount\":66,\"stargazerCount\":309,\"pullRequests\":{\"totalCount\":238},\"issues\":{\"totalCount\":105},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":37}},{\"nameWithOwner\":\"ElmahCore/ElmahCore\",\"isInOrganization\":false,\"owner\":{\"login\":\"ElmahCore\"},\"forkCount\":90,\"stargazerCount\":297,\"pullRequests\":{\"totalCount\":52},\"issues\":{\"totalCount\":130},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"sideeffects/HoudiniNiagara\",\"isInOrganization\":true,\"owner\":{\"login\":\"sideeffects\"},\"forkCount\":59,\"stargazerCount\":294,\"pullRequests\":{\"totalCount\":18},\"issues\":{\"totalCount\":34},\"mentionableUsers\":{\"totalCount\":32},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"egonl/SharpDocx\",\"isInOrganization\":false,\"owner\":{\"login\":\"egonl\"},\"forkCount\":74,\"stargazerCount\":283,\"pullRequests\":{\"totalCount\":13},\"issues\":{\"totalCount\":51},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"oracle/weblogic-kubernetes-operator\",\"isInOrganization\":true,\"owner\":{\"login\":\"oracle\"},\"forkCount\":215,\"stargazerCount\":241,\"pullRequests\":{\"totalCount\":4265},\"issues\":{\"totalCount\":322},\"mentionableUsers\":{\"totalCount\":1412},\"watchers\":{\"totalCount\":56}},{\"nameWithOwner\":\"adobe/xdm\",\"isInOrganization\":true,\"owner\":{\"login\":\"adobe\"},\"forkCount\":303,\"stargazerCount\":228,\"pullRequests\":{\"totalCount\":1382},\"issues\":{\"totalCount\":414},\"mentionableUsers\":{\"totalCount\":375},\"watchers\":{\"totalCount\":29}},{\"nameWithOwner\":\"SociallyDev/Spaces-API\",\"isInOrganization\":false,\"owner\":{\"login\":\"SociallyDev\"},\"forkCount\":102,\"stargazerCount\":220,\"pullRequests\":{\"totalCount\":22},\"issues\":{\"totalCount\":65},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"devoxin/Lavalink.py\",\"isInOrganization\":false,\"owner\":{\"login\":\"devoxin\"},\"forkCount\":96,\"stargazerCount\":216,\"pullRequests\":{\"totalCount\":100},\"issues\":{\"totalCount\":39},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"EducationalTestingService/factor_analyzer\",\"isInOrganization\":true,\"owner\":{\"login\":\"EducationalTestingService\"},\"forkCount\":65,\"stargazerCount\":214,\"pullRequests\":{\"totalCount\":57},\"issues\":{\"totalCount\":71},\"mentionableUsers\":{\"totalCount\":18},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"IAMconsortium/pyam\",\"isInOrganization\":true,\"owner\":{\"login\":\"IAMconsortium\"},\"forkCount\":108,\"stargazerCount\":201,\"pullRequests\":{\"totalCount\":555},\"issues\":{\"totalCount\":253},\"mentionableUsers\":{\"totalCount\":30},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"ROCm/rccl\",\"isInOrganization\":true,\"owner\":{\"login\":\"ROCm\"},\"forkCount\":92,\"stargazerCount\":186,\"pullRequests\":{\"totalCount\":965},\"issues\":{\"totalCount\":66},\"mentionableUsers\":{\"totalCount\":97},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"drone/go-scm\",\"isInOrganization\":true,\"owner\":{\"login\":\"drone\"},\"forkCount\":232,\"stargazerCount\":165,\"pullRequests\":{\"totalCount\":233},\"issues\":{\"totalCount\":57},\"mentionableUsers\":{\"totalCount\":55},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"OFFLINE-GmbH/oc-mall-plugin\",\"isInOrganization\":true,\"owner\":{\"login\":\"OFFLINE-GmbH\"},\"forkCount\":110,\"stargazerCount\":161,\"pullRequests\":{\"totalCount\":281},\"issues\":{\"totalCount\":764},\"mentionableUsers\":{\"totalCount\":57},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"biolink/biolink-model\",\"isInOrganization\":true,\"owner\":{\"login\":\"biolink\"},\"forkCount\":70,\"stargazerCount\":148,\"pullRequests\":{\"totalCount\":626},\"issues\":{\"totalCount\":783},\"mentionableUsers\":{\"totalCount\":54},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"cdevelop/FreeSWITCH-ASR\",\"isInOrganization\":false,\"owner\":{\"login\":\"cdevelop\"},\"forkCount\":102,\"stargazerCount\":147,\"pullRequests\":{\"totalCount\":1},\"issues\":{\"totalCount\":3},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"dacapobench/dacapobench\",\"isInOrganization\":true,\"owner\":{\"login\":\"dacapobench\"},\"forkCount\":55,\"stargazerCount\":131,\"pullRequests\":{\"totalCount\":41},\"issues\":{\"totalCount\":208},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"Lunatixz/KODI_Addons\",\"isInOrganization\":false,\"owner\":{\"login\":\"Lunatixz\"},\"forkCount\":109,\"stargazerCount\":118,\"pullRequests\":{\"totalCount\":159},\"issues\":{\"totalCount\":90},\"mentionableUsers\":{\"totalCount\":42},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"eProsima/Micro-XRCE-DDS-Client\",\"isInOrganization\":true,\"owner\":{\"login\":\"eProsima\"},\"forkCount\":66,\"stargazerCount\":116,\"pullRequests\":{\"totalCount\":292},\"issues\":{\"totalCount\":85},\"mentionableUsers\":{\"totalCount\":36},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"phhusson/vendor_hardware_overlay\",\"isInOrganization\":false,\"owner\":{\"login\":\"phhusson\"},\"forkCount\":509,\"stargazerCount\":115,\"pullRequests\":{\"totalCount\":741},\"issues\":{\"totalCount\":34},\"mentionableUsers\":{\"totalCount\":174},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"iiasa/message_ix\",\"isInOrganization\":true,\"owner\":{\"login\":\"iiasa\"},\"forkCount\":146,\"stargazerCount\":103,\"pullRequests\":{\"totalCount\":404},\"issues\":{\"totalCount\":295},\"mentionableUsers\":{\"totalCount\":46},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"dask/helm-chart\",\"isInOrganization\":true,\"owner\":{\"login\":\"dask\"},\"forkCount\":89,\"stargazerCount\":88,\"pullRequests\":{\"totalCount\":330},\"issues\":{\"totalCount\":96},\"mentionableUsers\":{\"totalCount\":73},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"eProsima/Micro-XRCE-DDS-Agent\",\"isInOrganization\":true,\"owner\":{\"login\":\"eProsima\"},\"forkCount\":60,\"stargazerCount\":84,\"pullRequests\":{\"totalCount\":264},\"issues\":{\"totalCount\":93},\"mentionableUsers\":{\"totalCount\":34},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"opentelekomcloud/terraform-provider-opentelekomcloud\",\"isInOrganization\":true,\"owner\":{\"login\":\"opentelekomcloud\"},\"forkCount\":82,\"stargazerCount\":80,\"pullRequests\":{\"totalCount\":1404},\"issues\":{\"totalCount\":972},\"mentionableUsers\":{\"totalCount\":115},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"plume-design/opensync\",\"isInOrganization\":true,\"owner\":{\"login\":\"plume-design\"},\"forkCount\":81,\"stargazerCount\":80,\"pullRequests\":{\"totalCount\":55},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":28},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"kubernetes/publishing-bot\",\"isInOrganization\":true,\"owner\":{\"login\":\"kubernetes\"},\"forkCount\":80,\"stargazerCount\":76,\"pullRequests\":{\"totalCount\":361},\"issues\":{\"totalCount\":44},\"mentionableUsers\":{\"totalCount\":848},\"watchers\":{\"totalCount\":44}},{\"nameWithOwner\":\"HealthCatalyst/Fabric.Cashmere\",\"isInOrganization\":true,\"owner\":{\"login\":\"HealthCatalyst\"},\"forkCount\":75,\"stargazerCount\":63,\"pullRequests\":{\"totalCount\":1309},\"issues\":{\"totalCount\":953},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"eclipse-openj9/openj9-docs\",\"isInOrganization\":true,\"owner\":{\"login\":\"eclipse-openj9\"},\"forkCount\":69,\"stargazerCount\":52,\"pullRequests\":{\"totalCount\":822},\"issues\":{\"totalCount\":418},\"mentionableUsers\":{\"totalCount\":81},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"SmartThingsCommunity/weather-color-light-smartapp-nodejs\",\"isInOrganization\":true,\"owner\":{\"login\":\"SmartThingsCommunity\"},\"forkCount\":53,\"stargazerCount\":52,\"pullRequests\":{\"totalCount\":53},\"issues\":{\"totalCount\":8},\"mentionableUsers\":{\"totalCount\":133},\"watchers\":{\"totalCount\":98}},{\"nameWithOwner\":\"pulp/pulp_ansible\",\"isInOrganization\":true,\"owner\":{\"login\":\"pulp\"},\"forkCount\":51,\"stargazerCount\":51,\"pullRequests\":{\"totalCount\":1529},\"issues\":{\"totalCount\":184},\"mentionableUsers\":{\"totalCount\":49},\"watchers\":{\"totalCount\":8}}]}}.",
+        "date": "2024-01-05T11:28:30.104Z"
       }
     },
     "76c2f068-c59c-495f-bc77-06e70c58eb25": {
@@ -9920,6 +9841,21 @@
         "startCursor": null
       }
     },
+    "8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129": {
+      "task": {
+        "id": "8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-06-07",
+        "createdBefore": "2019-06-11",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "8e5709aa-db5a-4c65-9a44-deb5183052d6": {
       "task": {
         "id": "8e5709aa-db5a-4c65-9a44-deb5183052d6",
@@ -10935,6 +10871,21 @@
         "startCursor": null
       }
     },
+    "9828300d-bdc4-4b48-8cd0-8045777f2b64": {
+      "task": {
+        "id": "9828300d-bdc4-4b48-8cd0-8045777f2b64",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2008-04-05",
+        "createdBefore": "2008-04-09",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "9894ef3f-753b-4da2-8956-9184637c1561": {
       "task": {
         "id": "9894ef3f-753b-4da2-8956-9184637c1561",
@@ -11141,6 +11092,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2008-01-21",
         "createdBefore": "2008-01-25",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "9bc176dc-77dc-4e3d-85c3-ef0d328f5766": {
+      "task": {
+        "id": "9bc176dc-77dc-4e3d-85c3-ef0d328f5766",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2016-10-20",
+        "createdBefore": "2016-10-24",
         "pageSize": 100,
         "startCursor": null
       }
@@ -12455,6 +12421,21 @@
         "startCursor": null
       }
     },
+    "b2905605-6410-404a-86f2-810cbd5a9ca3": {
+      "task": {
+        "id": "b2905605-6410-404a-86f2-810cbd5a9ca3",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2022-03-13",
+        "createdBefore": "2022-03-17",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "b2960682-a80b-4c26-99d2-9a330d7b9052": {
       "task": {
         "id": "b2960682-a80b-4c26-99d2-9a330d7b9052",
@@ -13208,6 +13189,26 @@
         "createdBefore": "2022-06-15",
         "pageSize": 100,
         "startCursor": null
+      }
+    },
+    "bf41b9ef-5a95-412e-9e05-05256dcfeb00": {
+      "task": {
+        "id": "bf41b9ef-5a95-412e-9e05-05256dcfeb00",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2012-12-05",
+        "createdBefore": "2012-12-09",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2012-12-05..2012-12-09\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task bf41b9ef-5a95-412e-9e05-05256dcfeb00: Request failed due to following response errors:\n - Although you appear to have the correct authorization credentials, the `mulesoft` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Fri, 05 Jan 2024 11:29:07 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"GitHub.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"FFC5:62C3:B2D9809:1779B430:6597E7FF\",\"x-ratelimit-limit\":\"1000\",\"x-ratelimit-remaining\":\"983\",\"x-ratelimit-reset\":\"1704457703\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"17\",\"x-xss-protection\":\"0\"}. Error: Although you appear to have the correct authorization credentials, the `mulesoft` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":1000,\"nodeCount\":100,\"remaining\":983,\"resetAt\":\"2024-01-05T12:28:23Z\",\"used\":17},\"search\":{\"pageInfo\":{\"startCursor\":\"Y3Vyc29yOjE=\",\"hasNextPage\":false,\"endCursor\":\"Y3Vyc29yOjM3\"},\"repositoryCount\":37,\"nodes\":[{\"nameWithOwner\":\"fmtlib/fmt\",\"isInOrganization\":true,\"owner\":{\"login\":\"fmtlib\"},\"forkCount\":2345,\"stargazerCount\":18705,\"pullRequests\":{\"totalCount\":1336},\"issues\":{\"totalCount\":2442},\"mentionableUsers\":{\"totalCount\":439},\"watchers\":{\"totalCount\":319}},{\"nameWithOwner\":\"dianping/cat\",\"isInOrganization\":true,\"owner\":{\"login\":\"dianping\"},\"forkCount\":5402,\"stargazerCount\":18265,\"pullRequests\":{\"totalCount\":1077},\"issues\":{\"totalCount\":1239},\"mentionableUsers\":{\"totalCount\":89},\"watchers\":{\"totalCount\":1136}},{\"nameWithOwner\":\"python/mypy\",\"isInOrganization\":true,\"owner\":{\"login\":\"python\"},\"forkCount\":2764,\"stargazerCount\":16983,\"pullRequests\":{\"totalCount\":6780},\"issues\":{\"totalCount\":9874},\"mentionableUsers\":{\"totalCount\":652},\"watchers\":{\"totalCount\":236}},{\"nameWithOwner\":\"go-sql-driver/mysql\",\"isInOrganization\":true,\"owner\":{\"login\":\"go-sql-driver\"},\"forkCount\":2376,\"stargazerCount\":13931,\"pullRequests\":{\"totalCount\":586},\"issues\":{\"totalCount\":928},\"mentionableUsers\":{\"totalCount\":141},\"watchers\":{\"totalCount\":414}},{\"nameWithOwner\":\"darlinghq/darling\",\"isInOrganization\":true,\"owner\":{\"login\":\"darlinghq\"},\"forkCount\":421,\"stargazerCount\":10723,\"pullRequests\":{\"totalCount\":263},\"issues\":{\"totalCount\":1179},\"mentionableUsers\":{\"totalCount\":62},\"watchers\":{\"totalCount\":234}},{\"nameWithOwner\":\"falconry/falcon\",\"isInOrganization\":true,\"owner\":{\"login\":\"falconry\"},\"forkCount\":927,\"stargazerCount\":9303,\"pullRequests\":{\"totalCount\":1159},\"issues\":{\"totalCount\":996},\"mentionableUsers\":{\"totalCount\":191},\"watchers\":{\"totalCount\":262}},{\"nameWithOwner\":\"VirusTotal/yara\",\"isInOrganization\":true,\"owner\":{\"login\":\"VirusTotal\"},\"forkCount\":1410,\"stargazerCount\":7292,\"pullRequests\":{\"totalCount\":986},\"issues\":{\"totalCount\":1022},\"mentionableUsers\":{\"totalCount\":233},\"watchers\":{\"totalCount\":313}},{\"nameWithOwner\":\"olivere/elastic\",\"isInOrganization\":false,\"owner\":{\"login\":\"olivere\"},\"forkCount\":1204,\"stargazerCount\":7262,\"pullRequests\":{\"totalCount\":477},\"issues\":{\"totalCount\":1202},\"mentionableUsers\":{\"totalCount\":108},\"watchers\":{\"totalCount\":170}},{\"nameWithOwner\":\"BetterErrors/better_errors\",\"isInOrganization\":true,\"owner\":{\"login\":\"BetterErrors\"},\"forkCount\":455,\"stargazerCount\":6856,\"pullRequests\":{\"totalCount\":232},\"issues\":{\"totalCount\":285},\"mentionableUsers\":{\"totalCount\":91},\"watchers\":{\"totalCount\":169}},{\"nameWithOwner\":\"lampepfl/dotty\",\"isInOrganization\":true,\"owner\":{\"login\":\"lampepfl\"},\"forkCount\":1002,\"stargazerCount\":5491,\"pullRequests\":{\"totalCount\":11037},\"issues\":{\"totalCount\":7853},\"mentionableUsers\":{\"totalCount\":443},\"watchers\":{\"totalCount\":210}},{\"nameWithOwner\":\"orientechnologies/orientdb\",\"isInOrganization\":true,\"owner\":{\"login\":\"orientechnologies\"},\"forkCount\":880,\"stargazerCount\":4656,\"pullRequests\":{\"totalCount\":938},\"issues\":{\"totalCount\":8992},\"mentionableUsers\":{\"totalCount\":142},\"watchers\":{\"totalCount\":270}},{\"nameWithOwner\":\"jisaacks/GitGutter\",\"isInOrganization\":false,\"owner\":{\"login\":\"jisaacks\"},\"forkCount\":231,\"stargazerCount\":3871,\"pullRequests\":{\"totalCount\":204},\"issues\":{\"totalCount\":373},\"mentionableUsers\":{\"totalCount\":97},\"watchers\":{\"totalCount\":81}},{\"nameWithOwner\":\"charlesw/tesseract\",\"isInOrganization\":false,\"owner\":{\"login\":\"charlesw\"},\"forkCount\":732,\"stargazerCount\":2117,\"pullRequests\":{\"totalCount\":80},\"issues\":{\"totalCount\":549},\"mentionableUsers\":{\"totalCount\":23},\"watchers\":{\"totalCount\":169}},{\"nameWithOwner\":\"LiveHelperChat/livehelperchat\",\"isInOrganization\":true,\"owner\":{\"login\":\"LiveHelperChat\"},\"forkCount\":691,\"stargazerCount\":1844,\"pullRequests\":{\"totalCount\":442},\"issues\":{\"totalCount\":1428},\"mentionableUsers\":{\"totalCount\":57},\"watchers\":{\"totalCount\":174}},{\"nameWithOwner\":\"barbushin/php-imap\",\"isInOrganization\":false,\"owner\":{\"login\":\"barbushin\"},\"forkCount\":505,\"stargazerCount\":1627,\"pullRequests\":{\"totalCount\":299},\"issues\":{\"totalCount\":419},\"mentionableUsers\":{\"totalCount\":67},\"watchers\":{\"totalCount\":69}},{\"nameWithOwner\":\"jejacks0n/teaspoon\",\"isInOrganization\":false,\"owner\":{\"login\":\"jejacks0n\"},\"forkCount\":261,\"stargazerCount\":1431,\"pullRequests\":{\"totalCount\":231},\"issues\":{\"totalCount\":370},\"mentionableUsers\":{\"totalCount\":116},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"treefrogframework/treefrog-framework\",\"isInOrganization\":false,\"owner\":{\"login\":\"treefrogframework\"},\"forkCount\":221,\"stargazerCount\":1234,\"pullRequests\":{\"totalCount\":167},\"issues\":{\"totalCount\":223},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":84}},{\"nameWithOwner\":\"cvc5/cvc5\",\"isInOrganization\":true,\"owner\":{\"login\":\"cvc5\"},\"forkCount\":213,\"stargazerCount\":882,\"pullRequests\":{\"totalCount\":7232},\"issues\":{\"totalCount\":2486},\"mentionableUsers\":{\"totalCount\":79},\"watchers\":{\"totalCount\":39}},{\"nameWithOwner\":\"nscala-time/nscala-time\",\"isInOrganization\":true,\"owner\":{\"login\":\"nscala-time\"},\"forkCount\":84,\"stargazerCount\":872,\"pullRequests\":{\"totalCount\":255},\"issues\":{\"totalCount\":55},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":27}},{\"nameWithOwner\":\"analogdevicesinc/no-OS\",\"isInOrganization\":true,\"owner\":{\"login\":\"analogdevicesinc\"},\"forkCount\":1632,\"stargazerCount\":811,\"pullRequests\":{\"totalCount\":1944},\"issues\":{\"totalCount\":116},\"mentionableUsers\":{\"totalCount\":134},\"watchers\":{\"totalCount\":130}},{\"nameWithOwner\":\"fsprojects/FSharp.Data\",\"isInOrganization\":true,\"owner\":{\"login\":\"fsprojects\"},\"forkCount\":296,\"stargazerCount\":789,\"pullRequests\":{\"totalCount\":680},\"issues\":{\"totalCount\":820},\"mentionableUsers\":{\"totalCount\":152},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"rgaufman/live555\",\"isInOrganization\":false,\"owner\":{\"login\":\"rgaufman\"},\"forkCount\":351,\"stargazerCount\":690,\"pullRequests\":{\"totalCount\":12},\"issues\":{\"totalCount\":36},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":56}},{\"nameWithOwner\":\"argonaut-io/argonaut\",\"isInOrganization\":true,\"owner\":{\"login\":\"argonaut-io\"},\"forkCount\":112,\"stargazerCount\":547,\"pullRequests\":{\"totalCount\":632},\"issues\":{\"totalCount\":195},\"mentionableUsers\":{\"totalCount\":41},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"ckeditor/ckeditor4-releases\",\"isInOrganization\":true,\"owner\":{\"login\":\"ckeditor\"},\"forkCount\":413,\"stargazerCount\":516,\"pullRequests\":{\"totalCount\":24},\"issues\":{\"totalCount\":77},\"mentionableUsers\":{\"totalCount\":40},\"watchers\":{\"totalCount\":65}},{\"nameWithOwner\":\"JuliaImages/Images.jl\",\"isInOrganization\":true,\"owner\":{\"login\":\"JuliaImages\"},\"forkCount\":149,\"stargazerCount\":513,\"pullRequests\":{\"totalCount\":469},\"issues\":{\"totalCount\":542},\"mentionableUsers\":{\"totalCount\":84},\"watchers\":{\"totalCount\":35}},{\"nameWithOwner\":\"mistydemeo/tigerbrew\",\"isInOrganization\":false,\"owner\":{\"login\":\"mistydemeo\"},\"forkCount\":146,\"stargazerCount\":503,\"pullRequests\":{\"totalCount\":439},\"issues\":{\"totalCount\":611},\"mentionableUsers\":{\"totalCount\":4967},\"watchers\":{\"totalCount\":42}},{\"nameWithOwner\":\"boostorg/fiber\",\"isInOrganization\":true,\"owner\":{\"login\":\"boostorg\"},\"forkCount\":105,\"stargazerCount\":428,\"pullRequests\":{\"totalCount\":148},\"issues\":{\"totalCount\":165},\"mentionableUsers\":{\"totalCount\":42},\"watchers\":{\"totalCount\":27}},null,{\"nameWithOwner\":\"punker76/simple-music-player\",\"isInOrganization\":false,\"owner\":{\"login\":\"punker76\"},\"forkCount\":123,\"stargazerCount\":341,\"pullRequests\":{\"totalCount\":35},\"issues\":{\"totalCount\":26},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":40}},{\"nameWithOwner\":\"JuliaStats/HypothesisTests.jl\",\"isInOrganization\":true,\"owner\":{\"login\":\"JuliaStats\"},\"forkCount\":88,\"stargazerCount\":284,\"pullRequests\":{\"totalCount\":172},\"issues\":{\"totalCount\":140},\"mentionableUsers\":{\"totalCount\":54},\"watchers\":{\"totalCount\":22}},{\"nameWithOwner\":\"kiwix/kiwix-js\",\"isInOrganization\":true,\"owner\":{\"login\":\"kiwix\"},\"forkCount\":114,\"stargazerCount\":254,\"pullRequests\":{\"totalCount\":494},\"issues\":{\"totalCount\":691},\"mentionableUsers\":{\"totalCount\":37},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"iutinvg/compass\",\"isInOrganization\":false,\"owner\":{\"login\":\"iutinvg\"},\"forkCount\":102,\"stargazerCount\":239,\"pullRequests\":{\"totalCount\":3},\"issues\":{\"totalCount\":13},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"guardianproject/PixelKnot\",\"isInOrganization\":true,\"owner\":{\"login\":\"guardianproject\"},\"forkCount\":62,\"stargazerCount\":172,\"pullRequests\":{\"totalCount\":25},\"issues\":{\"totalCount\":31},\"mentionableUsers\":{\"totalCount\":44},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"tcltk/tcllib\",\"isInOrganization\":true,\"owner\":{\"login\":\"tcltk\"},\"forkCount\":64,\"stargazerCount\":124,\"pullRequests\":{\"totalCount\":8},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":25},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"calimero-project/calimero-core\",\"isInOrganization\":false,\"owner\":{\"login\":\"calimero-project\"},\"forkCount\":61,\"stargazerCount\":119,\"pullRequests\":{\"totalCount\":27},\"issues\":{\"totalCount\":98},\"mentionableUsers\":{\"totalCount\":12},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"ENCODE-DCC/encoded\",\"isInOrganization\":true,\"owner\":{\"login\":\"ENCODE-DCC\"},\"forkCount\":52,\"stargazerCount\":107,\"pullRequests\":{\"totalCount\":4385},\"issues\":{\"totalCount\":33},\"mentionableUsers\":{\"totalCount\":56},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"AddstarMC/Minigames\",\"isInOrganization\":true,\"owner\":{\"login\":\"AddstarMC\"},\"forkCount\":59,\"stargazerCount\":73,\"pullRequests\":{\"totalCount\":147},\"issues\":{\"totalCount\":230},\"mentionableUsers\":{\"totalCount\":16},\"watchers\":{\"totalCount\":17}}]}}.",
+        "date": "2024-01-05T11:29:07.185Z"
       }
     },
     "bfa40623-e18c-40ff-a8c6-ddb78bac8b44": {
@@ -14630,6 +14631,21 @@
         "startCursor": null
       }
     },
+    "d74f3a08-5f71-48cf-bcad-f004192116ff": {
+      "task": {
+        "id": "d74f3a08-5f71-48cf-bcad-f004192116ff",
+        "parentId": "ff8cdddc-f36e-4d1b-9142-36258dfa9664",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-03-24",
+        "createdBefore": "2019-03-26",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "d77f51ae-a3bd-404f-a698-201c85c684ba": {
       "task": {
         "id": "d77f51ae-a3bd-404f-a698-201c85c684ba",
@@ -14721,6 +14737,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2013-09-06",
         "createdBefore": "2013-09-10",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "d91ea6b9-98c7-4ed6-8726-d43a71a63f3c": {
+      "task": {
+        "id": "d91ea6b9-98c7-4ed6-8726-d43a71a63f3c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2008-11-11",
+        "createdBefore": "2008-11-15",
         "pageSize": 100,
         "startCursor": null
       }
@@ -14855,6 +14886,21 @@
         "startCursor": null
       }
     },
+    "dca35179-f810-4c1f-ad0b-caecfe345b0a": {
+      "task": {
+        "id": "dca35179-f810-4c1f-ad0b-caecfe345b0a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-09-30",
+        "createdBefore": "2018-10-04",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "dce314be-ac4d-465e-a2c0-ddd559ddc891": {
       "task": {
         "id": "dce314be-ac4d-465e-a2c0-ddd559ddc891",
@@ -14881,6 +14927,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2014-02-03",
         "createdBefore": "2014-02-07",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "dda209f2-b489-45b0-ae1e-3751da5368d7": {
+      "task": {
+        "id": "dda209f2-b489-45b0-ae1e-3751da5368d7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2009-12-26",
+        "createdBefore": "2009-12-30",
         "pageSize": 100,
         "startCursor": null
       }
@@ -16660,6 +16721,21 @@
         "startCursor": null
       }
     },
+    "f9e33c63-d00b-4a50-a990-edc47ce60237": {
+      "task": {
+        "id": "f9e33c63-d00b-4a50-a990-edc47ce60237",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-02-27",
+        "createdBefore": "2019-03-03",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "f9fe6686-7a9d-4be4-945d-9af901409d46": {
       "task": {
         "id": "f9fe6686-7a9d-4be4-945d-9af901409d46",
@@ -16970,6 +17046,21 @@
         "startCursor": null
       }
     },
+    "ff30b850-b1c9-4706-92bc-5444feb112b7": {
+      "task": {
+        "id": "ff30b850-b1c9-4706-92bc-5444feb112b7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2008-07-04",
+        "createdBefore": "2008-07-08",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "ff31bc4e-f44c-463a-a2a1-b9ed4b3ca3da": {
       "task": {
         "id": "ff31bc4e-f44c-463a-a2a1-b9ed4b3ca3da",
@@ -17037,32 +17128,6 @@
     }
   },
   "errored": {
-    "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe": {
-      "task": {
-        "id": "0fdfa03e-e1f1-4137-8863-1a64ff02f0fe",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2020-05-07",
-        "createdBefore": "2020-05-11",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-05-07..2020-05-11\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 0fdfa03e-e1f1-4137-8863-1a64ff02f0fe: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B099:1782:2821A1F:299B9A8:6597DD4E` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:43:37 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B099:1782:2821A1F:299B9A8:6597DD4E\"}.",
-          "date": "2024-01-05T10:43:37.319Z"
-        },
-        {
-          "message": "Error in task 0fdfa03e-e1f1-4137-8863-1a64ff02f0fe: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C6:1D21:EF51133:1F276EB2:6597DF61` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:52:27 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C6:1D21:EF51133:1F276EB2:6597DF61\"}.",
-          "date": "2024-01-05T10:52:27.594Z"
-        }
-      ]
-    },
     "1d6acfb3-c958-44be-9b4c-ffe1182de5c5": {
       "task": {
         "id": "1d6acfb3-c958-44be-9b4c-ffe1182de5c5",
@@ -17108,58 +17173,32 @@
         {
           "message": "Error in task 2436ebd0-9c4e-454f-b7a6-4b287e3f1890: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B098:8638:75E97DA:7ADE854:6597DB6E` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:35:37 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B098:8638:75E97DA:7ADE854:6597DB6E\"}.",
           "date": "2024-01-05T10:35:37.097Z"
+        },
+        {
+          "message": "Error in task 2436ebd0-9c4e-454f-b7a6-4b287e3f1890: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC1:8C6B:EF92E35:1F2CA791:6597E827` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC1:8C6B:EF92E35:1F2CA791:6597E827\"}.",
+          "date": "2024-01-05T11:29:53.522Z"
         }
       ]
     },
-    "286be279-ebc7-4aee-b86a-c4593937f2bf": {
+    "51337935-f7b6-4cf7-b1d2-79815ee72a05": {
       "task": {
-        "id": "286be279-ebc7-4aee-b86a-c4593937f2bf",
+        "id": "51337935-f7b6-4cf7-b1d2-79815ee72a05",
         "parentId": null,
         "originatingTaskId": null,
         "minStars": 50,
         "minForks": 50,
         "minSizeInKb": 1000,
         "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2016-10-10",
-        "createdBefore": "2016-10-14",
+        "createdAfter": "2020-08-25",
+        "createdBefore": "2020-08-29",
         "pageSize": 100,
         "startCursor": null
       },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2016-10-10..2016-10-14\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-08-25..2020-08-29\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
       "errors": [
         {
-          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `5043:57E4:ED19F68:1EDC1EF1:6597C9D6` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 09:20:32 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"5043:57E4:ED19F68:1EDC1EF1:6597C9D6\"}.",
-          "date": "2024-01-05T09:20:32.615Z"
-        },
-        {
-          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09A:0268:587CEFD:5BDB448:6597DC86` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:40:17 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09A:0268:587CEFD:5BDB448:6597DC86\"}.",
-          "date": "2024-01-05T10:40:17.151Z"
-        },
-        {
-          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C3:281E:F3277A0:1F9A3D4F:6597DF36` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:51:44 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C3:281E:F3277A0:1F9A3D4F:6597DF36\"}.",
-          "date": "2024-01-05T10:51:44.552Z"
-        }
-      ]
-    },
-    "29f18e36-a729-45d0-9f4f-421d9f23b1e8": {
-      "task": {
-        "id": "29f18e36-a729-45d0-9f4f-421d9f23b1e8",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2018-04-23",
-        "createdBefore": "2018-04-27",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2018-04-23..2018-04-27\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 29f18e36-a729-45d0-9f4f-421d9f23b1e8: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09A:0268:58A1A32:5C014BC:6597DE7A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:48:37 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09A:0268:58A1A32:5C014BC:6597DE7A\"}.",
-          "date": "2024-01-05T10:48:37.332Z"
+          "message": "Error in task 51337935-f7b6-4cf7-b1d2-79815ee72a05: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:62C3:B2D7E66:17797E31:6597E7EB` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:54 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:62C3:B2D7E66:17797E31:6597E7EB\"}.",
+          "date": "2024-01-05T11:28:54.031Z"
         }
       ]
     },
@@ -17186,6 +17225,10 @@
         {
           "message": "Error in task 55384d9d-51eb-43c4-aee5-32d0b7d34c3b: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FF01:05F6:F0C8A74:1F55CBDE:6597E4E9` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:16:03 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FF01:05F6:F0C8A74:1F55CBDE:6597E4E9\"}.",
           "date": "2024-01-05T11:16:04.004Z"
+        },
+        {
+          "message": "Error in task 55384d9d-51eb-43c4-aee5-32d0b7d34c3b: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC6:276F:AEA57D6:16F3B211:6597E7FF` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:14 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC6:276F:AEA57D6:16F3B211:6597E7FF\"}.",
+          "date": "2024-01-05T11:29:14.014Z"
         }
       ]
     },
@@ -17212,6 +17255,32 @@
         {
           "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FE86:6F89:FD2E93F:20DF995E:6597E4FE` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:16:25 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FE86:6F89:FD2E93F:20DF995E:6597E4FE\"}.",
           "date": "2024-01-05T11:16:25.042Z"
+        },
+        {
+          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC1:31C6:BD356BA:18BD88F4:6597E7EB` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC1:31C6:BD356BA:18BD88F4:6597E7EB\"}.",
+          "date": "2024-01-05T11:28:53.510Z"
+        }
+      ]
+    },
+    "6fbdee5a-b872-4d50-bd0f-bb06e94f523e": {
+      "task": {
+        "id": "6fbdee5a-b872-4d50-bd0f-bb06e94f523e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-04-07",
+        "createdBefore": "2020-04-11",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-04-07..2020-04-11\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task 6fbdee5a-b872-4d50-bd0f-bb06e94f523e: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC3:22CE:EE748E5:1F0EEDD6:6597E7D7` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC3:22CE:EE748E5:1F0EEDD6:6597E7D7\"}.",
+          "date": "2024-01-05T11:28:33.566Z"
         }
       ]
     },
@@ -17237,25 +17306,25 @@
         }
       ]
     },
-    "8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129": {
+    "8bbd739e-7939-448b-a1ca-cbf92027cc3b": {
       "task": {
-        "id": "8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129",
+        "id": "8bbd739e-7939-448b-a1ca-cbf92027cc3b",
         "parentId": null,
         "originatingTaskId": null,
         "minStars": 50,
         "minForks": 50,
         "minSizeInKb": 1000,
         "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2019-06-07",
-        "createdBefore": "2019-06-11",
+        "createdAfter": "2019-07-22",
+        "createdBefore": "2019-07-26",
         "pageSize": 100,
         "startCursor": null
       },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-06-07..2019-06-11\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-07-22..2019-07-26\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
       "errors": [
         {
-          "message": "Error in task 8ddfb5be-6d3d-462f-9b99-fc3e8d5fa129: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09A:0268:58804C1:5BDEBA9:6597DCAE` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:40:57 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09A:0268:58804C1:5BDEBA9:6597DCAE\"}.",
-          "date": "2024-01-05T10:40:57.312Z"
+          "message": "Error in task 8bbd739e-7939-448b-a1ca-cbf92027cc3b: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC4:70E1:EA1E8EE:1E868601:6597E7D7` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC4:70E1:EA1E8EE:1E868601:6597E7D7\"}.",
+          "date": "2024-01-05T11:28:33.592Z"
         }
       ]
     },
@@ -17308,6 +17377,10 @@
         {
           "message": "Error in task c2e1ce25-92ae-4f75-bb8a-036c6626135e: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C6:6780:B1F6F36:175BAC7E:6597DF0F` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:51:06 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C6:6780:B1F6F36:175BAC7E:6597DF0F\"}.",
           "date": "2024-01-05T10:51:06.241Z"
+        },
+        {
+          "message": "Error in task c2e1ce25-92ae-4f75-bb8a-036c6626135e: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC3:3E7B:ED8D3D8:1EEB2744:6597E827` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC3:3E7B:ED8D3D8:1EEB2744:6597E827\"}.",
+          "date": "2024-01-05T11:29:53.470Z"
         }
       ]
     },
@@ -17334,32 +17407,10 @@
         {
           "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C4:71DF:EFC050A:1F36E4B2:6597DF4A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:52:04 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C4:71DF:EFC050A:1F36E4B2:6597DF4A\"}.",
           "date": "2024-01-05T10:52:04.551Z"
-        }
-      ]
-    },
-    "dca35179-f810-4c1f-ad0b-caecfe345b0a": {
-      "task": {
-        "id": "dca35179-f810-4c1f-ad0b-caecfe345b0a",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2018-09-30",
-        "createdBefore": "2018-10-04",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2018-09-30..2018-10-04\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task dca35179-f810-4c1f-ad0b-caecfe345b0a: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09B:0E17:3C57355:3EA22F4:6597DE7A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:48:37 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09B:0E17:3C57355:3EA22F4:6597DE7A\"}.",
-          "date": "2024-01-05T10:48:37.184Z"
         },
         {
-          "message": "Error in task dca35179-f810-4c1f-ad0b-caecfe345b0a: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FF01:05F6:F0C6DD7:1F559047:6597E4D5` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:15:43 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FF01:05F6:F0C6DD7:1F559047:6597E4D5\"}.",
-          "date": "2024-01-05T11:15:43.944Z"
+          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:7E7A:EC9D0B5:1ED246C7:6597E813` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:7E7A:EC9D0B5:1ED246C7:6597E813\"}.",
+          "date": "2024-01-05T11:29:33.506Z"
         }
       ]
     },
@@ -17382,11 +17433,49 @@
         {
           "message": "Error in task ef5d513d-e7c7-4409-a1f8-09e935b71233: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09B:0E17:3C3025A:3E79A37:6597DC4A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:39:17 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09B:0E17:3C3025A:3E79A37:6597DC4A\"}.",
           "date": "2024-01-05T10:39:17.181Z"
+        },
+        {
+          "message": "Error in task ef5d513d-e7c7-4409-a1f8-09e935b71233: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:7E7A:EC9EACE:1ED27C55:6597E827` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:7E7A:EC9EACE:1ED27C55:6597E827\"}.",
+          "date": "2024-01-05T11:29:53.588Z"
         }
       ]
     }
   },
   "archived": {
+    "286be279-ebc7-4aee-b86a-c4593937f2bf": {
+      "task": {
+        "id": "286be279-ebc7-4aee-b86a-c4593937f2bf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2016-10-10",
+        "createdBefore": "2016-10-14",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2016-10-10..2016-10-14\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `5043:57E4:ED19F68:1EDC1EF1:6597C9D6` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 09:20:32 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"5043:57E4:ED19F68:1EDC1EF1:6597C9D6\"}.",
+          "date": "2024-01-05T09:20:32.615Z"
+        },
+        {
+          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09A:0268:587CEFD:5BDB448:6597DC86` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:40:17 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09A:0268:587CEFD:5BDB448:6597DC86\"}.",
+          "date": "2024-01-05T10:40:17.151Z"
+        },
+        {
+          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C3:281E:F3277A0:1F9A3D4F:6597DF36` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:51:44 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C3:281E:F3277A0:1F9A3D4F:6597DF36\"}.",
+          "date": "2024-01-05T10:51:44.552Z"
+        },
+        {
+          "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:182B:F33420D:1FA2AF57:6597E7D7` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:182B:F33420D:1FA2AF57:6597E7D7\"}.",
+          "date": "2024-01-05T11:28:33.541Z"
+        }
+      ]
+    },
     "ff8cdddc-f36e-4d1b-9142-36258dfa9664": {
       "task": {
         "id": "ff8cdddc-f36e-4d1b-9142-36258dfa9664",
