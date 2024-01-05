@@ -4227,14 +4227,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "c5a90a65-08e2-492c-84bc-c99234147e48": {
-      "id": "c5a90a65-08e2-492c-84bc-c99234147e48",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Karamürsel",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "c5c9c666-b255-4199-b13d-e9653a74a383": {
       "id": "c5c9c666-b255-4199-b13d-e9653a74a383",
       "parentId": null,
@@ -19441,6 +19433,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Kemalıye",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "c5a90a65-08e2-492c-84bc-c99234147e48": {
+      "task": {
+        "id": "c5a90a65-08e2-492c-84bc-c99234147e48",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Karamürsel",
         "minRepositories": 0,
         "minFollowers": 0
       }
