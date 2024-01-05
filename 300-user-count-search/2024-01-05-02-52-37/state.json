@@ -4747,14 +4747,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "5ebbc7a9-53a3-47ea-a35f-4bdd62d17b12": {
-      "id": "5ebbc7a9-53a3-47ea-a35f-4bdd62d17b12",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Gömec",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "5ed660ec-5bea-4c0d-ac96-70f0af4b8a6a": {
       "id": "5ed660ec-5bea-4c0d-ac96-70f0af4b8a6a",
       "parentId": null,
@@ -16187,6 +16179,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Eskisehir",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "5ebbc7a9-53a3-47ea-a35f-4bdd62d17b12": {
+      "task": {
+        "id": "5ebbc7a9-53a3-47ea-a35f-4bdd62d17b12",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Gömec",
         "minRepositories": 0,
         "minFollowers": 0
       }
