@@ -12555,14 +12555,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "fe48e750-716b-464c-9445-a60d0123c685": {
-      "id": "fe48e750-716b-464c-9445-a60d0123c685",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Dogankent",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "fe75c9f0-7d91-4890-9b9e-890394c9d02d": {
       "id": "fe75c9f0-7d91-4890-9b9e-890394c9d02d",
       "parentId": null,
@@ -21605,6 +21597,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Şalpazari",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "fe48e750-716b-464c-9445-a60d0123c685": {
+      "task": {
+        "id": "fe48e750-716b-464c-9445-a60d0123c685",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Dogankent",
         "minRepositories": 0,
         "minFollowers": 0
       }
