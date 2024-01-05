@@ -3,146 +3,16 @@
   "completionDate": null,
   "completionError": null,
   "unresolved": {
-    "1d6acfb3-c958-44be-9b4c-ffe1182de5c5": {
-      "id": "1d6acfb3-c958-44be-9b4c-ffe1182de5c5",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2018-01-23",
-      "createdBefore": "2018-01-27",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "207fe485-c6bf-4da6-b7ac-21112df09c05": {
-      "id": "207fe485-c6bf-4da6-b7ac-21112df09c05",
-      "parentId": null,
-      "originatingTaskId": "227afc26-550c-45f0-b2bc-2b33d3d399cb",
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-04-12",
-      "createdBefore": "2020-04-16",
-      "pageSize": 100,
-      "startCursor": "Y3Vyc29yOjEwMA=="
-    },
-    "51337935-f7b6-4cf7-b1d2-79815ee72a05": {
-      "id": "51337935-f7b6-4cf7-b1d2-79815ee72a05",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-08-25",
-      "createdBefore": "2020-08-29",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4": {
-      "id": "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-01-28",
-      "createdBefore": "2019-02-01",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "6fbdee5a-b872-4d50-bd0f-bb06e94f523e": {
-      "id": "6fbdee5a-b872-4d50-bd0f-bb06e94f523e",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-04-07",
-      "createdBefore": "2020-04-11",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "8bbd739e-7939-448b-a1ca-cbf92027cc3b": {
-      "id": "8bbd739e-7939-448b-a1ca-cbf92027cc3b",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-07-22",
-      "createdBefore": "2019-07-26",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "97e68d7d-6220-47e2-b62e-a4246d786d00": {
-      "id": "97e68d7d-6220-47e2-b62e-a4246d786d00",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2019-08-31",
-      "createdBefore": "2019-09-04",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "a4cb09a0-c32d-4e58-9e62-a77cac71c9ac": {
-      "id": "a4cb09a0-c32d-4e58-9e62-a77cac71c9ac",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2018-09-15",
-      "createdBefore": "2018-09-19",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "d19df078-7e03-40fb-9ea3-e3f9b60d794a": {
-      "id": "d19df078-7e03-40fb-9ea3-e3f9b60d794a",
-      "parentId": "286be279-ebc7-4aee-b86a-c4593937f2bf",
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2016-10-10",
-      "createdBefore": "2016-10-12",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "dc11baa5-15cd-4cfa-995f-12b769e79492": {
-      "id": "dc11baa5-15cd-4cfa-995f-12b769e79492",
-      "parentId": null,
+    "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00": {
+      "id": "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00",
+      "parentId": "dc11baa5-15cd-4cfa-995f-12b769e79492",
       "originatingTaskId": null,
       "minStars": 50,
       "minForks": 50,
       "minSizeInKb": 1000,
       "hasActivityAfter": "2023-10-07",
       "createdAfter": "2017-10-25",
-      "createdBefore": "2017-10-29",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "ef5d513d-e7c7-4409-a1f8-09e935b71233": {
-      "id": "ef5d513d-e7c7-4409-a1f8-09e935b71233",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2020-02-17",
-      "createdBefore": "2020-02-21",
+      "createdBefore": "2017-10-27",
       "pageSize": 100,
       "startCursor": null
     }
@@ -764,6 +634,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2022-10-29",
         "createdBefore": "2022-11-02",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "07c427b3-2f67-4ab1-8623-a9ff6aba7229": {
+      "task": {
+        "id": "07c427b3-2f67-4ab1-8623-a9ff6aba7229",
+        "parentId": "1d6acfb3-c958-44be-9b4c-ffe1182de5c5",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-01-23",
+        "createdBefore": "2018-01-25",
         "pageSize": 100,
         "startCursor": null
       }
@@ -2473,6 +2358,21 @@
         "startCursor": null
       }
     },
+    "207fe485-c6bf-4da6-b7ac-21112df09c05": {
+      "task": {
+        "id": "207fe485-c6bf-4da6-b7ac-21112df09c05",
+        "parentId": null,
+        "originatingTaskId": "227afc26-550c-45f0-b2bc-2b33d3d399cb",
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-04-12",
+        "createdBefore": "2020-04-16",
+        "pageSize": 100,
+        "startCursor": "Y3Vyc29yOjEwMA=="
+      }
+    },
     "20b57f26-c8a3-4998-bbed-5880d4293e1c": {
       "task": {
         "id": "20b57f26-c8a3-4998-bbed-5880d4293e1c",
@@ -2784,6 +2684,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2020-05-12",
         "createdBefore": "2020-05-16",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "24d83fcb-4dd8-499d-a2a8-f9fa6acd08d5": {
+      "task": {
+        "id": "24d83fcb-4dd8-499d-a2a8-f9fa6acd08d5",
+        "parentId": "97e68d7d-6220-47e2-b62e-a4246d786d00",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-08-31",
+        "createdBefore": "2019-09-02",
         "pageSize": 100,
         "startCursor": null
       }
@@ -5168,6 +5083,21 @@
         "startCursor": null
       }
     },
+    "4bfbd4f4-b9a2-4630-a122-0c02524b8076": {
+      "task": {
+        "id": "4bfbd4f4-b9a2-4630-a122-0c02524b8076",
+        "parentId": "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-01-28",
+        "createdBefore": "2019-01-30",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "4c24d9f5-5d8e-4810-809e-0083f2dd0a67": {
       "task": {
         "id": "4c24d9f5-5d8e-4810-809e-0083f2dd0a67",
@@ -5574,6 +5504,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2012-05-14",
         "createdBefore": "2012-05-18",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "51337935-f7b6-4cf7-b1d2-79815ee72a05": {
+      "task": {
+        "id": "51337935-f7b6-4cf7-b1d2-79815ee72a05",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-08-25",
+        "createdBefore": "2020-08-29",
         "pageSize": 100,
         "startCursor": null
       }
@@ -7908,6 +7853,26 @@
         "startCursor": null
       }
     },
+    "6fbdee5a-b872-4d50-bd0f-bb06e94f523e": {
+      "task": {
+        "id": "6fbdee5a-b872-4d50-bd0f-bb06e94f523e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-04-07",
+        "createdBefore": "2020-04-11",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-04-07..2020-04-11\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 6fbdee5a-b872-4d50-bd0f-bb06e94f523e: Request failed due to following response errors:\n - Although you appear to have the correct authorization credentials, the `confluentinc` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Fri, 05 Jan 2024 12:33:37 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"GitHub.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"A379:4A23:B70F1C0:18019F09:6597F719\",\"x-ratelimit-limit\":\"1000\",\"x-ratelimit-remaining\":\"999\",\"x-ratelimit-reset\":\"1704461609\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"1\",\"x-xss-protection\":\"0\"}. Error: Although you appear to have the correct authorization credentials, the `confluentinc` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":1000,\"nodeCount\":100,\"remaining\":999,\"resetAt\":\"2024-01-05T13:33:29Z\",\"used\":1},\"search\":{\"pageInfo\":{\"startCursor\":\"Y3Vyc29yOjE=\",\"hasNextPage\":false,\"endCursor\":\"Y3Vyc29yOjk0\"},\"repositoryCount\":94,\"nodes\":[{\"nameWithOwner\":\"Z4nzu/hackingtool\",\"isInOrganization\":false,\"owner\":{\"login\":\"Z4nzu\"},\"forkCount\":4653,\"stargazerCount\":41461,\"pullRequests\":{\"totalCount\":102},\"issues\":{\"totalCount\":308},\"mentionableUsers\":{\"totalCount\":35},\"watchers\":{\"totalCount\":1178}},{\"nameWithOwner\":\"sandboxie-plus/Sandboxie\",\"isInOrganization\":true,\"owner\":{\"login\":\"sandboxie-plus\"},\"forkCount\":1297,\"stargazerCount\":11283,\"pullRequests\":{\"totalCount\":1022},\"issues\":{\"totalCount\":2166},\"mentionableUsers\":{\"totalCount\":66},\"watchers\":{\"totalCount\":146}},{\"nameWithOwner\":\"florisboard/florisboard\",\"isInOrganization\":true,\"owner\":{\"login\":\"florisboard\"},\"forkCount\":341,\"stargazerCount\":4866,\"pullRequests\":{\"totalCount\":395},\"issues\":{\"totalCount\":1764},\"mentionableUsers\":{\"totalCount\":94},\"watchers\":{\"totalCount\":100}},{\"nameWithOwner\":\"rcbyr/keen-slider\",\"isInOrganization\":false,\"owner\":{\"login\":\"rcbyr\"},\"forkCount\":192,\"stargazerCount\":4376,\"pullRequests\":{\"totalCount\":62},\"issues\":{\"totalCount\":334},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"srbhr/Resume-Matcher\",\"isInOrganization\":false,\"owner\":{\"login\":\"srbhr\"},\"forkCount\":1115,\"stargazerCount\":4178,\"pullRequests\":{\"totalCount\":160},\"issues\":{\"totalCount\":50},\"mentionableUsers\":{\"totalCount\":25},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"NangoHQ/nango\",\"isInOrganization\":true,\"owner\":{\"login\":\"NangoHQ\"},\"forkCount\":336,\"stargazerCount\":3752,\"pullRequests\":{\"totalCount\":716},\"issues\":{\"totalCount\":745},\"mentionableUsers\":{\"totalCount\":102},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"piscinajs/piscina\",\"isInOrganization\":true,\"owner\":{\"login\":\"piscinajs\"},\"forkCount\":92,\"stargazerCount\":3699,\"pullRequests\":{\"totalCount\":342},\"issues\":{\"totalCount\":125},\"mentionableUsers\":{\"totalCount\":26},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"dortania/OpenCore-Install-Guide\",\"isInOrganization\":true,\"owner\":{\"login\":\"dortania\"},\"forkCount\":639,\"stargazerCount\":3562,\"pullRequests\":{\"totalCount\":406},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":128},\"watchers\":{\"totalCount\":145}},{\"nameWithOwner\":\"tigerbeetle/tigerbeetle\",\"isInOrganization\":true,\"owner\":{\"login\":\"tigerbeetle\"},\"forkCount\":170,\"stargazerCount\":3486,\"pullRequests\":{\"totalCount\":1039},\"issues\":{\"totalCount\":365},\"mentionableUsers\":{\"totalCount\":49},\"watchers\":{\"totalCount\":42}},{\"nameWithOwner\":\"facebookresearch/vissl\",\"isInOrganization\":true,\"owner\":{\"login\":\"facebookresearch\"},\"forkCount\":328,\"stargazerCount\":3173,\"pullRequests\":{\"totalCount\":413},\"issues\":{\"totalCount\":170},\"mentionableUsers\":{\"totalCount\":83},\"watchers\":{\"totalCount\":53}},{\"nameWithOwner\":\"SurviveSJTU/SurviveSJTUManual\",\"isInOrganization\":true,\"owner\":{\"login\":\"SurviveSJTU\"},\"forkCount\":384,\"stargazerCount\":3075,\"pullRequests\":{\"totalCount\":46},\"issues\":{\"totalCount\":25},\"mentionableUsers\":{\"totalCount\":12},\"watchers\":{\"totalCount\":68}},{\"nameWithOwner\":\"argosopentech/argos-translate\",\"isInOrganization\":false,\"owner\":{\"login\":\"argosopentech\"},\"forkCount\":211,\"stargazerCount\":2879,\"pullRequests\":{\"totalCount\":83},\"issues\":{\"totalCount\":223},\"mentionableUsers\":{\"totalCount\":27},\"watchers\":{\"totalCount\":46}},{\"nameWithOwner\":\"dbeaver/cloudbeaver\",\"isInOrganization\":true,\"owner\":{\"login\":\"dbeaver\"},\"forkCount\":311,\"stargazerCount\":2718,\"pullRequests\":{\"totalCount\":1811},\"issues\":{\"totalCount\":463},\"mentionableUsers\":{\"totalCount\":57},\"watchers\":{\"totalCount\":44}},{\"nameWithOwner\":\"openmainframeproject/cobol-programming-course\",\"isInOrganization\":true,\"owner\":{\"login\":\"openmainframeproject\"},\"forkCount\":552,\"stargazerCount\":2709,\"pullRequests\":{\"totalCount\":203},\"issues\":{\"totalCount\":112},\"mentionableUsers\":{\"totalCount\":30},\"watchers\":{\"totalCount\":205}},{\"nameWithOwner\":\"zmister2016/MrDoc\",\"isInOrganization\":false,\"owner\":{\"login\":\"zmister2016\"},\"forkCount\":518,\"stargazerCount\":2685,\"pullRequests\":{\"totalCount\":27},\"issues\":{\"totalCount\":149},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":45}},{\"nameWithOwner\":\"determined-ai/determined\",\"isInOrganization\":true,\"owner\":{\"login\":\"determined-ai\"},\"forkCount\":337,\"stargazerCount\":2679,\"pullRequests\":{\"totalCount\":8280},\"issues\":{\"totalCount\":353},\"mentionableUsers\":{\"totalCount\":97},\"watchers\":{\"totalCount\":75}},{\"nameWithOwner\":\"milesmcc/shynet\",\"isInOrganization\":false,\"owner\":{\"login\":\"milesmcc\"},\"forkCount\":171,\"stargazerCount\":2666,\"pullRequests\":{\"totalCount\":129},\"issues\":{\"totalCount\":177},\"mentionableUsers\":{\"totalCount\":34},\"watchers\":{\"totalCount\":30}},{\"nameWithOwner\":\"GoogleChrome/web-vitals-extension\",\"isInOrganization\":true,\"owner\":{\"login\":\"GoogleChrome\"},\"forkCount\":107,\"stargazerCount\":2277,\"pullRequests\":{\"totalCount\":81},\"issues\":{\"totalCount\":84},\"mentionableUsers\":{\"totalCount\":26},\"watchers\":{\"totalCount\":40}},{\"nameWithOwner\":\"SPX372928/MyIPTV\",\"isInOrganization\":false,\"owner\":{\"login\":\"SPX372928\"},\"forkCount\":585,\"stargazerCount\":2234,\"pullRequests\":{\"totalCount\":4},\"issues\":{\"totalCount\":71},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":86}},{\"nameWithOwner\":\"weihaox/awesome-neural-rendering\",\"isInOrganization\":false,\"owner\":{\"login\":\"weihaox\"},\"forkCount\":227,\"stargazerCount\":2191,\"pullRequests\":{\"totalCount\":32},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":19},\"watchers\":{\"totalCount\":157}},{\"nameWithOwner\":\"nvim-lua/plenary.nvim\",\"isInOrganization\":true,\"owner\":{\"login\":\"nvim-lua\"},\"forkCount\":245,\"stargazerCount\":2081,\"pullRequests\":{\"totalCount\":345},\"issues\":{\"totalCount\":203},\"mentionableUsers\":{\"totalCount\":141},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"Dimillian/ACHNBrowserUI\",\"isInOrganization\":false,\"owner\":{\"login\":\"Dimillian\"},\"forkCount\":187,\"stargazerCount\":1632,\"pullRequests\":{\"totalCount\":210},\"issues\":{\"totalCount\":134},\"mentionableUsers\":{\"totalCount\":31},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"isaacHagoel/svelte-dnd-action\",\"isInOrganization\":false,\"owner\":{\"login\":\"isaacHagoel\"},\"forkCount\":86,\"stargazerCount\":1479,\"pullRequests\":{\"totalCount\":181},\"issues\":{\"totalCount\":355},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"apache/incubator-seata-go\",\"isInOrganization\":true,\"owner\":{\"login\":\"apache\"},\"forkCount\":316,\"stargazerCount\":1447,\"pullRequests\":{\"totalCount\":351},\"issues\":{\"totalCount\":264},\"mentionableUsers\":{\"totalCount\":69},\"watchers\":{\"totalCount\":44}},{\"nameWithOwner\":\"rancher/rke2\",\"isInOrganization\":true,\"owner\":{\"login\":\"rancher\"},\"forkCount\":245,\"stargazerCount\":1219,\"pullRequests\":{\"totalCount\":2250},\"issues\":{\"totalCount\":2694},\"mentionableUsers\":{\"totalCount\":143},\"watchers\":{\"totalCount\":73}},{\"nameWithOwner\":\"DoTheEvo/selfhosted-apps-docker\",\"isInOrganization\":false,\"owner\":{\"login\":\"DoTheEvo\"},\"forkCount\":85,\"stargazerCount\":1218,\"pullRequests\":{\"totalCount\":10},\"issues\":{\"totalCount\":28},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"supabase/postgres\",\"isInOrganization\":true,\"owner\":{\"login\":\"supabase\"},\"forkCount\":106,\"stargazerCount\":1163,\"pullRequests\":{\"totalCount\":730},\"issues\":{\"totalCount\":117},\"mentionableUsers\":{\"totalCount\":75},\"watchers\":{\"totalCount\":33}},{\"nameWithOwner\":\"HonglinChu/SiamTrackers\",\"isInOrganization\":false,\"owner\":{\"login\":\"HonglinChu\"},\"forkCount\":242,\"stargazerCount\":1162,\"pullRequests\":{\"totalCount\":9},\"issues\":{\"totalCount\":135},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"mobilecoinfoundation/mobilecoin\",\"isInOrganization\":true,\"owner\":{\"login\":\"mobilecoinfoundation\"},\"forkCount\":155,\"stargazerCount\":1143,\"pullRequests\":{\"totalCount\":3352},\"issues\":{\"totalCount\":465},\"mentionableUsers\":{\"totalCount\":51},\"watchers\":{\"totalCount\":68}},{\"nameWithOwner\":\"bridgetownrb/bridgetown\",\"isInOrganization\":true,\"owner\":{\"login\":\"bridgetownrb\"},\"forkCount\":108,\"stargazerCount\":1036,\"pullRequests\":{\"totalCount\":405},\"issues\":{\"totalCount\":355},\"mentionableUsers\":{\"totalCount\":65},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"ProtonMail/proton-bridge\",\"isInOrganization\":true,\"owner\":{\"login\":\"ProtonMail\"},\"forkCount\":145,\"stargazerCount\":998,\"pullRequests\":{\"totalCount\":46},\"issues\":{\"totalCount\":408},\"mentionableUsers\":{\"totalCount\":30},\"watchers\":{\"totalCount\":48}},{\"nameWithOwner\":\"mdisec/mdisec-twitch-yayinlari\",\"isInOrganization\":false,\"owner\":{\"login\":\"mdisec\"},\"forkCount\":114,\"stargazerCount\":909,\"pullRequests\":{\"totalCount\":90},\"issues\":{\"totalCount\":1},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":108}},{\"nameWithOwner\":\"techno-tim/techno-tim.github.io\",\"isInOrganization\":true,\"owner\":{\"login\":\"techno-tim\"},\"forkCount\":310,\"stargazerCount\":893,\"pullRequests\":{\"totalCount\":140},\"issues\":{\"totalCount\":63},\"mentionableUsers\":{\"totalCount\":60},\"watchers\":{\"totalCount\":45}},{\"nameWithOwner\":\"hugo-toha/toha\",\"isInOrganization\":true,\"owner\":{\"login\":\"hugo-toha\"},\"forkCount\":522,\"stargazerCount\":879,\"pullRequests\":{\"totalCount\":519},\"issues\":{\"totalCount\":306},\"mentionableUsers\":{\"totalCount\":99},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"Taiizor/ReaLTaiizor\",\"isInOrganization\":false,\"owner\":{\"login\":\"Taiizor\"},\"forkCount\":151,\"stargazerCount\":821,\"pullRequests\":{\"totalCount\":66},\"issues\":{\"totalCount\":61},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"solana-labs/example-helloworld\",\"isInOrganization\":true,\"owner\":{\"login\":\"solana-labs\"},\"forkCount\":811,\"stargazerCount\":819,\"pullRequests\":{\"totalCount\":484},\"issues\":{\"totalCount\":151},\"mentionableUsers\":{\"totalCount\":99},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"moyada/stealer\",\"isInOrganization\":false,\"owner\":{\"login\":\"moyada\"},\"forkCount\":247,\"stargazerCount\":817,\"pullRequests\":{\"totalCount\":38},\"issues\":{\"totalCount\":68},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"antoniosarosi/dotfiles\",\"isInOrganization\":false,\"owner\":{\"login\":\"antoniosarosi\"},\"forkCount\":185,\"stargazerCount\":791,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":26},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":36}},{\"nameWithOwner\":\"projectnessie/nessie\",\"isInOrganization\":true,\"owner\":{\"login\":\"projectnessie\"},\"forkCount\":110,\"stargazerCount\":754,\"pullRequests\":{\"totalCount\":7218},\"issues\":{\"totalCount\":696},\"mentionableUsers\":{\"totalCount\":58},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"vas3k/vas3k.club\",\"isInOrganization\":false,\"owner\":{\"login\":\"vas3k\"},\"forkCount\":221,\"stargazerCount\":704,\"pullRequests\":{\"totalCount\":520},\"issues\":{\"totalCount\":529},\"mentionableUsers\":{\"totalCount\":119},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"mampfes/hacs_waste_collection_schedule\",\"isInOrganization\":false,\"owner\":{\"login\":\"mampfes\"},\"forkCount\":463,\"stargazerCount\":634,\"pullRequests\":{\"totalCount\":919},\"issues\":{\"totalCount\":670},\"mentionableUsers\":{\"totalCount\":318},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"lxndrblz/anatole\",\"isInOrganization\":false,\"owner\":{\"login\":\"lxndrblz\"},\"forkCount\":345,\"stargazerCount\":631,\"pullRequests\":{\"totalCount\":210},\"issues\":{\"totalCount\":220},\"mentionableUsers\":{\"totalCount\":68},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"Seagate/cortx\",\"isInOrganization\":true,\"owner\":{\"login\":\"Seagate\"},\"forkCount\":348,\"stargazerCount\":631,\"pullRequests\":{\"totalCount\":1239},\"issues\":{\"totalCount\":336},\"mentionableUsers\":{\"totalCount\":232},\"watchers\":{\"totalCount\":59}},{\"nameWithOwner\":\"vaxilu/soga\",\"isInOrganization\":false,\"owner\":{\"login\":\"vaxilu\"},\"forkCount\":243,\"stargazerCount\":588,\"pullRequests\":{\"totalCount\":0},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":29}},{\"nameWithOwner\":\"lilongweidev/GoodWeather\",\"isInOrganization\":false,\"owner\":{\"login\":\"lilongweidev\"},\"forkCount\":134,\"stargazerCount\":576,\"pullRequests\":{\"totalCount\":0},\"issues\":{\"totalCount\":5},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":5}},{\"nameWithOwner\":\"WolfgangOfner/MicroserviceDemo\",\"isInOrganization\":false,\"owner\":{\"login\":\"WolfgangOfner\"},\"forkCount\":311,\"stargazerCount\":574,\"pullRequests\":{\"totalCount\":12},\"issues\":{\"totalCount\":6},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"dortania/Getting-Started-With-ACPI\",\"isInOrganization\":true,\"owner\":{\"login\":\"dortania\"},\"forkCount\":454,\"stargazerCount\":549,\"pullRequests\":{\"totalCount\":77},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":37},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"lvgl/lv_binding_rust\",\"isInOrganization\":true,\"owner\":{\"login\":\"lvgl\"},\"forkCount\":55,\"stargazerCount\":547,\"pullRequests\":{\"totalCount\":86},\"issues\":{\"totalCount\":73},\"mentionableUsers\":{\"totalCount\":18},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"privacytrustlab/ml_privacy_meter\",\"isInOrganization\":true,\"owner\":{\"login\":\"privacytrustlab\"},\"forkCount\":87,\"stargazerCount\":507,\"pullRequests\":{\"totalCount\":78},\"issues\":{\"totalCount\":37},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"Quan666/ELF_RSS\",\"isInOrganization\":false,\"owner\":{\"login\":\"Quan666\"},\"forkCount\":52,\"stargazerCount\":497,\"pullRequests\":{\"totalCount\":357},\"issues\":{\"totalCount\":124},\"mentionableUsers\":{\"totalCount\":12},\"watchers\":{\"totalCount\":3}},{\"nameWithOwner\":\"incu6us/goimports-reviser\",\"isInOrganization\":false,\"owner\":{\"login\":\"incu6us\"},\"forkCount\":67,\"stargazerCount\":482,\"pullRequests\":{\"totalCount\":89},\"issues\":{\"totalCount\":57},\"mentionableUsers\":{\"totalCount\":15},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"cardano-foundation/CIPs\",\"isInOrganization\":true,\"owner\":{\"login\":\"cardano-foundation\"},\"forkCount\":284,\"stargazerCount\":451,\"pullRequests\":{\"totalCount\":598},\"issues\":{\"totalCount\":128},\"mentionableUsers\":{\"totalCount\":115},\"watchers\":{\"totalCount\":72}},{\"nameWithOwner\":\"reichlab/covid19-forecast-hub\",\"isInOrganization\":true,\"owner\":{\"login\":\"reichlab\"},\"forkCount\":333,\"stargazerCount\":435,\"pullRequests\":{\"totalCount\":8798},\"issues\":{\"totalCount\":314},\"mentionableUsers\":{\"totalCount\":197},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"kongpf8848/Animation\",\"isInOrganization\":false,\"owner\":{\"login\":\"kongpf8848\"},\"forkCount\":75,\"stargazerCount\":433,\"pullRequests\":{\"totalCount\":0},\"issues\":{\"totalCount\":9},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"matter-labs/zksync-lite-docs\",\"isInOrganization\":true,\"owner\":{\"login\":\"matter-labs\"},\"forkCount\":405,\"stargazerCount\":424,\"pullRequests\":{\"totalCount\":332},\"issues\":{\"totalCount\":10},\"mentionableUsers\":{\"totalCount\":51},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"Silentely/AdBlock-Acceleration\",\"isInOrganization\":false,\"owner\":{\"login\":\"Silentely\"},\"forkCount\":57,\"stargazerCount\":417,\"pullRequests\":{\"totalCount\":69},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":4},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"seemoo-lab/frankenstein\",\"isInOrganization\":true,\"owner\":{\"login\":\"seemoo-lab\"},\"forkCount\":67,\"stargazerCount\":407,\"pullRequests\":{\"totalCount\":4},\"issues\":{\"totalCount\":11},\"mentionableUsers\":{\"totalCount\":18},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"raysan5/raylib-games\",\"isInOrganization\":false,\"owner\":{\"login\":\"raysan5\"},\"forkCount\":60,\"stargazerCount\":399,\"pullRequests\":{\"totalCount\":12},\"issues\":{\"totalCount\":9},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"aws/amazon-cloudwatch-agent\",\"isInOrganization\":true,\"owner\":{\"login\":\"aws\"},\"forkCount\":167,\"stargazerCount\":388,\"pullRequests\":{\"totalCount\":739},\"issues\":{\"totalCount\":258},\"mentionableUsers\":{\"totalCount\":80},\"watchers\":{\"totalCount\":24}},{\"nameWithOwner\":\"R1j1t/contextualSpellCheck\",\"isInOrganization\":false,\"owner\":{\"login\":\"R1j1t\"},\"forkCount\":51,\"stargazerCount\":384,\"pullRequests\":{\"totalCount\":46},\"issues\":{\"totalCount\":42},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"K-G-PRAJWAL/ReactJS-Projects\",\"isInOrganization\":false,\"owner\":{\"login\":\"K-G-PRAJWAL\"},\"forkCount\":151,\"stargazerCount\":380,\"pullRequests\":{\"totalCount\":376},\"issues\":{\"totalCount\":4},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"jobtalle/Koi\",\"isInOrganization\":false,\"owner\":{\"login\":\"jobtalle\"},\"forkCount\":52,\"stargazerCount\":361,\"pullRequests\":{\"totalCount\":21},\"issues\":{\"totalCount\":192},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"terrier-org/pyterrier\",\"isInOrganization\":true,\"owner\":{\"login\":\"terrier-org\"},\"forkCount\":62,\"stargazerCount\":357,\"pullRequests\":{\"totalCount\":177},\"issues\":{\"totalCount\":243},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"jayehernandez/letra-extension\",\"isInOrganization\":false,\"owner\":{\"login\":\"jayehernandez\"},\"forkCount\":278,\"stargazerCount\":353,\"pullRequests\":{\"totalCount\":535},\"issues\":{\"totalCount\":83},\"mentionableUsers\":{\"totalCount\":165},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"GoogleCloudPlatform/professional-services-data-validator\",\"isInOrganization\":true,\"owner\":{\"login\":\"GoogleCloudPlatform\"},\"forkCount\":103,\"stargazerCount\":347,\"pullRequests\":{\"totalCount\":485},\"issues\":{\"totalCount\":589},\"mentionableUsers\":{\"totalCount\":418},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"pret/pokediamond\",\"isInOrganization\":true,\"owner\":{\"login\":\"pret\"},\"forkCount\":66,\"stargazerCount\":342,\"pullRequests\":{\"totalCount\":524},\"issues\":{\"totalCount\":19},\"mentionableUsers\":{\"totalCount\":39},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"wendrewdevelop/python4noobs\",\"isInOrganization\":false,\"owner\":{\"login\":\"wendrewdevelop\"},\"forkCount\":75,\"stargazerCount\":325,\"pullRequests\":{\"totalCount\":9},\"issues\":{\"totalCount\":17},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"joyceworks/flowchart-vue\",\"isInOrganization\":true,\"owner\":{\"login\":\"joyceworks\"},\"forkCount\":73,\"stargazerCount\":320,\"pullRequests\":{\"totalCount\":58},\"issues\":{\"totalCount\":29},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"AOT-Technologies/forms-flow-ai\",\"isInOrganization\":true,\"owner\":{\"login\":\"AOT-Technologies\"},\"forkCount\":172,\"stargazerCount\":301,\"pullRequests\":{\"totalCount\":1693},\"issues\":{\"totalCount\":106},\"mentionableUsers\":{\"totalCount\":53},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"dmdhrumilmistry/pyhtools\",\"isInOrganization\":false,\"owner\":{\"login\":\"dmdhrumilmistry\"},\"forkCount\":64,\"stargazerCount\":301,\"pullRequests\":{\"totalCount\":64},\"issues\":{\"totalCount\":17},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"bjerkio/oidc-react\",\"isInOrganization\":true,\"owner\":{\"login\":\"bjerkio\"},\"forkCount\":66,\"stargazerCount\":296,\"pullRequests\":{\"totalCount\":919},\"issues\":{\"totalCount\":125},\"mentionableUsers\":{\"totalCount\":39},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"googlemaps/js-api-loader\",\"isInOrganization\":true,\"owner\":{\"login\":\"googlemaps\"},\"forkCount\":58,\"stargazerCount\":287,\"pullRequests\":{\"totalCount\":737},\"issues\":{\"totalCount\":82},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"lobaro/FreeRTOS-rust\",\"isInOrganization\":true,\"owner\":{\"login\":\"lobaro\"},\"forkCount\":51,\"stargazerCount\":287,\"pullRequests\":{\"totalCount\":44},\"issues\":{\"totalCount\":21},\"mentionableUsers\":{\"totalCount\":16},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"SideQuestVR/SideQuest\",\"isInOrganization\":true,\"owner\":{\"login\":\"SideQuestVR\"},\"forkCount\":73,\"stargazerCount\":277,\"pullRequests\":{\"totalCount\":85},\"issues\":{\"totalCount\":115},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"asjqkkkk/markdown_widget\",\"isInOrganization\":false,\"owner\":{\"login\":\"asjqkkkk\"},\"forkCount\":71,\"stargazerCount\":261,\"pullRequests\":{\"totalCount\":24},\"issues\":{\"totalCount\":125},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"MCDReforged/PluginCatalogue\",\"isInOrganization\":true,\"owner\":{\"login\":\"MCDReforged\"},\"forkCount\":77,\"stargazerCount\":248,\"pullRequests\":{\"totalCount\":278},\"issues\":{\"totalCount\":31},\"mentionableUsers\":{\"totalCount\":50},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"zaproxy/action-full-scan\",\"isInOrganization\":true,\"owner\":{\"login\":\"zaproxy\"},\"forkCount\":50,\"stargazerCount\":234,\"pullRequests\":{\"totalCount\":61},\"issues\":{\"totalCount\":21},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"nateshmbhat/touchable\",\"isInOrganization\":false,\"owner\":{\"login\":\"nateshmbhat\"},\"forkCount\":69,\"stargazerCount\":220,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":42},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":4}},null,{\"nameWithOwner\":\"Sergey1560/Marlin_FB4S\",\"isInOrganization\":false,\"owner\":{\"login\":\"Sergey1560\"},\"forkCount\":154,\"stargazerCount\":209,\"pullRequests\":{\"totalCount\":23},\"issues\":{\"totalCount\":65},\"mentionableUsers\":{\"totalCount\":938},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"GazzolaLab/PyElastica\",\"isInOrganization\":true,\"owner\":{\"login\":\"GazzolaLab\"},\"forkCount\":92,\"stargazerCount\":176,\"pullRequests\":{\"totalCount\":163},\"issues\":{\"totalCount\":139},\"mentionableUsers\":{\"totalCount\":28},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"krittikaiitb/tutorials\",\"isInOrganization\":true,\"owner\":{\"login\":\"krittikaiitb\"},\"forkCount\":188,\"stargazerCount\":147,\"pullRequests\":{\"totalCount\":39},\"issues\":{\"totalCount\":2},\"mentionableUsers\":{\"totalCount\":24},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"gazebosim/sdformat\",\"isInOrganization\":true,\"owner\":{\"login\":\"gazebosim\"},\"forkCount\":82,\"stargazerCount\":141,\"pullRequests\":{\"totalCount\":880},\"issues\":{\"totalCount\":466},\"mentionableUsers\":{\"totalCount\":72},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"dortania/GPU-Buyers-Guide\",\"isInOrganization\":true,\"owner\":{\"login\":\"dortania\"},\"forkCount\":62,\"stargazerCount\":141,\"pullRequests\":{\"totalCount\":49},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":33},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"newrelic/opensource-website\",\"isInOrganization\":true,\"owner\":{\"login\":\"newrelic\"},\"forkCount\":98,\"stargazerCount\":129,\"pullRequests\":{\"totalCount\":522},\"issues\":{\"totalCount\":491},\"mentionableUsers\":{\"totalCount\":97},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"microsoft/vscode-github-triage-actions\",\"isInOrganization\":true,\"owner\":{\"login\":\"microsoft\"},\"forkCount\":53,\"stargazerCount\":125,\"pullRequests\":{\"totalCount\":151},\"issues\":{\"totalCount\":40},\"mentionableUsers\":{\"totalCount\":10000},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"naffe15/BVAR_\",\"isInOrganization\":false,\"owner\":{\"login\":\"naffe15\"},\"forkCount\":72,\"stargazerCount\":119,\"pullRequests\":{\"totalCount\":1},\"issues\":{\"totalCount\":16},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"amit0rana/betterOptionsTrading\",\"isInOrganization\":false,\"owner\":{\"login\":\"amit0rana\"},\"forkCount\":54,\"stargazerCount\":98,\"pullRequests\":{\"totalCount\":5},\"issues\":{\"totalCount\":18},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"microsoft/playwright.dev\",\"isInOrganization\":true,\"owner\":{\"login\":\"microsoft\"},\"forkCount\":88,\"stargazerCount\":95,\"pullRequests\":{\"totalCount\":1161},\"issues\":{\"totalCount\":75},\"mentionableUsers\":{\"totalCount\":10000},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"ONLYOFFICE/onlyoffice.github.io\",\"isInOrganization\":true,\"owner\":{\"login\":\"ONLYOFFICE\"},\"forkCount\":253,\"stargazerCount\":94,\"pullRequests\":{\"totalCount\":166},\"issues\":{\"totalCount\":103},\"mentionableUsers\":{\"totalCount\":85},\"watchers\":{\"totalCount\":27}},{\"nameWithOwner\":\"Lienol/openwrt-packages\",\"isInOrganization\":false,\"owner\":{\"login\":\"Lienol\"},\"forkCount\":68,\"stargazerCount\":76,\"pullRequests\":{\"totalCount\":40},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":791},\"watchers\":{\"totalCount\":2}},{\"nameWithOwner\":\"forbole/bdjuno\",\"isInOrganization\":true,\"owner\":{\"login\":\"forbole\"},\"forkCount\":204,\"stargazerCount\":72,\"pullRequests\":{\"totalCount\":449},\"issues\":{\"totalCount\":232},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"floating-ui/popper.js.org\",\"isInOrganization\":true,\"owner\":{\"login\":\"floating-ui\"},\"forkCount\":376,\"stargazerCount\":67,\"pullRequests\":{\"totalCount\":37},\"issues\":{\"totalCount\":21},\"mentionableUsers\":{\"totalCount\":18},\"watchers\":{\"totalCount\":5}},{\"nameWithOwner\":\"UMAprotocol/UMIPs\",\"isInOrganization\":true,\"owner\":{\"login\":\"UMAprotocol\"},\"forkCount\":110,\"stargazerCount\":53,\"pullRequests\":{\"totalCount\":592},\"issues\":{\"totalCount\":1},\"mentionableUsers\":{\"totalCount\":80},\"watchers\":{\"totalCount\":15}}]}}.",
+        "date": "2024-01-05T12:33:37.436Z"
+      }
+    },
     "6fd71994-4ef4-49a5-8cdb-66bee2d1f7ac": {
       "task": {
         "id": "6fd71994-4ef4-49a5-8cdb-66bee2d1f7ac",
@@ -9568,6 +9533,21 @@
         "startCursor": null
       }
     },
+    "8bbd739e-7939-448b-a1ca-cbf92027cc3b": {
+      "task": {
+        "id": "8bbd739e-7939-448b-a1ca-cbf92027cc3b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-07-22",
+        "createdBefore": "2019-07-26",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "8bcc9f3d-5716-474c-9a82-99db5d52ea87": {
       "task": {
         "id": "8bcc9f3d-5716-474c-9a82-99db5d52ea87",
@@ -10074,6 +10054,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2013-06-28",
         "createdBefore": "2013-07-02",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "912883e4-bba7-4a24-ac5a-ef6daacc61d3": {
+      "task": {
+        "id": "912883e4-bba7-4a24-ac5a-ef6daacc61d3",
+        "parentId": "1d6acfb3-c958-44be-9b4c-ffe1182de5c5",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-01-26",
+        "createdBefore": "2018-01-27",
         "pageSize": 100,
         "startCursor": null
       }
@@ -11699,6 +11694,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2021-01-22",
         "createdBefore": "2021-01-26",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "a4cb09a0-c32d-4e58-9e62-a77cac71c9ac": {
+      "task": {
+        "id": "a4cb09a0-c32d-4e58-9e62-a77cac71c9ac",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2018-09-15",
+        "createdBefore": "2018-09-19",
         "pageSize": 100,
         "startCursor": null
       }
@@ -13678,6 +13688,36 @@
         "startCursor": null
       }
     },
+    "c81b6f93-6c83-43ee-bd91-c87d119e8c94": {
+      "task": {
+        "id": "c81b6f93-6c83-43ee-bd91-c87d119e8c94",
+        "parentId": "dc11baa5-15cd-4cfa-995f-12b769e79492",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2017-10-28",
+        "createdBefore": "2017-10-29",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "c849b995-b6cf-48ae-a18f-64f75104dec8": {
+      "task": {
+        "id": "c849b995-b6cf-48ae-a18f-64f75104dec8",
+        "parentId": "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-01-31",
+        "createdBefore": "2019-02-01",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "c84fcff4-8cca-4fdb-961c-d969066a074a": {
       "task": {
         "id": "c84fcff4-8cca-4fdb-961c-d969066a074a",
@@ -14279,6 +14319,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2008-08-13",
         "createdBefore": "2008-08-17",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "d19df078-7e03-40fb-9ea3-e3f9b60d794a": {
+      "task": {
+        "id": "d19df078-7e03-40fb-9ea3-e3f9b60d794a",
+        "parentId": "286be279-ebc7-4aee-b86a-c4593937f2bf",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2016-10-10",
+        "createdBefore": "2016-10-12",
         "pageSize": 100,
         "startCursor": null
       }
@@ -16093,6 +16148,26 @@
         "startCursor": null
       }
     },
+    "ef5d513d-e7c7-4409-a1f8-09e935b71233": {
+      "task": {
+        "id": "ef5d513d-e7c7-4409-a1f8-09e935b71233",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2020-02-17",
+        "createdBefore": "2020-02-21",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-02-17..2020-02-21\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task ef5d513d-e7c7-4409-a1f8-09e935b71233: Request failed due to following response errors:\n - Although you appear to have the correct authorization credentials, the `bridgecrewio` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Fri, 05 Jan 2024 12:34:18 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"GitHub.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"A4C0:6B0F:F8E033A:2060F793:6597F741\",\"x-ratelimit-limit\":\"1000\",\"x-ratelimit-remaining\":\"985\",\"x-ratelimit-reset\":\"1704461609\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"15\",\"x-xss-protection\":\"0\"}. Error: Although you appear to have the correct authorization credentials, the `bridgecrewio` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":1000,\"nodeCount\":100,\"remaining\":985,\"resetAt\":\"2024-01-05T13:33:29Z\",\"used\":15},\"search\":{\"pageInfo\":{\"startCursor\":\"Y3Vyc29yOjE=\",\"hasNextPage\":false,\"endCursor\":\"Y3Vyc29yOjk0\"},\"repositoryCount\":94,\"nodes\":[{\"nameWithOwner\":\"labuladong/fucking-algorithm\",\"isInOrganization\":false,\"owner\":{\"login\":\"labuladong\"},\"forkCount\":23098,\"stargazerCount\":121719,\"pullRequests\":{\"totalCount\":465},\"issues\":{\"totalCount\":803},\"mentionableUsers\":{\"totalCount\":109},\"watchers\":{\"totalCount\":2325}},{\"nameWithOwner\":\"blitz-js/blitz\",\"isInOrganization\":true,\"owner\":{\"login\":\"blitz-js\"},\"forkCount\":772,\"stargazerCount\":13196,\"pullRequests\":{\"totalCount\":2215},\"issues\":{\"totalCount\":604},\"mentionableUsers\":{\"totalCount\":112},\"watchers\":{\"totalCount\":99}},{\"nameWithOwner\":\"girliemac/a-picture-is-worth-a-1000-words\",\"isInOrganization\":false,\"owner\":{\"login\":\"girliemac\"},\"forkCount\":806,\"stargazerCount\":11013,\"pullRequests\":{\"totalCount\":7},\"issues\":{\"totalCount\":13},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":254}},{\"nameWithOwner\":\"ben-rogerson/twin.macro\",\"isInOrganization\":false,\"owner\":{\"login\":\"ben-rogerson\"},\"forkCount\":184,\"stargazerCount\":7694,\"pullRequests\":{\"totalCount\":215},\"issues\":{\"totalCount\":326},\"mentionableUsers\":{\"totalCount\":44},\"watchers\":{\"totalCount\":33}},{\"nameWithOwner\":\"maxgoedjen/secretive\",\"isInOrganization\":false,\"owner\":{\"login\":\"maxgoedjen\"},\"forkCount\":143,\"stargazerCount\":6668,\"pullRequests\":{\"totalCount\":167},\"issues\":{\"totalCount\":315},\"mentionableUsers\":{\"totalCount\":23},\"watchers\":{\"totalCount\":47}},{\"nameWithOwner\":\"OpenIntelWireless/itlwm\",\"isInOrganization\":true,\"owner\":{\"login\":\"OpenIntelWireless\"},\"forkCount\":627,\"stargazerCount\":6537,\"pullRequests\":{\"totalCount\":46},\"issues\":{\"totalCount\":850},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":244}},{\"nameWithOwner\":\"connorferster/handcalcs\",\"isInOrganization\":false,\"owner\":{\"login\":\"connorferster\"},\"forkCount\":443,\"stargazerCount\":5295,\"pullRequests\":{\"totalCount\":23},\"issues\":{\"totalCount\":168},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":84}},{\"nameWithOwner\":\"stupidloud/nanopi-openwrt\",\"isInOrganization\":false,\"owner\":{\"login\":\"stupidloud\"},\"forkCount\":2604,\"stargazerCount\":5062,\"pullRequests\":{\"totalCount\":88},\"issues\":{\"totalCount\":1240},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":125}},{\"nameWithOwner\":\"docker/build-push-action\",\"isInOrganization\":true,\"owner\":{\"login\":\"docker\"},\"forkCount\":540,\"stargazerCount\":3741,\"pullRequests\":{\"totalCount\":370},\"issues\":{\"totalCount\":631},\"mentionableUsers\":{\"totalCount\":73},\"watchers\":{\"totalCount\":37}},{\"nameWithOwner\":\"adap/flower\",\"isInOrganization\":true,\"owner\":{\"login\":\"adap\"},\"forkCount\":680,\"stargazerCount\":3448,\"pullRequests\":{\"totalCount\":2087},\"issues\":{\"totalCount\":471},\"mentionableUsers\":{\"totalCount\":105},\"watchers\":{\"totalCount\":33}},{\"nameWithOwner\":\"apple/swift-argument-parser\",\"isInOrganization\":true,\"owner\":{\"login\":\"apple\"},\"forkCount\":299,\"stargazerCount\":3122,\"pullRequests\":{\"totalCount\":385},\"issues\":{\"totalCount\":225},\"mentionableUsers\":{\"totalCount\":424},\"watchers\":{\"totalCount\":150}},{\"nameWithOwner\":\"sc0tfree/updog\",\"isInOrganization\":false,\"owner\":{\"login\":\"sc0tfree\"},\"forkCount\":293,\"stargazerCount\":2714,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":46},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":28}},{\"nameWithOwner\":\"google-deepmind/dm-haiku\",\"isInOrganization\":true,\"owner\":{\"login\":\"google-deepmind\"},\"forkCount\":222,\"stargazerCount\":2673,\"pullRequests\":{\"totalCount\":518},\"issues\":{\"totalCount\":242},\"mentionableUsers\":{\"totalCount\":82},\"watchers\":{\"totalCount\":39}},{\"nameWithOwner\":\"gedeck/practical-statistics-for-data-scientists\",\"isInOrganization\":false,\"owner\":{\"login\":\"gedeck\"},\"forkCount\":1562,\"stargazerCount\":2308,\"pullRequests\":{\"totalCount\":34},\"issues\":{\"totalCount\":25},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":65}},{\"nameWithOwner\":\"xemu-project/xemu\",\"isInOrganization\":true,\"owner\":{\"login\":\"xemu-project\"},\"forkCount\":226,\"stargazerCount\":2173,\"pullRequests\":{\"totalCount\":456},\"issues\":{\"totalCount\":1100},\"mentionableUsers\":{\"totalCount\":344},\"watchers\":{\"totalCount\":69}},{\"nameWithOwner\":\"huan/docker-wechat\",\"isInOrganization\":false,\"owner\":{\"login\":\"huan\"},\"forkCount\":194,\"stargazerCount\":2074,\"pullRequests\":{\"totalCount\":26},\"issues\":{\"totalCount\":182},\"mentionableUsers\":{\"totalCount\":13},\"watchers\":{\"totalCount\":35}},{\"nameWithOwner\":\"f3d-app/f3d\",\"isInOrganization\":true,\"owner\":{\"login\":\"f3d-app\"},\"forkCount\":131,\"stargazerCount\":1972,\"pullRequests\":{\"totalCount\":757},\"issues\":{\"totalCount\":379},\"mentionableUsers\":{\"totalCount\":29},\"watchers\":{\"totalCount\":27}},{\"nameWithOwner\":\"encrypted-def/basic-algo-lecture\",\"isInOrganization\":false,\"owner\":{\"login\":\"encrypted-def\"},\"forkCount\":476,\"stargazerCount\":1808,\"pullRequests\":{\"totalCount\":469},\"issues\":{\"totalCount\":9},\"mentionableUsers\":{\"totalCount\":39},\"watchers\":{\"totalCount\":8}},{\"nameWithOwner\":\"CleanCut/ultimate_rust_crash_course\",\"isInOrganization\":false,\"owner\":{\"login\":\"CleanCut\"},\"forkCount\":875,\"stargazerCount\":1738,\"pullRequests\":{\"totalCount\":24},\"issues\":{\"totalCount\":5},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":34}},{\"nameWithOwner\":\"duckduckgo/tracker-radar\",\"isInOrganization\":true,\"owner\":{\"login\":\"duckduckgo\"},\"forkCount\":175,\"stargazerCount\":1413,\"pullRequests\":{\"totalCount\":199},\"issues\":{\"totalCount\":39},\"mentionableUsers\":{\"totalCount\":142},\"watchers\":{\"totalCount\":112}},{\"nameWithOwner\":\"marcelja/facebook-delete\",\"isInOrganization\":false,\"owner\":{\"login\":\"marcelja\"},\"forkCount\":51,\"stargazerCount\":1263,\"pullRequests\":{\"totalCount\":8},\"issues\":{\"totalCount\":52},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"claabs/epicgames-freegames-node\",\"isInOrganization\":false,\"owner\":{\"login\":\"claabs\"},\"forkCount\":93,\"stargazerCount\":1220,\"pullRequests\":{\"totalCount\":63},\"issues\":{\"totalCount\":309},\"mentionableUsers\":{\"totalCount\":22},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"martin-ger/esp32_nat_router\",\"isInOrganization\":false,\"owner\":{\"login\":\"martin-ger\"},\"forkCount\":232,\"stargazerCount\":1109,\"pullRequests\":{\"totalCount\":18},\"issues\":{\"totalCount\":130},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":55}},{\"nameWithOwner\":\"mongodb/mongodb-kubernetes-operator\",\"isInOrganization\":true,\"owner\":{\"login\":\"mongodb\"},\"forkCount\":455,\"stargazerCount\":1062,\"pullRequests\":{\"totalCount\":985},\"issues\":{\"totalCount\":469},\"mentionableUsers\":{\"totalCount\":143},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"matrix-org/matrix-rust-sdk\",\"isInOrganization\":true,\"owner\":{\"login\":\"matrix-org\"},\"forkCount\":190,\"stargazerCount\":962,\"pullRequests\":{\"totalCount\":2327},\"issues\":{\"totalCount\":657},\"mentionableUsers\":{\"totalCount\":114},\"watchers\":{\"totalCount\":29}},{\"nameWithOwner\":\"trulyspinach/SMCAMDProcessor\",\"isInOrganization\":false,\"owner\":{\"login\":\"trulyspinach\"},\"forkCount\":78,\"stargazerCount\":957,\"pullRequests\":{\"totalCount\":38},\"issues\":{\"totalCount\":124},\"mentionableUsers\":{\"totalCount\":12},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"facebookincubator/below\",\"isInOrganization\":true,\"owner\":{\"login\":\"facebookincubator\"},\"forkCount\":59,\"stargazerCount\":951,\"pullRequests\":{\"totalCount\":124},\"issues\":{\"totalCount\":44},\"mentionableUsers\":{\"totalCount\":121},\"watchers\":{\"totalCount\":31}},{\"nameWithOwner\":\"vuejs/test-utils\",\"isInOrganization\":true,\"owner\":{\"login\":\"vuejs\"},\"forkCount\":219,\"stargazerCount\":918,\"pullRequests\":{\"totalCount\":1636},\"issues\":{\"totalCount\":577},\"mentionableUsers\":{\"totalCount\":180},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"hashicorp/terraform-ls\",\"isInOrganization\":true,\"owner\":{\"login\":\"hashicorp\"},\"forkCount\":136,\"stargazerCount\":916,\"pullRequests\":{\"totalCount\":981},\"issues\":{\"totalCount\":558},\"mentionableUsers\":{\"totalCount\":1134},\"watchers\":{\"totalCount\":25}},{\"nameWithOwner\":\"open-telemetry/opentelemetry-go-contrib\",\"isInOrganization\":true,\"owner\":{\"login\":\"open-telemetry\"},\"forkCount\":491,\"stargazerCount\":905,\"pullRequests\":{\"totalCount\":4330},\"issues\":{\"totalCount\":444},\"mentionableUsers\":{\"totalCount\":148},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"txperl/PixivBiu\",\"isInOrganization\":false,\"owner\":{\"login\":\"txperl\"},\"forkCount\":66,\"stargazerCount\":883,\"pullRequests\":{\"totalCount\":13},\"issues\":{\"totalCount\":42},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"GetStream/stream-chat-flutter\",\"isInOrganization\":true,\"owner\":{\"login\":\"GetStream\"},\"forkCount\":293,\"stargazerCount\":816,\"pullRequests\":{\"totalCount\":952},\"issues\":{\"totalCount\":804},\"mentionableUsers\":{\"totalCount\":78},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"bayesiains/nflows\",\"isInOrganization\":true,\"owner\":{\"login\":\"bayesiains\"},\"forkCount\":118,\"stargazerCount\":773,\"pullRequests\":{\"totalCount\":32},\"issues\":{\"totalCount\":49},\"mentionableUsers\":{\"totalCount\":18},\"watchers\":{\"totalCount\":30}},{\"nameWithOwner\":\"JulianHayward/Azure-MG-Sub-Governance-Reporting\",\"isInOrganization\":false,\"owner\":{\"login\":\"JulianHayward\"},\"forkCount\":270,\"stargazerCount\":767,\"pullRequests\":{\"totalCount\":92},\"issues\":{\"totalCount\":126},\"mentionableUsers\":{\"totalCount\":28},\"watchers\":{\"totalCount\":43}},null,{\"nameWithOwner\":\"kristiandupont/kanel\",\"isInOrganization\":false,\"owner\":{\"login\":\"kristiandupont\"},\"forkCount\":51,\"stargazerCount\":741,\"pullRequests\":{\"totalCount\":419},\"issues\":{\"totalCount\":94},\"mentionableUsers\":{\"totalCount\":31},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"acbull/pyHGT\",\"isInOrganization\":false,\"owner\":{\"login\":\"acbull\"},\"forkCount\":161,\"stargazerCount\":701,\"pullRequests\":{\"totalCount\":11},\"issues\":{\"totalCount\":51},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"microsoft/azure_arc\",\"isInOrganization\":true,\"owner\":{\"login\":\"microsoft\"},\"forkCount\":515,\"stargazerCount\":682,\"pullRequests\":{\"totalCount\":1623},\"issues\":{\"totalCount\":693},\"mentionableUsers\":{\"totalCount\":10000},\"watchers\":{\"totalCount\":33}},{\"nameWithOwner\":\"tngoman/Store-POS\",\"isInOrganization\":false,\"owner\":{\"login\":\"tngoman\"},\"forkCount\":336,\"stargazerCount\":619,\"pullRequests\":{\"totalCount\":40},\"issues\":{\"totalCount\":44},\"mentionableUsers\":{\"totalCount\":6},\"watchers\":{\"totalCount\":32}},{\"nameWithOwner\":\"AzureAD/microsoft-identity-web\",\"isInOrganization\":true,\"owner\":{\"login\":\"AzureAD\"},\"forkCount\":202,\"stargazerCount\":617,\"pullRequests\":{\"totalCount\":1402},\"issues\":{\"totalCount\":1090},\"mentionableUsers\":{\"totalCount\":1007},\"watchers\":{\"totalCount\":236}},{\"nameWithOwner\":\"onnx/onnx-mlir\",\"isInOrganization\":true,\"owner\":{\"login\":\"onnx\"},\"forkCount\":282,\"stargazerCount\":616,\"pullRequests\":{\"totalCount\":2022},\"issues\":{\"totalCount\":633},\"mentionableUsers\":{\"totalCount\":118},\"watchers\":{\"totalCount\":37}},{\"nameWithOwner\":\"microsoft/ProphetNet\",\"isInOrganization\":true,\"owner\":{\"login\":\"microsoft\"},\"forkCount\":90,\"stargazerCount\":577,\"pullRequests\":{\"totalCount\":6},\"issues\":{\"totalCount\":67},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"getumbrel/umbrel-os\",\"isInOrganization\":true,\"owner\":{\"login\":\"getumbrel\"},\"forkCount\":58,\"stargazerCount\":562,\"pullRequests\":{\"totalCount\":153},\"issues\":{\"totalCount\":128},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":23}},{\"nameWithOwner\":\"l3lackShark/gosumemory\",\"isInOrganization\":false,\"owner\":{\"login\":\"l3lackShark\"},\"forkCount\":62,\"stargazerCount\":553,\"pullRequests\":{\"totalCount\":42},\"issues\":{\"totalCount\":184},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":7}},{\"nameWithOwner\":\"nghuyong/weibo-cov\",\"isInOrganization\":false,\"owner\":{\"login\":\"nghuyong\"},\"forkCount\":95,\"stargazerCount\":548,\"pullRequests\":{\"totalCount\":0},\"issues\":{\"totalCount\":21},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"filecoin-project/slate\",\"isInOrganization\":true,\"owner\":{\"login\":\"filecoin-project\"},\"forkCount\":71,\"stargazerCount\":520,\"pullRequests\":{\"totalCount\":634},\"issues\":{\"totalCount\":524},\"mentionableUsers\":{\"totalCount\":38},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"GSabadini/go-clean-architecture\",\"isInOrganization\":false,\"owner\":{\"login\":\"GSabadini\"},\"forkCount\":73,\"stargazerCount\":512,\"pullRequests\":{\"totalCount\":63},\"issues\":{\"totalCount\":1},\"mentionableUsers\":{\"totalCount\":2},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"ORB-HD/deface\",\"isInOrganization\":true,\"owner\":{\"login\":\"ORB-HD\"},\"forkCount\":69,\"stargazerCount\":475,\"pullRequests\":{\"totalCount\":13},\"issues\":{\"totalCount\":40},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":13}},{\"nameWithOwner\":\"sailro/EscapeFromTarkov-Trainer\",\"isInOrganization\":false,\"owner\":{\"login\":\"sailro\"},\"forkCount\":120,\"stargazerCount\":472,\"pullRequests\":{\"totalCount\":54},\"issues\":{\"totalCount\":365},\"mentionableUsers\":{\"totalCount\":3},\"watchers\":{\"totalCount\":39}},{\"nameWithOwner\":\"MicrosoftDocs/terminal\",\"isInOrganization\":true,\"owner\":{\"login\":\"MicrosoftDocs\"},\"forkCount\":160,\"stargazerCount\":459,\"pullRequests\":{\"totalCount\":383},\"issues\":{\"totalCount\":334},\"mentionableUsers\":{\"totalCount\":10000},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"leewaiho/Clean-Architecture-zh\",\"isInOrganization\":false,\"owner\":{\"login\":\"leewaiho\"},\"forkCount\":231,\"stargazerCount\":456,\"pullRequests\":{\"totalCount\":6},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"pingcap/tiup\",\"isInOrganization\":true,\"owner\":{\"login\":\"pingcap\"},\"forkCount\":302,\"stargazerCount\":387,\"pullRequests\":{\"totalCount\":1262},\"issues\":{\"totalCount\":1059},\"mentionableUsers\":{\"totalCount\":137},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"Bunlong/react-papaparse\",\"isInOrganization\":false,\"owner\":{\"login\":\"Bunlong\"},\"forkCount\":58,\"stargazerCount\":337,\"pullRequests\":{\"totalCount\":57},\"issues\":{\"totalCount\":91},\"mentionableUsers\":{\"totalCount\":16},\"watchers\":{\"totalCount\":3}},{\"nameWithOwner\":\"hubbs5/or-gym\",\"isInOrganization\":false,\"owner\":{\"login\":\"hubbs5\"},\"forkCount\":90,\"stargazerCount\":337,\"pullRequests\":{\"totalCount\":11},\"issues\":{\"totalCount\":26},\"mentionableUsers\":{\"totalCount\":8},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"stevenliuyi/covid19\",\"isInOrganization\":false,\"owner\":{\"login\":\"stevenliuyi\"},\"forkCount\":101,\"stargazerCount\":322,\"pullRequests\":{\"totalCount\":46},\"issues\":{\"totalCount\":43},\"mentionableUsers\":{\"totalCount\":9},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"indetectables-net/toolkit\",\"isInOrganization\":false,\"owner\":{\"login\":\"indetectables-net\"},\"forkCount\":72,\"stargazerCount\":319,\"pullRequests\":{\"totalCount\":6},\"issues\":{\"totalCount\":7},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":21}},{\"nameWithOwner\":\"microprediction/microprediction\",\"isInOrganization\":false,\"owner\":{\"login\":\"microprediction\"},\"forkCount\":55,\"stargazerCount\":309,\"pullRequests\":{\"totalCount\":24},\"issues\":{\"totalCount\":54},\"mentionableUsers\":{\"totalCount\":10},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"specklesystems/speckle-sharp\",\"isInOrganization\":true,\"owner\":{\"login\":\"specklesystems\"},\"forkCount\":137,\"stargazerCount\":300,\"pullRequests\":{\"totalCount\":1850},\"issues\":{\"totalCount\":1259},\"mentionableUsers\":{\"totalCount\":45},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"paritytech/smoldot\",\"isInOrganization\":true,\"owner\":{\"login\":\"paritytech\"},\"forkCount\":79,\"stargazerCount\":291,\"pullRequests\":{\"totalCount\":2682},\"issues\":{\"totalCount\":425},\"mentionableUsers\":{\"totalCount\":50},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"informagi/REL\",\"isInOrganization\":true,\"owner\":{\"login\":\"informagi\"},\"forkCount\":67,\"stargazerCount\":282,\"pullRequests\":{\"totalCount\":68},\"issues\":{\"totalCount\":93},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"rubynor/bigfive-web\",\"isInOrganization\":true,\"owner\":{\"login\":\"rubynor\"},\"forkCount\":113,\"stargazerCount\":271,\"pullRequests\":{\"totalCount\":57},\"issues\":{\"totalCount\":70},\"mentionableUsers\":{\"totalCount\":31},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"center-for-threat-informed-defense/attack-workbench-frontend\",\"isInOrganization\":true,\"owner\":{\"login\":\"center-for-threat-informed-defense\"},\"forkCount\":53,\"stargazerCount\":261,\"pullRequests\":{\"totalCount\":242},\"issues\":{\"totalCount\":279},\"mentionableUsers\":{\"totalCount\":195},\"watchers\":{\"totalCount\":30}},{\"nameWithOwner\":\"Hexer10/youtube_explode_dart\",\"isInOrganization\":false,\"owner\":{\"login\":\"Hexer10\"},\"forkCount\":103,\"stargazerCount\":253,\"pullRequests\":{\"totalCount\":38},\"issues\":{\"totalCount\":213},\"mentionableUsers\":{\"totalCount\":14},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"yukiarrr/ios-build-action\",\"isInOrganization\":false,\"owner\":{\"login\":\"yukiarrr\"},\"forkCount\":124,\"stargazerCount\":246,\"pullRequests\":{\"totalCount\":65},\"issues\":{\"totalCount\":54},\"mentionableUsers\":{\"totalCount\":11},\"watchers\":{\"totalCount\":4}},{\"nameWithOwner\":\"etclabscore/core-geth\",\"isInOrganization\":true,\"owner\":{\"login\":\"etclabscore\"},\"forkCount\":153,\"stargazerCount\":243,\"pullRequests\":{\"totalCount\":391},\"issues\":{\"totalCount\":203},\"mentionableUsers\":{\"totalCount\":851},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"biobakery/MetaPhlAn\",\"isInOrganization\":true,\"owner\":{\"login\":\"biobakery\"},\"forkCount\":74,\"stargazerCount\":242,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":201},\"mentionableUsers\":{\"totalCount\":17},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"atolye15/checklist\",\"isInOrganization\":true,\"owner\":{\"login\":\"atolye15\"},\"forkCount\":63,\"stargazerCount\":231,\"pullRequests\":{\"totalCount\":173},\"issues\":{\"totalCount\":15},\"mentionableUsers\":{\"totalCount\":26},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"knative/func\",\"isInOrganization\":true,\"owner\":{\"login\":\"knative\"},\"forkCount\":119,\"stargazerCount\":227,\"pullRequests\":{\"totalCount\":1513},\"issues\":{\"totalCount\":569},\"mentionableUsers\":{\"totalCount\":96},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"ansible-collections/ansible.windows\",\"isInOrganization\":true,\"owner\":{\"login\":\"ansible-collections\"},\"forkCount\":149,\"stargazerCount\":213,\"pullRequests\":{\"totalCount\":268},\"issues\":{\"totalCount\":302},\"mentionableUsers\":{\"totalCount\":63},\"watchers\":{\"totalCount\":17}},{\"nameWithOwner\":\"3eif/EarTensifier\",\"isInOrganization\":false,\"owner\":{\"login\":\"3eif\"},\"forkCount\":69,\"stargazerCount\":207,\"pullRequests\":{\"totalCount\":126},\"issues\":{\"totalCount\":127},\"mentionableUsers\":{\"totalCount\":15},\"watchers\":{\"totalCount\":3}},{\"nameWithOwner\":\"RapidScada/scada-v6\",\"isInOrganization\":true,\"owner\":{\"login\":\"RapidScada\"},\"forkCount\":75,\"stargazerCount\":204,\"pullRequests\":{\"totalCount\":53},\"issues\":{\"totalCount\":11},\"mentionableUsers\":{\"totalCount\":7},\"watchers\":{\"totalCount\":19}},{\"nameWithOwner\":\"intel/intel-qs\",\"isInOrganization\":true,\"owner\":{\"login\":\"intel\"},\"forkCount\":68,\"stargazerCount\":194,\"pullRequests\":{\"totalCount\":80},\"issues\":{\"totalCount\":21},\"mentionableUsers\":{\"totalCount\":33},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"executablebooks/MyST-NB\",\"isInOrganization\":true,\"owner\":{\"login\":\"executablebooks\"},\"forkCount\":78,\"stargazerCount\":183,\"pullRequests\":{\"totalCount\":305},\"issues\":{\"totalCount\":273},\"mentionableUsers\":{\"totalCount\":44},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"dell/omnia\",\"isInOrganization\":true,\"owner\":{\"login\":\"dell\"},\"forkCount\":93,\"stargazerCount\":176,\"pullRequests\":{\"totalCount\":1205},\"issues\":{\"totalCount\":987},\"mentionableUsers\":{\"totalCount\":47},\"watchers\":{\"totalCount\":18}},{\"nameWithOwner\":\"open-telemetry/opentelemetry-swift\",\"isInOrganization\":true,\"owner\":{\"login\":\"open-telemetry\"},\"forkCount\":95,\"stargazerCount\":161,\"pullRequests\":{\"totalCount\":322},\"issues\":{\"totalCount\":180},\"mentionableUsers\":{\"totalCount\":44},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"JonathanOrr/A321Neo-FXPL\",\"isInOrganization\":false,\"owner\":{\"login\":\"JonathanOrr\"},\"forkCount\":67,\"stargazerCount\":160,\"pullRequests\":{\"totalCount\":31},\"issues\":{\"totalCount\":45},\"mentionableUsers\":{\"totalCount\":12},\"watchers\":{\"totalCount\":42}},{\"nameWithOwner\":\"nosqlbench/nosqlbench\",\"isInOrganization\":true,\"owner\":{\"login\":\"nosqlbench\"},\"forkCount\":68,\"stargazerCount\":153,\"pullRequests\":{\"totalCount\":1165},\"issues\":{\"totalCount\":581},\"mentionableUsers\":{\"totalCount\":41},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"cloudevents/sdk-rust\",\"isInOrganization\":true,\"owner\":{\"login\":\"cloudevents\"},\"forkCount\":50,\"stargazerCount\":148,\"pullRequests\":{\"totalCount\":155},\"issues\":{\"totalCount\":63},\"mentionableUsers\":{\"totalCount\":30},\"watchers\":{\"totalCount\":11}},{\"nameWithOwner\":\"Consensys/web3signer\",\"isInOrganization\":true,\"owner\":{\"login\":\"Consensys\"},\"forkCount\":69,\"stargazerCount\":142,\"pullRequests\":{\"totalCount\":566},\"issues\":{\"totalCount\":387},\"mentionableUsers\":{\"totalCount\":43},\"watchers\":{\"totalCount\":26}},{\"nameWithOwner\":\"biobakery/humann\",\"isInOrganization\":true,\"owner\":{\"login\":\"biobakery\"},\"forkCount\":53,\"stargazerCount\":141,\"pullRequests\":{\"totalCount\":19},\"issues\":{\"totalCount\":40},\"mentionableUsers\":{\"totalCount\":5},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"zayneio/open-flights\",\"isInOrganization\":false,\"owner\":{\"login\":\"zayneio\"},\"forkCount\":128,\"stargazerCount\":141,\"pullRequests\":{\"totalCount\":49},\"issues\":{\"totalCount\":2},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":6}},{\"nameWithOwner\":\"qiskit-community/qiskit-translations\",\"isInOrganization\":true,\"owner\":{\"login\":\"qiskit-community\"},\"forkCount\":717,\"stargazerCount\":140,\"pullRequests\":{\"totalCount\":1101},\"issues\":{\"totalCount\":90},\"mentionableUsers\":{\"totalCount\":648},\"watchers\":{\"totalCount\":10}},{\"nameWithOwner\":\"ballerina-platform/ballerina-release\",\"isInOrganization\":true,\"owner\":{\"login\":\"ballerina-platform\"},\"forkCount\":94,\"stargazerCount\":126,\"pullRequests\":{\"totalCount\":2508},\"issues\":{\"totalCount\":105},\"mentionableUsers\":{\"totalCount\":108},\"watchers\":{\"totalCount\":70}},{\"nameWithOwner\":\"apache/skywalking-swck\",\"isInOrganization\":true,\"owner\":{\"login\":\"apache\"},\"forkCount\":50,\"stargazerCount\":115,\"pullRequests\":{\"totalCount\":108},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":79},\"watchers\":{\"totalCount\":41}},{\"nameWithOwner\":\"pangeo-data/pangeo-docker-images\",\"isInOrganization\":true,\"owner\":{\"login\":\"pangeo-data\"},\"forkCount\":87,\"stargazerCount\":107,\"pullRequests\":{\"totalCount\":393},\"issues\":{\"totalCount\":114},\"mentionableUsers\":{\"totalCount\":125},\"watchers\":{\"totalCount\":15}},{\"nameWithOwner\":\"CruelKernel/samsung-exynos9820\",\"isInOrganization\":true,\"owner\":{\"login\":\"CruelKernel\"},\"forkCount\":283,\"stargazerCount\":94,\"pullRequests\":{\"totalCount\":182},\"issues\":{\"totalCount\":49},\"mentionableUsers\":{\"totalCount\":9081},\"watchers\":{\"totalCount\":12}},{\"nameWithOwner\":\"purescript/registry-dev\",\"isInOrganization\":true,\"owner\":{\"login\":\"purescript\"},\"forkCount\":79,\"stargazerCount\":94,\"pullRequests\":{\"totalCount\":529},\"issues\":{\"totalCount\":149},\"mentionableUsers\":{\"totalCount\":95},\"watchers\":{\"totalCount\":14}},{\"nameWithOwner\":\"Esri/arcgis-experience-builder-sdk-resources\",\"isInOrganization\":true,\"owner\":{\"login\":\"Esri\"},\"forkCount\":99,\"stargazerCount\":92,\"pullRequests\":{\"totalCount\":146},\"issues\":{\"totalCount\":23},\"mentionableUsers\":{\"totalCount\":31},\"watchers\":{\"totalCount\":20}},{\"nameWithOwner\":\"NOAA-OWP/ngen\",\"isInOrganization\":true,\"owner\":{\"login\":\"NOAA-OWP\"},\"forkCount\":53,\"stargazerCount\":74,\"pullRequests\":{\"totalCount\":447},\"issues\":{\"totalCount\":249},\"mentionableUsers\":{\"totalCount\":21},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"dappuniversity/eth_wallet\",\"isInOrganization\":true,\"owner\":{\"login\":\"dappuniversity\"},\"forkCount\":94,\"stargazerCount\":72,\"pullRequests\":{\"totalCount\":9},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":1},\"watchers\":{\"totalCount\":9}},{\"nameWithOwner\":\"oVirt/ovirt-ansible-collection\",\"isInOrganization\":true,\"owner\":{\"login\":\"oVirt\"},\"forkCount\":85,\"stargazerCount\":68,\"pullRequests\":{\"totalCount\":578},\"issues\":{\"totalCount\":156},\"mentionableUsers\":{\"totalCount\":74},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"opendatahub-io/odh-manifests\",\"isInOrganization\":true,\"owner\":{\"login\":\"opendatahub-io\"},\"forkCount\":212,\"stargazerCount\":60,\"pullRequests\":{\"totalCount\":640},\"issues\":{\"totalCount\":0},\"mentionableUsers\":{\"totalCount\":71},\"watchers\":{\"totalCount\":27}},{\"nameWithOwner\":\"IBM/ibm-spectrum-scale-install-infra\",\"isInOrganization\":true,\"owner\":{\"login\":\"IBM\"},\"forkCount\":62,\"stargazerCount\":58,\"pullRequests\":{\"totalCount\":593},\"issues\":{\"totalCount\":166},\"mentionableUsers\":{\"totalCount\":39},\"watchers\":{\"totalCount\":16}},{\"nameWithOwner\":\"education/autograding\",\"isInOrganization\":true,\"owner\":{\"login\":\"education\"},\"forkCount\":57,\"stargazerCount\":50,\"pullRequests\":{\"totalCount\":230},\"issues\":{\"totalCount\":33},\"mentionableUsers\":{\"totalCount\":42},\"watchers\":{\"totalCount\":7}}]}}.",
+        "date": "2024-01-05T12:34:18.615Z"
+      }
+    },
     "ef661fb5-50cc-469b-8f46-7adaa19ee17a": {
       "task": {
         "id": "ef661fb5-50cc-469b-8f46-7adaa19ee17a",
@@ -16713,6 +16788,21 @@
         "startCursor": null
       }
     },
+    "f9585c8b-edcb-4fbf-bbf9-3bd650e15926": {
+      "task": {
+        "id": "f9585c8b-edcb-4fbf-bbf9-3bd650e15926",
+        "parentId": "97e68d7d-6220-47e2-b62e-a4246d786d00",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-09-03",
+        "createdBefore": "2019-09-04",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "f998192a-3a2a-4a66-8395-182d94e4690f": {
       "task": {
         "id": "f998192a-3a2a-4a66-8395-182d94e4690f",
@@ -17150,6 +17240,30 @@
     }
   },
   "errored": {
+    "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00": {
+      "task": {
+        "id": "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00",
+        "parentId": "dc11baa5-15cd-4cfa-995f-12b769e79492",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2017-10-25",
+        "createdBefore": "2017-10-27",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2017-10-25..2017-10-27\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task 677e26fe-8bf7-4dc9-84dd-4339cdf8fc00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A340:3E7B:EEF477C:1F19D220:6597F741` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 12:34:19 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A340:3E7B:EEF477C:1F19D220:6597F741\"}.",
+          "date": "2024-01-05T12:34:19.594Z"
+        }
+      ]
+    }
+  },
+  "archived": {
     "1d6acfb3-c958-44be-9b4c-ffe1182de5c5": {
       "task": {
         "id": "1d6acfb3-c958-44be-9b4c-ffe1182de5c5",
@@ -17177,197 +17291,13 @@
         {
           "message": "Error in task 1d6acfb3-c958-44be-9b4c-ffe1182de5c5: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A084:488F:C44889C:199F9EB2:6597EC91` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:48:44 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A084:488F:C44889C:199F9EB2:6597EC91\"}.",
           "date": "2024-01-05T11:48:44.194Z"
+        },
+        {
+          "message": "Error in task 1d6acfb3-c958-44be-9b4c-ffe1182de5c5: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A341:797D:B73DC63:180B29B6:6597F719` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 12:33:39 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A341:797D:B73DC63:180B29B6:6597F719\"}.",
+          "date": "2024-01-05T12:33:39.578Z"
         }
       ]
     },
-    "51337935-f7b6-4cf7-b1d2-79815ee72a05": {
-      "task": {
-        "id": "51337935-f7b6-4cf7-b1d2-79815ee72a05",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2020-08-25",
-        "createdBefore": "2020-08-29",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-08-25..2020-08-29\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 51337935-f7b6-4cf7-b1d2-79815ee72a05: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:62C3:B2D7E66:17797E31:6597E7EB` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:54 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:62C3:B2D7E66:17797E31:6597E7EB\"}.",
-          "date": "2024-01-05T11:28:54.031Z"
-        }
-      ]
-    },
-    "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4": {
-      "task": {
-        "id": "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2019-01-28",
-        "createdBefore": "2019-02-01",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-01-28..2019-02-01\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B098:8638:75E1E2C:7AD6A56:6597DB0A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:33:57 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B098:8638:75E1E2C:7AD6A56:6597DB0A\"}.",
-          "date": "2024-01-05T10:33:57.114Z"
-        },
-        {
-          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FE86:6F89:FD2E93F:20DF995E:6597E4FE` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:16:25 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FE86:6F89:FD2E93F:20DF995E:6597E4FE\"}.",
-          "date": "2024-01-05T11:16:25.042Z"
-        },
-        {
-          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC1:31C6:BD356BA:18BD88F4:6597E7EB` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC1:31C6:BD356BA:18BD88F4:6597E7EB\"}.",
-          "date": "2024-01-05T11:28:53.510Z"
-        }
-      ]
-    },
-    "6fbdee5a-b872-4d50-bd0f-bb06e94f523e": {
-      "task": {
-        "id": "6fbdee5a-b872-4d50-bd0f-bb06e94f523e",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2020-04-07",
-        "createdBefore": "2020-04-11",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-04-07..2020-04-11\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 6fbdee5a-b872-4d50-bd0f-bb06e94f523e: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC3:22CE:EE748E5:1F0EEDD6:6597E7D7` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC3:22CE:EE748E5:1F0EEDD6:6597E7D7\"}.",
-          "date": "2024-01-05T11:28:33.566Z"
-        },
-        {
-          "message": "Error in task 6fbdee5a-b872-4d50-bd0f-bb06e94f523e: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A083:6A7C:BB4D576:18860E3A:6597EC91` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:48:44 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A083:6A7C:BB4D576:18860E3A:6597EC91\"}.",
-          "date": "2024-01-05T11:48:44.276Z"
-        }
-      ]
-    },
-    "8bbd739e-7939-448b-a1ca-cbf92027cc3b": {
-      "task": {
-        "id": "8bbd739e-7939-448b-a1ca-cbf92027cc3b",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2019-07-22",
-        "createdBefore": "2019-07-26",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-07-22..2019-07-26\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 8bbd739e-7939-448b-a1ca-cbf92027cc3b: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC4:70E1:EA1E8EE:1E868601:6597E7D7` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC4:70E1:EA1E8EE:1E868601:6597E7D7\"}.",
-          "date": "2024-01-05T11:28:33.592Z"
-        }
-      ]
-    },
-    "97e68d7d-6220-47e2-b62e-a4246d786d00": {
-      "task": {
-        "id": "97e68d7d-6220-47e2-b62e-a4246d786d00",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2019-08-31",
-        "createdBefore": "2019-09-04",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-08-31..2019-09-04\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `5041:607B:F09DBFB:1F482B80:6597CA9E` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 09:23:52 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"5041:607B:F09DBFB:1F482B80:6597CA9E\"}.",
-          "date": "2024-01-05T09:23:52.812Z"
-        },
-        {
-          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09A:0268:58A01A1:5BFFB4C:6597DE66` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:48:17 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09A:0268:58A01A1:5BFFB4C:6597DE66\"}.",
-          "date": "2024-01-05T10:48:17.372Z"
-        },
-        {
-          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A086:0600:B8D9B15:1836A7D7:6597EC7F` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:48:25 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A086:0600:B8D9B15:1836A7D7:6597EC7F\"}.",
-          "date": "2024-01-05T11:48:25.556Z"
-        }
-      ]
-    },
-    "dc11baa5-15cd-4cfa-995f-12b769e79492": {
-      "task": {
-        "id": "dc11baa5-15cd-4cfa-995f-12b769e79492",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2017-10-25",
-        "createdBefore": "2017-10-29",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2017-10-25..2017-10-29\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `9421:3E7B:E82BA26:1E386B0E:6597AFD4` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 07:29:35 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"9421:3E7B:E82BA26:1E386B0E:6597AFD4\"}.",
-          "date": "2024-01-05T07:29:35.173Z"
-        },
-        {
-          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C4:71DF:EFC050A:1F36E4B2:6597DF4A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:52:04 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C4:71DF:EFC050A:1F36E4B2:6597DF4A\"}.",
-          "date": "2024-01-05T10:52:04.551Z"
-        },
-        {
-          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:7E7A:EC9D0B5:1ED246C7:6597E813` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:7E7A:EC9D0B5:1ED246C7:6597E813\"}.",
-          "date": "2024-01-05T11:29:33.506Z"
-        }
-      ]
-    },
-    "ef5d513d-e7c7-4409-a1f8-09e935b71233": {
-      "task": {
-        "id": "ef5d513d-e7c7-4409-a1f8-09e935b71233",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2020-02-17",
-        "createdBefore": "2020-02-21",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2020-02-17..2020-02-21\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task ef5d513d-e7c7-4409-a1f8-09e935b71233: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09B:0E17:3C3025A:3E79A37:6597DC4A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:39:17 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09B:0E17:3C3025A:3E79A37:6597DC4A\"}.",
-          "date": "2024-01-05T10:39:17.181Z"
-        },
-        {
-          "message": "Error in task ef5d513d-e7c7-4409-a1f8-09e935b71233: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:7E7A:EC9EACE:1ED27C55:6597E827` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:7E7A:EC9EACE:1ED27C55:6597E827\"}.",
-          "date": "2024-01-05T11:29:53.588Z"
-        }
-      ]
-    }
-  },
-  "archived": {
     "286be279-ebc7-4aee-b86a-c4593937f2bf": {
       "task": {
         "id": "286be279-ebc7-4aee-b86a-c4593937f2bf",
@@ -17399,6 +17329,108 @@
         {
           "message": "Error in task 286be279-ebc7-4aee-b86a-c4593937f2bf: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:182B:F33420D:1FA2AF57:6597E7D7` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:182B:F33420D:1FA2AF57:6597E7D7\"}.",
           "date": "2024-01-05T11:28:33.541Z"
+        }
+      ]
+    },
+    "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4": {
+      "task": {
+        "id": "6061c5d4-1e32-4786-b6e2-cbd46f5f45d4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-01-28",
+        "createdBefore": "2019-02-01",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-01-28..2019-02-01\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B098:8638:75E1E2C:7AD6A56:6597DB0A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:33:57 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B098:8638:75E1E2C:7AD6A56:6597DB0A\"}.",
+          "date": "2024-01-05T10:33:57.114Z"
+        },
+        {
+          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FE86:6F89:FD2E93F:20DF995E:6597E4FE` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:16:25 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FE86:6F89:FD2E93F:20DF995E:6597E4FE\"}.",
+          "date": "2024-01-05T11:16:25.042Z"
+        },
+        {
+          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC1:31C6:BD356BA:18BD88F4:6597E7EB` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:28:53 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC1:31C6:BD356BA:18BD88F4:6597E7EB\"}.",
+          "date": "2024-01-05T11:28:53.510Z"
+        },
+        {
+          "message": "Error in task 6061c5d4-1e32-4786-b6e2-cbd46f5f45d4: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A4C0:6780:B42DBD2:17A5774F:6597F719` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 12:33:39 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A4C0:6780:B42DBD2:17A5774F:6597F719\"}.",
+          "date": "2024-01-05T12:33:39.516Z"
+        }
+      ]
+    },
+    "97e68d7d-6220-47e2-b62e-a4246d786d00": {
+      "task": {
+        "id": "97e68d7d-6220-47e2-b62e-a4246d786d00",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2019-08-31",
+        "createdBefore": "2019-09-04",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2019-08-31..2019-09-04\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `5041:607B:F09DBFB:1F482B80:6597CA9E` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 09:23:52 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"5041:607B:F09DBFB:1F482B80:6597CA9E\"}.",
+          "date": "2024-01-05T09:23:52.812Z"
+        },
+        {
+          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `B09A:0268:58A01A1:5BFFB4C:6597DE66` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:48:17 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"B09A:0268:58A01A1:5BFFB4C:6597DE66\"}.",
+          "date": "2024-01-05T10:48:17.372Z"
+        },
+        {
+          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A086:0600:B8D9B15:1836A7D7:6597EC7F` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:48:25 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A086:0600:B8D9B15:1836A7D7:6597EC7F\"}.",
+          "date": "2024-01-05T11:48:25.556Z"
+        },
+        {
+          "message": "Error in task 97e68d7d-6220-47e2-b62e-a4246d786d00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A4C1:6D76:B3B5E17:17988339:6597F719` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 12:33:39 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A4C1:6D76:B3B5E17:17988339:6597F719\"}.",
+          "date": "2024-01-05T12:33:39.604Z"
+        }
+      ]
+    },
+    "dc11baa5-15cd-4cfa-995f-12b769e79492": {
+      "task": {
+        "id": "dc11baa5-15cd-4cfa-995f-12b769e79492",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2017-10-25",
+        "createdBefore": "2017-10-29",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2017-10-25..2017-10-29\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `9421:3E7B:E82BA26:1E386B0E:6597AFD4` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 07:29:35 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"9421:3E7B:E82BA26:1E386B0E:6597AFD4\"}.",
+          "date": "2024-01-05T07:29:35.173Z"
+        },
+        {
+          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `72C4:71DF:EFC050A:1F36E4B2:6597DF4A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 10:52:04 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"72C4:71DF:EFC050A:1F36E4B2:6597DF4A\"}.",
+          "date": "2024-01-05T10:52:04.551Z"
+        },
+        {
+          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `FFC5:7E7A:EC9D0B5:1ED246C7:6597E813` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 11:29:33 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"FFC5:7E7A:EC9D0B5:1ED246C7:6597E813\"}.",
+          "date": "2024-01-05T11:29:33.506Z"
+        },
+        {
+          "message": "Error in task dc11baa5-15cd-4cfa-995f-12b769e79492: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A342:0811:BC20691:189F6B5A:6597F721` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 12:33:47 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A342:0811:BC20691:189F6B5A:6597F721\"}.",
+          "date": "2024-01-05T12:33:47.781Z"
         }
       ]
     },
