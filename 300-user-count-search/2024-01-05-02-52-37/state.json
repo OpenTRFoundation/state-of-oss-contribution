@@ -4595,14 +4595,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "d7569dc8-b08b-4f73-a594-afc80541102a": {
-      "id": "d7569dc8-b08b-4f73-a594-afc80541102a",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Divrigi",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "d775e132-f3d6-4cf8-804e-46cd8cd133a8": {
       "id": "d775e132-f3d6-4cf8-804e-46cd8cd133a8",
       "parentId": null,
@@ -20813,6 +20805,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Celtikci",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "d7569dc8-b08b-4f73-a594-afc80541102a": {
+      "task": {
+        "id": "d7569dc8-b08b-4f73-a594-afc80541102a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Divrigi",
         "minRepositories": 0,
         "minFollowers": 0
       }
