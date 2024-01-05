@@ -1,22 +1,8 @@
 {
   "startDate": "2024-01-05T07:16:37.079Z",
-  "completionDate": null,
+  "completionDate": "2024-01-05T12:57:02.488Z",
   "completionError": null,
-  "unresolved": {
-    "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00": {
-      "id": "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00",
-      "parentId": "dc11baa5-15cd-4cfa-995f-12b769e79492",
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2023-10-07",
-      "createdAfter": "2017-10-25",
-      "createdBefore": "2017-10-27",
-      "pageSize": 100,
-      "startCursor": null
-    }
-  },
+  "unresolved": {},
   "resolved": {
     "0009421f-dafa-4813-bd8e-437e07977986": {
       "task": {
@@ -7179,6 +7165,21 @@
         "hasActivityAfter": "2023-10-07",
         "createdAfter": "2009-05-05",
         "createdBefore": "2009-05-09",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00": {
+      "task": {
+        "id": "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00",
+        "parentId": "dc11baa5-15cd-4cfa-995f-12b769e79492",
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2023-10-07",
+        "createdAfter": "2017-10-25",
+        "createdBefore": "2017-10-27",
         "pageSize": 100,
         "startCursor": null
       }
@@ -17239,30 +17240,7 @@
       }
     }
   },
-  "errored": {
-    "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00": {
-      "task": {
-        "id": "677e26fe-8bf7-4dc9-84dd-4339cdf8fc00",
-        "parentId": "dc11baa5-15cd-4cfa-995f-12b769e79492",
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2023-10-07",
-        "createdAfter": "2017-10-25",
-        "createdBefore": "2017-10-27",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2023-10-07 created:2017-10-25..2017-10-27\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 677e26fe-8bf7-4dc9-84dd-4339cdf8fc00: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `A340:3E7B:EEF477C:1F19D220:6597F741` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Fri, 05 Jan 2024 12:34:19 GMT\",\"server\":\"GitHub.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"A340:3E7B:EEF477C:1F19D220:6597F741\"}.",
-          "date": "2024-01-05T12:34:19.594Z"
-        }
-      ]
-    }
-  },
+  "errored": {},
   "archived": {
     "1d6acfb3-c958-44be-9b4c-ffe1182de5c5": {
       "task": {
