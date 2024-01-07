@@ -24,6 +24,7 @@ env:
   # cuttlecat related
   SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/300-user-count-search
   INTERVAL_CAP: 7
+  RENEW_PERIOD_IN_DAYS: 30
 
 jobs:
   job-300-user-count-search:
@@ -62,6 +63,7 @@ jobs:
           echo "ACTIONS_RUNNER_DEBUG: ${{ env.ACTIONS_RUNNER_DEBUG }}"
           echo "SEARCH_DATA_DIRECTORY: ${{ env.SEARCH_DATA_DIRECTORY }}"
           echo "INTERVAL_CAP: ${{ env.INTERVAL_CAP }}"
+          echo "RENEW_PERIOD_IN_DAYS: ${{ env.RENEW_PERIOD_IN_DAYS }}"
           echo "LOG_LEVEL: ${{ env.LOG_LEVEL }}"
 
       - name: Rebase onto main
@@ -95,6 +97,7 @@ jobs:
             --github-token="${{ secrets.GITHUB_TOKEN }}" \
             --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
             --interval-cap="${{ env.INTERVAL_CAP }}" \
+            --renew-period-in-days="${{ env.RENEW_PERIOD_IN_DAYS }}" \
             --log-level="${{ env.LOG_LEVEL }}"
 
       - name: Commit

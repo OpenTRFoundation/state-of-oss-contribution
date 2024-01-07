@@ -25,6 +25,7 @@ env:
   SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/400-user-and-contrib-search
   INTERVAL_CAP: 7
   RETRY_COUNT: 2
+  RENEW_PERIOD_IN_DAYS: 30
 
 jobs:
   job-400-user-and-contrib-search:
@@ -64,6 +65,7 @@ jobs:
           echo "SEARCH_DATA_DIRECTORY: ${{ env.SEARCH_DATA_DIRECTORY }}"
           echo "INTERVAL_CAP: ${{ env.INTERVAL_CAP }}"
           echo "RETRY_COUNT: ${{ env.RETRY_COUNT }}"
+          echo "RENEW_PERIOD_IN_DAYS: ${{ env.RENEW_PERIOD_IN_DAYS }}"
           echo "LOG_LEVEL: ${{ env.LOG_LEVEL }}"
 
       - name: Rebase onto main
@@ -98,6 +100,7 @@ jobs:
             --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}" \
             --interval-cap="${{ env.INTERVAL_CAP }}" \
             --retry-count="${{ env.RETRY_COUNT }}" \
+            --renew-period-in-days="${{ env.RENEW_PERIOD_IN_DAYS }}" \
             --log-level="${{ env.LOG_LEVEL }}"
 
       - name: Commit
