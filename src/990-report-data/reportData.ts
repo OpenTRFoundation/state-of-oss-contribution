@@ -79,26 +79,39 @@ export async function main(config:Config) {
     const userInformationMap = buildUserInformationMap(userAndContribSearchTruthMap, userLocationsTruthMap);
     const activeUserInformationMap = buildActiveUserInformationMap(userInformationMap);
     const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, focusOrganizationScoreMap, focusRepositoriesScoreMap);
+    const focusRepositoryContributionScoreMap = buildFocusRepositoryContributionScoreMap(ossContributorInformationMap, focusRepositoriesScoreMap);
+    const focusOrganizationContributionScoreMap = buildFocusOrganizationContributionScoreMap(ossContributorInformationMap, focusOrganizationScoreMap);
 
     const userProvinceCountsMap = buildUserProvinceCountsMap(userInformationMap);
     const activeUserProvinceCountsMap = buildUserProvinceCountsMap(activeUserInformationMap);
     const ossContributorProvinceCountsMap = buildUserProvinceCountsMap(ossContributorInformationMap);
+    const userSignedUpAtMap = buildUserSignedUpAtMap(userInformationMap);
 
     const activeUserLeaderBoard = buildUserLeaderBoard(activeUserInformationMap);
     const ossContributorLeaderBoard = buildUserLeaderBoard(ossContributorInformationMap);
+    const companyOssContributorCountMap = buildCompanyUserCountMap(ossContributorInformationMap);
+
+    const focusRepositoryContributionLeaderBoard = buildScoreLeaderBoard(focusRepositoryContributionScoreMap);
+    const focusOrganizationContributionLeaderBoard = buildScoreLeaderBoard(focusOrganizationContributionScoreMap);
 
     fs.writeFileSync(join(config.outputDirectory, "110-focus-organization-score-map.json"), JSON.stringify(focusOrganizationScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "120-focus-repository-score-map.json"), JSON.stringify(focusRepositoriesScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "210-user-province-counts-map.json"), JSON.stringify(userProvinceCountsMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "220-active-user-province-counts-map.json"), JSON.stringify(activeUserProvinceCountsMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "230-oss-contributor-province-counts-map.json"), JSON.stringify(ossContributorProvinceCountsMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "240-user-signed-up-at-map.json"), JSON.stringify(userSignedUpAtMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "310-active-user-leader-board.json"), JSON.stringify(activeUserLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "320-oss-contributor-leader-board.json"), JSON.stringify(ossContributorLeaderBoard, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contributor-count-map.json"), JSON.stringify(companyOssContributorCountMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "410-focus-repository-contribution-leader-board.json"), JSON.stringify(focusRepositoryContributionLeaderBoard, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "420-focus-organization-contribution-leader-board.json"), JSON.stringify(focusOrganizationContributionLeaderBoard, null, 2));
 
     // DEBUG
     // fs.writeFileSync(join(config.outputDirectory, "debug-user-information-map.json"), JSON.stringify(userInformationMap, null, 2));
     // fs.writeFileSync(join(config.outputDirectory, "debug-active-user-information-map.json"), JSON.stringify(activeUserInformationMap, null, 2));
     // fs.writeFileSync(join(config.outputDirectory, "debug-oss-contributor-information-map.json"), JSON.stringify(ossContributorInformationMap, null, 2));
+    // fs.writeFileSync(join(config.outputDirectory, "debug-focus-repository-contribution-score-map.json"), JSON.stringify(focusRepositoryContributionScoreMap, null, 2));
+    // fs.writeFileSync(join(config.outputDirectory, "debug-focus-organization-contribution-score-map.json"), JSON.stringify(focusOrganizationContributionScoreMap, null, 2));
 }
 
 /**
@@ -349,6 +362,55 @@ function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserI
     return sortedOutput;
 }
 
+/**
+ * Builds a map of the years and the number of users that signed up in that year.
+ *
+ * Example:
+ * {
+ *   "2008": 54,
+ *   "2009": 211,
+ *   "2010": 564,
+ * }
+ *
+ * @param userInformationMap
+ */
+function buildUserSignedUpAtMap(userInformationMap:{ [username:string]:UserInformation }) {
+    const signedUpAtMap:{[year:string]:number} = {};
+    for(const username in userInformationMap){
+        const userInformation = userInformationMap[username];
+        const year = userInformation.profile.signedUpAt.substring(0, 4);
+        signedUpAtMap[year] = (signedUpAtMap[year] ?? 0) + 1;
+    }
+    return signedUpAtMap;
+}
+
+/**
+ * Builds a list of the top N active users based on their score for the given user information map.
+ *
+ * Example:
+ * [
+ *   {
+ *     "profile": {
+ *       "username": "john-doe",
+ *       "name": "John Doe",
+ *       ...
+ *     },
+ *     "score": 79536,
+ *     "stats": {
+ *       "followers": 81,
+ *       "gists": 3,
+ *       ...
+ *     },
+ *     "contributionScoresPerRepository": {
+ *       "abc/def": 29202,
+ *       ...
+ *     }
+ *   },
+ *   ...
+ * ]
+ *
+ * @param activeUserInformationMap
+ */
 function buildUserLeaderBoard(activeUserInformationMap:{ [username:string]:UserInformation }) {
     const list:UserInformation[] = [];
 
@@ -358,9 +420,162 @@ function buildUserLeaderBoard(activeUserInformationMap:{ [username:string]:UserI
     const usernames = Object.keys(activeUserInformationMap);
     usernames.sort((a, b) => activeUserInformationMap[b].score - activeUserInformationMap[a].score);
 
-    // get the top 50
+    // get the top N
     for(let i = 0; i < LEADER_BOARD_SIZE && i < usernames.length; i++){
         list.push(activeUserInformationMap[usernames[i]]);
+    }
+
+    return list;
+}
+
+/**
+ * Builds a map of the company name to the number of users in that company.
+ *
+ * Example:
+ * {
+ *   "-Unknown-": 236,
+ *   "trendyol": 21,
+ *   "hazelcast": 10,
+ *   "volosoft": 7,
+ *   "upbound": 4,
+ * }
+ *
+ * @param userMap
+ */
+function buildCompanyUserCountMap(userMap:{ [username:string]:UserInformation }) {
+    let companyMap:{[companyName:string]:number} = {};
+    for(const username in userMap){
+        const userInformation = userMap[username];
+        let company = "-Unknown-";
+        if(userInformation.profile.company){
+            company = userInformation.profile.company.trim().toLowerCase();
+            if(company.startsWith("@")){
+                company = company.substring(1);
+            }
+        } else{
+            company = "-Unknown-";
+        }
+        companyMap[company] = (companyMap[company] ?? 0) + 1;
+    }
+    // sort the companyMap by number of users
+    const companyMapEntries = Object.entries(companyMap);
+    companyMapEntries.sort((a, b) => b[1] - a[1]);
+    companyMap = {};
+    for (const companyMapEntry of companyMapEntries) {
+        companyMap[companyMapEntry[0]] = companyMapEntry[1];
+    }
+    return companyMap;
+}
+
+
+/**
+ * Builds a map of the focus repository names (with owner) to the contribution score of the repository.
+ *
+ * Example:
+ * {
+ *   "AUTOMATIC1111/stable-diffusion-webui": 103,
+ *   "topjohnwu/Magisk": 36,
+ *   ...
+ * }
+ *
+ * @param ossContributorInformationMap
+ * @param focusRepositoriesScoreMap
+ */
+function buildFocusRepositoryContributionScoreMap(ossContributorInformationMap:{[username:string]:UserInformation}, focusRepositoriesScoreMap:{[nameWithOwner:string]:number}) {
+    const output:{[nameWithOwner:string]:number} = {};
+
+    for(const username in ossContributorInformationMap){
+        const userInformation = ossContributorInformationMap[username];
+        const contribScores = userInformation.contributionScoresPerRepository;
+        for(const repoNameWithOwner in contribScores){
+            if(focusRepositoriesScoreMap[repoNameWithOwner]){
+                output[repoNameWithOwner] = (output[repoNameWithOwner] ?? 0) + contribScores[repoNameWithOwner];
+            }
+        }
+    }
+
+    // sort the output by score
+    const outputEntries = Object.entries(output);
+    outputEntries.sort((a, b) => b[1] - a[1]);
+    const sortedOutput:{[repoNameWithOwner:string]:number} = {};
+    for (const outputEntry of outputEntries) {
+        sortedOutput[outputEntry[0]] = outputEntry[1];
+    }
+
+    return sortedOutput;
+}
+
+/**
+ * Builds a map of the focus organization names to the contribution score of the organization.
+ *
+ * Example:
+ * {
+ *   "primefaces": 8593,
+ *   "TykTechnologies": 6583,
+ *   "abpframework": 5379,
+ *   "hazelcast": 3087,
+ *   ...
+ * }
+ *
+ * @param ossContributorInformationMap
+ * @param focusOrganizationScoreMap
+ */
+function buildFocusOrganizationContributionScoreMap(ossContributorInformationMap:{[username:string]:UserInformation}, focusOrganizationScoreMap:{[orgName:string]:number}) {
+    const output:{[orgName:string]:number} = {};
+
+    for(const username in ossContributorInformationMap){
+        const userInformation = ossContributorInformationMap[username];
+        const contribScores = userInformation.contributionScoresPerRepository;
+        for(const repoNameWithOwner in contribScores){
+            const orgName = repoNameWithOwner.split("/")[0];
+            if(focusOrganizationScoreMap[orgName]){
+                output[orgName] = (output[orgName] ?? 0) + contribScores[repoNameWithOwner];
+            }
+        }
+    }
+
+    // sort the output by score
+    const outputEntries = Object.entries(output);
+    outputEntries.sort((a, b) => b[1] - a[1]);
+    const sortedOutput:{[orgName:string]:number} = {};
+    for (const outputEntry of outputEntries) {
+        sortedOutput[outputEntry[0]] = outputEntry[1];
+    }
+
+    return sortedOutput;
+}
+
+/**
+ * Builds a list of the top N key based on their score for the given score map.
+ *
+ * Example:
+ * [
+ *  {"key": "primefaces", "score": 8593},
+ *  {"key": "TykTechnologies", "score": 6583},
+ *  ...
+ * ]
+ *
+ * @param scoremap
+ */
+function buildScoreLeaderBoard(scoremap:{ [key:string]:number }) {
+    type Entry = {
+        key:string;
+        score:number;
+    };
+    const list:Entry[] = [];
+
+    // Javascript objects cannot be sorted.
+    // So, we need to get the keys, sort them by score, and then iterate over the keys.
+
+    const keys = Object.keys(scoremap);
+    keys.sort((a, b) => scoremap[b] - scoremap[a]);
+
+    // get the top N
+    for(let i = 0; i < LEADER_BOARD_SIZE && i < keys.length; i++){
+        list.push({
+            key: keys[i],
+            score: scoremap[keys[i]],
+        });
     }
 
     return list;
