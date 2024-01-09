@@ -66,6 +66,13 @@ interface UserInformation {
     contributionScoresPerRepository:{[repoNameWithOwner:string]:number};
 }
 
+interface CompanyInformation {
+    name:string;
+    numberOfUsers:number;
+    sumOfScores:number;
+    contributionScoresPerRepository:{[repoNameWithOwner:string]:number};
+}
+
 export async function main(config:Config) {
     const focusRepositories:{ [nameWithOwner:string]:RepositorySummaryFragment } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-focus-repositories.index.json");
     const focusOrganizations:{ [orgName:string]:FocusOrganization } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-focus-organizations.index.json");
@@ -89,7 +96,7 @@ export async function main(config:Config) {
 
     const activeUserLeaderBoard = buildUserLeaderBoard(activeUserInformationMap);
     const ossContributorLeaderBoard = buildUserLeaderBoard(ossContributorInformationMap);
-    const companyOssContributorCountMap = buildCompanyUserCountMap(ossContributorInformationMap);
+    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap);
 
     const focusRepositoryContributionLeaderBoard = buildScoreLeaderBoard(focusRepositoryContributionScoreMap);
     const focusOrganizationContributionLeaderBoard = buildScoreLeaderBoard(focusOrganizationContributionScoreMap);
@@ -102,7 +109,7 @@ export async function main(config:Config) {
     fs.writeFileSync(join(config.outputDirectory, "240-user-signed-up-at-map.json"), JSON.stringify(userSignedUpAtMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "310-active-user-leader-board.json"), JSON.stringify(activeUserLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "320-oss-contributor-leader-board.json"), JSON.stringify(ossContributorLeaderBoard, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contributor-count-map.json"), JSON.stringify(companyOssContributorCountMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-information-map.json"), JSON.stringify(companyOssContributionInformationMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "410-focus-repository-contribution-leader-board.json"), JSON.stringify(focusRepositoryContributionLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "420-focus-organization-contribution-leader-board.json"), JSON.stringify(focusOrganizationContributionLeaderBoard, null, 2));
 
@@ -429,21 +436,26 @@ function buildUserLeaderBoard(activeUserInformationMap:{ [username:string]:UserI
 }
 
 /**
- * Builds a map of the company name to the number of users in that company.
+ * Builds a map of the company name to the company information.
  *
  * Example:
  * {
- *   "-Unknown-": 236,
- *   "trendyol": 21,
- *   "hazelcast": 10,
- *   "volosoft": 7,
- *   "upbound": 4,
+ *    "foo": {
+ *     "name": "foo",
+ *     "numberOfUsers": 3,
+ *     "sumOfScores": 3147,
+ *     "contributionScoresPerRepository": {
+ *       "foo/bar": 2997,
+ *       "foo/baz": 114,
+ *     }
+ *   },
+ *   ...
  * }
  *
  * @param userMap
  */
-function buildCompanyUserCountMap(userMap:{ [username:string]:UserInformation }) {
-    let companyMap:{[companyName:string]:number} = {};
+function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation }) {
+    let companyMap:{[companyName:string]:CompanyInformation} = {};
     for(const username in userMap){
         const userInformation = userMap[username];
         let company = "-Unknown-";
@@ -455,16 +467,26 @@ function buildCompanyUserCountMap(userMap:{ [username:string]:UserInformation })
         } else{
             company = "-Unknown-";
         }
-        companyMap[company] = (companyMap[company] ?? 0) + 1;
+        companyMap[company] = companyMap[company] ?? {
+            name: company,
+            numberOfUsers: 0,
+            sumOfScores: 0,
+            contributionScoresPerRepository: {},
+        };
+        companyMap[company].numberOfUsers++;
+        companyMap[company].sumOfScores += userInformation.score;
+        for(const repoNameWithOwner in userInformation.contributionScoresPerRepository){
+            companyMap[company].contributionScoresPerRepository[repoNameWithOwner] = (companyMap[company].contributionScoresPerRepository[repoNameWithOwner] ?? 0) + userInformation.contributionScoresPerRepository[repoNameWithOwner];
+        }
     }
     // sort the companyMap by number of users
     const companyMapEntries = Object.entries(companyMap);
-    companyMapEntries.sort((a, b) => b[1] - a[1]);
-    companyMap = {};
+    companyMapEntries.sort((a, b) => b[1].numberOfUsers - a[1].numberOfUsers);
+    const sortedCompanyMap:{[companyName:string]:CompanyInformation} = {};
     for (const companyMapEntry of companyMapEntries) {
-        companyMap[companyMapEntry[0]] = companyMapEntry[1];
+        sortedCompanyMap[companyMapEntry[0]] = companyMapEntry[1];
     }
-    return companyMap;
+    return sortedCompanyMap;
 }
 
 

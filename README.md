@@ -35,3 +35,8 @@ The `src` folder contains the data collection scripts and [`cuttlecat`](https://
 ## Report Generation
 
 To see how the report works with the data prepared here, visit [OpenTRFoundation/state-of-oss-contribution-report](https://github.com/OpenTRFoundation/state-of-oss-contribution-report) repository.
+
+## TODOs
+
+- Weighted contribution score for users and companies, based on the diversity of the projects they contribute to.
+- Weighted contribution score for users and companies, based on the project's popularity.
