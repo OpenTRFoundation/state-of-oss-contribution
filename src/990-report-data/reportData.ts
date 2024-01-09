@@ -448,7 +448,7 @@ function buildUserLeaderBoard(activeUserInformationMap:{ [username:string]:UserI
  * @param userMap
  */
 function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation }) {
-    let companyMap:{[companyName:string]:CompanyInformation} = {};
+    const companyMap:{[companyName:string]:CompanyInformation} = {};
     for(const username in userMap){
         const userInformation = userMap[username];
         let company = "-Unknown-";
