@@ -2,7 +2,7 @@ import {TaskContext} from "@opentr/cuttlecat/dist/graphql/context.js";
 import * as log from "@opentr/cuttlecat/dist/log.js";
 import {parseDate} from "@opentr/cuttlecat/dist/utils.js";
 import {expect} from "chai";
-import mockfs from "mock-fs";
+import mockfs, {restore as mockfsRestore} from "mock-fs";
 
 import FocusOrganizationDetailsCommand, {FocusOrganizationDetailsConfig} from "./focusOrganizationDetails.js";
 
@@ -19,6 +19,10 @@ function fakeNow():Date {
 
 describe('FocusOrganizationDetailsCommand unit test', () => {
     describe('#createNewQueueItems()', function () {
+        afterEach(() => {
+            mockfsRestore();
+        });
+
         it('should create new queue items, 1 day range, 1 day interval', function () {
             mockfs({
                 '/tmp/foo/focusProjectCandidateSearchDataDirectory': {

@@ -211,8 +211,8 @@ describe('focusOrganizationDetails mock test', async () => {
                 {
                     concurrency: 4,
                     perTaskTimeout: 30000,
-                    intervalCap: 10,
-                    interval: 10000,
+                    intervalCap: 100000,
+                    interval: 0,
                     retryCount: 3,
                 }, context);
 

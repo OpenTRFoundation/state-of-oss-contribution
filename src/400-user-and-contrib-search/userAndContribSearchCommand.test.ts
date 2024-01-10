@@ -2,7 +2,7 @@ import {TaskContext} from "@opentr/cuttlecat/dist/graphql/context.js";
 import * as log from "@opentr/cuttlecat/dist/log.js";
 import {parseDate} from "@opentr/cuttlecat/dist/utils.js";
 import {expect} from "chai";
-import mockfs from "mock-fs";
+import mockfs, {restore as mockfsRestore} from "mock-fs";
 
 import UserAndContribSearchCommand, {
     UserAndContribSearchConfig,
@@ -43,6 +43,9 @@ function findTasksForLocation(items:UserAndContribSearchTaskSpec[], search:strin
 describe('userAndContribSearch unit test', () => {
     describe('#createNewProcessState()', function () {
         this.timeout(20000);    // this might take a while
+        afterEach(() => {
+            mockfsRestore();
+        });
         it('should create new process state, 1 day signup range, 1 day interval, 1 day contrib range, 1 contrib search period part, 1 location', function () {
             mockfs({
                 '/tmp/foo/bar': {
