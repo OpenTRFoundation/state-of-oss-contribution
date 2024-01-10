@@ -36,7 +36,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
  * - contribMinAge: end date of the date range to search for user contributions. The task will search for contributions between this [now()-contribMaxAge, now()-contribMinAge].
  *
  * IMPORTANT:
- * - Given GitHub token must have 'user:email' and 'read:user' scopes.
+ * - Given GitHub token must have 'public_repo', 'repo:status', 'user:email' and 'read:user' scopes.
  *
  * Example #1:
  * "--user-count-per-location-files-dir=/path",

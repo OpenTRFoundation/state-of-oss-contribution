@@ -13,6 +13,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 /**
  * This task gets the details of focus organizations that have been identified earlier.
+ *
+ * IMPORTANT:
+ * - Given GitHub token must have 'read:org' (and possibly 'public_repo', 'repo:status', 'user:email' and 'read:user') scopes.
  */
 export interface FocusOrganizationDetailsConfig {
     // Path to the directory that contains files with the output of the focus project candidate search command.
