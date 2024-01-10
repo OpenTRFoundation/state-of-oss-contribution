@@ -1,0 +1,104 @@
+[
+  {
+    "scope": "https://api.github.com:443",
+    "method": "POST",
+    "path": "/graphql",
+    "body": {
+      "query": "\nquery FocusOrganizationDetails($orgName: String!, $first: Int!, $after:String) {\n    rateLimit{\n      cost\n      limit\n      nodeCount\n      remaining\n      resetAt\n      used\n    }\n    organization(login:$orgName) {\n      login\n      name,\n      createdAt,\n      membersWithRole{\n        totalCount\n      }\n      repositories(privacy: PUBLIC, first:$first, after:$after){\n        pageInfo{\n          endCursor,\n          hasNextPage\n        }\n        nodes{\n          ...RepositorySummary\n        }\n      }\n    }\n}\nfragment RepositorySummary on Repository{\n  nameWithOwner,\n  isInOrganization\n  owner{\n      login\n  }\n  forkCount,\n  stargazerCount,\n  pullRequests{\n    totalCount\n  },\n  issues{\n      totalCount\n  }\n  mentionableUsers{\n      totalCount\n  }\n  watchers{\n      totalCount\n  }\n  discussions{\n    totalCount\n  },    \n  createdAt,\n  isPrivate,\n  pushedAt,\n  visibility,\n  primaryLanguage{\n    name\n  },\n  languages(first:100){\n    edges{\n      size\n      node{\n        name\n      }\n    }\n  }\n}\n",
+      "variables": {
+        "orgName": "org1",
+        "first": 100,
+        "after": null
+      }
+    },
+    "status": 200,
+    "response": {
+      "data": {
+        "rateLimit": {
+          "cost": 1,
+          "limit": 5000,
+          "nodeCount": 10100,
+          "remaining": 5000,
+          "resetAt": "2024-01-08T21:30:06Z",
+          "used": 2
+        },
+        "organization": {
+          "login": "org1",
+          "name": "Org1",
+          "createdAt": "2014-07-30T09:47:08Z",
+          "membersWithRole": {
+            "totalCount": 0
+          },
+          "repositories": {
+            "pageInfo": {
+              "endCursor": "not_used",
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "nameWithOwner": "org1/repo1",
+                "isInOrganization": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawHeaders": [
+      "Server",
+      "GitHub.com"
+    ],
+    "responseIsBinary": false
+  },
+  {
+    "scope": "https://api.github.com:443",
+    "method": "POST",
+    "path": "/graphql",
+    "body": {
+      "query": "\nquery FocusOrganizationDetails($orgName: String!, $first: Int!, $after:String) {\n    rateLimit{\n      cost\n      limit\n      nodeCount\n      remaining\n      resetAt\n      used\n    }\n    organization(login:$orgName) {\n      login\n      name,\n      createdAt,\n      membersWithRole{\n        totalCount\n      }\n      repositories(privacy: PUBLIC, first:$first, after:$after){\n        pageInfo{\n          endCursor,\n          hasNextPage\n        }\n        nodes{\n          ...RepositorySummary\n        }\n      }\n    }\n}\nfragment RepositorySummary on Repository{\n  nameWithOwner,\n  isInOrganization\n  owner{\n      login\n  }\n  forkCount,\n  stargazerCount,\n  pullRequests{\n    totalCount\n  },\n  issues{\n      totalCount\n  }\n  mentionableUsers{\n      totalCount\n  }\n  watchers{\n      totalCount\n  }\n  discussions{\n    totalCount\n  },    \n  createdAt,\n  isPrivate,\n  pushedAt,\n  visibility,\n  primaryLanguage{\n    name\n  },\n  languages(first:100){\n    edges{\n      size\n      node{\n        name\n      }\n    }\n  }\n}\n",
+      "variables": {
+        "orgName": "org2",
+        "first": 100,
+        "after": null
+      }
+    },
+    "status": 200,
+    "response": {
+      "data": {
+        "rateLimit": {
+          "cost": 1,
+          "limit": 5000,
+          "nodeCount": 10100,
+          "remaining": 5000,
+          "resetAt": "2024-01-08T21:30:06Z",
+          "used": 2
+        },
+        "organization": {
+          "login": "org2",
+          "name": "Org2",
+          "createdAt": "2014-07-30T09:47:08Z",
+          "membersWithRole": {
+            "totalCount": 0
+          },
+          "repositories": {
+            "pageInfo": {
+              "endCursor": "not_used",
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "nameWithOwner": "org2/repo1",
+                "isInOrganization": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawHeaders": [
+      "Server",
+      "GitHub.com"
+    ],
+    "responseIsBinary": false
+  }
+]
