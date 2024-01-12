@@ -36,7 +36,7 @@ const DEFAULT_CONFIG:FocusOrganizationDetailsConfig = {
     focusProjectExtractFilesDir: join(__dirname, "..", "..", "200-focus-project-extract"),
 
     // ------ SEARCH tuning --------
-    pageSize: 100,
+    pageSize: 25,
 };
 
 export interface RepositorySummaryFragment {
