@@ -90,6 +90,24 @@ export interface RepositorySummaryFragment {
     watchers:{
         totalCount:number;
     };
+    discussions:{
+        totalCount:number;
+    };
+    createdAt:string;
+    isPrivate:boolean;
+    pushedAt:string;
+    visibility:string;
+    primaryLanguage:{
+        name:string;
+    };
+    languages:{
+        edges:{
+            size:number;
+            node:{
+                name:string;
+            };
+        }[];
+    };
 }
 
 export interface FocusProjectCandidateSearchTaskResult extends TaskResult {
@@ -375,6 +393,24 @@ fragment RepositorySummary on Repository{
     }
     watchers{
         totalCount
+    }
+    discussions{
+        totalCount
+    }    
+    createdAt
+    isPrivate
+    pushedAt
+    visibility
+    primaryLanguage{
+        name
+    }
+    languages(first:100){
+        edges{
+            size
+            node{
+              name
+            }
+        }
     }
 }
 `;

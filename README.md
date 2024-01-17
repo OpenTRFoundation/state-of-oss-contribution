@@ -22,6 +22,7 @@ The `src` folder contains the data collection scripts and [`cuttlecat`](https://
 
 - [100-focus-project-candidate-search](100-focus-project-candidate-search): Contains the data collected from GitHub using Cuttlecat for focus project candidates.
 - [200-focus-project-extract](200-focus-project-extract): Contains the data extracted from the focus project candidates. This directory contains the focus organizations and focus repositories.
+- [210-focus-organization-details](210-focus-organization-details): Contains the data collected from GitHub using Cuttlecat for focus organizations.
 - [250-location-generation](250-location-generation): Contains the location data (provinces and districts). This directory contains both the inputs and the outputs.
 - [300-user-count-search](300-user-count-search): Contains the data collected from GitHub using Cuttlecat for user counts for locations.
 - [400-user-and-contrib-search](400-user-and-contrib-search): Contains the data collected from GitHub using Cuttlecat for users and their contributions.
