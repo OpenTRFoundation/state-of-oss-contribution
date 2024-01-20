@@ -654,14 +654,14 @@ function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatche
     // normalize the score with sqrt.
     // when a repo has 100 stars and another repo has 10 stars, we don't want the first repo to have 10x the score.
     // however, sqrt(100) = 10 and sqrt(10) = 3.16, so the first repo will have 3.16x the score; which is more fair.
-    let normalizedRepoScore = Math.sqrt(pureRepoScore);
+    const normalizedRepoScore = Math.sqrt(pureRepoScore);
     if (normalizedRepoScore <= 0) {
         return 0;
     }
 
     // add a multiplier for the number of matched repositories in the organization
     const orgMultiplier = 1 + Math.sqrt(numberOfMatchedRepositoriesInOrg) * 0.01;
-    let repoScoreWithOrgMultiplier = normalizedRepoScore * orgMultiplier;
+    const repoScoreWithOrgMultiplier = normalizedRepoScore * orgMultiplier;
 
     return Math.floor(repoScoreWithOrgMultiplier);
 }

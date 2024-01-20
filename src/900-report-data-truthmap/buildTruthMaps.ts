@@ -174,7 +174,7 @@ function buildFocusOrgMatchingRepositoriesCountTruthMap(config:Config) {
     // 2. Read the extract output file for organizations.
     // 3. Build a map of organizations with their matching repositories.
 
-    const {latestProjectCandidateSearchProcessStateDirectory, theMap} = readAllCandidateRepositories(config);
+    const {theMap} = readAllCandidateRepositories(config);
 
     const orgMatchingRepoMap:{[name:string]:{[repoName:string]:boolean}} = {};
 
