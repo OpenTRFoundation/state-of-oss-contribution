@@ -559,7 +559,7 @@ function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation 
     // TODO: create a reusable function for this sorting
     // sort the companyMap by the scores of companies
     const companyMapEntries = Object.entries(companyMap);
-    companyMapEntries.sort((a, b) => b[1].numberOfUsers - a[1].numberOfUsers);
+    companyMapEntries.sort((a, b) => b[1].sumOfScores - a[1].sumOfScores);
     const sortedCompanyMap:{[companyName:string]:CompanyInformation} = {};
     for (const companyMapEntry of companyMapEntries) {
         sortedCompanyMap[companyMapEntry[0]] = companyMapEntry[1];
