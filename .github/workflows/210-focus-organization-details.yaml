@@ -24,7 +24,7 @@ env:
   # cuttlecat related
   SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/210-focus-organization-details
   INTERVAL_CAP: 7
-  RENEW_PERIOD_IN_DAYS: 30
+  RENEW_PERIOD_IN_DAYS: 6
 
 jobs:
   job-210-focus-organization-details:
