@@ -1,4 +1,5 @@
 // TODO: exclude some orgs like "is-a-dev/register" - done, need to refetch focus organization details
+// TODO: add log statements for reading functions and file readings
 
 import * as fs from "fs";
 import {join} from "path";
@@ -76,9 +77,15 @@ interface UserInformation {
 
 interface CompanyInformation {
     name:string;
-    numberOfUsers:number;
-    sumOfScores:number;
     contributionScoresPerRepository:{[repoNameWithOwner:string]:number};
+    sumOfUserScores:number;
+    score:number;
+
+    numberOfUsers:number;
+    userDiversityMultiplier:number;
+
+    contributedFocusOrgCount:number;
+    contributionDiversityMultiplier:number;
 }
 
 export async function main(config:Config) {
@@ -102,7 +109,7 @@ export async function main(config:Config) {
 
     const activeUserLeaderBoard = buildUserLeaderBoard(activeUserInformationMap);
     const ossContributorLeaderBoard = buildUserLeaderBoard(ossContributorInformationMap);
-    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap);
+    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, focusRepositoriesScoreMap);
 
     fs.writeFileSync(join(config.outputDirectory, "110-focus-organization-score-map.json"), JSON.stringify(focusOrganizationScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "120-focus-repository-score-map.json"), JSON.stringify(focusRepositoriesScoreMap, null, 2));
@@ -513,23 +520,28 @@ function buildUserLeaderBoard(userInformationMap:{ [username:string]:UserInforma
 /**
  * Builds a map of the company name to the company information.
  *
+ * The score is calculated based on the user information map and the focus repositories score map.
+ *
+ * There are a few factors that are taken into account:
+ * - sum of the scores of the users in the company
+ * - number of users in the company
+ * - number of contributed organizations by the users in the company
+ *
  * Example:
  * {
  *    "foo": {
  *     "name": "foo",
  *     "numberOfUsers": 3,
  *     "sumOfScores": 3147,
- *     "contributionScoresPerRepository": {
- *       "foo/bar": 2997,
- *       "foo/baz": 114,
- *     }
+ *     ...
  *   },
  *   ...
  * }
  *
  * @param userMap
+ * @param focusRepositoriesScoreMap
  */
-function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation }) {
+function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focusRepositoriesScoreMap:{[orgNameWithOwner:string]:number}) {
     const companyMap:{[companyName:string]:CompanyInformation} = {};
     for(const username in userMap){
         const userInformation = userMap[username];
@@ -542,24 +554,50 @@ function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation 
         } else{
             company = "-Unknown-";
         }
-        companyMap[company] = companyMap[company] ?? {
-            name: company,
-            numberOfUsers: 0,
-            sumOfScores: 0,
-            contributionScoresPerRepository: {},
-        };
+        if (!companyMap[company]) {
+            companyMap[company] = {
+                name: company,
+                contributionScoresPerRepository: {},
+                sumOfUserScores: 0,
+                score: 0,
+
+                numberOfUsers: 0,
+                userDiversityMultiplier: 1,
+
+                contributedFocusOrgCount: 0,
+                contributionDiversityMultiplier: 1,
+            };
+        }
         companyMap[company].numberOfUsers++;
-        companyMap[company].sumOfScores += userInformation.score;
+        companyMap[company].sumOfUserScores += userInformation.score;
         for(const repoNameWithOwner in userInformation.contributionScoresPerRepository){
             companyMap[company].contributionScoresPerRepository[repoNameWithOwner] = (companyMap[company].contributionScoresPerRepository[repoNameWithOwner] ?? 0) + userInformation.contributionScoresPerRepository[repoNameWithOwner];
         }
-        // TODO: add a multiplier for the number of contributed repositories of users in the company
+    }
+
+    // add a multiplier for the number of contributed repositories of users in the company
+    for(const company of Object.values(companyMap)){
+        const contributedOrgs = new Set<string>();
+        for(const repoNameWithOwner in company.contributionScoresPerRepository){
+            if(focusRepositoriesScoreMap[repoNameWithOwner]){
+                const orgName = repoNameWithOwner.split("/")[0];
+                contributedOrgs.add(orgName);
+            }
+        }
+
+        company.contributedFocusOrgCount = contributedOrgs.size;
+        company.contributionDiversityMultiplier = 1 + contributedOrgs.size * 0.25;
+
+        company.userDiversityMultiplier = 1 + company.numberOfUsers * 0.25;
+
+        company.score = company.sumOfUserScores * company.userDiversityMultiplier * company.contributionDiversityMultiplier;
+        company.score = Math.floor(company.score);
     }
 
     // TODO: create a reusable function for this sorting
     // sort the companyMap by the scores of companies
     const companyMapEntries = Object.entries(companyMap);
-    companyMapEntries.sort((a, b) => b[1].sumOfScores - a[1].sumOfScores);
+    companyMapEntries.sort((a, b) => b[1].score - a[1].score);
     const sortedCompanyMap:{[companyName:string]:CompanyInformation} = {};
     for (const companyMapEntry of companyMapEntries) {
         sortedCompanyMap[companyMapEntry[0]] = companyMapEntry[1];
