@@ -13,6 +13,7 @@ import {addArguments, getYargs} from "./buildTruthMapsArguments.js";
     await main({
         focusProjectCandidateSearchDataDirectory: argv.focusProjectCandidateSearchDataDirectory,
         focusProjectExtractDataDirectory: argv.focusProjectExtractDataDirectory,
+        focusOrganizationDetailsDataDirectory: argv.focusOrganizationDetailsDataDirectory,
         locationsFilePath: argv.locationsFilePath,
         locationResolutionRulesFilePath: argv.locationResolutionRulesFilePath,
         userAndContribSearchDataDirectory: argv.userAndContribSearchDataDirectory,

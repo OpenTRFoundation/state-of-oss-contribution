@@ -85,11 +85,13 @@ jobs:
           node "${{ github.workspace }}/dist/900-report-data-truthmap/buildTruthMapsIndex.js" \
             --focus-project-candidate-search-data-directory="${{ github.workspace }}/100-focus-project-candidate-search" \
             --focus-project-extract-data-directory="${{ github.workspace }}/200-focus-project-extract" \
+            --focus-organization-details-data-directory="${{ github.workspace }}/210-focus-organization-details" \
             --locations-file-path="${{ github.workspace }}/250-location-generation/locations.json" \
             --location-resolution-rules-file-path="${{ github.workspace }}/900-report-data-truthmap/input-location-resolution-rules.json" \
             --user-and-contrib-search-data-directory="${{ github.workspace }}/400-user-and-contrib-search" \
             --output-directory="${{ github.workspace }}/900-report-data-truthmap"
           
+          # TODO: sanity check for number of repos found in 210 and number of repos found in 200
           echo "Starting debugDataIndex"
           node "${{ github.workspace }}/dist/910-debug-data/debugDataIndex.js" \
             --user-count-search-data-directory="${{ github.workspace }}/300-user-count-search" \

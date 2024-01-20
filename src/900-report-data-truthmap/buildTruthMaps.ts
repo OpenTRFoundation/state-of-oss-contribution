@@ -14,7 +14,8 @@ import {writePartitioned} from "../util/partition.js";
 
 export type FocusOrganization = {
     name:string;
-    matchingRepositories:RepositorySummaryFragment[];
+    numberOfMatchingRepositories:number;
+    repositories:{[nameWithOwner:string]:RepositorySummaryFragment};
 }
 
 export type LocationResolutionRule = {
@@ -52,6 +53,7 @@ export type UserLocationTruthMap = {
 export interface Config {
     focusProjectCandidateSearchDataDirectory:string;
     focusProjectExtractDataDirectory:string;
+    focusOrganizationDetailsDataDirectory:string;
     locationsFilePath:string;
     locationResolutionRulesFilePath:string;
     userAndContribSearchDataDirectory:string;
@@ -69,9 +71,13 @@ export async function main(config:Config) {
     // build the repository truth map, which contains all the repositories that were marked as "focus projects" in the extract process.
     const repositoryTruthMap = buildFocusRepositoryTruthMap(config);
 
+    header(`Going to build the focus organization matching repositories truth map`);
+    // build the organization matching repositories truth map, which contains all the organizations and number of their repositories that were matched in the focus candidate project search.
+    const focusOrgMatchingRepositoriesCountTruthMap = buildFocusOrgMatchingRepositoriesCountTruthMap(config);
+
     header(`Going to build the focus organization truth map`);
     // build the org truth map, which contains all the organizations.
-    const orgTruthMap = buildFocusOrgTruthMap(config);
+    const orgTruthMap = buildFocusOrgTruthMap(config, focusOrgMatchingRepositoriesCountTruthMap);
 
     header(`Going to build the location truth map`);
     // build the location truth map, which contains all the locations, their alternatives, and the resolution rules.
@@ -101,13 +107,14 @@ export async function main(config:Config) {
     header(`Going to write the truth maps to files`);
     // write the truth maps to files
     writePartitioned(config.outputDirectory, "truth-map-focus-repositories", 50000, repositoryTruthMap);
-    writePartitioned(config.outputDirectory, "truth-map-focus-organizations", 50000, orgTruthMap);
+    writePartitioned(config.outputDirectory, "truth-map-focus-organizations", 2000, orgTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-locations", 50000, locationTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-user-locations", 50000, userLocationTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-user-and-contrib", 10000, userAndContribTruthMap);
 
     // for debugging
     // fs.writeFileSync(join(config.outputDirectory, "debug-user-and-contrib-search-output-items.json"), JSON.stringify(userAndContribSearchOutputItems, null, 2));
+    // fs.writeFileSync(join(config.outputDirectory, "debug-focus-org-matching-repositories-count-truth-map.json"), JSON.stringify(focusOrgMatchingRepositoriesCountTruthMap, null, 2));
 }
 
 function cleanUpOutputDirectory(config:Config) {
@@ -155,11 +162,13 @@ export function buildFocusRepositoryTruthMap(config:Config) {
 }
 
 /**
- * Build a truth map of organizations and their repositories that we found. Only for the organizations and not for the individual users.
+ * Build a truth map of organizations and number of their repositories that were matched in the focus candidate project search.
+ * Only for the organizations and not for the individual users.
+ *
  * @param config
  */
-function buildFocusOrgTruthMap(config:Config) {
-    log(`Building focus organization truth map...`);
+function buildFocusOrgMatchingRepositoriesCountTruthMap(config:Config) {
+    log(`Building focus organization matching repositories truth map...`);
 
     // 1. Read the candidate search output files. These have all the repositories that were found in the candidate search.
     // 2. Read the extract output file for organizations.
@@ -167,33 +176,110 @@ function buildFocusOrgTruthMap(config:Config) {
 
     const {latestProjectCandidateSearchProcessStateDirectory, theMap} = readAllCandidateRepositories(config);
 
-    // use the same timestamp for the extract process state directory
-    const focusOrganizationsListFile = join(config.focusProjectExtractDataDirectory, latestProjectCandidateSearchProcessStateDirectory, "focus-organizations.json");
-    const focusOrganizationNames = JSON.parse(fs.readFileSync(focusOrganizationsListFile, "utf8")) as string[];
-
-    // initialize the map with the organization names
-    const focusOrgMap:{ [name:string]:FocusOrganization } = {};
-    for (const name of focusOrganizationNames) {
-        focusOrgMap[name] = {
-            name,
-            matchingRepositories: [],
-        };
-    }
+    const orgMatchingRepoMap:{[name:string]:{[repoName:string]:boolean}} = {};
 
     // now go over the repositories and add them to the matching organization, if they are in one.
     for (const repository of Object.values(theMap)) {
         if (!repository.isInOrganization) {
             continue;
         }
+
         const orgName = repository.owner.login;
-        if (!focusOrgMap[orgName]) {
-            continue;
+        const repoNameWithOwner = repository.nameWithOwner;
+
+        if(!orgMatchingRepoMap[orgName]){
+            orgMatchingRepoMap[orgName] = {};
         }
-        focusOrgMap[orgName].matchingRepositories.push(repository);
-        focusOrgMap[orgName].matchingRepositories.sort();
+        orgMatchingRepoMap[orgName][repoNameWithOwner] = true;
     }
 
-    log(`Found ${Object.keys(focusOrgMap).length} focus organizations`);
+    const output:{ [name:string]:number } = {};
+    for(const orgName in orgMatchingRepoMap){
+        output[orgName] = Object.keys(orgMatchingRepoMap[orgName]).length;
+    }
+
+    // sort the output by the number of matching repositories
+    const sortedOutput:{ [name:string]:number } = {};
+    Object.keys(output).sort((a, b) => output[b] - output[a]).forEach((key) => {
+        sortedOutput[key] = output[key];
+    });
+
+    log(`Found ${Object.keys(sortedOutput).length} focus organizations`);
+
+    return sortedOutput;
+}
+
+/**
+ * Build a truth map of organizations and their repositories that we found. Only for the organizations and not for the individual users.
+ * @param config
+ * @param focusOrgMatchingRepositoriesCountTruthMap
+ */
+function buildFocusOrgTruthMap(config:Config, focusOrgMatchingRepositoriesCountTruthMap:{ [orgName:string]:number }) {
+    log(`Building focus organization truth map...`);
+
+    // 1. Read the focus organization details output files. These have all the orgs that were found in the candidate search.
+    // 2. Read the extract output file for organizations.
+    // 3. Build a map of organizations with their repositories.
+
+    const focusOrganizationDetailsFileHelper = new ProcessFileHelper(config.focusOrganizationDetailsDataDirectory);
+    const latestProcessStateDirectory = focusOrganizationDetailsFileHelper.getLatestProcessStateDirectory();
+    if (!latestProcessStateDirectory) {
+        throw new Error("No latest process state directory found");
+    }
+
+    const processStateFilePath = focusOrganizationDetailsFileHelper.getProcessStateFilePath(latestProcessStateDirectory);
+    const processState:ProcessState = JSON.parse(fs.readFileSync(processStateFilePath, "utf8"));
+    // as the branch of this code will only contain the completed tasks, we don't need to check if the process is complete.
+    // if (processState.completionDate == null) {
+    //     throw new Error("Latest process is not complete");
+    // }
+
+    let processOutputFiles = focusOrganizationDetailsFileHelper.getProcessOutputFiles(latestProcessStateDirectory);
+    // add directory path to file names
+    processOutputFiles = processOutputFiles.map((processOutputFile) => join(config.focusOrganizationDetailsDataDirectory, latestProcessStateDirectory, processOutputFile));
+
+    const focusOrgMap:{ [name:string]:FocusOrganization } = {};
+
+    // collect all data from all process output files, per org
+    for (const processOutputFile of processOutputFiles) {
+        log(`Reading ${processOutputFile}`);
+        const processOutput:TaskRunOutputItem[] = readSlurpJsonFileSync(processOutputFile);
+        for (const fileOutput of processOutput) {
+            if (processState.archived[fileOutput.taskId]) {
+                // the output was found in an archived task, let's discard the output.
+                continue;
+            }
+
+            if(!fileOutput.result){
+                // ignore these results.
+                // happens when the org is not found.
+                continue;
+            }
+
+            const orgName = fileOutput.result.login;
+
+            if (!orgName) {
+                // ignore these results.
+                // should never happen actually!
+                continue;
+            }
+
+            if(!focusOrgMap[orgName]){
+                focusOrgMap[orgName] = {
+                    name: orgName,
+                    numberOfMatchingRepositories: focusOrgMatchingRepositoriesCountTruthMap[orgName] ?? 0,
+                    repositories: {},
+                };
+            }
+
+            for(const repository of fileOutput.result.repositories.nodes) {
+                // in case of duplicates, we will overwrite the previous entry.
+                focusOrgMap[orgName].repositories[repository.nameWithOwner] = repository;
+            }
+        }
+    }
+
+    log(`Found ${Object.keys(focusOrgMap).length} organizations`);
 
     return focusOrgMap;
 }

@@ -1,3 +1,5 @@
+// TODO: exclude some orgs like "is-a-dev/register" - done, need to refetch focus organization details
+
 import * as fs from "fs";
 import {join} from "path";
 import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
@@ -15,10 +17,16 @@ export interface Config {
 }
 
 const USER_SCORE_COEFFICIENTS = {
-    PullRequest: 10,
-    PullRequestReview: 5,
-    Commit: 3,
-    Issue: 1
+    // PRs are the most important, as in the end, this is what the most impactful contributions are
+    // in a proper open source project
+    PullRequest: 60,
+    // reviews are also important, as they are a sign of a more advanced contributor
+    PullRequestReview: 30,
+    // commits are not very important, as they're included in the PRs.
+    // also, giving a high score for commits would favor people who just push their own commits to their own repos
+    Commit: 1,
+    // issues are also important
+    Issue: 9,
 };
 
 const ACTIVE_USER_CRITERIA = {
@@ -26,7 +34,7 @@ const ACTIVE_USER_CRITERIA = {
     MinActivityScore: 1,
 };
 
-const OSS_CONTRIBUTOR_MIN_SCORE = 20;
+const OSS_CONTRIBUTOR_MIN_SCORE = 1;
 
 const UNKNOWN_PROVINCE = "-Unknown-";
 
@@ -79,13 +87,13 @@ export async function main(config:Config) {
     const userAndContribSearchTruthMap:{ [username:string]:TaskRunOutputItem[] } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-and-contrib.index.json");
     const userLocationsTruthMap:{ [username:string]:UserLocation } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-locations.index.json");
 
-    const focusOrganizationScoreMap = buildFocusOrganizationScoreMap(focusOrganizations);
-    const focusRepositoriesScoreMap = buildFocusRepositoryScoreMap(focusRepositories);
+    const focusRepositoriesScoreMap = buildFocusRepositoryScoreMap(focusOrganizations, focusRepositories);
+    const focusOrganizationScoreMap = buildFocusOrganizationScoreMap(focusRepositoriesScoreMap);
 
     // intermediate data
     const userInformationMap = buildUserInformationMap(userAndContribSearchTruthMap, userLocationsTruthMap);
     const activeUserInformationMap = buildActiveUserInformationMap(userInformationMap);
-    const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, focusOrganizationScoreMap, focusRepositoriesScoreMap);
+    const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, focusRepositoriesScoreMap);
 
     const userProvinceCountsMap = buildUserProvinceCountsMap(userInformationMap);
     const activeUserProvinceCountsMap = buildUserProvinceCountsMap(activeUserInformationMap);
@@ -115,21 +123,63 @@ export async function main(config:Config) {
 }
 
 /**
- * Builds a map of the focus organization name to the score of the organization.
+ * Builds a map of the focus repository names (with owner) to the score of the repository.
+ * The focus repositories are:
+ * - the focus repositories that are not part of an organization (these have higher selection criteria)
+ * - all repositories of the focus organizations
  *
- * The score is calculated as the number of matched focus repository candidates in the organization.
- * As we don't have all the repositories in the organization, we can't calculate the score better than this right now.
+ * Score calculation is somewhat complex, see the calculateRepositoryScore function for details.
  *
+ * @see calculateRepositoryScore
  * @param focusOrganizations
+ * @param focusRepositories
  */
-function buildFocusOrganizationScoreMap(focusOrganizations:{ [orgName:string]:FocusOrganization }) {
-    const scoreMap:{ [org:string]:number } = {};
+function buildFocusRepositoryScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
+    const scoreMap:{ [nameWithOwner:string]:number } = {};
 
-    for (const focusOrg of Object.values(focusOrganizations)) {
-        const orgName = focusOrg.name;
-        scoreMap[orgName] = focusOrg.matchingRepositories.length;
+    for (const focusRepo of Object.values(focusRepositories)) {
+        const nameWithOwner = focusRepo.nameWithOwner;
+        scoreMap[nameWithOwner] = calculateRepositoryScore(focusRepo, 0);
     }
 
+    for(const focusOrg of Object.values(focusOrganizations)){
+        for(const focusRepo of Object.values(focusOrg.repositories)){
+            const nameWithOwner = focusRepo.nameWithOwner;
+            scoreMap[nameWithOwner] = calculateRepositoryScore(focusRepo, focusOrg.numberOfMatchingRepositories);
+        }
+    }
+
+    // TODO: create a reusable function for this sorting
+    // sort scoreMap by score
+    // Javascript objects cannot be sorted for sure (we migth end up with numeric repository names at the top), but it is ok.
+    const scoreMapEntries = Object.entries(scoreMap);
+    scoreMapEntries.sort((a, b) => b[1] - a[1]);
+    const sortedScoreMap:{ [nameWithOwner:string]:number } = {};
+    for (const scoreMapEntry of scoreMapEntries) {
+        sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
+    }
+    return sortedScoreMap;
+}
+
+/**
+ * Builds a map of the focus organization name to the score of the organization.
+ *
+ * The focus repositories (which are not part of an organization) are also included in this map, with the user
+ * owning the repository as the organization.
+ *
+ * The score of the organization is the sum of the scores of the repositories of the organization.
+ *
+ * @param focusRepositoriesScoreMap
+ */
+function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwner:string]:number }) {
+    const scoreMap:{ [org:string]:number } = {};
+
+    for (const repoNameWithOwner of Object.keys(focusRepositoriesScoreMap)) {
+        const orgName = repoNameWithOwner.split("/")[0];
+        scoreMap[orgName] = (scoreMap[orgName] ?? 0) + focusRepositoriesScoreMap[repoNameWithOwner];
+    }
+
+    // TODO: create a reusable function for this sorting
     // sort scoreMap by score
     // Javascript objects cannot be sorted for sure (we migth end up with numeric org names at the top), but it is ok.
     const scoreMapEntries = Object.entries(scoreMap);
@@ -143,39 +193,23 @@ function buildFocusOrganizationScoreMap(focusOrganizations:{ [orgName:string]:Fo
 }
 
 /**
- * Builds a map of the focus repository names (with owner) to the score of the repository.
- *
- * The score is calculated as the number of stars of the repository.
- *
- * @param focusRepositories
- */
-function buildFocusRepositoryScoreMap(focusRepositories:{ [nameWithOwner:string]:RepositorySummaryFragment }) {
-    const scoreMap:{ [nameWithOwner:string]:number } = {};
-
-    for (const focusRepo of Object.values(focusRepositories)) {
-        const nameWithOwner = focusRepo.nameWithOwner;
-        scoreMap[nameWithOwner] = focusRepo.stargazerCount;
-    }
-
-    // sort scoreMap by score
-    // Javascript objects cannot be sorted for sure (we migth end up with numeric repository names at the top), but it is ok.
-    const scoreMapEntries = Object.entries(scoreMap);
-    scoreMapEntries.sort((a, b) => b[1] - a[1]);
-    const sortedScoreMap:{ [nameWithOwner:string]:number } = {};
-    for (const scoreMapEntry of scoreMapEntries) {
-        sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
-    }
-    return sortedScoreMap;
-}
-
-/**
  * Builds a map of the username to the user information.
  *
  * At this point, all contributions are included, not just contributions to the focus projects.
  *
- * The score is calculated as the sum of the contributions of the user.
+ * Part of the user information, we also calculate the contribution score for each repository for the user, as well as
+ * the total contribution score.
+ *
+ * At this stage, we don't care about the focus projects, so the contribution score for each repository is simply the
+ * sum of the contribution scores for each contribution type. The repository score is also discarded.
  *
  * Each contribution type has a different coefficient, which is hardcoded in the USER_SCORE_COEFFICIENTS object.
+ * Also, the contribution count is normalized with sqrt, so that the contribution count is not too dominant.
+ *
+ * So, basically, these scores are basically user's "activity score" with no regards to the focus projects, repository
+ * scores or contribution diversity.
+ *
+ * Total contribution score is the sum of the contribution scores for each repository.
  *
  * @param userAndContribSearchTruthMap
  * @param userLocationsTruthMap
@@ -186,7 +220,24 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
     function processContributions(contribScores:{[repoNameWithOwner:string]:number}, coefficient:number, contributions:ContributionByRepositoryFragment[]) {
         for(const contribution of contributions){
             const repoName = contribution.repository.nameWithOwner;
-            contribScores[repoName] = (contribScores[repoName] ?? 0) + contribution.contributions.totalCount * coefficient;
+
+            // the score for the repo contribution depends on:
+            // - contribution count (normalized)
+            // - kind of contribution (coefficient)
+            // later on, other factors are added, but at this stage, we simply calculate the contribution score for the repo
+
+            const contribCount = contribution.contributions.totalCount;
+            // normalize the contribution count with sqrt.
+            // when a user sends 100 prs and another user sends 10 prs, we don't want the first user to have 10x the score.
+            // however, sqrt(100) = 10 and sqrt(10) = 3.16, so the first user will have 3.16x the score; which is more fair.
+            const normalizedContribCount = Math.sqrt(contribCount);
+
+            if(!contribScores[repoName]){
+                contribScores[repoName] = 0;
+            }
+
+            contribScores[repoName] = contribScores[repoName] + normalizedContribCount * coefficient;
+            contribScores[repoName] = Math.floor(contribScores[repoName]);
         }
     }
 
@@ -251,6 +302,7 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
         // add up the scores
         let score = 0;
         for(const repoNameWithOwner in contribScores){
+            // in this case, we don't care about the repository score or the contribution diversity, as we're not filtering by the focus projects
             score += contribScores[repoNameWithOwner];
         }
 
@@ -299,27 +351,56 @@ function buildActiveUserInformationMap(userInformationMap:{ [username:string]:Us
  *
  * Creates a new user information map, where the contributions are filtered to only include contributions to the focus projects.
  *
+ * Also, the score is computed using various factors:
+ * - contribution count (normalized): this is already done in the previous steps and given as parameter
+ * - repository score multiplier: the score of the repository, multiplied by 1 + 5% of the repository score
+ * - contributed organization diversity: this is the number of focus organizations that the user contributed to
+ * - final score normalization: the final score is normalized with sqrt, so that the top scores are not too high
+ *
+ * Score built this way is called the "OSS contribution score" and is not comparable to the "activity score" calculated earlier.
+ *
  * @param userInformationMap
- * @param focusOrganizationScoreMap
  * @param focusRepositoriesScoreMap
  */
-function buildOssContributorInformationMap(userInformationMap:{ [username:string]:UserInformation }, focusOrganizationScoreMap:{ [orgName:string]:number }, focusRepositoriesScoreMap:{ [nameWithOwner:string]:number }) {
+function buildOssContributorInformationMap(userInformationMap:{[username:string]:UserInformation}, focusRepositoriesScoreMap:{[orgNameWithOwner:string]:number}) {
     const ossContributorInformationMap:{ [username:string]:UserInformation } = {};
 
     for(const username in userInformationMap) {
         const userInformation = userInformationMap[username];
-        const ossContribScores:{[repoNameWithOwner:string]:number} = {};
-        let ossContributionScore = 0;
+        const userOssContribScoresPerRepos:{[repoNameWithOwner:string]:number} = {};
 
+        let userTotalOssContributionScore = 0;
+
+        // we're gonna need the list of contributed organizations later on to find out the contribution diversity
+        const contributedOrgs = new Set<string>();
         for(const repoNameWithOwner in userInformation.contributionScoresPerRepository){
-            const orgName = repoNameWithOwner.split("/")[0];
-            if(focusRepositoriesScoreMap[repoNameWithOwner] || focusOrganizationScoreMap[orgName]){
-                ossContribScores[repoNameWithOwner] = userInformation.contributionScoresPerRepository[repoNameWithOwner];
-                ossContributionScore += ossContribScores[repoNameWithOwner];
+            if(focusRepositoriesScoreMap[repoNameWithOwner]){
+                const userContribScoreForRepository = userInformation.contributionScoresPerRepository[repoNameWithOwner];
+
+                const repoScore = focusRepositoriesScoreMap[repoNameWithOwner];
+                // pass this value as is
+                userOssContribScoresPerRepos[repoNameWithOwner] = userContribScoreForRepository;
+
+                // repo score multiplier is 1 + 5% of the repo score.
+                // this is to make sure that the repo score is not too dominant.
+                const repoScoreMultiplier = 1 + repoScore * 0.05;
+                const userRepoScore = userContribScoreForRepository * repoScoreMultiplier;
+                // add up the total OSS contribution score
+                userTotalOssContributionScore += userRepoScore;
+
+                const orgName = repoNameWithOwner.split("/")[0];
+                contributedOrgs.add(orgName);
             }
         }
 
-        if(ossContributionScore < OSS_CONTRIBUTOR_MIN_SCORE){
+        // add a multiplier for contributed organization diversity
+        userTotalOssContributionScore *= 1 + contributedOrgs.size * 0.25;
+
+        // normalize the score with sqrt, otherwise the top scores will be too high
+        userTotalOssContributionScore = Math.sqrt(userTotalOssContributionScore);
+        userTotalOssContributionScore = Math.floor(userTotalOssContributionScore);
+
+        if(userTotalOssContributionScore < OSS_CONTRIBUTOR_MIN_SCORE){
             continue;
         }
 
@@ -329,8 +410,8 @@ function buildOssContributorInformationMap(userInformationMap:{ [username:string
             stats: userInformation.stats,
 
             //different
-            score: ossContributionScore,
-            contributionScoresPerRepository: ossContribScores,
+            score: userTotalOssContributionScore,
+            contributionScoresPerRepository: userOssContribScoresPerRepos,
         };
     }
 
@@ -351,6 +432,7 @@ function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserI
         userProvinceCountsMap[province] = (userProvinceCountsMap[province] ?? 0) + 1;
     }
 
+    // TODO: create a reusable function for this sorting
     // sort the output by number of users
     const outputEntries = Object.entries(userProvinceCountsMap);
     outputEntries.sort((a, b) => b[1] - a[1]);
@@ -409,20 +491,20 @@ function buildUserSignedUpAtMap(userInformationMap:{ [username:string]:UserInfor
  *   ...
  * ]
  *
- * @param activeUserInformationMap
+ * @param userInformationMap
  */
-function buildUserLeaderBoard(activeUserInformationMap:{ [username:string]:UserInformation }) {
+function buildUserLeaderBoard(userInformationMap:{ [username:string]:UserInformation }) {
     const list:UserInformation[] = [];
 
     // Javascript objects cannot be sorted.
     // So, we need to get the keys, sort them by user score, and then iterate over the keys.
 
-    const usernames = Object.keys(activeUserInformationMap);
-    usernames.sort((a, b) => activeUserInformationMap[b].score - activeUserInformationMap[a].score);
+    const usernames = Object.keys(userInformationMap);
+    usernames.sort((a, b) => userInformationMap[b].score - userInformationMap[a].score);
 
     // get the top N
     for(let i = 0; i < LEADER_BOARD_SIZE && i < usernames.length; i++){
-        list.push(activeUserInformationMap[usernames[i]]);
+        list.push(userInformationMap[usernames[i]]);
     }
 
     return list;
@@ -471,8 +553,11 @@ function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation 
         for(const repoNameWithOwner in userInformation.contributionScoresPerRepository){
             companyMap[company].contributionScoresPerRepository[repoNameWithOwner] = (companyMap[company].contributionScoresPerRepository[repoNameWithOwner] ?? 0) + userInformation.contributionScoresPerRepository[repoNameWithOwner];
         }
+        // TODO: add a multiplier for the number of contributed repositories of users in the company
     }
-    // sort the companyMap by number of users
+
+    // TODO: create a reusable function for this sorting
+    // sort the companyMap by the scores of companies
     const companyMapEntries = Object.entries(companyMap);
     companyMapEntries.sort((a, b) => b[1].numberOfUsers - a[1].numberOfUsers);
     const sortedCompanyMap:{[companyName:string]:CompanyInformation} = {};
@@ -480,4 +565,56 @@ function buildCompanyInformationMap(userMap:{ [username:string]:UserInformation 
         sortedCompanyMap[companyMapEntry[0]] = companyMapEntry[1];
     }
     return sortedCompanyMap;
+}
+
+/**
+ * Calculates the score of a repository.
+ *
+ * The score is calculated based on the repository summary fragment, and the number of matched repositories in the
+ * organization.
+ *
+ * The score is calculated based on the following factors, which have different weight.
+ * - fork count
+ * - stargazer count
+ * - pull request count
+ * - issue count
+ * - watcher count
+ * - number of matched repositories in the organization
+ *
+ * The score is normalized with sqrt, so that the top scores are not too high.
+ * This is done because often the factors above are correlated.
+ *
+ * @param repo
+ * @param numberOfMatchedRepositoriesInOrg
+ */
+function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatchedRepositoriesInOrg:number) {
+    // the weights should sum up to 100 for an easy-to-understand score
+
+    let pureRepoScore = 0;
+    pureRepoScore += repo.forkCount * 5;
+    pureRepoScore += repo.stargazerCount * 20;
+    pureRepoScore += repo.pullRequests.totalCount * 20;
+    pureRepoScore += repo.issues.totalCount * 40;
+    // score += repo.mentionableUsers.totalCount * 30;
+    pureRepoScore += repo.watchers.totalCount * 10;
+    // TODO
+    //score += repo.discussions.totalCount * 5;
+
+    if (!pureRepoScore) {
+        return 0;
+    }
+
+    // normalize the score with sqrt.
+    // when a repo has 100 stars and another repo has 10 stars, we don't want the first repo to have 10x the score.
+    // however, sqrt(100) = 10 and sqrt(10) = 3.16, so the first repo will have 3.16x the score; which is more fair.
+    let normalizedRepoScore = Math.sqrt(pureRepoScore);
+    if (normalizedRepoScore <= 0) {
+        return 0;
+    }
+
+    // add a multiplier for the number of matched repositories in the organization
+    const orgMultiplier = 1 + Math.sqrt(numberOfMatchedRepositoriesInOrg) * 0.01;
+    let repoScoreWithOrgMultiplier = normalizedRepoScore * orgMultiplier;
+
+    return Math.floor(repoScoreWithOrgMultiplier);
 }
