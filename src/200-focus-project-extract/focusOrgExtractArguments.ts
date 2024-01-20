@@ -25,6 +25,11 @@ export function addArguments(y:Argv<any>) {
                 desc: "Path of the directory that holds focus project candidate search files.",
                 demandOption: true,
             },
+            "organization-exclude-list-file": {
+                type: "string",
+                desc: "Path to the organization exclude list file.",
+                demandOption: true,
+            },
             "output-directory": {
                 type: "string",
                 desc: "Path to output directory. The output files will be named '<TIMESTAMP>/focus-organizations.json'. Timestamps will be taken from the focus candidate project search output file names.",

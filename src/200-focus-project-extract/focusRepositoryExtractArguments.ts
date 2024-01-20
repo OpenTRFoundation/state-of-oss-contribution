@@ -31,9 +31,14 @@ export function addArguments(y:Argv<any>) {
                 desc: "Path of the directory that holds focus project candidate search files.",
                 demandOption: true,
             },
-            "exclude-list-file": {
+            "repository-exclude-list-file": {
                 type: "string",
-                desc: "Path to the exclude list file.",
+                desc: "Path to the repository exclude list file.",
+                demandOption: true,
+            },
+            "organization-exclude-list-file": {
+                type: "string",
+                desc: "Path to the organization exclude list file.",
                 demandOption: true,
             },
             "output-directory": {

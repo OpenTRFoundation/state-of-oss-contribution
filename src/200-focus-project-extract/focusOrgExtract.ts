@@ -5,6 +5,7 @@ import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputIte
 import * as log from "@opentr/cuttlecat/dist/log.js";
 import {ProcessFileHelper} from "@opentr/cuttlecat/dist/processFileHelper.js";
 import {readSlurpJsonFile} from "@opentr/cuttlecat/dist/utils.js";
+import {readExcludeList} from "./focusRepositoryExtract.js";
 
 
 const logger = log.createLogger("focusRepositoryExtract/command");
@@ -13,6 +14,7 @@ const logger = log.createLogger("focusRepositoryExtract/command");
 
 export interface Config {
     focusProjectCandidateSearchDataDirectory:string;
+    organizationExcludeListFile:string;
     outputDirectory:string;
 }
 
@@ -33,6 +35,11 @@ export async function main(config:Config) {
         return;
     }
 
+    // read organization exclude list
+    logger.debug(`Reading organization exclude list from ${config.organizationExcludeListFile}.`);
+    const organizationExcludeList = readExcludeList(config.organizationExcludeListFile);
+    logger.debug(`Read ${organizationExcludeList.size} entries from organization exclude list.`);
+
     for (const processStateDirectory of processStateDirectories) {
         logger.info(`Processing search output directory ${processStateDirectory}.`);
 
@@ -47,9 +54,14 @@ export async function main(config:Config) {
 
             await readSlurpJsonFile<TaskRunOutputItem>(searchOutputFilePath, (lineObject) => {
                 const repository = lineObject.result;
-                if (repository.isInOrganization) {
-                    repositories.add(repository.owner.login);
+                if (!repository.isInOrganization) {
+                    return;
                 }
+                if (organizationExcludeList.has(repository.owner.login)) {
+                    return;
+                }
+
+                repositories.add(repository.owner.login);
             });
         }
 

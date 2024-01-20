@@ -11,6 +11,7 @@ import {addArguments, getYargs} from "./focusOrgExtractArguments.js";
 
     await main({
         focusProjectCandidateSearchDataDirectory: argv.focusProjectCandidateSearchDataDirectory,
+        organizationExcludeListFile: argv.organizationExcludeListFile,
         outputDirectory: argv.outputDirectory,
     });
 })();

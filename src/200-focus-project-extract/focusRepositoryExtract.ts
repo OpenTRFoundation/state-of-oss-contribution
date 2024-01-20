@@ -16,7 +16,8 @@ const logger = log.createLogger("focusRepositoryExtract/command");
 
 export interface Config {
     focusProjectCandidateSearchDataDirectory:string;
-    excludeListFile:string;
+    repositoryExcludeListFile:string;
+    organizationExcludeListFile:string;
     outputDirectory:string;
     minStars:number;
     minForks:number;
@@ -41,10 +42,15 @@ export async function main(config:Config) {
         return;
     }
 
-    // read exclude list
-    logger.debug(`Reading exclude list from ${config.excludeListFile}.`);
-    const excludeList = readExcludeList(config.excludeListFile);
-    logger.debug(`Read ${excludeList.size} entries from exclude list.`);
+    // read repository exclude list
+    logger.debug(`Reading repository exclude list from ${config.repositoryExcludeListFile}.`);
+    const repositoryExcludeList = readExcludeList(config.repositoryExcludeListFile);
+    logger.debug(`Read ${repositoryExcludeList.size} entries from repository exclude list.`);
+
+    // read organization exclude list
+    logger.debug(`Reading organization exclude list from ${config.organizationExcludeListFile}.`);
+    const organizationExcludeList = readExcludeList(config.organizationExcludeListFile);
+    logger.debug(`Read ${organizationExcludeList.size} entries from organization exclude list.`);
 
     for (const processStateDirectory of processStateDirectories) {
         logger.info(`Processing search output directory ${processStateDirectory}.`);
@@ -67,7 +73,12 @@ export async function main(config:Config) {
 
                 const identifier = repository.nameWithOwner;
 
-                if (excludeList.has(identifier)) {
+                if (repositoryExcludeList.has(identifier)) {
+                    return;
+                }
+
+                const orgIdentifier = repository.owner.login;
+                if (organizationExcludeList.has(orgIdentifier)) {
                     return;
                 }
 
@@ -102,7 +113,7 @@ export async function main(config:Config) {
     }
 }
 
-function readExcludeList(excludeListFile:string) {
+export function readExcludeList(excludeListFile:string) {
     const excludeArray:string[] = JSON.parse(fs.readFileSync(excludeListFile, "utf8"));
     return new Set(excludeArray);
 }

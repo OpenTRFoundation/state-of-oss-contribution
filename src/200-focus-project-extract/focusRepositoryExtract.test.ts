@@ -21,7 +21,8 @@ describe('focusRepositoryExtraction', () => {
             await main({
                 focusProjectCandidateSearchDataDirectory: join(__dirname, "test-data", "input"),
                 outputDirectory: outputDirectory,
-                excludeListFile: join(__dirname, "test-data", "repository-exclude-list.json"),
+                repositoryExcludeListFile: join(__dirname, "test-data", "repository-exclude-list.json"),
+                organizationExcludeListFile: join(__dirname, "test-data", "organization-exclude-list.json"),
                 minStars: 50,
                 minForks: 50,
                 minMentionableUsers: 50,

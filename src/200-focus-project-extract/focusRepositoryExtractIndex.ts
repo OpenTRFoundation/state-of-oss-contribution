@@ -11,7 +11,8 @@ import {addArguments, getYargs} from "./focusRepositoryExtractArguments.js";
 
     await main({
         focusProjectCandidateSearchDataDirectory: argv.focusProjectCandidateSearchDataDirectory,
-        excludeListFile: argv.excludeListFile,
+        repositoryExcludeListFile: argv.repositoryExcludeListFile,
+        organizationExcludeListFile: argv.organizationExcludeListFile,
         outputDirectory: argv.outputDirectory,
         minStars: argv.minStars,
         minForks: argv.minForks,

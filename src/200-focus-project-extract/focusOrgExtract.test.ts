@@ -20,6 +20,7 @@ describe('focusOrgExtraction', () => {
 
             await main({
                 focusProjectCandidateSearchDataDirectory: join(__dirname, "test-data", "input"),
+                organizationExcludeListFile: join(__dirname, "test-data", "organization-exclude-list.json"),
                 outputDirectory: outputDirectory,
             });
 
