@@ -70,6 +70,8 @@ type UserStats = {
 
 interface UserInformation {
     profile:UserProfile;
+    sumOfScores:number;
+    contributionDiveristyMultiplier:number;
     score:number;
     stats:UserStats;
     contributionScoresPerRepository:{[repoNameWithOwner:string]:number};
@@ -319,6 +321,8 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
 
         userInformationMap[username] = {
             profile: profile,
+            sumOfScores: score,
+            contributionDiveristyMultiplier: 1,
             score: score,
             stats: stats,
             contributionScoresPerRepository: sortedContribScores,
@@ -376,7 +380,7 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
         const userInformation = userInformationMap[username];
         const userOssContribScoresPerRepos:{[repoNameWithOwner:string]:number} = {};
 
-        let userTotalOssContributionScore = 0;
+        let sumOfScores = 0;
 
         // we're gonna need the list of contributed organizations later on to find out the contribution diversity
         const contributedOrgs = new Set<string>();
@@ -393,15 +397,18 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
                 const repoScoreMultiplier = 1 + repoScore * 0.05;
                 const userRepoScore = userContribScoreForRepository * repoScoreMultiplier;
                 // add up the total OSS contribution score
-                userTotalOssContributionScore += userRepoScore;
+                sumOfScores += userRepoScore;
 
                 const orgName = repoNameWithOwner.split("/")[0];
                 contributedOrgs.add(orgName);
             }
         }
 
+        sumOfScores = Math.floor(sumOfScores);
+
         // add a multiplier for contributed organization diversity
-        userTotalOssContributionScore *= 1 + contributedOrgs.size * 0.25;
+        const contributionDiveristyMultiplier = 1 + contributedOrgs.size * 0.25;
+        let userTotalOssContributionScore = sumOfScores * contributionDiveristyMultiplier;
 
         // normalize the score with sqrt, otherwise the top scores will be too high
         userTotalOssContributionScore = Math.sqrt(userTotalOssContributionScore);
@@ -417,6 +424,8 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
             stats: userInformation.stats,
 
             //different
+            sumOfScores: sumOfScores,
+            contributionDiveristyMultiplier: contributionDiveristyMultiplier,
             score: userTotalOssContributionScore,
             contributionScoresPerRepository: userOssContribScoresPerRepos,
         };
