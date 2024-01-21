@@ -1,6 +1,4 @@
 // TODO: exclude some orgs like "is-a-dev/register" - done, need to refetch focus organization details
-// TODO: add log statements for reading functions and file readings
-
 import * as fs from "fs";
 import {join} from "path";
 import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
@@ -11,6 +9,7 @@ import {
 } from "../400-user-and-contrib-search/userAndContribSearch.js";
 import {FocusOrganization, UserLocation} from "../900-report-data-truthmap/buildTruthMaps.js";
 import {readPartitioned} from "../util/partition.js";
+import {header, log} from "../util/log.js";
 
 export interface Config {
     reportDataTruthMapDirectory:string;
@@ -91,28 +90,64 @@ interface CompanyInformation {
 }
 
 export async function main(config:Config) {
+    // read truth maps
+    header(`Reading focus repository truth map...`);
     const focusRepositories:{ [nameWithOwner:string]:RepositorySummaryFragment } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-focus-repositories.index.json");
+
+    header(`Reading focus organization truth map...`);
     const focusOrganizations:{ [orgName:string]:FocusOrganization } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-focus-organizations.index.json");
+
+    header(`Reading user and contrib search truth map...`);
     const userAndContribSearchTruthMap:{ [username:string]:TaskRunOutputItem[] } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-and-contrib.index.json");
+
+    header(`Reading user locations truth map...`);
     const userLocationsTruthMap:{ [username:string]:UserLocation } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-locations.index.json");
 
+    header(`Building focus repository score map...`);
     const focusRepositoriesScoreMap = buildFocusRepositoryScoreMap(focusOrganizations, focusRepositories);
+
+    header(`Building focus organization score map...`);
     const focusOrganizationScoreMap = buildFocusOrganizationScoreMap(focusRepositoriesScoreMap);
 
-    // intermediate data
+
+
+    // build some intermediate data
+    header(`Building user information map...`);
     const userInformationMap = buildUserInformationMap(userAndContribSearchTruthMap, userLocationsTruthMap);
+
+    header(`Building active user information map...`);
     const activeUserInformationMap = buildActiveUserInformationMap(userInformationMap);
+
+    header(`Building OSS contributor information map...`);
     const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, focusRepositoriesScoreMap);
 
-    const userProvinceCountsMap = buildUserProvinceCountsMap(userInformationMap);
-    const activeUserProvinceCountsMap = buildUserProvinceCountsMap(activeUserInformationMap);
-    const ossContributorProvinceCountsMap = buildUserProvinceCountsMap(ossContributorInformationMap);
-    const userSignedUpAtMap = buildUserSignedUpAtMap(userInformationMap);
-
-    const activeUserLeaderBoard = buildUserLeaderBoard(activeUserInformationMap);
-    const ossContributorLeaderBoard = buildUserLeaderBoard(ossContributorInformationMap);
+    header(`Building company OSS contribution information map...`);
     const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, focusRepositoriesScoreMap);
 
+
+    // build report data
+    header(`Building user province counts map...`);
+    const userProvinceCountsMap = buildUserProvinceCountsMap(userInformationMap);
+
+    header(`Building active user province counts map...`);
+    const activeUserProvinceCountsMap = buildUserProvinceCountsMap(activeUserInformationMap);
+
+    header(`Building OSS contributor province counts map...`);
+    const ossContributorProvinceCountsMap = buildUserProvinceCountsMap(ossContributorInformationMap);
+
+    header(`Building user signed up at map...`);
+    const userSignedUpAtMap = buildUserSignedUpAtMap(userInformationMap);
+
+    header(`Building active user leader board...`);
+    const activeUserLeaderBoard = buildLeaderBoard(activeUserInformationMap);
+
+    header(`Building OSS contributor leader board...`);
+    const ossContributorLeaderBoard = buildLeaderBoard(ossContributorInformationMap);
+
+    header(`Building company leader board...`);
+    const companyLeaderBoard = buildLeaderBoard(companyOssContributionInformationMap);
+
+    header(`Writing output files...`);
     fs.writeFileSync(join(config.outputDirectory, "110-focus-organization-score-map.json"), JSON.stringify(focusOrganizationScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "120-focus-repository-score-map.json"), JSON.stringify(focusRepositoriesScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "210-user-province-counts-map.json"), JSON.stringify(userProvinceCountsMap, null, 2));
@@ -121,7 +156,7 @@ export async function main(config:Config) {
     fs.writeFileSync(join(config.outputDirectory, "240-user-signed-up-at-map.json"), JSON.stringify(userSignedUpAtMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "310-active-user-leader-board.json"), JSON.stringify(activeUserLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "320-oss-contributor-leader-board.json"), JSON.stringify(ossContributorLeaderBoard, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-information-map.json"), JSON.stringify(companyOssContributionInformationMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-leader-board.json"), JSON.stringify(companyLeaderBoard, null, 2));
 
     // DEBUG
     // fs.writeFileSync(join(config.outputDirectory, "debug-user-information-map.json"), JSON.stringify(userInformationMap, null, 2));
@@ -144,6 +179,8 @@ export async function main(config:Config) {
  * @param focusRepositories
  */
 function buildFocusRepositoryScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
+    log(`Calculating repository scores...`);
+
     const scoreMap:{ [nameWithOwner:string]:number } = {};
 
     for (const focusRepo of Object.values(focusRepositories)) {
@@ -167,6 +204,9 @@ function buildFocusRepositoryScoreMap(focusOrganizations:{[orgName:string]:Focus
     for (const scoreMapEntry of scoreMapEntries) {
         sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
     }
+
+    log(`Found ${Object.keys(sortedScoreMap).length} focus repositories.`);
+
     return sortedScoreMap;
 }
 
@@ -181,6 +221,8 @@ function buildFocusRepositoryScoreMap(focusOrganizations:{[orgName:string]:Focus
  * @param focusRepositoriesScoreMap
  */
 function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwner:string]:number }) {
+    log(`Calculating organization scores...`);
+
     const scoreMap:{ [org:string]:number } = {};
 
     for (const repoNameWithOwner of Object.keys(focusRepositoriesScoreMap)) {
@@ -197,6 +239,8 @@ function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwn
     for (const scoreMapEntry of scoreMapEntries) {
         sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
     }
+
+    log(`Found ${Object.keys(sortedScoreMap).length} focus organizations.`);
 
     return sortedScoreMap;
 }
@@ -224,6 +268,8 @@ function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwn
  * @param userLocationsTruthMap
  */
 function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string]:TaskRunOutputItem[] }, userLocationsTruthMap:{ [username:string]:UserLocation }) {
+    log(`Building user information...`);
+
     const userInformationMap:{ [username:string]:UserInformation } = {};
 
     function processContributions(contribScores:{[repoNameWithOwner:string]:number}, coefficient:number, contributions:ContributionByRepositoryFragment[]) {
@@ -329,6 +375,8 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
         };
     }
 
+    log(`Found ${Object.keys(userInformationMap).length} users.`);
+
     return userInformationMap;
 }
 
@@ -340,6 +388,8 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
  * @param userInformationMap
  */
 function buildActiveUserInformationMap(userInformationMap:{ [username:string]:UserInformation }) {
+    log(`Building active user information...`);
+
     const activeUserInformationMap:{ [username:string]:UserInformation } = {};
 
     for(const username in userInformationMap){
@@ -353,6 +403,8 @@ function buildActiveUserInformationMap(userInformationMap:{ [username:string]:Us
         }
         activeUserInformationMap[username] = userInformation;
     }
+
+    log(`Found ${Object.keys(activeUserInformationMap).length} active users.`);
 
     return activeUserInformationMap;
 }
@@ -374,6 +426,8 @@ function buildActiveUserInformationMap(userInformationMap:{ [username:string]:Us
  * @param focusRepositoriesScoreMap
  */
 function buildOssContributorInformationMap(userInformationMap:{[username:string]:UserInformation}, focusRepositoriesScoreMap:{[orgNameWithOwner:string]:number}) {
+    log(`Building OSS contributor information...`);
+
     const ossContributorInformationMap:{ [username:string]:UserInformation } = {};
 
     for(const username in userInformationMap) {
@@ -431,6 +485,8 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
         };
     }
 
+    log(`Found ${Object.keys(ossContributorInformationMap).length} OSS contributors.`);
+
     return ossContributorInformationMap;
 }
 
@@ -440,6 +496,8 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
  * @param userInformationMap
  */
 function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserInformation }) {
+    log(`Building user province counts...`);
+
     const userProvinceCountsMap:{ [province:string]:number } = {};
 
     for(const username in userInformationMap){
@@ -457,6 +515,8 @@ function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserI
         sortedOutput[outputEntry[0]] = outputEntry[1];
     }
 
+    log(`Found ${Object.keys(sortedOutput).length} provinces.`);
+
     return sortedOutput;
 }
 
@@ -473,15 +533,23 @@ function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserI
  * @param userInformationMap
  */
 function buildUserSignedUpAtMap(userInformationMap:{ [username:string]:UserInformation }) {
+    log(`Building user signed up at map...`);
+
     const signedUpAtMap:{[year:string]:number} = {};
     for(const username in userInformationMap){
         const userInformation = userInformationMap[username];
         const year = userInformation.profile.signedUpAt.substring(0, 4);
         signedUpAtMap[year] = (signedUpAtMap[year] ?? 0) + 1;
     }
+
+    log(`Found ${Object.keys(signedUpAtMap).length} years.`);
+
     return signedUpAtMap;
 }
 
+interface Scored{
+    score:number;
+}
 /**
  * Builds a list of the top N active users based on their score for the given user information map.
  *
@@ -507,21 +575,25 @@ function buildUserSignedUpAtMap(userInformationMap:{ [username:string]:UserInfor
  *   ...
  * ]
  *
- * @param userInformationMap
+ * @param scoredMap
  */
-function buildUserLeaderBoard(userInformationMap:{ [username:string]:UserInformation }) {
-    const list:UserInformation[] = [];
+function buildLeaderBoard<T extends Scored>(scoredMap:{ [username:string]:T }) {
+    log(`Building scored leader board...`);
+
+    const list:T[] = [];
 
     // Javascript objects cannot be sorted.
     // So, we need to get the keys, sort them by user score, and then iterate over the keys.
 
-    const usernames = Object.keys(userInformationMap);
-    usernames.sort((a, b) => userInformationMap[b].score - userInformationMap[a].score);
+    const usernames = Object.keys(scoredMap);
+    usernames.sort((a, b) => scoredMap[b].score - scoredMap[a].score);
 
     // get the top N
     for(let i = 0; i < LEADER_BOARD_SIZE && i < usernames.length; i++){
-        list.push(userInformationMap[usernames[i]]);
+        list.push(scoredMap[usernames[i]]);
     }
+
+    log(`Found ${list.length} scored items in the leader board.`);
 
     return list;
 }
@@ -551,6 +623,8 @@ function buildUserLeaderBoard(userInformationMap:{ [username:string]:UserInforma
  * @param focusRepositoriesScoreMap
  */
 function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focusRepositoriesScoreMap:{[orgNameWithOwner:string]:number}) {
+    log(`Building company information map...`);
+
     const companyMap:{[companyName:string]:CompanyInformation} = {};
     for(const username in userMap){
         const userInformation = userMap[username];
@@ -584,6 +658,7 @@ function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focu
         }
     }
 
+    log(`Building company scores...`);
     // add a multiplier for the number of contributed repositories of users in the company
     for(const company of Object.values(companyMap)){
         const contributedOrgs = new Set<string>();
@@ -611,6 +686,9 @@ function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focu
     for (const companyMapEntry of companyMapEntries) {
         sortedCompanyMap[companyMapEntry[0]] = companyMapEntry[1];
     }
+
+    log(`Found ${Object.keys(sortedCompanyMap).length} companies.`);
+
     return sortedCompanyMap;
 }
 
