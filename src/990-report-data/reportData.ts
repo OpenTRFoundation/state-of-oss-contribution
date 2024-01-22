@@ -103,11 +103,14 @@ export async function main(config:Config) {
     header(`Reading user locations truth map...`);
     const userLocationsTruthMap:{ [username:string]:UserLocation } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-locations.index.json");
 
-    header(`Building focus repository score map...`);
-    const focusRepositoriesScoreMap = buildFocusRepositoryScoreMap(focusOrganizations, focusRepositories);
+    header(`Building all focus repositories score map...`);
+    const allFocusRepositoriesScoreMap = buildAllFocusRepositoriesScoreMap(focusOrganizations, focusRepositories);
 
     header(`Building focus organization score map...`);
-    const focusOrganizationScoreMap = buildFocusOrganizationScoreMap(focusRepositoriesScoreMap);
+    const focusOrganizationScoreMap = buildFocusOrganizationScoreMap(allFocusRepositoriesScoreMap);
+
+    header(`Building focus repository score map...`);
+    const focusRepositoryScoreMap = buildFocusRepositoryScoreMap(focusRepositories, allFocusRepositoriesScoreMap);
 
 
 
@@ -119,10 +122,10 @@ export async function main(config:Config) {
     const activeUserInformationMap = buildActiveUserInformationMap(userInformationMap);
 
     header(`Building OSS contributor information map...`);
-    const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, focusRepositoriesScoreMap);
+    const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, allFocusRepositoriesScoreMap);
 
     header(`Building company OSS contribution information map...`);
-    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, focusRepositoriesScoreMap);
+    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, allFocusRepositoriesScoreMap);
 
 
     // build report data
@@ -149,7 +152,7 @@ export async function main(config:Config) {
 
     header(`Writing output files...`);
     fs.writeFileSync(join(config.outputDirectory, "110-focus-organization-score-map.json"), JSON.stringify(focusOrganizationScoreMap, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "120-focus-repository-score-map.json"), JSON.stringify(focusRepositoriesScoreMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "120-focus-repository-score-map.json"), JSON.stringify(focusRepositoryScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "210-user-province-counts-map.json"), JSON.stringify(userProvinceCountsMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "220-active-user-province-counts-map.json"), JSON.stringify(activeUserProvinceCountsMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "230-oss-contributor-province-counts-map.json"), JSON.stringify(ossContributorProvinceCountsMap, null, 2));
@@ -178,7 +181,7 @@ export async function main(config:Config) {
  * @param focusOrganizations
  * @param focusRepositories
  */
-function buildFocusRepositoryScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
+function buildAllFocusRepositoriesScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
     log(`Calculating repository scores...`);
 
     const scoreMap:{ [nameWithOwner:string]:number } = {};
@@ -243,6 +246,38 @@ function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwn
     log(`Found ${Object.keys(sortedScoreMap).length} focus organizations.`);
 
     return sortedScoreMap;
+}
+
+/**
+ * Builds a map of the focus repository name (with owner) to the score of the repository.
+ *
+ * However, only includes the repositories that are not part of any organizations.
+ *
+ * @param focusRepositories
+ * @param allFocusRepositoriesScoreMap
+ */
+function buildFocusRepositoryScoreMap(focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}, allFocusRepositoriesScoreMap:{[nameWithOwner:string]:number}) {
+    log(`Building focus repository score map...`);
+
+    const output:{[nameAndOwner:string]:number} = {};
+    for(const repoName in focusRepositories){
+        if(allFocusRepositoriesScoreMap[repoName]){
+            output[repoName] = allFocusRepositoriesScoreMap[repoName];
+        }
+    }
+
+    // TODO: create a reusable function for this sorting
+    // sort the output by score
+    const outputEntries = Object.entries(output);
+    outputEntries.sort((a, b) => b[1] - a[1]);
+    const sortedOutput:{[nameAndOwner:string]:number} = {};
+    for (const outputEntry of outputEntries) {
+        sortedOutput[outputEntry[0]] = outputEntry[1];
+    }
+
+    log(`Found ${Object.keys(sortedOutput).length} focus repositories.`);
+
+    return sortedOutput;
 }
 
 /**
