@@ -33,8 +33,7 @@ const ACTIVE_USER_CRITERIA = {
     MinActivityScore: 1,
 };
 
-//TODO revisit this
-const OSS_CONTRIBUTOR_MIN_SCORE = 1;
+const OSS_CONTRIBUTOR_MIN_SCORE = 20;
 
 const UNKNOWN_PROVINCE = "-Unknown-";
 
@@ -115,7 +114,6 @@ export async function main(config:Config) {
 
 
 
-    // build some intermediate data
     header(`Building user information map...`);
     const userInformationMap = buildUserInformationMap(userAndContribSearchTruthMap, userLocationsTruthMap);
 
@@ -128,8 +126,6 @@ export async function main(config:Config) {
     header(`Building company OSS contribution information map...`);
     const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, allFocusRepositoriesScoreMap);
 
-
-    // build report data
     header(`Building user province counts map...`);
     const userProvinceCountsMap = buildUserProvinceCountsMap(userInformationMap);
 
@@ -163,11 +159,10 @@ export async function main(config:Config) {
     fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-leader-board.json"), JSON.stringify(companyLeaderBoard, null, 2));
 
     // DEBUG
-    // fs.writeFileSync(join(config.outputDirectory, "debug-user-information-map.json"), JSON.stringify(userInformationMap, null, 2));
-    // fs.writeFileSync(join(config.outputDirectory, "debug-active-user-information-map.json"), JSON.stringify(activeUserInformationMap, null, 2));
-    // fs.writeFileSync(join(config.outputDirectory, "debug-oss-contributor-information-map.json"), JSON.stringify(ossContributorInformationMap, null, 2));
-    // fs.writeFileSync(join(config.outputDirectory, "debug-focus-repository-contribution-score-map.json"), JSON.stringify(focusRepositoryContributionScoreMap, null, 2));
-    // fs.writeFileSync(join(config.outputDirectory, "debug-focus-organization-contribution-score-map.json"), JSON.stringify(focusOrganizationContributionScoreMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "debug-user-information-map.json"), JSON.stringify(userInformationMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "debug-active-user-information-map.json"), JSON.stringify(activeUserInformationMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "debug-oss-contributor-information-map.json"), JSON.stringify(ossContributorInformationMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "debug-company-oss-contribution-map.json"), JSON.stringify(companyOssContributionInformationMap, null, 2));
 }
 
 /**
@@ -523,9 +518,18 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
         };
     }
 
-    log(`Found ${Object.keys(ossContributorInformationMap).length} OSS contributors.`);
+    // TODO: create a reusable function for this sorting
+    // sort the output by score
+    const outputEntries = Object.entries(ossContributorInformationMap);
+    outputEntries.sort((a, b) => b[1].score - a[1].score);
+    const sortedOutput:{[username:string]:UserInformation} = {};
+    for (const outputEntry of outputEntries) {
+        sortedOutput[outputEntry[0]] = outputEntry[1];
+    }
 
-    return ossContributorInformationMap;
+    log(`Found ${Object.keys(sortedOutput).length} OSS contributors.`);
+
+    return sortedOutput;
 }
 
 /**
