@@ -1,4 +1,3 @@
-// TODO: exclude some orgs like "is-a-dev/register" - done, need to refetch focus organization details
 import * as fs from "fs";
 import {join} from "path";
 import {TaskRunOutputItem} from "@opentr/cuttlecat/dist/graphql/taskRunOutputItem.js";
@@ -34,6 +33,7 @@ const ACTIVE_USER_CRITERIA = {
     MinActivityScore: 1,
 };
 
+//TODO revisit this
 const OSS_CONTRIBUTOR_MIN_SCORE = 1;
 
 const UNKNOWN_PROVINCE = "-Unknown-";
@@ -70,7 +70,7 @@ type UserStats = {
 interface UserInformation {
     profile:UserProfile;
     sumOfScores:number;
-    contributionDiveristyMultiplier:number;
+    contributionDiversityMultiplier:number;
     score:number;
     stats:UserStats;
     contributionScoresPerRepository:{[repoNameWithOwner:string]:number};
@@ -403,7 +403,7 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
         userInformationMap[username] = {
             profile: profile,
             sumOfScores: score,
-            contributionDiveristyMultiplier: 1,
+            contributionDiversityMultiplier: 1,
             score: score,
             stats: stats,
             contributionScoresPerRepository: sortedContribScores,
@@ -496,8 +496,8 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
         sumOfScores = Math.floor(sumOfScores);
 
         // add a multiplier for contributed organization diversity
-        const contributionDiveristyMultiplier = 1 + contributedOrgs.size * 0.25;
-        let userTotalOssContributionScore = sumOfScores * contributionDiveristyMultiplier;
+        const contributionDiversityMultiplier = 1 + contributedOrgs.size * 0.25;
+        let userTotalOssContributionScore = sumOfScores * contributionDiversityMultiplier;
 
         // normalize the score with sqrt, otherwise the top scores will be too high
         userTotalOssContributionScore = Math.sqrt(userTotalOssContributionScore);
@@ -514,7 +514,7 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
 
             //different
             sumOfScores: sumOfScores,
-            contributionDiveristyMultiplier: contributionDiveristyMultiplier,
+            contributionDiversityMultiplier: contributionDiversityMultiplier,
             score: userTotalOssContributionScore,
             contributionScoresPerRepository: userOssContribScoresPerRepos,
         };
@@ -755,6 +755,7 @@ function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatche
     pureRepoScore += repo.stargazerCount * 20;
     pureRepoScore += repo.pullRequests.totalCount * 20;
     pureRepoScore += repo.issues.totalCount * 40;
+    // TODO?
     // score += repo.mentionableUsers.totalCount * 30;
     pureRepoScore += repo.watchers.totalCount * 10;
     // TODO
