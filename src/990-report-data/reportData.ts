@@ -70,6 +70,7 @@ type UserStats = {
 interface UserInformation {
     profile:UserProfile;
     sumOfScores:number;
+    contributedFocusOrgCount:number;
     contributionDiversityMultiplier:number;
     score:number;
     stats:UserStats;
@@ -403,6 +404,7 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
         userInformationMap[username] = {
             profile: profile,
             sumOfScores: score,
+            contributedFocusOrgCount: 0,
             contributionDiversityMultiplier: 1,
             score: score,
             stats: stats,
@@ -514,6 +516,7 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
 
             //different
             sumOfScores: sumOfScores,
+            contributedFocusOrgCount: contributedOrgs.size,
             contributionDiversityMultiplier: contributionDiversityMultiplier,
             score: userTotalOssContributionScore,
             contributionScoresPerRepository: userOssContribScoresPerRepos,
