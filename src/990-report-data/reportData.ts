@@ -138,6 +138,9 @@ export async function main(config:Config) {
     header(`Building user signed up at map...`);
     const userSignedUpAtMap = buildUserSignedUpAtMap(userInformationMap);
 
+    header(`Building contributed focus organization contribution score map...`);
+    const contributedFocusOrgContributionScoreMap = buildContributedFocusOrganizationContributionScoreMap(userInformationMap, ossContributorInformationMap, focusOrganizations);
+
     header(`Building active user leader board...`);
     const activeUserLeaderBoard = buildLeaderBoard(activeUserInformationMap);
 
@@ -157,6 +160,7 @@ export async function main(config:Config) {
     fs.writeFileSync(join(config.outputDirectory, "310-active-user-leader-board.json"), JSON.stringify(activeUserLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "320-oss-contributor-leader-board.json"), JSON.stringify(ossContributorLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-leader-board.json"), JSON.stringify(companyLeaderBoard, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "400-contributed-focus-organization-contribution-score-map.json"), JSON.stringify(contributedFocusOrgContributionScoreMap, null, 2));
 
     // DEBUG
     fs.writeFileSync(join(config.outputDirectory, "debug-user-information-map.json"), JSON.stringify(userInformationMap, null, 2));
@@ -587,6 +591,49 @@ function buildUserSignedUpAtMap(userInformationMap:{ [username:string]:UserInfor
     log(`Found ${Object.keys(signedUpAtMap).length} years.`);
 
     return signedUpAtMap;
+}
+
+/**
+ * Builds a map of the focus organization name to the contribution score of the organization.
+ * Contribution score is the sum of the contribution scores of the OSS contributors for that organization.
+ * @param userInformationMap
+ * @param ossContributorInformationMap
+ * @param focusOrganizations
+ */
+function buildContributedFocusOrganizationContributionScoreMap(userInformationMap:{[userName:string]:UserInformation}, ossContributorInformationMap:{[userName:string]:UserInformation}, focusOrganizations:{[name:string]:FocusOrganization}) {
+    // we need
+    // - userInformationMap: it contains contribution scores for each user, without the repo score and other multipliers
+    // - ossContributorInformationMap: to check if a user is an OSS contributor
+    // - focusOrganizations: to check if an organization is a focus organization
+
+    log(`Building contributed focus organization contribution score map...`);
+
+    const output:{[orgName:string]:number} = {};
+    for(const userName in userInformationMap){
+        const userInformation = userInformationMap[userName];
+        if(!ossContributorInformationMap[userName]){
+            continue;
+        }
+        for(const repoNameWithOwner in userInformation.contributionScoresPerRepository){
+            const orgName = repoNameWithOwner.split("/")[0];
+            if(!focusOrganizations[orgName]){
+                continue;
+            }
+            output[orgName] = (output[orgName] ?? 0) + userInformation.contributionScoresPerRepository[repoNameWithOwner];
+        }
+    }
+
+    // TODO: create a reusable function for this sorting
+    // sort the output by score
+    const outputEntries = Object.entries(output);
+    outputEntries.sort((a, b) => b[1] - a[1]);
+    const sortedOutput:{[orgName:string]:number} = {};
+    for (const outputEntry of outputEntries) {
+        sortedOutput[outputEntry[0]] = outputEntry[1];
+    }
+
+    log(`Found ${Object.keys(sortedOutput).length} contributed focus organizations.`);
+    return sortedOutput;
 }
 
 interface Scored{
