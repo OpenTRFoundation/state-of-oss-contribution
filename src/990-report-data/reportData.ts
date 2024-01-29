@@ -207,7 +207,7 @@ export async function main(config:Config) {
 function buildAllFocusProjectRepositoriesScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
     log(`Calculating focus project repository scores...`);
 
-    const scoreMap:{ [nameWithOwner:string]:number } = {};
+    let scoreMap:{ [nameWithOwner:string]:number } = {};
 
     for (const focusRepo of Object.values(focusRepositories)) {
         const nameWithOwner = focusRepo.nameWithOwner;
@@ -221,19 +221,11 @@ function buildAllFocusProjectRepositoriesScoreMap(focusOrganizations:{[orgName:s
         }
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort scoreMap by score
-    // Javascript objects cannot be sorted for sure (we migth end up with numeric repository names at the top), but it is ok.
-    const scoreMapEntries = Object.entries(scoreMap);
-    scoreMapEntries.sort((a, b) => b[1] - a[1]);
-    const sortedScoreMap:{ [nameWithOwner:string]:number } = {};
-    for (const scoreMapEntry of scoreMapEntries) {
-        sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
-    }
+    scoreMap = sortMapByValue(scoreMap);
 
-    log(`Found ${Object.keys(sortedScoreMap).length} focus project repositories.`);
+    log(`Found ${Object.keys(scoreMap).length} focus project repositories.`);
 
-    return sortedScoreMap;
+    return scoreMap;
 }
 
 /**
@@ -249,26 +241,18 @@ function buildAllFocusProjectRepositoriesScoreMap(focusOrganizations:{[orgName:s
 function buildFocusProjectOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwner:string]:number }) {
     log(`Calculating focus project organization scores...`);
 
-    const scoreMap:{ [org:string]:number } = {};
+    let scoreMap:{ [org:string]:number } = {};
 
     for (const repoNameWithOwner of Object.keys(focusRepositoriesScoreMap)) {
         const orgName = repoNameWithOwner.split("/")[0];
         scoreMap[orgName] = (scoreMap[orgName] ?? 0) + focusRepositoriesScoreMap[repoNameWithOwner];
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort scoreMap by score
-    // Javascript objects cannot be sorted for sure (we migth end up with numeric org names at the top), but it is ok.
-    const scoreMapEntries = Object.entries(scoreMap);
-    scoreMapEntries.sort((a, b) => b[1] - a[1]);
-    const sortedScoreMap:{ [org:string]:number } = {};
-    for (const scoreMapEntry of scoreMapEntries) {
-        sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
-    }
+    scoreMap = sortMapByValue(scoreMap);
 
-    log(`Found ${Object.keys(sortedScoreMap).length} focus project organizations.`);
+    log(`Found ${Object.keys(scoreMap).length} focus project organizations.`);
 
-    return sortedScoreMap;
+    return scoreMap;
 }
 
 /**
@@ -282,25 +266,18 @@ function buildFocusProjectOrganizationScoreMap(focusRepositoriesScoreMap:{ [name
 function buildFocusRepositoryScoreMap(focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}, allFocusRepositoriesScoreMap:{[nameWithOwner:string]:number}) {
     log(`Building focus repository score map...`);
 
-    const output:{[nameAndOwner:string]:number} = {};
+    let output:{[nameAndOwner:string]:number} = {};
     for(const repoName in focusRepositories){
         if(allFocusRepositoriesScoreMap[repoName]){
             output[repoName] = allFocusRepositoriesScoreMap[repoName];
         }
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort the output by score
-    const outputEntries = Object.entries(output);
-    outputEntries.sort((a, b) => b[1] - a[1]);
-    const sortedOutput:{[nameAndOwner:string]:number} = {};
-    for (const outputEntry of outputEntries) {
-        sortedOutput[outputEntry[0]] = outputEntry[1];
-    }
+    output = sortMapByValue(output);
 
-    log(`Found ${Object.keys(sortedOutput).length} focus repositories.`);
+    log(`Found ${Object.keys(output).length} focus repositories.`);
 
-    return sortedOutput;
+    return output;
 }
 
 /**
@@ -358,7 +335,7 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
     for (const username in userAndContribSearchTruthMap) {
         let profile:UserProfile | null = null;
         let stats:UserStats | null = null;
-        const contribScores:{[repoNameWithOwner:string]:number} = {};
+        let contribScores:{[repoNameWithOwner:string]:number} = {};
 
         const outputsForUser = userAndContribSearchTruthMap[username];
         for (const output of outputsForUser) {
@@ -404,13 +381,7 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
             processContributions(contribScores, USER_SCORE_COEFFICIENTS.Issue, fragment.contributionsCollection.issueContributionsByRepository);
         }
 
-        // sort the contribScores by score
-        const contribScoresEntries = Object.entries(contribScores);
-        contribScoresEntries.sort((a, b) => b[1] - a[1]);
-        const sortedContribScores:{[repoNameWithOwner:string]:number} = {};
-        for (const contribScoresEntry of contribScoresEntries) {
-            sortedContribScores[contribScoresEntry[0]] = contribScoresEntry[1];
-        }
+        contribScores = sortMapByValue(contribScores);
 
         // add up the scores
         let score = 0;
@@ -430,7 +401,7 @@ function buildUserInformationMap(userAndContribSearchTruthMap:{ [username:string
             contributionDiversityMultiplier: 1,
             score: score,
             stats: stats,
-            contributionScoresPerRepository: sortedContribScores,
+            contributionScoresPerRepository: contribScores,
         };
     }
 
@@ -487,7 +458,7 @@ function buildActiveUserInformationMap(userInformationMap:{ [username:string]:Us
 function buildOssContributorInformationMap(userInformationMap:{[username:string]:UserInformation}, focusRepositoriesScoreMap:{[orgNameWithOwner:string]:number}) {
     log(`Building OSS contributor information...`);
 
-    const ossContributorInformationMap:{ [username:string]:UserInformation } = {};
+    let ossContributorInformationMap:{ [username:string]:UserInformation } = {};
 
     for(const username in userInformationMap) {
         const userInformation = userInformationMap[username];
@@ -545,18 +516,11 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
         };
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort the output by score
-    const outputEntries = Object.entries(ossContributorInformationMap);
-    outputEntries.sort((a, b) => b[1].score - a[1].score);
-    const sortedOutput:{[username:string]:UserInformation} = {};
-    for (const outputEntry of outputEntries) {
-        sortedOutput[outputEntry[0]] = outputEntry[1];
-    }
+    ossContributorInformationMap = sortMapOfScored(ossContributorInformationMap);
 
-    log(`Found ${Object.keys(sortedOutput).length} OSS contributors.`);
+    log(`Found ${Object.keys(ossContributorInformationMap).length} OSS contributors.`);
 
-    return sortedOutput;
+    return ossContributorInformationMap;
 }
 
 /**
@@ -567,7 +531,7 @@ function buildOssContributorInformationMap(userInformationMap:{[username:string]
 function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserInformation }) {
     log(`Building user province counts...`);
 
-    const userProvinceCountsMap:{ [province:string]:number } = {};
+    let userProvinceCountsMap:{ [province:string]:number } = {};
 
     for(const username in userInformationMap){
         const userInformation = userInformationMap[username];
@@ -575,18 +539,11 @@ function buildUserProvinceCountsMap(userInformationMap:{ [username:string]:UserI
         userProvinceCountsMap[province] = (userProvinceCountsMap[province] ?? 0) + 1;
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort the output by number of users
-    const outputEntries = Object.entries(userProvinceCountsMap);
-    outputEntries.sort((a, b) => b[1] - a[1]);
-    const sortedOutput:{[province:string]:number} = {};
-    for (const outputEntry of outputEntries) {
-        sortedOutput[outputEntry[0]] = outputEntry[1];
-    }
+    userProvinceCountsMap = sortMapByValue(userProvinceCountsMap);
 
-    log(`Found ${Object.keys(sortedOutput).length} provinces.`);
+    log(`Found ${Object.keys(userProvinceCountsMap).length} provinces.`);
 
-    return sortedOutput;
+    return userProvinceCountsMap;
 }
 
 /**
@@ -631,7 +588,7 @@ function buildContributedFocusOrganizationContributionScoreMap(userInformationMa
 
     log(`Building contributed focus organization contribution score map...`);
 
-    const output:{[orgName:string]:number} = {};
+    let output:{[orgName:string]:number} = {};
     for(const userName in userInformationMap){
         const userInformation = userInformationMap[userName];
         if(!ossContributorInformationMap[userName]){
@@ -646,17 +603,10 @@ function buildContributedFocusOrganizationContributionScoreMap(userInformationMa
         }
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort the output by score
-    const outputEntries = Object.entries(output);
-    outputEntries.sort((a, b) => b[1] - a[1]);
-    const sortedOutput:{[orgName:string]:number} = {};
-    for (const outputEntry of outputEntries) {
-        sortedOutput[outputEntry[0]] = outputEntry[1];
-    }
+    output = sortMapByValue(output);
 
-    log(`Found ${Object.keys(sortedOutput).length} contributed focus organizations.`);
-    return sortedOutput;
+    log(`Found ${Object.keys(output).length} contributed focus organizations.`);
+    return output;
 }
 
 /**
@@ -747,14 +697,8 @@ function buildContributedFocusProjectPrimaryLanguageMap(ossContributorInformatio
             contributedFocusProjectPrimaryLanguageMap[repoLanguageInfo.primary]++;
         }
     }
-    // TODO: create a reusable function for this sorting
-    // sort contributedFocusProjectPrimaryLanguageMap by number
-    const contributedFocusProjectPrimaryLanguageMapEntries = Object.entries(contributedFocusProjectPrimaryLanguageMap);
-    contributedFocusProjectPrimaryLanguageMapEntries.sort((a, b) => b[1] - a[1]);
-    contributedFocusProjectPrimaryLanguageMap = {};
-    for (const contributedFocusProjectPrimaryLanguageMapEntry of contributedFocusProjectPrimaryLanguageMapEntries) {
-        contributedFocusProjectPrimaryLanguageMap[contributedFocusProjectPrimaryLanguageMapEntry[0]] = contributedFocusProjectPrimaryLanguageMapEntry[1];
-    }
+
+    contributedFocusProjectPrimaryLanguageMap = sortMapByValue(contributedFocusProjectPrimaryLanguageMap);
 
     log(`Found ${Object.keys(contributedFocusProjectPrimaryLanguageMap).length} contributed focus project primary languages.`);
 
@@ -795,14 +739,8 @@ function buildWeightedContributedFocusProjectLanguageMap(ossContributorInformati
     for (const language in contributedFocusProjectLanguageMap) {
         contributedFocusProjectLanguageMap[language] = contributedFocusProjectLanguageMap[language] / total * 100;
     }
-    // TODO: create a reusable function for this sorting
-    // sort
-    const contributedFocusProjectLanguageMapEntries = Object.entries(contributedFocusProjectLanguageMap);
-    contributedFocusProjectLanguageMapEntries.sort((a, b) => b[1] - a[1]);
-    contributedFocusProjectLanguageMap = {};
-    for (const contributedFocusProjectLanguageMapEntry of contributedFocusProjectLanguageMapEntries) {
-        contributedFocusProjectLanguageMap[contributedFocusProjectLanguageMapEntry[0]] = contributedFocusProjectLanguageMapEntry[1];
-    }
+
+    contributedFocusProjectLanguageMap = sortMapByValue(contributedFocusProjectLanguageMap);
 
     log(`Found ${Object.keys(contributedFocusProjectLanguageMap).length} contributed focus project languages.`);
 
@@ -887,7 +825,7 @@ function buildLeaderBoard<T extends Scored>(scoredMap:{ [username:string]:T }) {
 function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focusRepositoriesScoreMap:{[orgNameWithOwner:string]:number}) {
     log(`Building company information map...`);
 
-    const companyMap:{[companyName:string]:CompanyInformation} = {};
+    let companyMap:{[companyName:string]:CompanyInformation} = {};
     for(const username in userMap){
         const userInformation = userMap[username];
         let company = "-Unknown-";
@@ -940,18 +878,11 @@ function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focu
         company.score = Math.floor(company.score);
     }
 
-    // TODO: create a reusable function for this sorting
-    // sort the companyMap by the scores of companies
-    const companyMapEntries = Object.entries(companyMap);
-    companyMapEntries.sort((a, b) => b[1].score - a[1].score);
-    const sortedCompanyMap:{[companyName:string]:CompanyInformation} = {};
-    for (const companyMapEntry of companyMapEntries) {
-        sortedCompanyMap[companyMapEntry[0]] = companyMapEntry[1];
-    }
+    companyMap = sortMapOfScored(companyMap);
 
-    log(`Found ${Object.keys(sortedCompanyMap).length} companies.`);
+    log(`Found ${Object.keys(companyMap).length} companies.`);
 
-    return sortedCompanyMap;
+    return companyMap;
 }
 
 /**
@@ -982,11 +913,11 @@ function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatche
     pureRepoScore += repo.stargazerCount * 20;
     pureRepoScore += repo.pullRequests.totalCount * 20;
     pureRepoScore += repo.issues.totalCount * 40;
-    // TODO?
-    // score += repo.mentionableUsers.totalCount * 30;
     pureRepoScore += repo.watchers.totalCount * 10;
-    // TODO
-    //score += repo.discussions.totalCount * 5;
+    // pureRepoScore += repo.discussions.totalCount * 5;
+
+    // not used
+    // repo.mentionableUsers.totalCount
 
     if (!pureRepoScore) {
         return 0;
@@ -1005,4 +936,30 @@ function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatche
     const repoScoreWithOrgMultiplier = normalizedRepoScore * orgMultiplier;
 
     return Math.floor(repoScoreWithOrgMultiplier);
+}
+
+function sortMapByValue(map:{[key:string]:number}){
+    // sort map by value
+    // Javascript objects cannot be sorted for sure (we might end up with numeric org names at the top), but it is ok.
+
+    const entries = Object.entries(map);
+    entries.sort((a, b) => b[1] - a[1]);
+    const sortedMap:{[key:string]:number} = {};
+    for (const entry of entries) {
+        sortedMap[entry[0]] = entry[1];
+    }
+    return sortedMap;
+}
+
+function sortMapOfScored<T extends Scored>(map:{[key:string]:T}){
+    // sort map by score
+    // Javascript objects cannot be sorted for sure (we might end up with numeric org names at the top), but it is ok.
+
+    const entries = Object.entries(map);
+    entries.sort((a, b) => b[1].score - a[1].score);
+    const sortedMap:{[key:string]:T} = {};
+    for (const entry of entries) {
+        sortedMap[entry[0]] = entry[1];
+    }
+    return sortedMap;
 }
