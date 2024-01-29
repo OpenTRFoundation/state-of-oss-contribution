@@ -89,8 +89,15 @@ interface CompanyInformation {
     contributionDiversityMultiplier:number;
 }
 
+interface RepoLanguageInfo {
+    primary:string;
+    languages:{language:string; size:number; percent:number}[];
+}
+
 export async function main(config:Config) {
+    // ----------------------------------------
     // read truth maps
+    // ----------------------------------------
     header(`Reading focus repository truth map...`);
     const focusRepositories:{ [nameWithOwner:string]:RepositorySummaryFragment } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-focus-repositories.index.json");
 
@@ -103,16 +110,11 @@ export async function main(config:Config) {
     header(`Reading user locations truth map...`);
     const userLocationsTruthMap:{ [username:string]:UserLocation } = readPartitioned(config.reportDataTruthMapDirectory, "truth-map-user-locations.index.json");
 
-    header(`Building all focus repositories score map...`);
-    const allFocusRepositoriesScoreMap = buildAllFocusRepositoriesScoreMap(focusOrganizations, focusRepositories);
-
-    header(`Building focus organization score map...`);
-    const focusOrganizationScoreMap = buildFocusOrganizationScoreMap(allFocusRepositoriesScoreMap);
-
-    header(`Building focus repository score map...`);
-    const focusRepositoryScoreMap = buildFocusRepositoryScoreMap(focusRepositories, allFocusRepositoriesScoreMap);
-
-
+    // ----------------------------------------
+    // build some interim maps
+    // ----------------------------------------
+    header(`Building all focus project repositories score map...`);
+    const allFocusProjectRepositoriesScoreMap = buildAllFocusProjectRepositoriesScoreMap(focusOrganizations, focusRepositories);
 
     header(`Building user information map...`);
     const userInformationMap = buildUserInformationMap(userAndContribSearchTruthMap, userLocationsTruthMap);
@@ -121,10 +123,19 @@ export async function main(config:Config) {
     const activeUserInformationMap = buildActiveUserInformationMap(userInformationMap);
 
     header(`Building OSS contributor information map...`);
-    const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, allFocusRepositoriesScoreMap);
+    const ossContributorInformationMap = buildOssContributorInformationMap(activeUserInformationMap, allFocusProjectRepositoriesScoreMap);
 
     header(`Building company OSS contribution information map...`);
-    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, allFocusRepositoriesScoreMap);
+    const companyOssContributionInformationMap = buildCompanyInformationMap(ossContributorInformationMap, allFocusProjectRepositoriesScoreMap);
+
+    // ----------------------------------------
+    // build report data
+    // ----------------------------------------
+    header(`Building focus project organization score map...`);
+    const focusProjectOrganizationScoreMap = buildFocusProjectOrganizationScoreMap(allFocusProjectRepositoriesScoreMap);
+
+    header(`Building focus repository score map...`);
+    const focusRepositoryScoreMap = buildFocusRepositoryScoreMap(focusRepositories, allFocusProjectRepositoriesScoreMap);
 
     header(`Building user province counts map...`);
     const userProvinceCountsMap = buildUserProvinceCountsMap(userInformationMap);
@@ -141,6 +152,15 @@ export async function main(config:Config) {
     header(`Building contributed focus organization contribution score map...`);
     const contributedFocusOrgContributionScoreMap = buildContributedFocusOrganizationContributionScoreMap(userInformationMap, ossContributorInformationMap, focusOrganizations);
 
+    header(`Building focus project language map...`);
+    const focusProjectRepositoryLanguageMap = buildFocusProjectRepositoryLanguageMap(focusRepositories, focusOrganizations);
+
+    header(`Building contributed focus project primary language map...`);
+    const contributedFocusProjectPrimaryLanguageMap = buildContributedFocusProjectPrimaryLanguageMap(ossContributorInformationMap, focusProjectRepositoryLanguageMap);
+
+    header(`Building weighted contributed focus project language map...`);
+    const weightedContributedFocusProjectLanguageMap = buildWeightedContributedFocusProjectLanguageMap(ossContributorInformationMap, focusProjectRepositoryLanguageMap);
+
     header(`Building active user leader board...`);
     const activeUserLeaderBoard = buildLeaderBoard(activeUserInformationMap);
 
@@ -151,7 +171,7 @@ export async function main(config:Config) {
     const companyLeaderBoard = buildLeaderBoard(companyOssContributionInformationMap);
 
     header(`Writing output files...`);
-    fs.writeFileSync(join(config.outputDirectory, "110-focus-organization-score-map.json"), JSON.stringify(focusOrganizationScoreMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "110-focus-organization-score-map.json"), JSON.stringify(focusProjectOrganizationScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "120-focus-repository-score-map.json"), JSON.stringify(focusRepositoryScoreMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "210-user-province-counts-map.json"), JSON.stringify(userProvinceCountsMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "220-active-user-province-counts-map.json"), JSON.stringify(activeUserProvinceCountsMap, null, 2));
@@ -161,12 +181,15 @@ export async function main(config:Config) {
     fs.writeFileSync(join(config.outputDirectory, "320-oss-contributor-leader-board.json"), JSON.stringify(ossContributorLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-leader-board.json"), JSON.stringify(companyLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "400-contributed-focus-organization-contribution-score-map.json"), JSON.stringify(contributedFocusOrgContributionScoreMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "500-contributed-focus-project-primary-language-map.json"), JSON.stringify(contributedFocusProjectPrimaryLanguageMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "510-weighted-contributed-focus-project-language-map.json"), JSON.stringify(weightedContributedFocusProjectLanguageMap, null, 2));
 
     // DEBUG
     fs.writeFileSync(join(config.outputDirectory, "debug-user-information-map.json"), JSON.stringify(userInformationMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "debug-active-user-information-map.json"), JSON.stringify(activeUserInformationMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "debug-oss-contributor-information-map.json"), JSON.stringify(ossContributorInformationMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "debug-company-oss-contribution-map.json"), JSON.stringify(companyOssContributionInformationMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "debug-focus-project-repository-language-map.json"), JSON.stringify(focusProjectRepositoryLanguageMap, null, 2));
 }
 
 /**
@@ -181,8 +204,8 @@ export async function main(config:Config) {
  * @param focusOrganizations
  * @param focusRepositories
  */
-function buildAllFocusRepositoriesScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
-    log(`Calculating repository scores...`);
+function buildAllFocusProjectRepositoriesScoreMap(focusOrganizations:{[orgName:string]:FocusOrganization}, focusRepositories:{[nameWithOwner:string]:RepositorySummaryFragment}) {
+    log(`Calculating focus project repository scores...`);
 
     const scoreMap:{ [nameWithOwner:string]:number } = {};
 
@@ -208,7 +231,7 @@ function buildAllFocusRepositoriesScoreMap(focusOrganizations:{[orgName:string]:
         sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
     }
 
-    log(`Found ${Object.keys(sortedScoreMap).length} focus repositories.`);
+    log(`Found ${Object.keys(sortedScoreMap).length} focus project repositories.`);
 
     return sortedScoreMap;
 }
@@ -223,8 +246,8 @@ function buildAllFocusRepositoriesScoreMap(focusOrganizations:{[orgName:string]:
  *
  * @param focusRepositoriesScoreMap
  */
-function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwner:string]:number }) {
-    log(`Calculating organization scores...`);
+function buildFocusProjectOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwner:string]:number }) {
+    log(`Calculating focus project organization scores...`);
 
     const scoreMap:{ [org:string]:number } = {};
 
@@ -243,7 +266,7 @@ function buildFocusOrganizationScoreMap(focusRepositoriesScoreMap:{ [nameWithOwn
         sortedScoreMap[scoreMapEntry[0]] = scoreMapEntry[1];
     }
 
-    log(`Found ${Object.keys(sortedScoreMap).length} focus organizations.`);
+    log(`Found ${Object.keys(sortedScoreMap).length} focus project organizations.`);
 
     return sortedScoreMap;
 }
@@ -634,6 +657,156 @@ function buildContributedFocusOrganizationContributionScoreMap(userInformationMa
 
     log(`Found ${Object.keys(sortedOutput).length} contributed focus organizations.`);
     return sortedOutput;
+}
+
+/**
+ * Builds a map of the focus repository name (with owner) to the primary language of the repository.
+ * Also includes the list of languages and their percentages in the code base.
+ *
+ * @param focusRepositories
+ * @param focusOrganizations
+ */
+function buildFocusProjectRepositoryLanguageMap(focusRepositories:{[nameAndOwner:string]:RepositorySummaryFragment}, focusOrganizations:{[orgName:string]:FocusOrganization}) {
+    log(`Building focus project repository language map...`);
+
+    const repoLanguageMap:{[nameAndOwner:string]:{primary:string, languages:{language:string; size:number, percent:number}[]}} = {};
+    for (const repoNameWithOwner in focusRepositories) {
+        const repo = focusRepositories[repoNameWithOwner];
+        if (!repo.primaryLanguage) {
+            continue;
+        }
+        // sum the edge sizes to get the total size
+        let totalSize = 0;
+        for (const edge of repo.languages.edges) {
+            totalSize += edge.size;
+        }
+        repoLanguageMap[repoNameWithOwner] = {
+            primary: repo.primaryLanguage.name,
+            languages: repo.languages.edges.map((edge) => {
+                return {
+                    language: edge.node.name,
+                    size: edge.size,
+                    percent: edge.size / totalSize * 100,
+                };
+            }),
+        };
+    }
+    for (const orgName in focusOrganizations) {
+        const org = focusOrganizations[orgName];
+        for (const repoNameWithOwner in org.repositories) {
+            const repo = org.repositories[repoNameWithOwner];
+            if (!repo.primaryLanguage) {
+                continue;
+            }
+            // sum the edge sizes to get the total size
+            let totalSize = 0;
+            for (const edge of repo.languages.edges) {
+                totalSize += edge.size;
+            }
+            repoLanguageMap[repoNameWithOwner] = {
+                primary: repo.primaryLanguage.name,
+                languages: repo.languages.edges.map((edge) => {
+                    return {
+                        language: edge.node.name,
+                        size: edge.size,
+                        percent: edge.size / totalSize * 100,
+                    };
+                }),
+            };
+        }
+    }
+
+    log(`Found ${Object.keys(repoLanguageMap).length} focus project repositories.`);
+
+    return repoLanguageMap;
+}
+
+/**
+ * Build a primary language map for the focus projects that OSS contributors contributed to.
+ * Map values are the number of users that contributed to a project with that primary language.
+ *
+ * @param ossContributorInformationMap
+ * @param focusProjectRepositoryLanguageMap
+ */
+function buildContributedFocusProjectPrimaryLanguageMap(ossContributorInformationMap:{[username:string]:UserInformation}, focusProjectRepositoryLanguageMap:{[nameWithOwner:string]:RepoLanguageInfo}) {
+    log(`Building contributed focus project primary language map...`);
+
+    let contributedFocusProjectPrimaryLanguageMap:{ [language:string]:number } = {};
+    for (const userName in ossContributorInformationMap) {
+        const userInformation = ossContributorInformationMap[userName];
+        for (const repoNameWithOwner in userInformation.contributionScoresPerRepository) {
+            if (!focusProjectRepositoryLanguageMap[repoNameWithOwner]) {
+                continue;
+            }
+
+            const repoLanguageInfo = focusProjectRepositoryLanguageMap[repoNameWithOwner];
+
+            if (!contributedFocusProjectPrimaryLanguageMap[repoLanguageInfo.primary]) {
+                contributedFocusProjectPrimaryLanguageMap[repoLanguageInfo.primary] = 0;
+            }
+            contributedFocusProjectPrimaryLanguageMap[repoLanguageInfo.primary]++;
+        }
+    }
+    // TODO: create a reusable function for this sorting
+    // sort contributedFocusProjectPrimaryLanguageMap by number
+    const contributedFocusProjectPrimaryLanguageMapEntries = Object.entries(contributedFocusProjectPrimaryLanguageMap);
+    contributedFocusProjectPrimaryLanguageMapEntries.sort((a, b) => b[1] - a[1]);
+    contributedFocusProjectPrimaryLanguageMap = {};
+    for (const contributedFocusProjectPrimaryLanguageMapEntry of contributedFocusProjectPrimaryLanguageMapEntries) {
+        contributedFocusProjectPrimaryLanguageMap[contributedFocusProjectPrimaryLanguageMapEntry[0]] = contributedFocusProjectPrimaryLanguageMapEntry[1];
+    }
+
+    log(`Found ${Object.keys(contributedFocusProjectPrimaryLanguageMap).length} contributed focus project primary languages.`);
+
+    return contributedFocusProjectPrimaryLanguageMap;
+}
+
+/**
+ * Build a weighted language map for the focus projects that OSS contributors contributed to.
+ * The weight is the contribution score of the user for that repository.
+ *
+ * @param ossContributorInformationMap
+ * @param focusProjectRepositoryLanguageMap
+ */
+function buildWeightedContributedFocusProjectLanguageMap(ossContributorInformationMap:{[username:string]:UserInformation }, focusProjectRepositoryLanguageMap:{[nameWithOwner:string]:RepoLanguageInfo}) {
+    log(`Building weighted contributed focus project language map...`);
+
+    let contributedFocusProjectLanguageMap:{ [language:string]:number } = {};
+    for (const userName in ossContributorInformationMap) {
+        const userInformation = ossContributorInformationMap[userName];
+        for (const repoNameWithOwner in userInformation.contributionScoresPerRepository) {
+            if (!focusProjectRepositoryLanguageMap[repoNameWithOwner]) {
+                continue;
+            }
+
+            const userContribScoreForRepo = userInformation.contributionScoresPerRepository[repoNameWithOwner]
+
+            const repoLanguageInfo = focusProjectRepositoryLanguageMap[repoNameWithOwner];
+
+            for (const languageInfo of repoLanguageInfo.languages) {
+                if (!contributedFocusProjectLanguageMap[languageInfo.language]) {
+                    contributedFocusProjectLanguageMap[languageInfo.language] = 0;
+                }
+                contributedFocusProjectLanguageMap[languageInfo.language] += languageInfo.percent / 100 * userContribScoreForRepo;
+            }
+        }
+    }
+    const total = Object.values(contributedFocusProjectLanguageMap).reduce((a, b) => a + b, 0);
+    for (const language in contributedFocusProjectLanguageMap) {
+        contributedFocusProjectLanguageMap[language] = contributedFocusProjectLanguageMap[language] / total * 100;
+    }
+    // TODO: create a reusable function for this sorting
+    // sort
+    const contributedFocusProjectLanguageMapEntries = Object.entries(contributedFocusProjectLanguageMap);
+    contributedFocusProjectLanguageMapEntries.sort((a, b) => b[1] - a[1]);
+    contributedFocusProjectLanguageMap = {};
+    for (const contributedFocusProjectLanguageMapEntry of contributedFocusProjectLanguageMapEntries) {
+        contributedFocusProjectLanguageMap[contributedFocusProjectLanguageMapEntry[0]] = contributedFocusProjectLanguageMapEntry[1];
+    }
+
+    log(`Found ${Object.keys(contributedFocusProjectLanguageMap).length} contributed focus project languages.`);
+
+    return contributedFocusProjectLanguageMap;
 }
 
 interface Scored{
