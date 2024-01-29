@@ -914,7 +914,7 @@ function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatche
     pureRepoScore += repo.pullRequests.totalCount * 20;
     pureRepoScore += repo.issues.totalCount * 40;
     pureRepoScore += repo.watchers.totalCount * 10;
-    // pureRepoScore += repo.discussions.totalCount * 5;
+    pureRepoScore += repo.discussions.totalCount * 5;
 
     // not used
     // repo.mentionableUsers.totalCount
