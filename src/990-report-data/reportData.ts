@@ -149,8 +149,8 @@ export async function main(config:Config) {
     header(`Building user signed up at map...`);
     const userSignedUpAtMap = buildUserSignedUpAtMap(userInformationMap);
 
-    header(`Building contributed focus organization contribution score map...`);
-    const contributedFocusOrgContributionScoreMap = buildContributedFocusOrganizationContributionScoreMap(userInformationMap, ossContributorInformationMap, focusOrganizations);
+    header(`Building contributed focus organization contribution map...`);
+    const contributedFocusOrgContributionMap = buildContributedFocusOrganizationContributionMap(userInformationMap, ossContributorInformationMap, focusOrganizations);
 
     header(`Building focus project language map...`);
     const focusProjectRepositoryLanguageMap = buildFocusProjectRepositoryLanguageMap(focusRepositories, focusOrganizations);
@@ -180,7 +180,7 @@ export async function main(config:Config) {
     fs.writeFileSync(join(config.outputDirectory, "310-active-user-leader-board.json"), JSON.stringify(activeUserLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "320-oss-contributor-leader-board.json"), JSON.stringify(ossContributorLeaderBoard, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "330-company-oss-contribution-leader-board.json"), JSON.stringify(companyLeaderBoard, null, 2));
-    fs.writeFileSync(join(config.outputDirectory, "400-contributed-focus-organization-contribution-score-map.json"), JSON.stringify(contributedFocusOrgContributionScoreMap, null, 2));
+    fs.writeFileSync(join(config.outputDirectory, "400-contributed-focus-organization-contribution-map.json"), JSON.stringify(contributedFocusOrgContributionMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "500-contributed-focus-project-primary-language-map.json"), JSON.stringify(contributedFocusProjectPrimaryLanguageMap, null, 2));
     fs.writeFileSync(join(config.outputDirectory, "510-weighted-contributed-focus-project-language-map.json"), JSON.stringify(weightedContributedFocusProjectLanguageMap, null, 2));
 
@@ -574,13 +574,13 @@ function buildUserSignedUpAtMap(userInformationMap:{ [username:string]:UserInfor
 }
 
 /**
- * Builds a map of the focus organization name to the contribution score of the organization.
+ * Builds a map of the focus organization name to the contribution details for the organization.
  * Contribution score is the sum of the contribution scores of the OSS contributors for that organization.
  * @param userInformationMap
  * @param ossContributorInformationMap
  * @param focusOrganizations
  */
-function buildContributedFocusOrganizationContributionScoreMap(userInformationMap:{[userName:string]:UserInformation}, ossContributorInformationMap:{[userName:string]:UserInformation}, focusOrganizations:{[name:string]:FocusOrganization}) {
+function buildContributedFocusOrganizationContributionMap(userInformationMap:{[userName:string]:UserInformation}, ossContributorInformationMap:{[userName:string]:UserInformation}, focusOrganizations:{[name:string]:FocusOrganization}) {
     // we need
     // - userInformationMap: it contains contribution scores for each user, without the repo score and other multipliers
     // - ossContributorInformationMap: to check if a user is an OSS contributor
@@ -588,7 +588,9 @@ function buildContributedFocusOrganizationContributionScoreMap(userInformationMa
 
     log(`Building contributed focus organization contribution score map...`);
 
-    let output:{[orgName:string]:number} = {};
+    const orgToCompanyMap:{[orgName:string]:string[]} = {};
+
+    let output:{[orgName:string]:{score:number; contributors:number; companies:number;}} = {};
     for(const userName in userInformationMap){
         const userInformation = userInformationMap[userName];
         if(!ossContributorInformationMap[userName]){
@@ -599,11 +601,36 @@ function buildContributedFocusOrganizationContributionScoreMap(userInformationMa
             if(!focusOrganizations[orgName]){
                 continue;
             }
-            output[orgName] = (output[orgName] ?? 0) + userInformation.contributionScoresPerRepository[repoNameWithOwner];
+            if(!output[orgName]){
+                output[orgName] = {
+                    score: 0,
+                    contributors: 0,
+                    companies: 0,
+                };
+            }
+            output[orgName].score += userInformation.contributionScoresPerRepository[repoNameWithOwner];
+            output[orgName].contributors++;
+            let company = extractUserCompany(userInformation);
+            if(company){
+                if(!orgToCompanyMap[orgName]){
+                    orgToCompanyMap[orgName] = [];
+                }
+                orgToCompanyMap[orgName].push(company);
+            }
         }
     }
 
-    output = sortMapByValue(output);
+    for(const orgName in orgToCompanyMap){
+        const companies = orgToCompanyMap[orgName];
+        // deduplicate companies
+        let dedupedCompanies = new Set<string>();
+        for(const company of companies){
+            dedupedCompanies.add(company);
+        }
+        output[orgName].companies = dedupedCompanies.size;
+    }
+
+    output = sortMapOfScored(output);
 
     log(`Found ${Object.keys(output).length} contributed focus organizations.`);
     return output;
@@ -828,13 +855,9 @@ function buildCompanyInformationMap(userMap:{ [p:string]:UserInformation }, focu
     let companyMap:{[companyName:string]:CompanyInformation} = {};
     for(const username in userMap){
         const userInformation = userMap[username];
-        let company = "-Unknown-";
-        if(userInformation.profile.company){
-            company = userInformation.profile.company.trim().toLowerCase();
-            if(company.startsWith("@")){
-                company = company.substring(1);
-            }
-        } else{
+        let company = extractUserCompany(userInformation);
+
+        if(!company){
             company = "-Unknown-";
         }
         if (!companyMap[company]) {
@@ -936,6 +959,17 @@ function calculateRepositoryScore(repo:RepositorySummaryFragment, numberOfMatche
     const repoScoreWithOrgMultiplier = normalizedRepoScore * orgMultiplier;
 
     return Math.floor(repoScoreWithOrgMultiplier);
+}
+
+function extractUserCompany(userInformation:UserInformation) {
+    let company;
+    if (userInformation.profile.company) {
+        company = userInformation.profile.company.trim().toLowerCase();
+        if (company.startsWith("@")) {
+            company = company.substring(1);
+        }
+    }
+    return company;
 }
 
 function sortMapByValue(map:{[key:string]:number}){
