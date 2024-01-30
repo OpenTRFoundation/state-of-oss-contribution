@@ -590,7 +590,7 @@ function buildContributedFocusOrganizationContributionMap(userInformationMap:{[u
 
     const orgToCompanyMap:{[orgName:string]:string[]} = {};
 
-    let output:{[orgName:string]:{score:number; contributors:number; companies:number;}} = {};
+    let output:{[orgName:string]:{score:number; contributors:number; companies:string[];}} = {};
     for(const userName in userInformationMap){
         const userInformation = userInformationMap[userName];
         if(!ossContributorInformationMap[userName]){
@@ -605,7 +605,7 @@ function buildContributedFocusOrganizationContributionMap(userInformationMap:{[u
                 output[orgName] = {
                     score: 0,
                     contributors: 0,
-                    companies: 0,
+                    companies: [],
                 };
             }
             output[orgName].score += userInformation.contributionScoresPerRepository[repoNameWithOwner];
@@ -627,7 +627,7 @@ function buildContributedFocusOrganizationContributionMap(userInformationMap:{[u
         for(const company of companies){
             dedupedCompanies.add(company);
         }
-        output[orgName].companies = dedupedCompanies.size;
+        output[orgName].companies = [...dedupedCompanies];
     }
 
     output = sortMapOfScored(output);
