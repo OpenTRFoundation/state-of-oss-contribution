@@ -610,7 +610,7 @@ function buildContributedFocusOrganizationContributionMap(userInformationMap:{[u
             }
             output[orgName].score += userInformation.contributionScoresPerRepository[repoNameWithOwner];
             output[orgName].contributors++;
-            let company = extractUserCompany(userInformation);
+            const company = extractUserCompany(userInformation);
             if(company){
                 if(!orgToCompanyMap[orgName]){
                     orgToCompanyMap[orgName] = [];
@@ -622,8 +622,7 @@ function buildContributedFocusOrganizationContributionMap(userInformationMap:{[u
 
     for(const orgName in orgToCompanyMap){
         const companies = orgToCompanyMap[orgName];
-        // deduplicate companies
-        let dedupedCompanies = new Set<string>();
+        const dedupedCompanies = new Set<string>();
         for(const company of companies){
             dedupedCompanies.add(company);
         }
