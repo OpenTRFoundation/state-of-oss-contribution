@@ -37,7 +37,15 @@ The `src` folder contains the data collection scripts and [`cuttlecat`](https://
 
 To see how the report works with the data prepared here, visit [OpenTRFoundation/state-of-oss-contribution-report](https://github.com/OpenTRFoundation/state-of-oss-contribution-report) repository.
 
-## TODOs
+## Releasing new data
 
-- Weighted contribution score for users and companies, based on the diversity of the projects they contribute to.
-- Weighted contribution score for users and companies, based on the project's popularity.
+`main` branch has the latest but unreleased data. 
+
+When a new release is ready, a new branch is created and the data is pushed to that branch. However, the report does not use the data from the `main` branch. Instead, it uses the data from the tags.
+
+To release a new version of the data, a new tag is created.
+
+Tags follow `<year>-<month>` format.
+
+When there's new data ready for release, simply tag the commit and push the tag to the repository.
+
