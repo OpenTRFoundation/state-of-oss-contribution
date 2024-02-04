@@ -411,14 +411,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "1462bb20-e125-4a90-9d50-eaf20da05aa7": {
-      "id": "1462bb20-e125-4a90-9d50-eaf20da05aa7",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Sirvan",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "14a9de18-6f60-4684-8b69-41acf810839a": {
       "id": "14a9de18-6f60-4684-8b69-41acf810839a",
       "parentId": null,
@@ -6589,6 +6581,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Agın",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "1462bb20-e125-4a90-9d50-eaf20da05aa7": {
+      "task": {
+        "id": "1462bb20-e125-4a90-9d50-eaf20da05aa7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Sirvan",
         "minRepositories": 0,
         "minFollowers": 0
       }
