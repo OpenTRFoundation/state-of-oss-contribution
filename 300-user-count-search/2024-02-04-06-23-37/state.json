@@ -10875,14 +10875,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "db6edaa9-b327-4492-9b05-1f35579717ed": {
-      "id": "db6edaa9-b327-4492-9b05-1f35579717ed",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Beyoglu",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "dbc8fbc4-1429-4a14-9368-4d54549f249d": {
       "id": "dbc8fbc4-1429-4a14-9368-4d54549f249d",
       "parentId": null,
@@ -20127,6 +20119,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "İskenderun",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "db6edaa9-b327-4492-9b05-1f35579717ed": {
+      "task": {
+        "id": "db6edaa9-b327-4492-9b05-1f35579717ed",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Beyoglu",
         "minRepositories": 0,
         "minFollowers": 0
       }
