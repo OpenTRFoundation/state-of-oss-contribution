@@ -2907,14 +2907,6 @@
       "minRepositories": 0,
       "minFollowers": 0
     },
-    "8437e95a-80a8-4196-82c4-abcdabc33384": {
-      "id": "8437e95a-80a8-4196-82c4-abcdabc33384",
-      "parentId": null,
-      "originatingTaskId": null,
-      "location": "Soma",
-      "minRepositories": 0,
-      "minFollowers": 0
-    },
     "8439910b-7f8d-4973-9516-983297ef6fff": {
       "id": "8439910b-7f8d-4973-9516-983297ef6fff",
       "parentId": null,
@@ -14337,6 +14329,16 @@
         "parentId": null,
         "originatingTaskId": null,
         "location": "Kavaklıdere",
+        "minRepositories": 0,
+        "minFollowers": 0
+      }
+    },
+    "8437e95a-80a8-4196-82c4-abcdabc33384": {
+      "task": {
+        "id": "8437e95a-80a8-4196-82c4-abcdabc33384",
+        "parentId": null,
+        "originatingTaskId": null,
+        "location": "Soma",
         "minRepositories": 0,
         "minFollowers": 0
       }
