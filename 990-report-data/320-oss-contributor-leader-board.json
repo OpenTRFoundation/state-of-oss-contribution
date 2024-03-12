@@ -27,10 +27,10 @@
       "sponsorCount": 1,
       "sponsoringCount": 0
     },
-    "sumOfScores": 57278,
+    "sumOfScores": 57456,
     "contributedFocusOrgCount": 25,
     "contributionDiversityMultiplier": 7.25,
-    "score": 644,
+    "score": 645,
     "contributionScoresPerRepository": {
       "sile-typesetter/sile": 402,
       "projectfluent/fluent-rs": 202,
@@ -103,10 +103,10 @@
       "sponsorCount": 24,
       "sponsoringCount": 34
     },
-    "sumOfScores": 41127,
+    "sumOfScores": 41385,
     "contributedFocusOrgCount": 17,
     "contributionDiversityMultiplier": 5.25,
-    "score": 464,
+    "score": 466,
     "contributionScoresPerRepository": {
       "ratatui-org/ratatui": 457,
       "ratatui-org/ratatui-website": 360,
@@ -274,7 +274,7 @@
       "sponsorCount": 1,
       "sponsoringCount": 0
     },
-    "sumOfScores": 40486,
+    "sumOfScores": 40686,
     "contributedFocusOrgCount": 6,
     "contributionDiversityMultiplier": 2.5,
     "score": 318,
@@ -443,42 +443,6 @@
   },
   {
     "profile": {
-      "username": "alicanerdurmaz",
-      "name": "Alican Erdurmaz",
-      "company": "@refinedev",
-      "enteredLocation": "Izmir, Turkey",
-      "signedUpAt": "2016-10-25T16:17:29Z",
-      "emailDomain": "gmail.com",
-      "socialAccounts": [
-        "https://twitter.com/alicanerdurmazz"
-      ],
-      "websiteUrl": null,
-      "province": "İzmir"
-    },
-    "stats": {
-      "followers": 157,
-      "gists": 2,
-      "issueComments": 201,
-      "issues": 22,
-      "pullRequests": 492,
-      "repositories": 26,
-      "repositoriesContributedTo": 8,
-      "repositoryDiscussionComments": 16,
-      "repositoryDiscussions": 1,
-      "sponsorCount": 0,
-      "sponsoringCount": 0
-    },
-    "sumOfScores": 38033,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5,
-    "score": 238,
-    "contributionScoresPerRepository": {
-      "refinedev/refine": 923,
-      "pankod/superplate-core-plugins": 206
-    }
-  },
-  {
-    "profile": {
       "username": "onuralpszr",
       "name": "Onuralp SEZER",
       "company": "Fedora Project",
@@ -506,7 +470,7 @@
       "sponsorCount": 2,
       "sponsoringCount": 0
     },
-    "sumOfScores": 24555,
+    "sumOfScores": 24699,
     "contributedFocusOrgCount": 5,
     "contributionDiversityMultiplier": 2.25,
     "score": 235,
@@ -546,7 +510,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 15318,
+    "sumOfScores": 15345,
     "contributedFocusOrgCount": 10,
     "contributionDiversityMultiplier": 3.5,
     "score": 231,
@@ -591,10 +555,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 30031,
+    "sumOfScores": 30304,
     "contributedFocusOrgCount": 3,
     "contributionDiversityMultiplier": 1.75,
-    "score": 229,
+    "score": 230,
     "contributionScoresPerRepository": {
       "refinedev/refine": 666,
       "pankod/superplate-core-plugins": 135,
@@ -630,7 +594,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 16375,
+    "sumOfScores": 16419,
     "contributedFocusOrgCount": 8,
     "contributionDiversityMultiplier": 3,
     "score": 221,
@@ -680,10 +644,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 31337,
+    "sumOfScores": 31399,
     "contributedFocusOrgCount": 2,
     "contributionDiversityMultiplier": 1.5,
-    "score": 216,
+    "score": 217,
     "contributionScoresPerRepository": {
       "wordpress-mobile/WordPress-Android": 551,
       "wordpress-mobile/WordPress-iOS": 125,
@@ -721,7 +685,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 29773,
+    "sumOfScores": 29830,
     "contributedFocusOrgCount": 2,
     "contributionDiversityMultiplier": 1.5,
     "score": 211,
@@ -729,6 +693,47 @@
       "abpframework/abp": 544,
       "dotnet/efcore": 61,
       "abpframework/awesome-abp": 61
+    }
+  },
+  {
+    "profile": {
+      "username": "kayagokalp",
+      "name": "Kaya Gökalp",
+      "company": "@FuelLabs",
+      "enteredLocation": "Istanbul, Turkey",
+      "signedUpAt": "2016-08-08T23:15:03Z",
+      "emailDomain": "",
+      "socialAccounts": [
+        "https://twitter.com/KayaGokalp"
+      ],
+      "websiteUrl": "https://www.kayagokalp.com/",
+      "province": "İstanbul"
+    },
+    "stats": {
+      "followers": 98,
+      "gists": 0,
+      "issueComments": 433,
+      "issues": 280,
+      "pullRequests": 354,
+      "repositories": 30,
+      "repositoriesContributedTo": 21,
+      "repositoryDiscussionComments": 2,
+      "repositoryDiscussions": 0,
+      "sponsorCount": 0,
+      "sponsoringCount": 0
+    },
+    "sumOfScores": 29678,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5,
+    "score": 210,
+    "contributionScoresPerRepository": {
+      "FuelLabs/sway": 397,
+      "FuelLabs/forc-wallet": 178,
+      "FuelLabs/fuelup": 169,
+      "FuelLabs/fuel.nix": 158,
+      "foundry-rs/foundry": 61,
+      "FuelLabs/sway.vim": 30,
+      "FuelLabs/fuel-abi-types": 30
     }
   },
   {
@@ -759,7 +764,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 17770,
+    "sumOfScores": 17783,
     "contributedFocusOrgCount": 6,
     "contributionDiversityMultiplier": 2.5,
     "score": 210,
@@ -798,47 +803,6 @@
   },
   {
     "profile": {
-      "username": "kayagokalp",
-      "name": "Kaya Gökalp",
-      "company": "@FuelLabs",
-      "enteredLocation": "Istanbul, Turkey",
-      "signedUpAt": "2016-08-08T23:15:03Z",
-      "emailDomain": "",
-      "socialAccounts": [
-        "https://twitter.com/KayaGokalp"
-      ],
-      "websiteUrl": "https://www.kayagokalp.com/",
-      "province": "İstanbul"
-    },
-    "stats": {
-      "followers": 98,
-      "gists": 0,
-      "issueComments": 433,
-      "issues": 280,
-      "pullRequests": 354,
-      "repositories": 30,
-      "repositoriesContributedTo": 21,
-      "repositoryDiscussionComments": 2,
-      "repositoryDiscussions": 0,
-      "sponsorCount": 0,
-      "sponsoringCount": 0
-    },
-    "sumOfScores": 28870,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5,
-    "score": 208,
-    "contributionScoresPerRepository": {
-      "FuelLabs/sway": 397,
-      "FuelLabs/forc-wallet": 178,
-      "FuelLabs/fuelup": 169,
-      "FuelLabs/fuel.nix": 158,
-      "foundry-rs/foundry": 61,
-      "FuelLabs/sway.vim": 30,
-      "FuelLabs/fuel-abi-types": 30
-    }
-  },
-  {
-    "profile": {
       "username": "aliok",
       "name": "Ali Ok",
       "company": "Red Hat",
@@ -865,7 +829,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 24729,
+    "sumOfScores": 24752,
     "contributedFocusOrgCount": 3,
     "contributionDiversityMultiplier": 1.75,
     "score": 208,
@@ -915,10 +879,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 34205,
+    "sumOfScores": 34280,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
-    "score": 206,
+    "score": 207,
     "contributionScoresPerRepository": {
       "TykTechnologies/tyk-docs": 997,
       "TykTechnologies/tyk": 500,
@@ -952,10 +916,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 18457,
+    "sumOfScores": 18509,
     "contributedFocusOrgCount": 5,
     "contributionDiversityMultiplier": 2.25,
-    "score": 203,
+    "score": 204,
     "contributionScoresPerRepository": {
       "hazelcast/hazelcast-platform-operator": 514,
       "hazelcast/hazelcast-platform-operator-docs": 172,
@@ -998,7 +962,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 2
     },
-    "sumOfScores": 16334,
+    "sumOfScores": 16388,
     "contributedFocusOrgCount": 6,
     "contributionDiversityMultiplier": 2.5,
     "score": 202,
@@ -1050,7 +1014,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 26860,
+    "sumOfScores": 26898,
     "contributedFocusOrgCount": 2,
     "contributionDiversityMultiplier": 1.5,
     "score": 200,
@@ -1086,10 +1050,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 26365,
+    "sumOfScores": 26625,
     "contributedFocusOrgCount": 2,
     "contributionDiversityMultiplier": 1.5,
-    "score": 198,
+    "score": 199,
     "contributionScoresPerRepository": {
       "refinedev/refine": 649,
       "pankod/superplate-core-plugins": 85
@@ -1122,7 +1086,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 13839,
+    "sumOfScores": 13880,
     "contributedFocusOrgCount": 7,
     "contributionDiversityMultiplier": 2.75,
     "score": 195,
@@ -1163,7 +1127,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 30009,
+    "sumOfScores": 30096,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
     "score": 193,
@@ -1198,10 +1162,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 15380,
+    "sumOfScores": 15612,
     "contributedFocusOrgCount": 5,
     "contributionDiversityMultiplier": 2.25,
-    "score": 186,
+    "score": 187,
     "contributionScoresPerRepository": {
       "wolfi-dev/os": 382,
       "chainguard-images/images": 187,
@@ -1211,46 +1175,6 @@
       "NVIDIA/gpu-operator": 9,
       "Trendyol/gurubu": 9,
       "docker/for-mac": 9
-    }
-  },
-  {
-    "profile": {
-      "username": "ismcagdas",
-      "name": "İsmail ÇAĞDAŞ",
-      "company": "Volosoft",
-      "enteredLocation": "Istanbul, Turkey",
-      "signedUpAt": "2013-04-12T05:21:43Z",
-      "emailDomain": "",
-      "socialAccounts": [],
-      "websiteUrl": null,
-      "province": "İstanbul"
-    },
-    "stats": {
-      "followers": 508,
-      "gists": 22,
-      "issueComments": 4616,
-      "issues": 353,
-      "pullRequests": 190,
-      "repositories": 16,
-      "repositoriesContributedTo": 14,
-      "repositoryDiscussionComments": 3,
-      "repositoryDiscussions": 6,
-      "sponsorCount": 0,
-      "sponsoringCount": 0
-    },
-    "sumOfScores": 19201,
-    "contributedFocusOrgCount": 3,
-    "contributionDiversityMultiplier": 1.75,
-    "score": 183,
-    "contributionScoresPerRepository": {
-      "aspnetboilerplate/aspnetboilerplate": 284,
-      "aspnetzero/documents": 138,
-      "abpframework/abp": 122,
-      "aspnetboilerplate/module-zero-core-template": 104,
-      "aspnetboilerplate/eventcloud": 62,
-      "aspnetboilerplate/questions-answers": 44,
-      "aspnetboilerplate/aspnetboilerplate-samples": 31,
-      "aspnetboilerplate/aspnet-core-template": 31
     }
   },
   {
@@ -1278,10 +1202,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 12124,
+    "sumOfScores": 12184,
     "contributedFocusOrgCount": 7,
     "contributionDiversityMultiplier": 2.75,
-    "score": 182,
+    "score": 183,
     "contributionScoresPerRepository": {
       "ReVanced/revanced-patches": 147,
       "openmultiplayer/launcher": 85,
@@ -1291,6 +1215,46 @@
       "BetterDiscord/BetterDiscord": 60,
       "osmdroid/osmdroid": 60,
       "XiaomiFirmwareUpdater/xiaomi-flashable-firmware-creator-gui": 9
+    }
+  },
+  {
+    "profile": {
+      "username": "ismcagdas",
+      "name": "İsmail ÇAĞDAŞ",
+      "company": "Volosoft",
+      "enteredLocation": "Istanbul, Turkey",
+      "signedUpAt": "2013-04-12T05:21:43Z",
+      "emailDomain": "",
+      "socialAccounts": [],
+      "websiteUrl": null,
+      "province": "İstanbul"
+    },
+    "stats": {
+      "followers": 508,
+      "gists": 22,
+      "issueComments": 4616,
+      "issues": 353,
+      "pullRequests": 190,
+      "repositories": 16,
+      "repositoriesContributedTo": 14,
+      "repositoryDiscussionComments": 3,
+      "repositoryDiscussions": 6,
+      "sponsorCount": 0,
+      "sponsoringCount": 0
+    },
+    "sumOfScores": 19221,
+    "contributedFocusOrgCount": 3,
+    "contributionDiversityMultiplier": 1.75,
+    "score": 183,
+    "contributionScoresPerRepository": {
+      "aspnetboilerplate/aspnetboilerplate": 284,
+      "aspnetzero/documents": 138,
+      "abpframework/abp": 122,
+      "aspnetboilerplate/module-zero-core-template": 104,
+      "aspnetboilerplate/eventcloud": 62,
+      "aspnetboilerplate/questions-answers": 44,
+      "aspnetboilerplate/aspnetboilerplate-samples": 31,
+      "aspnetboilerplate/aspnet-core-template": 31
     }
   },
   {
@@ -1318,10 +1282,10 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 26477,
+    "sumOfScores": 26519,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
-    "score": 181,
+    "score": 182,
     "contributionScoresPerRepository": {
       "mattermost/mattermost": 356,
       "mattermost/mattermost-plugin-metrics": 261,
@@ -1360,7 +1324,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 25481,
+    "sumOfScores": 25535,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
     "score": 178,
@@ -1393,7 +1357,7 @@
       "sponsorCount": 1,
       "sponsoringCount": 0
     },
-    "sumOfScores": 20525,
+    "sumOfScores": 20545,
     "contributedFocusOrgCount": 2,
     "contributionDiversityMultiplier": 1.5,
     "score": 175,
@@ -1431,7 +1395,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 23973,
+    "sumOfScores": 24024,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
     "score": 173,
@@ -2697,7 +2661,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 16402,
+    "sumOfScores": 16465,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
     "score": 143,
@@ -2849,7 +2813,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 15276,
+    "sumOfScores": 15350,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
     "score": 138,
@@ -2897,7 +2861,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 8442,
+    "sumOfScores": 8460,
     "contributedFocusOrgCount": 5,
     "contributionDiversityMultiplier": 2.25,
     "score": 137,
@@ -4781,20 +4745,57 @@
       "pullRequests": 16,
       "repositories": 78,
       "repositoriesContributedTo": 6,
-      "repositoryDiscussionComments": 3,
-      "repositoryDiscussions": 0,
+      "repositoryDiscussionComments": 324,
+      "repositoryDiscussions": 1,
+      "sponsorCount": 0,
+      "sponsoringCount": 0
+    },
+    "sumOfScores": 10562,
+    "contributedFocusOrgCount": 1,
+    "contributionDiversityMultiplier": 1.25,
+    "score": 114,
+    "contributionScoresPerRepository": {
+      "quasarframework/quasar": 204,
+      "quasarframework/app-extension-apollo": 61
+    }
+  },
+  {
+    "profile": {
+      "username": "mertssmnoglu",
+      "name": "Mert Şişmanoğlu",
+      "company": "@YazilimciMekani",
+      "enteredLocation": "İstanbul / Turkey",
+      "signedUpAt": "2020-02-29T13:14:12Z",
+      "emailDomain": "yazilimcimekani.com",
+      "socialAccounts": [
+        "https://mastodon.social/@mertssmnoglu",
+        "https://linkedin.com/in/mertssmnoglu"
+      ],
+      "websiteUrl": "https://bento.me/mertssmnoglu",
+      "province": "İstanbul"
+    },
+    "stats": {
+      "followers": 111,
+      "gists": 4,
+      "issueComments": 86,
+      "issues": 50,
+      "pullRequests": 124,
+      "repositories": 25,
+      "repositoriesContributedTo": 44,
+      "repositoryDiscussionComments": 6,
+      "repositoryDiscussions": 5,
       "sponsorCount": 0,
       "sponsoringCount": 1
     },
-    "sumOfScores": 7266,
-    "contributedFocusOrgCount": 3,
-    "contributionDiversityMultiplier": 1.75,
-    "score": 112,
+    "sumOfScores": 6483,
+    "contributedFocusOrgCount": 4,
+    "contributionDiversityMultiplier": 2,
+    "score": 113,
     "contributionScoresPerRepository": {
-      "run-llama/llama_index": 60,
-      "langchain-ai/langchain": 60,
-      "pathwaycom/pathway": 3,
-      "pathwaycom/llm-app": 1
+      "iyzico/iyzipay-node": 75,
+      "localsend/localsend": 61,
+      "Hipo/university-domains-list": 61,
+      "tiangolo/fastapi": 42
     }
   },
   {
@@ -4935,7 +4936,7 @@
       "sponsorCount": 0,
       "sponsoringCount": 0
     },
-    "sumOfScores": 9564,
+    "sumOfScores": 9584,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25,
     "score": 109,
