@@ -1,68 +1,81 @@
 {
   "canonical": {
-    "score": 7367,
-    "contributors": 76,
+    "score": 7962,
+    "contributors": 80,
     "companies": [
       "canonical ltd.",
       "token financial technologies"
     ]
   },
   "hazelcast": {
-    "score": 7057,
-    "contributors": 73,
+    "score": 6910,
+    "contributors": 64,
     "companies": [
       "hazelcast",
-      "middle east technical university"
+      "ing"
     ]
   },
   "dymensionxyz": {
-    "score": 6915,
-    "contributors": 90,
+    "score": 6256,
+    "contributors": 83,
     "companies": [
-      "blockchain",
-      "individual",
-      "fakir",
-      "dr.",
-      "mutuecosytem.xyz",
-      "home and office",
-      "discord: okandgrmc#2443",
       "pos validator and crypto-enthusiast",
-      "i̇ski̇",
-      "prog club",
-      "cukurovablock",
+      "dr.",
       "free",
-      "coin hunters",
-      "modernyazilim",
+      "home and office",
       "secard",
+      "blockchain",
+      "cukurovablock",
+      "individual",
+      "discord: okandgrmc#2443",
+      "modernyazilim",
+      "i̇ski̇",
+      "mutuecosytem.xyz",
+      "prog club",
       "eskişehir anadolu üniversitesi açık öğretim fakültesi",
-      "astronodes"
+      "coin hunters"
     ]
   },
   "Trendyol": {
-    "score": 5661,
-    "contributors": 71,
+    "score": 5870,
+    "contributors": 67,
     "companies": [
-      "papyon-apps",
       "trendyol",
-      "trendyol.com",
-      "trendyol group",
+      "papyon-apps",
       "frontend developer",
       "nullovy",
+      "software engineer @trendyol",
+      "trendyol group",
+      "trendyol.com",
+      "abdullah gul university",
       "quickload"
     ]
   },
   "abpframework": {
-    "score": 4645,
+    "score": 4532,
     "contributors": 29,
     "companies": [
       "volosoft",
-      "dumlupınar university",
       "ithinka information technologies",
-      "ziraat teknoloji"
+      "dumlupınar university"
+    ]
+  },
+  "autowarefoundation": {
+    "score": 4418,
+    "contributors": 43,
+    "companies": [
+      "leo-drive",
+      "leo drive",
+      "leodrive.ai",
+      "boğaziçi university @bouncmpe",
+      "planning & control @ leo drive",
+      "yıldız technical university",
+      "istanbul technical university",
+      "autoware foundation"
     ]
   },
   "TykTechnologies": {
-    "score": 4224,
+    "score": 4196,
     "contributors": 21,
     "companies": [
       "tyktechnologies",
@@ -70,107 +83,118 @@
     ]
   },
   "Countly": {
-    "score": 3701,
-    "contributors": 20,
+    "score": 3891,
+    "contributors": 19,
     "companies": [
       "countly"
     ]
   },
-  "autowarefoundation": {
-    "score": 3309,
-    "contributors": 33,
-    "companies": [
-      "istanbul technical university",
-      "leodrive.ai",
-      "leo drive",
-      "yıldız technical university",
-      "autoware foundation",
-      "planning & control @ leo drive"
-    ]
-  },
   "primefaces": {
-    "score": 2478,
-    "contributors": 46,
+    "score": 2432,
+    "contributors": 45,
     "companies": [
-      "primetek informatics",
-      "primefaces",
-      "kodlama.io",
-      "frontend developer",
       "aripd",
-      "jrcookie",
-      "netas-ankara",
+      "frontend developer",
+      "primefaces",
+      "primetek informatics",
+      "kodlama.io",
       "primetek",
-      "proteintech",
-      "startupcentrum"
-    ]
-  },
-  "refinedev": {
-    "score": 2457,
-    "contributors": 10,
-    "companies": [
-      "refinedev",
-      "available for hire",
-      "7gates"
+      "jrcookie"
     ]
   },
   "ant-media": {
-    "score": 2431,
-    "contributors": 15,
+    "score": 2395,
+    "contributors": 16,
     "companies": [
       "ant-media"
     ]
   },
-  "upbound": {
-    "score": 2000,
-    "contributors": 20,
+  "refinedev": {
+    "score": 2174,
+    "contributors": 8,
+    "companies": [
+      "7gates",
+      "refinedev"
+    ]
+  },
+  "crossplane-contrib": {
+    "score": 2019,
+    "contributors": 13,
     "companies": [
       "upbound"
     ]
   },
-  "coder": {
-    "score": 1971,
-    "contributors": 9,
-    "companies": [
-      "coder",
-      "türkiye i̇ş bankası"
-    ]
-  },
-  "spatie": {
-    "score": 1922,
-    "contributors": 30,
-    "companies": [
-      "beyn",
-      "interactiondesignfoundation"
-    ]
-  },
   "cncf": {
-    "score": 1921,
+    "score": 1955,
     "contributors": 14,
     "companies": [
       "catchpoint",
       "tubitak bilgem yte",
+      "coroot",
       "red hat"
     ]
   },
-  "deepset-ai": {
-    "score": 1774,
+  "coder": {
+    "score": 1891,
     "contributors": 9,
     "companies": [
-      "nbs-venture",
-      "deepset-ai",
-      "databoss"
+      "türkiye i̇ş bankası",
+      "coder"
     ]
   },
+  "openshift": {
+    "score": 1883,
+    "contributors": 18,
+    "companies": [
+      "red hat"
+    ]
+  },
+  "spring-projects": {
+    "score": 1833,
+    "contributors": 33,
+    "companies": [
+      "bnpp tech",
+      "turkcell",
+      "tubitak bilgem yte",
+      "migroscomtr"
+    ]
+  },
+  "deepset-ai": {
+    "score": 1744,
+    "contributors": 10,
+    "companies": [
+      "nbs-venture",
+      "databoss",
+      "deepset-ai"
+    ]
+  },
+  "ironhack-labs": {
+    "score": 1704,
+    "contributors": 28,
+    "companies": []
+  },
+  "breez": {
+    "score": 1571,
+    "contributors": 9,
+    "companies": []
+  },
   "percona": {
-    "score": 1767,
+    "score": 1517,
     "contributors": 9,
     "companies": [
       "percona"
     ]
   },
+  "crossplane": {
+    "score": 1507,
+    "contributors": 12,
+    "companies": [
+      "upbound"
+    ]
+  },
   "ratatui-org": {
-    "score": 1586,
-    "contributors": 7,
+    "score": 1506,
+    "contributors": 6,
     "companies": [
       "archlinux"
     ]
@@ -182,497 +206,379 @@
       "ava-labs"
     ]
   },
-  "crossplane": {
-    "score": 1410,
-    "contributors": 11,
-    "companies": [
-      "upbound"
-    ]
-  },
-  "openshift": {
-    "score": 1396,
-    "contributors": 15,
-    "companies": [
-      "red hat"
-    ]
-  },
   "php": {
-    "score": 1378,
-    "contributors": 9,
+    "score": 1415,
+    "contributors": 11,
     "companies": [
       "php"
     ]
   },
-  "breez": {
-    "score": 1244,
-    "contributors": 11,
-    "companies": []
-  },
-  "fingerprintjs": {
-    "score": 1170,
-    "contributors": 13,
-    "companies": [
-      "fingerprint"
-    ]
-  },
-  "citusdata": {
-    "score": 1104,
+  "upbound": {
+    "score": 1361,
     "contributors": 12,
-    "companies": [
-      "boyner",
-      "citusdata",
-      "microsoft @citusdata"
-    ]
-  },
-  "FuelLabs": {
-    "score": 1022,
-    "contributors": 7,
-    "companies": [
-      "fuellabs",
-      "cukurovablock"
-    ]
-  },
-  "forta-network": {
-    "score": 995,
-    "contributors": 5,
-    "companies": [
-      "openzeppelin",
-      "nethermind"
-    ]
-  },
-  "mattermost": {
-    "score": 977,
-    "contributors": 9,
-    "companies": [
-      "mattermost"
-    ]
-  },
-  "serenity-is": {
-    "score": 965,
-    "contributors": 12,
-    "companies": [
-      "serenity.is",
-      "serenity software"
-    ]
-  },
-  "crossplane-contrib": {
-    "score": 963,
-    "contributors": 10,
     "companies": [
       "upbound"
     ]
   },
-  "PaloAltoNetworks": {
-    "score": 954,
-    "contributors": 7,
-    "companies": []
+  "fal-ai": {
+    "score": 1206,
+    "contributors": 11,
+    "companies": [
+      "fal-ai"
+    ]
+  },
+  "omec-project": {
+    "score": 1203,
+    "contributors": 13,
+    "companies": [
+      "canonical ltd."
+    ]
+  },
+  "FuelLabs": {
+    "score": 1159,
+    "contributors": 9,
+    "companies": [
+      "cukurovablock",
+      "fuellabs"
+    ]
   },
   "ObolNetwork": {
-    "score": 943,
-    "contributors": 8,
+    "score": 1130,
+    "contributors": 9,
     "companies": []
   },
+  "StanfordVL": {
+    "score": 1078,
+    "contributors": 5,
+    "companies": [
+      "stanford university"
+    ]
+  },
+  "citusdata": {
+    "score": 1072,
+    "contributors": 10,
+    "companies": [
+      "citusdata",
+      "microsoft @citusdata"
+    ]
+  },
+  "flathub": {
+    "score": 1068,
+    "contributors": 13,
+    "companies": [
+      "hacettepeoyt",
+      "bultek",
+      "saya for everyone (sayafe.org)",
+      "turkman - pardus - muslimlinux"
+    ]
+  },
   "coroot": {
-    "score": 931,
+    "score": 1009,
     "contributors": 11,
     "companies": [
       "coroot"
     ]
   },
-  "apache": {
-    "score": 926,
+  "specklesystems": {
+    "score": 999,
     "contributors": 10,
     "companies": [
-      "synnada",
-      "izmir institute of technology",
-      "softtech",
-      "synnada ai",
-      "lc waikiki",
-      "intenseye | ex:sony",
-      "synnada-ai"
+      "specklesystems",
+      "speckle"
     ]
   },
-  "WordPress": {
-    "score": 921,
-    "contributors": 4,
+  "mattermost": {
+    "score": 994,
+    "contributors": 8,
     "companies": [
-      "automattic",
-      "darawish",
-      "robolaunch"
+      "mattermost"
     ]
   },
-  "AleoHQ": {
-    "score": 915,
-    "contributors": 93,
-    "companies": [
-      "blockchain",
-      "antreman",
-      "martı yazılım",
-      "poyta",
-      "aydogan",
-      "pasaportb",
-      "nutaxa",
-      "mana",
-      "sabanci university",
-      "oyles",
-      "mugl sıtkı kocman university",
-      "özgür medical",
-      "dr.",
-      "belirsiz",
-      "gücü",
-      "muratselim1994@gmail.com",
-      "my house",
-      "sf bay coffee",
-      "home and office",
-      "saros yazılım",
-      "komado",
-      "mackoli",
-      "rusta",
-      "minsk mak",
-      "irc library",
-      "peer to devs",
-      "monas yazılım",
-      "itublockchain",
-      "university",
-      "cayma",
-      "free",
-      "coin hunters",
-      "astronodes",
-      "pepsico"
-    ]
+  "PaloAltoNetworks": {
+    "score": 991,
+    "contributors": 7,
+    "companies": []
   },
   "wordpress-mobile": {
-    "score": 914,
-    "contributors": 5,
+    "score": 985,
+    "contributors": 6,
     "companies": [
       "automattic"
     ]
   },
-  "specklesystems": {
-    "score": 883,
-    "contributors": 9,
+  "fingerprintjs": {
+    "score": 948,
+    "contributors": 10,
     "companies": [
-      "speckle",
-      "specklesystems"
-    ]
-  },
-  "fal-ai": {
-    "score": 879,
-    "contributors": 8,
-    "companies": [
-      "wopehq",
-      "fal-ai"
-    ]
-  },
-  "roboflow": {
-    "score": 871,
-    "contributors": 4,
-    "companies": [
-      "fedora project"
-    ]
-  },
-  "StanfordVL": {
-    "score": 867,
-    "contributors": 3,
-    "companies": [
-      "stanford university"
-    ]
-  },
-  "flathub": {
-    "score": 866,
-    "contributors": 9,
-    "companies": [
-      "hacettepeoyt",
-      "bultek",
-      "turkman - pardus - muslimlinux"
-    ]
-  },
-  "ubicloud": {
-    "score": 864,
-    "contributors": 1,
-    "companies": [
-      "ubicloud"
-    ]
-  },
-  "public-awesome": {
-    "score": 854,
-    "contributors": 7,
-    "companies": []
-  },
-  "getkirby": {
-    "score": 836,
-    "contributors": 3,
-    "companies": [
-      "getkirby @owebstudio @pixelturk"
-    ]
-  },
-  "keep-starknet-strange": {
-    "score": 829,
-    "contributors": 5,
-    "companies": [
-      "cukurovablock"
+      "fingerprint"
     ]
   },
   "CollaboraOnline": {
-    "score": 818,
+    "score": 945,
     "contributors": 4,
     "companies": [
+      "collaboraonline",
       "pisi gnu/linux",
-      "collabora productivity",
-      "collaboraonline"
+      "collabora productivity"
     ]
   },
   "microsoft": {
-    "score": 804,
-    "contributors": 38,
+    "score": 879,
+    "contributors": 32,
     "companies": [
-      "papyon-apps",
-      "opera",
-      "abdullah gul university",
-      "freelance developer",
-      "kadir gün",
-      "marmara university istanbul",
-      "working from home",
-      "cressoft consultancy",
-      "kxsystems",
-      "biryudumkitap",
-      "intertech",
-      "suleyman demirel university computer engineer",
-      "monstermmorpg",
       "codemos-inc",
-      "machinarium",
-      "the adecco group",
-      "turkey"
+      "sharex",
+      "turna.com",
+      "intertech",
+      "opera",
+      "suleyman demirel university computer engineer",
+      "kadir gün",
+      "monstermmorpg",
+      "obss",
+      "papyon-apps",
+      "abdullah gul university",
+      "machinarium"
     ]
   },
-  "kubernetes": {
-    "score": 782,
-    "contributors": 9,
-    "companies": [
-      "hazelcast",
-      "red hat",
-      "robolaunch",
-      "destek mühendislik"
-    ]
-  },
-  "huggingface": {
-    "score": 772,
-    "contributors": 21,
-    "companies": [
-      "komraades",
-      "bouncmpe",
-      "huawei",
-      "trendyol",
-      "dcipher analytics",
-      "safevideo",
-      "fal-ai",
-      "monstermmorpg"
-    ]
-  },
-  "aspnetboilerplate": {
-    "score": 766,
-    "contributors": 10,
-    "companies": [
-      "volosoft",
-      "hibrid",
-      "freelancer | full stack software engineer",
-      "citi"
-    ]
-  },
-  "omec-project": {
-    "score": 736,
-    "contributors": 11,
-    "companies": [
-      "canonical ltd."
-    ]
-  },
-  "NethermindEth": {
-    "score": 733,
-    "contributors": 3,
+  "public-awesome": {
+    "score": 877,
+    "contributors": 5,
     "companies": []
   },
-  "python": {
-    "score": 732,
-    "contributors": 8,
+  "WordPress": {
+    "score": 872,
+    "contributors": 3,
     "companies": [
-      "python @python-docs-tr",
-      "scorpions-robotics, @antalya-isas"
+      "darawish",
+      "automattic"
+    ]
+  },
+  "apache": {
+    "score": 849,
+    "contributors": 9,
+    "companies": [
+      "synnada ai",
+      "vlmedia",
+      "softtech",
+      "izmir institute of technology",
+      "lc waikiki",
+      "synnada",
+      "synnada-ai"
     ]
   },
   "libsdl-org": {
-    "score": 715,
-    "contributors": 11,
-    "companies": []
-  },
-  "nuxt": {
-    "score": 669,
-    "contributors": 12,
-    "companies": [
-      "automattic",
-      "openanime",
-      "freelancer",
-      "turkce-dokuman"
-    ]
-  },
-  "kamp-us": {
-    "score": 643,
+    "score": 839,
     "contributors": 10,
-    "companies": [
-      "bulutistan"
-    ]
-  },
-  "knative": {
-    "score": 618,
-    "contributors": 6,
-    "companies": [
-      "tubitak bilgem yte",
-      "red hat"
-    ]
-  },
-  "runtimeverification": {
-    "score": 611,
-    "contributors": 4,
     "companies": []
-  },
-  "status-im": {
-    "score": 609,
-    "contributors": 2,
-    "companies": []
-  },
-  "laravel": {
-    "score": 601,
-    "contributors": 13,
-    "companies": [
-      "developer @formeras",
-      "software engineer",
-      "3kode",
-      "beyn",
-      "alfatron-tr"
-    ]
-  },
-  "ethereum": {
-    "score": 598,
-    "contributors": 9,
-    "companies": [
-      "clave, ethylene, fibrous, itu blockchain",
-      "ecofoni-team",
-      "openzeppelin",
-      "cukurovablock",
-      "getclave @itublockchain"
-    ]
-  },
-  "gofiber": {
-    "score": 591,
-    "contributors": 8,
-    "companies": [
-      "turassistit"
-    ]
-  },
-  "nocodb": {
-    "score": 576,
-    "contributors": 1,
-    "companies": [
-      "nocodb"
-    ]
-  },
-  "sile-typesetter": {
-    "score": 567,
-    "contributors": 4,
-    "companies": []
-  },
-  "HMS-Core": {
-    "score": 558,
-    "contributors": 3,
-    "companies": [
-      "huawei"
-    ]
-  },
-  "webstudio-is": {
-    "score": 558,
-    "contributors": 1,
-    "companies": []
-  },
-  "Homebrew": {
-    "score": 543,
-    "contributors": 5,
-    "companies": [
-      "freelance developer",
-      "trendyol",
-      "archlinux"
-    ]
-  },
-  "nodejs": {
-    "score": 537,
-    "contributors": 6,
-    "companies": [
-      "trendyol",
-      "dotdoc-academy"
-    ]
-  },
-  "pankod": {
-    "score": 530,
-    "contributors": 4,
-    "companies": [
-      "refinedev"
-    ]
-  },
-  "wolfi-dev": {
-    "score": 529,
-    "contributors": 3,
-    "companies": [
-      "trendyol"
-    ]
   },
   "MystenLabs": {
-    "score": 514,
-    "contributors": 5,
+    "score": 830,
+    "contributors": 6,
     "companies": [
       "notus-labs",
       "mystenlabs"
     ]
   },
-  "JetBrains": {
-    "score": 504,
-    "contributors": 8,
+  "laravel": {
+    "score": 825,
+    "contributors": 15,
     "companies": [
-      "cognira",
-      "fixing systems",
-      "kahramanmaraş i̇stiklal üniversitesi",
-      "koç university"
+      "software engineer",
+      "alphorld",
+      "alfatron-tr",
+      "developer @formeras",
+      "3kode",
+      "ferisoft"
     ]
   },
-  "jitsi": {
-    "score": 501,
-    "contributors": 13,
+  "ubicloud": {
+    "score": 823,
+    "contributors": 1,
     "companies": [
-      "turkcell",
-      "nordeck",
-      "albarakatech"
+      "ubicloud"
+    ]
+  },
+  "roboflow": {
+    "score": 820,
+    "contributors": 2,
+    "companies": [
+      "fedora project"
+    ]
+  },
+  "getkirby": {
+    "score": 817,
+    "contributors": 4,
+    "companies": [
+      "getkirby @owebstudio @pixelturk"
+    ]
+  },
+  "kubernetes": {
+    "score": 816,
+    "contributors": 10,
+    "companies": [
+      "wolfram",
+      "robolaunch",
+      "hazelcast",
+      "red hat"
+    ]
+  },
+  "aspnetboilerplate": {
+    "score": 806,
+    "contributors": 9,
+    "companies": [
+      "freelancer | full stack software engineer",
+      "volosoft",
+      "citi"
+    ]
+  },
+  "forta-network": {
+    "score": 796,
+    "contributors": 5,
+    "companies": [
+      "nethermind",
+      "openzeppelin"
+    ]
+  },
+  "keep-starknet-strange": {
+    "score": 783,
+    "contributors": 5,
+    "companies": [
+      "middle east technical university",
+      "cukurovablock"
+    ]
+  },
+  "status-im": {
+    "score": 684,
+    "contributors": 2,
+    "companies": []
+  },
+  "nodejs": {
+    "score": 673,
+    "contributors": 5,
+    "companies": [
+      "trendyol",
+      "dotdoc-academy"
+    ]
+  },
+  "Homebrew": {
+    "score": 672,
+    "contributors": 6,
+    "companies": [
+      "archlinux",
+      "trendyol",
+      "zoolatech"
+    ]
+  },
+  "fluencelabs": {
+    "score": 667,
+    "contributors": 7,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "huggingface": {
+    "score": 662,
+    "contributors": 17,
+    "companies": [
+      "hubx",
+      "huawei",
+      "bouncmpe",
+      "fal-ai",
+      "monstermmorpg",
+      "komraades",
+      "dcipher analytics"
+    ]
+  },
+  "webstudio-is": {
+    "score": 655,
+    "contributors": 1,
+    "companies": []
+  },
+  "ethereum": {
+    "score": 652,
+    "contributors": 11,
+    "companies": [
+      "ecofoni-team",
+      "freelancer",
+      "cukurovablock",
+      "getclave @itublockchain",
+      "openzeppelin"
+    ]
+  },
+  "scroll-tech": {
+    "score": 607,
+    "contributors": 9,
+    "companies": [
+      "turkish airlines technology",
+      "cukurovablock"
+    ]
+  },
+  "NethermindEth": {
+    "score": 592,
+    "contributors": 5,
+    "companies": [
+      "nethermind"
+    ]
+  },
+  "gofiber": {
+    "score": 574,
+    "contributors": 8,
+    "companies": []
+  },
+  "knative": {
+    "score": 574,
+    "contributors": 4,
+    "companies": [
+      "red hat"
+    ]
+  },
+  "wolfi-dev": {
+    "score": 571,
+    "contributors": 3,
+    "companies": [
+      "trendyol"
+    ]
+  },
+  "nocodb": {
+    "score": 570,
+    "contributors": 1,
+    "companies": [
+      "nocodb"
+    ]
+  },
+  "JetBrains": {
+    "score": 564,
+    "contributors": 9,
+    "companies": [
+      "koç university",
+      "lingoon teknoloji ve yazılım hizmetleri",
+      "cognira",
+      "fixing systems",
+      "kahramanmaraş i̇stiklal üniversitesi"
+    ]
+  },
+  "runtimeverification": {
+    "score": 552,
+    "contributors": 4,
+    "companies": []
+  },
+  "serenity-is": {
+    "score": 537,
+    "contributors": 10,
+    "companies": [
+      "serenity software",
+      "serenity.is"
     ]
   },
   "OpenIntroStat": {
-    "score": 496,
+    "score": 535,
     "contributors": 4,
     "companies": [
       "turkish aerospace"
     ]
   },
-  "rubocop": {
-    "score": 472,
-    "contributors": 7,
-    "companies": []
-  },
-  "google": {
-    "score": 466,
-    "contributors": 9,
-    "companies": [
-      "globiar @tess-education",
-      "upbound",
-      "centerhealth"
-    ]
-  },
   "eco-stake": {
-    "score": 461,
+    "score": 529,
     "contributors": 6,
     "companies": [
       "node101",
@@ -680,101 +586,203 @@
       "havelsan"
     ]
   },
-  "lunarmodules": {
-    "score": 455,
-    "contributors": 8,
-    "companies": []
+  "pankod": {
+    "score": 506,
+    "contributors": 4,
+    "companies": [
+      "refinedev"
+    ]
   },
   "oceanprotocol": {
-    "score": 449,
-    "contributors": 3,
+    "score": 486,
+    "contributors": 4,
     "companies": [
       "ocean protocol"
     ]
   },
-  "nim-lang": {
-    "score": 448,
-    "contributors": 2,
+  "stac-utils": {
+    "score": 470,
+    "contributors": 3,
     "companies": []
   },
-  "Green-Software-Foundation": {
-    "score": 446,
-    "contributors": 5,
+  "kamp-us": {
+    "score": 465,
+    "contributors": 7,
     "companies": [
-      "green-software-foundation"
+      "bulutistan"
     ]
   },
-  "anoma": {
-    "score": 433,
+  "run-llama": {
+    "score": 456,
+    "contributors": 10,
+    "companies": [
+      "biruni university",
+      "orangery gmbh",
+      "cypien ai",
+      "istanbul technical university",
+      "epam systems",
+      "bouncmpe",
+      "havelsan"
+    ]
+  },
+  "rubocop": {
+    "score": 455,
+    "contributors": 7,
+    "companies": []
+  },
+  "GlistEngine": {
+    "score": 453,
+    "contributors": 1,
+    "companies": [
+      "gamelab istanbul"
+    ]
+  },
+  "oracle": {
+    "score": 452,
+    "contributors": 7,
+    "companies": [
+      "oracle"
+    ]
+  },
+  "armbian": {
+    "score": 452,
+    "contributors": 3,
+    "companies": []
+  },
+  "python": {
+    "score": 444,
+    "contributors": 7,
+    "companies": [
+      "scorpions-robotics, @antalya-isas",
+      "python @python-docs-tr"
+    ]
+  },
+  "HMS-Core": {
+    "score": 444,
+    "contributors": 3,
+    "companies": [
+      "huawei"
+    ]
+  },
+  "AlmaLinux": {
+    "score": 444,
     "contributors": 6,
     "companies": [
-      "free"
+      "cloud linux"
     ]
   },
-  "fluencelabs": {
-    "score": 428,
-    "contributors": 5,
+  "exercism": {
+    "score": 438,
+    "contributors": 4,
     "companies": [
-      "cukurovablock"
+      "epam"
+    ]
+  },
+  "spatie": {
+    "score": 434,
+    "contributors": 6,
+    "companies": [
+      "interactiondesignfoundation",
+      "beyn"
+    ]
+  },
+  "mantinedev": {
+    "score": 432,
+    "contributors": 6,
+    "companies": [
+      "özgür yazılım a.ş",
+      "new mind",
+      "trendyol",
+      "hire me please",
+      "90pixel"
+    ]
+  },
+  "gear-tech": {
+    "score": 429,
+    "contributors": 2,
+    "companies": [
+      "gear"
+    ]
+  },
+  "sile-typesetter": {
+    "score": 427,
+    "contributors": 4,
+    "companies": []
+  },
+  "nuxt": {
+    "score": 412,
+    "contributors": 11,
+    "companies": [
+      "openanime",
+      "automattic",
+      "freelancer",
+      "signhost/entrust",
+      "apolytus"
+    ]
+  },
+  "Yavuzlar": {
+    "score": 411,
+    "contributors": 4,
+    "companies": [
+      "bülent ecevit üniversitesi",
+      "looking for a company for summer internship"
+    ]
+  },
+  "redis": {
+    "score": 402,
+    "contributors": 7,
+    "companies": [
+      "picus security"
     ]
   },
   "typesense": {
-    "score": 426,
+    "score": 401,
     "contributors": 2,
     "companies": [
       "gebze teknik üniversitesi"
     ]
   },
-  "Yavuzlar": {
-    "score": 413,
+  "Consensys": {
+    "score": 390,
     "contributors": 5,
-    "companies": [
-      "karabuk university",
-      "looking for a company for summer internship",
-      "bülent ecevit üniversitesi"
-    ]
-  },
-  "akaunting": {
-    "score": 411,
-    "contributors": 3,
-    "companies": [
-      "akaunting"
-    ]
-  },
-  "armbian": {
-    "score": 404,
-    "contributors": 3,
     "companies": []
   },
-  "jupyter": {
-    "score": 401,
-    "contributors": 2,
+  "DefiLlama": {
+    "score": 389,
+    "contributors": 6,
     "companies": [
-      "jupyter"
+      "dkodalabs"
     ]
   },
-  "knative-extensions": {
-    "score": 399,
-    "contributors": 3,
+  "matter-labs": {
+    "score": 388,
+    "contributors": 6,
     "companies": [
-      "red hat"
+      "craftlabs-tech",
+      "eflatun yazılım",
+      "metu ceng",
+      "cukurovablock",
+      "getclave @itublockchain"
     ]
   },
-  "stac-utils": {
-    "score": 395,
-    "contributors": 2,
+  "atlassian": {
+    "score": 387,
+    "contributors": 5,
     "companies": []
   },
-  "RedisBloom": {
-    "score": 391,
-    "contributors": 1,
+  "notepad-plus-plus": {
+    "score": 385,
+    "contributors": 4,
     "companies": []
   },
-  "KxSystems": {
-    "score": 382,
-    "contributors": 1,
+  "conda-forge": {
+    "score": 383,
+    "contributors": 6,
     "companies": [
-      "kxsystems"
+      "archlinux",
+      "bilkent university",
+      "anakra uni",
+      "fedora project"
     ]
   },
   "rspec": {
@@ -782,188 +790,99 @@
     "contributors": 6,
     "companies": []
   },
-  "Consensys": {
-    "score": 376,
-    "contributors": 5,
+  "zama-ai": {
+    "score": 371,
+    "contributors": 1,
     "companies": []
   },
-  "analogdevicesinc": {
-    "score": 372,
-    "contributors": 5,
-    "companies": [
-      "analog devices",
-      "maxim"
-    ]
+  "nim-lang": {
+    "score": 347,
+    "contributors": 2,
+    "companies": []
   },
-  "spring-projects": {
-    "score": 370,
-    "contributors": 11,
-    "companies": [
-      "migroscomtr",
-      "tubitak bilgem yte",
-      "turkcell",
-      "bnpp tech"
-    ]
-  },
-  "scroll-tech": {
-    "score": 369,
+  "open-sauced": {
+    "score": 347,
     "contributors": 7,
-    "companies": [
-      "turkish airlines technology",
-      "cukurovablock"
-    ]
-  },
-  "redis": {
-    "score": 367,
-    "contributors": 8,
-    "companies": [
-      "picus security",
-      "codeck"
-    ]
-  },
-  "oracle": {
-    "score": 356,
-    "contributors": 6,
-    "companies": [
-      "oracle"
-    ]
-  },
-  "privacy-scaling-explorations": {
-    "score": 355,
-    "contributors": 4,
     "companies": []
   },
-  "MaximIntegratedAI": {
-    "score": 355,
-    "contributors": 4,
+  "flutter": {
+    "score": 345,
+    "contributors": 12,
     "companies": [
-      "analog devices",
-      "maxim"
+      "university",
+      "globiar @tess-education",
+      "smart station",
+      "freelancer",
+      "fennel"
     ]
   },
-  "run-llama": {
-    "score": 355,
-    "contributors": 6,
-    "companies": [
-      "safevideo @ultralytics",
-      "cypien ai",
-      "istanbul technical university"
-    ]
+  "RedisBloom": {
+    "score": 337,
+    "contributors": 1,
+    "companies": []
   },
-  "gta-reversed": {
-    "score": 351,
+  "ParadiseSS13": {
+    "score": 336,
     "contributors": 1,
     "companies": []
   },
   "vmware-tanzu": {
-    "score": 347,
-    "contributors": 4,
+    "score": 334,
+    "contributors": 3,
     "companies": [
-      "sahibinden",
       "teknasyon"
     ]
   },
-  "conda-forge": {
-    "score": 343,
-    "contributors": 5,
-    "companies": [
-      "bilkent university",
-      "anakra uni",
-      "fedora project",
-      "archlinux"
-    ]
-  },
-  "JohnSnowLabs": {
-    "score": 341,
-    "contributors": 5,
-    "companies": [
-      "johnsnowlabs"
-    ]
-  },
-  "ddosify": {
-    "score": 339,
-    "contributors": 3,
-    "companies": [
-      "ddosify"
-    ]
-  },
-  "facebook": {
-    "score": 337,
-    "contributors": 9,
-    "companies": [
-      "commencis",
-      "teleperformance",
-      "moonshred",
-      "hack&craft"
-    ]
-  },
-  "mantinedev": {
-    "score": 337,
-    "contributors": 6,
-    "companies": [
-      "özgür yazılım a.ş",
-      "privia security a.ş.",
-      "new mind",
-      "hire me please"
-    ]
-  },
-  "Superalgos": {
-    "score": 336,
-    "contributors": 2,
-    "companies": []
-  },
-  "langchain-ai": {
-    "score": 335,
-    "contributors": 8,
-    "companies": [
-      "upstash",
-      "wopehq",
-      "hepsiburada",
-      "firstbatchxyz",
-      "trendyol"
-    ]
-  },
-  "AlmaLinux": {
-    "score": 333,
-    "contributors": 5,
-    "companies": [
-      "cloud linux"
-    ]
-  },
-  "zama-ai": {
+  "quasarframework": {
     "score": 331,
-    "contributors": 1,
-    "companies": []
-  },
-  "matter-labs": {
-    "score": 325,
-    "contributors": 5,
+    "contributors": 4,
     "companies": [
-      "craftlabs-tech",
-      "metu ceng",
-      "cukurovablock"
+      "dealforward",
+      "dreamonkey"
     ]
   },
-  "notepad-plus-plus": {
-    "score": 324,
-    "contributors": 3,
-    "companies": []
-  },
-  "gear-tech": {
-    "score": 323,
+  "aspnetzero": {
+    "score": 327,
     "contributors": 2,
     "companies": [
-      "gear"
+      "volosoft"
     ]
   },
-  "iyzico": {
-    "score": 322,
+  "MaximIntegratedAI": {
+    "score": 320,
+    "contributors": 4,
+    "companies": [
+      "maxim",
+      "analog devices"
+    ]
+  },
+  "KxSystems": {
+    "score": 315,
+    "contributors": 1,
+    "companies": [
+      "kxsystems"
+    ]
+  },
+  "jupyter": {
+    "score": 315,
+    "contributors": 2,
+    "companies": [
+      "jupyter"
+    ]
+  },
+  "catchpoint": {
+    "score": 314,
     "contributors": 5,
     "companies": [
-      "yazilimcimekani",
-      "bartyapp",
-      "iyzico",
-      "dogusteknoloji"
+      "thundra-io",
+      "catchpoint"
+    ]
+  },
+  "akaunting": {
+    "score": 308,
+    "contributors": 2,
+    "companies": [
+      "akaunting"
     ]
   },
   "esx-framework": {
@@ -971,85 +890,84 @@
     "contributors": 5,
     "companies": []
   },
-  "GlistEngine": {
-    "score": 304,
-    "contributors": 2,
-    "companies": [
-      "gamelab istanbul"
-    ]
-  },
-  "ReVanced": {
-    "score": 297,
-    "contributors": 3,
-    "companies": []
-  },
-  "quasarframework": {
-    "score": 295,
-    "contributors": 3,
-    "companies": [
-      "dreamonkey",
-      "simpliciterio"
-    ]
-  },
   "taikoxyz": {
-    "score": 289,
-    "contributors": 6,
+    "score": 304,
+    "contributors": 5,
     "companies": [
       "cukurovablock"
     ]
   },
-  "aspnetzero": {
-    "score": 287,
+  "gta-reversed": {
+    "score": 302,
+    "contributors": 1,
+    "companies": []
+  },
+  "ddosify": {
+    "score": 297,
     "contributors": 2,
     "companies": [
-      "volosoft"
+      "ddosify"
     ]
   },
-  "line": {
-    "score": 287,
-    "contributors": 3,
-    "companies": [
-      "carbon health"
-    ]
-  },
-  "Automattic": {
-    "score": 285,
-    "contributors": 3,
-    "companies": [
-      "automattic"
-    ]
-  },
-  "pisilinux": {
-    "score": 284,
-    "contributors": 3,
-    "companies": [
-      "pisi gnu/linux"
-    ]
-  },
-  "vuejs": {
-    "score": 279,
-    "contributors": 10,
-    "companies": [
-      "siberuzay teknolojileri",
-      "freelancer",
-      "helorobo",
-      "microsoft"
-    ]
-  },
-  "shadcn-ui": {
-    "score": 277,
+  "vercel": {
+    "score": 294,
     "contributors": 6,
     "companies": [
-      "pamukkale university",
-      "ekos.ai",
-      "izmir teknoloji"
+      "yandex",
+      "uskudar university",
+      "fal-ai",
+      "upstash"
     ]
   },
-  "yazbel": {
-    "score": 276,
+  "projectfluent": {
+    "score": 293,
     "contributors": 3,
+    "companies": []
+  },
+  "LayerZero-Labs": {
+    "score": 291,
+    "contributors": 4,
     "companies": [
-      "istanbul technical university"
+      "cukurovablock"
+    ]
+  },
+  "DefinitelyTyped": {
+    "score": 288,
+    "contributors": 4,
+    "companies": [
+      "dokuz eylul university",
+      "firstbatchxyz",
+      "bartyapp"
+    ]
+  },
+  "langchain-ai": {
+    "score": 284,
+    "contributors": 8,
+    "companies": [
+      "wopehq",
+      "upstash",
+      "hepsiburada",
+      "firstbatchxyz",
+      "mrntlu",
+      "trendyol"
+    ]
+  },
+  "segmentio": {
+    "score": 276,
+    "contributors": 5,
+    "companies": [
+      "trendyol",
+      "peaka",
+      "useinsider",
+      "turboard"
+    ]
+  },
+  "unjs": {
+    "score": 272,
+    "contributors": 7,
+    "companies": [
+      "freelancer",
+      "dreamonkey"
     ]
   },
   "weDevsOfficial": {
@@ -1060,179 +978,177 @@
     ]
   },
   "kodlamaio-projects": {
-    "score": 271,
+    "score": 270,
     "contributors": 4,
     "companies": [
       "kodlama.io"
     ]
   },
-  "crdroidandroid": {
-    "score": 271,
-    "contributors": 3,
-    "companies": []
-  },
-  "exercism": {
-    "score": 271,
-    "contributors": 3,
-    "companies": []
-  },
-  "algorandfoundation": {
-    "score": 271,
-    "contributors": 2,
-    "companies": [
-      "goplausible"
-    ]
-  },
-  "flutter": {
-    "score": 270,
-    "contributors": 13,
-    "companies": [
-      "tübi̇tak (scientific and technological research council of türkiye)",
-      "globiar @tess-education",
-      "fennel",
-      "university",
-      "freelancer",
-      "smart station",
-      "simeraycom"
-    ]
-  },
-  "ParadiseSS13": {
-    "score": 270,
-    "contributors": 1,
-    "companies": []
-  },
-  "DefiLlama": {
-    "score": 267,
-    "contributors": 4,
-    "companies": []
-  },
-  "solidjs": {
-    "score": 261,
-    "contributors": 4,
-    "companies": []
-  },
-  "dotnet": {
-    "score": 257,
-    "contributors": 16,
-    "companies": [
-      "volosoft",
-      "nuvologtech",
-      "arkitera bilişim teknolojileri",
-      "nullovy",
-      "türkiye"
-    ]
-  },
-  "open-sauced": {
-    "score": 255,
-    "contributors": 6,
-    "companies": []
-  },
   "woocommerce": {
-    "score": 255,
-    "contributors": 2,
+    "score": 269,
+    "contributors": 3,
     "companies": [
       "beycanpress"
     ]
   },
   "pop-os": {
-    "score": 253,
+    "score": 268,
+    "contributors": 4,
+    "companies": []
+  },
+  "knative-extensions": {
+    "score": 264,
+    "contributors": 2,
+    "companies": [
+      "red hat"
+    ]
+  },
+  "Green-Software-Foundation": {
+    "score": 260,
+    "contributors": 5,
+    "companies": [
+      "green-software-foundation"
+    ]
+  },
+  "lunarmodules": {
+    "score": 260,
     "contributors": 5,
     "companies": []
   },
   "TanStack": {
-    "score": 250,
-    "contributors": 5,
-    "companies": [
-      "authority partners",
-      "available for hire"
-    ]
-  },
-  "ignite": {
-    "score": 247,
-    "contributors": 3,
-    "companies": [
-      "director of devx @tendermint"
-    ]
-  },
-  "unjs": {
-    "score": 246,
+    "score": 259,
     "contributors": 6,
     "companies": [
-      "freelancer"
+      "available for hire",
+      "authority partners",
+      "havelsan",
+      "heroes of nft"
     ]
   },
-  "NixOS": {
-    "score": 242,
+  "pisilinux": {
+    "score": 259,
+    "contributors": 3,
+    "companies": [
+      "pisi gnu/linux"
+    ]
+  },
+  "chainguard-images": {
+    "score": 252,
+    "contributors": 1,
+    "companies": [
+      "trendyol"
+    ]
+  },
+  "JohnSnowLabs": {
+    "score": 246,
     "contributors": 4,
     "companies": [
-      "doofemshmirtz evil inc.",
-      "platonic systems"
-    ]
-  },
-  "Flagsmith": {
-    "score": 236,
-    "contributors": 2,
-    "companies": [
-      "carbon health"
-    ]
-  },
-  "DefinitelyTyped": {
-    "score": 227,
-    "contributors": 3,
-    "companies": [
-      "bartyapp",
-      "firstbatchxyz"
-    ]
-  },
-  "RedisTimeSeries": {
-    "score": 227,
-    "contributors": 1,
-    "companies": []
-  },
-  "atlassian": {
-    "score": 225,
-    "contributors": 5,
-    "companies": []
-  },
-  "toptal": {
-    "score": 225,
-    "contributors": 3,
-    "companies": [
-      "toptal"
-    ]
-  },
-  "pmndrs": {
-    "score": 224,
-    "contributors": 3,
-    "companies": []
-  },
-  "nestjs": {
-    "score": 217,
-    "contributors": 7,
-    "companies": [
-      "zuzu",
-      "prinwork/shipentegra",
-      "dotdoc-academy"
-    ]
-  },
-  "siliconflow": {
-    "score": 216,
-    "contributors": 1,
-    "companies": [
-      "fal-ai"
+      "johnsnowlabs"
     ]
   },
   "tier4": {
-    "score": 214,
-    "contributors": 3,
+    "score": 236,
+    "contributors": 5,
     "companies": [
+      "leodrive.ai",
+      "planning & control @ leo drive",
       "autoware foundation"
     ]
   },
-  "preservim": {
-    "score": 211,
-    "contributors": 5,
+  "pmndrs": {
+    "score": 233,
+    "contributors": 4,
     "companies": []
+  },
+  "privacy-scaling-explorations": {
+    "score": 232,
+    "contributors": 3,
+    "companies": []
+  },
+  "iyzico": {
+    "score": 231,
+    "contributors": 3,
+    "companies": [
+      "yazilimcimekani",
+      "iyzico",
+      "bartyapp"
+    ]
+  },
+  "MetaMask": {
+    "score": 227,
+    "contributors": 5,
+    "companies": [
+      "suitsoftware @kareofis",
+      "cukurovablock",
+      "freelans"
+    ]
+  },
+  "roblox-ts": {
+    "score": 225,
+    "contributors": 3,
+    "companies": [
+      "neverends digital ltd."
+    ]
+  },
+  "Automattic": {
+    "score": 222,
+    "contributors": 3,
+    "companies": [
+      "automattic"
+    ]
+  },
+  "cerbos": {
+    "score": 221,
+    "contributors": 2,
+    "companies": [
+      "cerbos"
+    ]
+  },
+  "NixOS": {
+    "score": 220,
+    "contributors": 4,
+    "companies": [
+      "platonic systems",
+      "doofemshmirtz evil inc."
+    ]
+  },
+  "easypanel-io": {
+    "score": 219,
+    "contributors": 1,
+    "companies": []
+  },
+  "RedisTimeSeries": {
+    "score": 215,
+    "contributors": 1,
+    "companies": []
+  },
+  "filamentphp": {
+    "score": 215,
+    "contributors": 4,
+    "companies": [
+      "jemiyet"
+    ]
+  },
+  "o1-labs": {
+    "score": 215,
+    "contributors": 4,
+    "companies": [
+      "bossless",
+      "metu ceng"
+    ]
+  },
+  "yazbel": {
+    "score": 215,
+    "contributors": 2,
+    "companies": []
+  },
+  "cosmostation": {
+    "score": 212,
+    "contributors": 3,
+    "companies": [
+      "node101",
+      "havelsan"
+    ]
   },
   "go-gitea": {
     "score": 208,
@@ -1242,121 +1158,137 @@
       "doofemshmirtz evil inc."
     ]
   },
-  "parse-community": {
+  "Stremio": {
     "score": 206,
     "contributors": 3,
+    "companies": [
+      "useinsider"
+    ]
+  },
+  "open-telemetry": {
+    "score": 206,
+    "contributors": 3,
+    "companies": [
+      "thundra-io"
+    ]
+  },
+  "DioxusLabs": {
+    "score": 205,
+    "contributors": 2,
+    "companies": []
+  },
+  "siliconflow": {
+    "score": 205,
+    "contributors": 1,
+    "companies": [
+      "fal-ai"
+    ]
+  },
+  "zed-industries": {
+    "score": 203,
+    "contributors": 8,
+    "companies": [
+      "monopayments",
+      "planetscale",
+      "trendyol",
+      "zingo yapay zeka"
+    ]
+  },
+  "jazzband": {
+    "score": 203,
+    "contributors": 4,
+    "companies": [
+      "sahibinden",
+      "akinon",
+      "radity"
+    ]
+  },
+  "parse-community": {
+    "score": 200,
+    "contributors": 4,
     "companies": [
       "de marke labs"
     ]
   },
-  "hacktoolkit": {
-    "score": 201,
-    "contributors": 1,
+  "facebook": {
+    "score": 199,
+    "contributors": 9,
     "companies": [
-      "zippyapp"
+      "albarakatech",
+      "yodha",
+      "hack&craft",
+      "moonshred"
     ]
   },
-  "encode": {
-    "score": 201,
+  "reactjs": {
+    "score": 199,
     "contributors": 3,
     "companies": [
-      "freelance developer",
-      "bold-auto-transport"
+      "magiclick",
+      "telostat"
     ]
   },
-  "LemmyNet": {
-    "score": 200,
-    "contributors": 4,
-    "companies": []
-  },
-  "mermaid-js": {
-    "score": 199,
-    "contributors": 2,
-    "companies": []
-  },
-  "recloudstream": {
+  "harfbuzz": {
     "score": 197,
     "contributors": 2,
-    "companies": [
-      "kekikakademi"
-    ]
-  },
-  "fluent": {
-    "score": 195,
-    "contributors": 3,
-    "companies": [
-      "bkayranci",
-      "kartaca"
-    ]
+    "companies": []
   },
   "callstack": {
     "score": 194,
     "contributors": 3,
     "companies": [
-      "callstack",
-      "albarakatech"
+      "albarakatech",
+      "callstack"
     ]
   },
-  "actions": {
-    "score": 193,
-    "contributors": 6,
-    "companies": [
-      "ubicloud",
-      "jupyter",
-      "graphaware",
-      "freelance developer"
-    ]
-  },
-  "jazzband": {
-    "score": 193,
+  "opsgenie": {
+    "score": 194,
     "contributors": 3,
+    "companies": []
+  },
+  "shadcn-ui": {
+    "score": 192,
+    "contributors": 5,
     "companies": [
-      "sahibinden",
-      "radity",
-      "akinon"
+      "izmir teknoloji",
+      "pamukkale university",
+      "vivoo"
+    ]
+  },
+  "jitsi": {
+    "score": 190,
+    "contributors": 8,
+    "companies": [
+      "albarakatech",
+      "turkcell",
+      "nordeck"
+    ]
+  },
+  "google": {
+    "score": 190,
+    "contributors": 4,
+    "companies": [
+      "upbound",
+      "vitus-commodities",
+      "globiar @tess-education"
     ]
   },
   "bluesky-social": {
-    "score": 188,
+    "score": 187,
     "contributors": 5,
     "companies": [
       "atiksoftware corporation"
     ]
   },
-  "opnsense": {
-    "score": 188,
-    "contributors": 2,
+  "dotnet": {
+    "score": 184,
+    "contributors": 14,
     "companies": [
-      "freelancer"
-    ]
-  },
-  "chainguard-images": {
-    "score": 187,
-    "contributors": 1,
-    "companies": [
-      "trendyol"
-    ]
-  },
-  "AdguardTeam": {
-    "score": 187,
-    "contributors": 4,
-    "companies": []
-  },
-  "zed-industries": {
-    "score": 185,
-    "contributors": 6,
-    "companies": [
-      "planetscale",
-      "trendyol",
-      "monopayments"
-    ]
-  },
-  "Hipo": {
-    "score": 183,
-    "contributors": 3,
-    "companies": [
-      "yazilimcimekani",
-      "hipo"
+      "volosoft",
+      "nuvologtech",
+      "arkitera bilişim teknolojileri",
+      "turkcell technology",
+      "türkiye"
     ]
   },
   "rojo-rbx": {
@@ -1364,31 +1296,30 @@
     "contributors": 2,
     "companies": []
   },
-  "ArduPilot": {
+  "frappe": {
+    "score": 182,
+    "contributors": 4,
+    "companies": [
+      "logedosoft business solutions"
+    ]
+  },
+  "raycast": {
     "score": 181,
     "contributors": 3,
     "companies": []
-  },
-  "jup-ag": {
-    "score": 180,
-    "contributors": 3,
-    "companies": [
-      "https://geniousoft.com/",
-      "synesis-one"
-    ]
-  },
-  "roblox-ts": {
-    "score": 180,
-    "contributors": 2,
-    "companies": [
-      "neverends digital ltd."
-    ]
   },
   "medusajs": {
     "score": 180,
     "contributors": 3,
     "companies": [
       "anibalbilisim"
+    ]
+  },
+  "jup-ag": {
+    "score": 180,
+    "contributors": 3,
+    "companies": [
+      "synesis-one"
     ]
   },
   "availproject": {
@@ -1398,124 +1329,87 @@
       "cukurovablock"
     ]
   },
-  "MicrosoftDocs": {
+  "ultralytics": {
     "score": 179,
-    "contributors": 6,
+    "contributors": 8,
     "companies": [
-      "kambaabi",
-      "peakup",
-      "microsoft corporation",
-      "bosphorusiss",
-      "the adecco group"
+      "safevideo @ultralytics",
+      "ordulu teknoloji",
+      "technosoft"
     ]
   },
-  "catchpoint": {
-    "score": 178,
+  "LiskHQ": {
+    "score": 179,
     "contributors": 3,
+    "companies": []
+  },
+  "ionic-team": {
+    "score": 177,
+    "contributors": 4,
     "companies": [
-      "thundra-io",
-      "catchpoint"
+      "accenture",
+      "freelance"
     ]
   },
-  "pgbouncer": {
-    "score": 174,
+  "MarathonLabs": {
+    "score": 176,
+    "contributors": 2,
+    "companies": []
+  },
+  "obsidianmd": {
+    "score": 176,
     "contributors": 2,
     "companies": [
-      "citusdata"
+      "adjo-digital"
     ]
   },
-  "ultimatepp": {
-    "score": 174,
-    "contributors": 3,
-    "companies": []
-  },
-  "frappe": {
-    "score": 173,
-    "contributors": 3,
+  "NVIDIA": {
+    "score": 175,
+    "contributors": 5,
     "companies": [
-      "logedosoft business solutions"
+      "jarfabin",
+      "trendyol",
+      "monstermmorpg"
     ]
   },
-  "macports": {
-    "score": 171,
-    "contributors": 1,
-    "companies": []
-  },
-  "supabase-community": {
-    "score": 171,
-    "contributors": 3,
+  "algorandfoundation": {
+    "score": 175,
+    "contributors": 2,
     "companies": [
-      "teknasyon"
+      "goplausible"
     ]
   },
   "moderndive": {
-    "score": 171,
+    "score": 172,
     "contributors": 1,
     "companies": [
       "turkish aerospace"
     ]
   },
-  "electric-capital": {
-    "score": 170,
+  "recloudstream": {
+    "score": 166,
     "contributors": 2,
     "companies": [
-      "clave, ethylene, fibrous, itu blockchain",
-      "cukurovablock"
+      "kekikakademi"
     ]
   },
-  "ethereum-lists": {
-    "score": 169,
-    "contributors": 2,
-    "companies": [
-      "cukurovablock"
-    ]
-  },
-  "vercel": {
-    "score": 168,
+  "vuejs": {
+    "score": 165,
     "contributors": 7,
     "companies": [
-      "uskudar university",
-      "wopehq",
-      "graphaware",
-      "havelsan",
-      "news47ell"
+      "useinsider",
+      "freelancer",
+      "siberuzay teknolojileri",
+      "helorobo",
+      "microsoft",
+      "dreamonkey"
     ]
   },
-  "openjdk": {
-    "score": 168,
-    "contributors": 2,
-    "companies": [
-      "bellsoftliberica"
-    ]
-  },
-  "nushell": {
-    "score": 167,
-    "contributors": 4,
-    "companies": [
-      "doofemshmirtz evil inc."
-    ]
-  },
-  "mamba-org": {
-    "score": 166,
+  "toptal": {
+    "score": 165,
     "contributors": 1,
     "companies": [
-      "archlinux"
-    ]
-  },
-  "segmentio": {
-    "score": 164,
-    "contributors": 4,
-    "companies": [
-      "peaka",
-      "turboard",
-      "trendyol"
-    ]
-  },
-  "TryGhost": {
-    "score": 164,
-    "contributors": 2,
-    "companies": [
-      "echobilisim"
+      "toptal"
     ]
   },
   "badges": {
@@ -1523,54 +1417,63 @@
     "contributors": 1,
     "companies": []
   },
-  "MetaMask": {
-    "score": 162,
-    "contributors": 4,
-    "companies": [
-      "suitsoftware @kareofis",
-      "freelans",
-      "cukurovablock"
-    ]
-  },
-  "mdn": {
-    "score": 160,
+  "quarkusio": {
+    "score": 164,
     "contributors": 3,
-    "companies": []
-  },
-  "github": {
-    "score": 160,
-    "contributors": 4,
     "companies": [
-      "türkiye"
-    ]
-  },
-  "reactjs": {
-    "score": 159,
-    "contributors": 29,
-    "companies": [
-      "telostat"
-    ]
-  },
-  "ionic-team": {
-    "score": 159,
-    "contributors": 4,
-    "companies": [
-      "accenture",
-      "freelance"
-    ]
-  },
-  "nuxt-modules": {
-    "score": 156,
-    "contributors": 6,
-    "companies": [
-      "automattic",
-      "freelancer"
+      "yodha"
     ]
   },
   "ruby": {
-    "score": 156,
+    "score": 164,
     "contributors": 3,
     "companies": []
+  },
+  "Core-Node-Team": {
+    "score": 164,
+    "contributors": 2,
+    "companies": []
+  },
+  "oven-sh": {
+    "score": 163,
+    "contributors": 4,
+    "companies": [
+      "merzigo",
+      "coder"
+    ]
+  },
+  "MicrosoftDocs": {
+    "score": 162,
+    "contributors": 4,
+    "companies": [
+      "microsoft corporation",
+      "kambaabi",
+      "peakup"
+    ]
+  },
+  "mdn": {
+    "score": 161,
+    "contributors": 4,
+    "companies": [
+      "central network"
+    ]
+  },
+  "aws-amplify": {
+    "score": 157,
+    "contributors": 4,
+    "companies": [
+      "vertex.ly",
+      "iztech"
+    ]
+  },
+  "nestjs": {
+    "score": 156,
+    "contributors": 6,
+    "companies": [
+      "prinwork/shipentegra",
+      "zingo yapay zeka",
+      "dotdoc-academy"
+    ]
   },
   "dotnetcore": {
     "score": 154,
@@ -1579,73 +1482,78 @@
       "inooster information technologies"
     ]
   },
-  "MarathonLabs": {
-    "score": 152,
-    "contributors": 2,
-    "companies": []
-  },
-  "opsgenie": {
-    "score": 152,
+  "opnsense": {
+    "score": 154,
     "contributors": 3,
-    "companies": []
-  },
-  "quarkusio": {
-    "score": 151,
-    "contributors": 4,
     "companies": [
-      "yodha"
-    ]
-  },
-  "gnolang": {
-    "score": 151,
-    "contributors": 2,
-    "companies": [
-      "director of devx @tendermint"
-    ]
-  },
-  "graphql-python": {
-    "score": 150,
-    "contributors": 2,
-    "companies": [
-      "freelance developer"
-    ]
-  },
-  "ultralytics": {
-    "score": 148,
-    "contributors": 8,
-    "companies": [
-      "technosoft",
-      "safevideo @ultralytics",
-      "ordulu teknoloji",
-      "metu"
+      "freelancer",
+      "r.o.s.s. golder ltd"
     ]
   },
   "usebruno": {
-    "score": 148,
+    "score": 153,
     "contributors": 2,
     "companies": [
-      "12th grade student",
       "quarpay"
     ]
   },
-  "CodeYourFuture": {
-    "score": 148,
+  "encode": {
+    "score": 152,
+    "contributors": 3,
+    "companies": [
+      "function-health",
+      "bold-auto-transport"
+    ]
+  },
+  "fedora-infra": {
+    "score": 152,
+    "contributors": 2,
+    "companies": [
+      "fedora project"
+    ]
+  },
+  "preservim": {
+    "score": 150,
+    "contributors": 4,
+    "companies": []
+  },
+  "attestantio": {
+    "score": 149,
     "contributors": 1,
     "companies": []
   },
-  "elastic": {
-    "score": 147,
-    "contributors": 4,
+  "pharmaverse": {
+    "score": 148,
+    "contributors": 1,
     "companies": [
-      "cimri"
+      "appsilon"
     ]
   },
-  "cucumber": {
-    "score": 146,
+  "mermaid-js": {
+    "score": 148,
     "contributors": 2,
     "companies": []
   },
-  "filamentphp": {
+  "crdroidandroid": {
+    "score": 148,
+    "contributors": 3,
+    "companies": []
+  },
+  "AleoHQ": {
+    "score": 147,
+    "contributors": 8,
+    "companies": [
+      "itublockchain"
+    ]
+  },
+  "DevArchitecture": {
+    "score": 146,
+    "contributors": 2,
+    "companies": [
+      "qteknoloji software solutions"
+    ]
+  },
+  "cucumber": {
     "score": 146,
     "contributors": 2,
     "companies": []
@@ -1658,26 +1566,18 @@
       "psprices.com"
     ]
   },
-  "espocrm": {
-    "score": 146,
-    "contributors": 2,
-    "companies": [
-      "eblasoft"
-    ]
-  },
-  "o1-labs": {
+  "snapcore": {
     "score": 145,
     "contributors": 2,
     "companies": [
-      "bossless",
-      "metu ceng"
+      "saya for everyone (sayafe.org)"
     ]
   },
-  "raycast": {
+  "ethereum-lists": {
     "score": 145,
     "contributors": 2,
     "companies": [
-      "wopehq"
+      "cukurovablock"
     ]
   },
   "javascript-tutorial": {
@@ -1685,18 +1585,50 @@
     "contributors": 2,
     "companies": []
   },
-  "tailwindlabs": {
-    "score": 140,
-    "contributors": 4,
+  "AstroNvim": {
+    "score": 144,
+    "contributors": 2,
     "companies": [
-      "modaltrans",
-      "daisyui. prev: @manasky @atbox"
+      "archlinux",
+      "gain-medya"
     ]
   },
-  "Stremio": {
-    "score": 136,
+  "nuxt-modules": {
+    "score": 143,
+    "contributors": 4,
+    "companies": [
+      "automattic",
+      "freelancer"
+    ]
+  },
+  "rust-lang": {
+    "score": 140,
+    "contributors": 3,
+    "companies": [
+      "archlinux",
+      "fuellabs"
+    ]
+  },
+  "elastic": {
+    "score": 138,
+    "contributors": 3,
+    "companies": [
+      "cimri"
+    ]
+  },
+  "mamba-org": {
+    "score": 135,
     "contributors": 1,
-    "companies": []
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "libredirect": {
+    "score": 135,
+    "contributors": 6,
+    "companies": [
+      "poketube-org, @openbotlist, fsf, gnu"
+    ]
   },
   "axelarnetwork": {
     "score": 135,
@@ -1705,43 +1637,63 @@
       "mystenlabs"
     ]
   },
-  "gentoo": {
+  "MobiFlight": {
     "score": 135,
     "contributors": 1,
-    "companies": []
-  },
-  "LiskHQ": {
-    "score": 134,
-    "contributors": 2,
-    "companies": []
-  },
-  "Genivia": {
-    "score": 134,
-    "contributors": 2,
     "companies": [
-      "fedora project"
+      "core havacılık teknolojileri ltd. şti̇."
     ]
   },
-  "lobehub": {
+  "bigcommerce": {
+    "score": 134,
+    "contributors": 1,
+    "companies": [
+      "optimum7"
+    ]
+  },
+  "Superalgos": {
+    "score": 134,
+    "contributors": 1,
+    "companies": [
+      "superalgos.org"
+    ]
+  },
+  "supabase-community": {
     "score": 131,
     "contributors": 2,
     "companies": [
-      "apolytus"
+      "teknasyon"
     ]
   },
-  "rust-lang": {
+  "hashicorp": {
     "score": 131,
-    "contributors": 2,
-    "companies": [
-      "archlinux"
-    ]
-  },
-  "grafana": {
-    "score": 130,
     "contributors": 3,
     "companies": [
-      "doofemshmirtz evil inc."
+      "bitaksi",
+      "devops engineer"
     ]
+  },
+  "bevyengine": {
+    "score": 131,
+    "contributors": 2,
+    "companies": []
+  },
+  "discord": {
+    "score": 131,
+    "contributors": 3,
+    "companies": []
+  },
+  "vendure-ecommerce": {
+    "score": 131,
+    "contributors": 1,
+    "companies": [
+      "zingo yapay zeka"
+    ]
+  },
+  "CodeEditApp": {
+    "score": 131,
+    "contributors": 1,
+    "companies": []
   },
   "NibiruChain": {
     "score": 130,
@@ -1750,46 +1702,61 @@
       "cukurovablock"
     ]
   },
+  "ignite": {
+    "score": 130,
+    "contributors": 2,
+    "companies": [
+      "director of devx @tendermint"
+    ]
+  },
+  "Kong": {
+    "score": 129,
+    "contributors": 3,
+    "companies": []
+  },
   "TeamPiped": {
     "score": 129,
     "contributors": 3,
     "companies": []
   },
-  "grapheneX": {
-    "score": 128,
-    "contributors": 1,
+  "pgbouncer": {
+    "score": 124,
+    "contributors": 2,
     "companies": [
-      "archlinux"
+      "citusdata"
     ]
   },
-  "attestantio": {
-    "score": 126,
-    "contributors": 1,
-    "companies": []
-  },
-  "linuxmint": {
-    "score": 123,
-    "contributors": 1,
-    "companies": []
-  },
-  "lambdaclass": {
+  "camunda": {
     "score": 122,
     "contributors": 2,
     "companies": [
-      "firstbatchxyz"
+      "albarakatech"
     ]
   },
-  "openupm": {
+  "react-native-community": {
     "score": 122,
-    "contributors": 1,
-    "companies": [
-      "ondokuz mayıs üniversitesi"
-    ]
-  },
-  "MudBlazor": {
-    "score": 122,
-    "contributors": 1,
+    "contributors": 2,
     "companies": []
+  },
+  "cosmos": {
+    "score": 122,
+    "contributors": 2,
+    "companies": []
+  },
+  "electric-capital": {
+    "score": 122,
+    "contributors": 2,
+    "companies": [
+      "cukurovablock",
+      "clave, ethylene, fibrous, itu blockchain"
+    ]
+  },
+  "Hipo": {
+    "score": 122,
+    "contributors": 2,
+    "companies": [
+      "hipo"
+    ]
   },
   "decentralized-identity": {
     "score": 122,
@@ -1798,48 +1765,41 @@
       "goplausible"
     ]
   },
-  "Screenly": {
+  "SerenityOS": {
+    "score": 122,
+    "contributors": 2,
+    "companies": [
+      "doofemshmirtz evil inc."
+    ]
+  },
+  "ArduPilot": {
     "score": 121,
     "contributors": 2,
     "companies": []
   },
-  "dfinity": {
-    "score": 121,
-    "contributors": 2,
-    "companies": [
-      "b3pay"
-    ]
-  },
-  "symfony": {
+  "cdnjs": {
     "score": 121,
     "contributors": 2,
     "companies": []
   },
-  "aptos-labs": {
+  "inertiajs": {
     "score": 121,
     "contributors": 2,
     "companies": []
-  },
-  "coronalabs": {
-    "score": 121,
-    "contributors": 1,
-    "companies": [
-      "sleepy bug studio"
-    ]
-  },
-  "camunda": {
-    "score": 121,
-    "contributors": 2,
-    "companies": [
-      "albarakatech"
-    ]
   },
   "OpenNMT": {
     "score": 121,
     "contributors": 1,
     "companies": []
   },
-  "django": {
+  "ourzora": {
+    "score": 121,
+    "contributors": 2,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "Ludeon": {
     "score": 120,
     "contributors": 2,
     "companies": []
@@ -1851,14 +1811,22 @@
       "altinkaya enclosures for electronics"
     ]
   },
-  "Ludeon": {
+  "django": {
     "score": 120,
     "contributors": 2,
     "companies": []
   },
-  "easypanel-io": {
+  "demisto": {
     "score": 120,
-    "contributors": 1,
+    "contributors": 2,
+    "companies": [
+      "innotim software",
+      "logsign innotim yazilim"
+    ]
+  },
+  "zeplin": {
+    "score": 120,
+    "contributors": 3,
     "companies": []
   },
   "cdk8s-team": {
@@ -1866,114 +1834,93 @@
     "contributors": 1,
     "companies": []
   },
-  "Kong": {
+  "nopSolutions": {
+    "score": 120,
+    "contributors": 2,
+    "companies": [
+      "ottoo",
+      "genius software"
+    ]
+  },
+  "kodecocodes": {
     "score": 120,
     "contributors": 2,
     "companies": []
   },
-  "openfl": {
+  "perawallet": {
     "score": 120,
     "contributors": 2,
     "companies": [
-      "allwere",
-      "mobileporting"
+      "perawallet"
     ]
   },
-  "cdnjs": {
-    "score": 120,
-    "contributors": 2,
-    "companies": []
-  },
-  "pharmaverse": {
-    "score": 118,
-    "contributors": 1,
-    "companies": []
-  },
-  "KomodoPlatform": {
-    "score": 115,
-    "contributors": 1,
+  "analogdevicesinc": {
+    "score": 117,
+    "contributors": 4,
     "companies": [
-      "komodo platform"
-    ]
-  },
-  "reflex-dev": {
-    "score": 115,
-    "contributors": 2,
-    "companies": [
-      "bold-auto-transport"
-    ]
-  },
-  "strapi": {
-    "score": 113,
-    "contributors": 2,
-    "companies": [
-      "bronix software inc.",
-      "sanamekan.com"
-    ]
-  },
-  "darktable-org": {
-    "score": 113,
-    "contributors": 2,
-    "companies": [
-      "yildiz technical university"
+      "maxim",
+      "analog devices"
     ]
   },
   "libxmp": {
-    "score": 113,
+    "score": 112,
     "contributors": 1,
     "companies": []
   },
-  "gravity-ui": {
-    "score": 113,
-    "contributors": 1,
-    "companies": []
-  },
-  "godotengine": {
-    "score": 108,
-    "contributors": 3,
-    "companies": []
-  },
-  "kubeshark": {
+  "nextauthjs": {
     "score": 107,
-    "contributors": 5,
+    "contributors": 6,
     "companies": [
-      "kubeshark"
+      "rexven-company"
     ]
   },
-  "DioxusLabs": {
-    "score": 105,
-    "contributors": 1,
-    "companies": []
-  },
   "sst": {
-    "score": 105,
+    "score": 106,
     "contributors": 1,
     "companies": [
       "yandex"
     ]
   },
-  "vendure-ecommerce": {
+  "CodeBeamOrg": {
+    "score": 106,
+    "contributors": 1,
+    "companies": []
+  },
+  "TeamDerUntergang": {
+    "score": 105,
+    "contributors": 1,
+    "companies": [
+      "devotag-open-source"
+    ]
+  },
+  "GopeedLab": {
+    "score": 104,
+    "contributors": 1,
+    "companies": []
+  },
+  "MudBlazor": {
+    "score": 104,
+    "contributors": 1,
+    "companies": []
+  },
+  "jenkinsci": {
+    "score": 104,
+    "contributors": 1,
+    "companies": []
+  },
+  "hcengineering": {
+    "score": 104,
+    "contributors": 1,
+    "companies": []
+  },
+  "arduino": {
     "score": 104,
     "contributors": 1,
     "companies": [
-      "zuzu"
+      "koçsistem"
     ]
   },
-  "the-guild-org": {
-    "score": 104,
-    "contributors": 2,
-    "companies": [
-      "the-guild-org"
-    ]
-  },
-  "bagisto": {
-    "score": 104,
-    "contributors": 2,
-    "companies": [
-      "fellows"
-    ]
-  },
-  "sqlparser-rs": {
+  "LawnchairLauncher": {
     "score": 104,
     "contributors": 1,
     "companies": []
@@ -1983,12 +1930,23 @@
     "contributors": 1,
     "companies": []
   },
-  "home-assistant": {
-    "score": 103,
-    "contributors": 3,
+  "VirtoCommerce": {
+    "score": 104,
+    "contributors": 1,
     "companies": [
-      "hidden",
-      "pixery"
+      "virtocommerce"
+    ]
+  },
+  "DataDog": {
+    "score": 104,
+    "contributors": 1,
+    "companies": []
+  },
+  "hacktoolkit": {
+    "score": 104,
+    "contributors": 1,
+    "companies": [
+      "zippyapp"
     ]
   },
   "Remix-Design": {
@@ -1998,45 +1956,18 @@
       "wopehq"
     ]
   },
-  "zulip": {
+  "LinuxForHealth": {
     "score": 103,
     "contributors": 1,
-    "companies": []
+    "companies": [
+      "tigahealth"
+    ]
   },
-  "docker": {
-    "score": 102,
+  "iptv-org": {
+    "score": 100,
     "contributors": 2,
     "companies": [
-      "trendyol"
-    ]
-  },
-  "curl": {
-    "score": 102,
-    "contributors": 2,
-    "companies": [
-      "virtuozzo research"
-    ]
-  },
-  "traefik": {
-    "score": 102,
-    "contributors": 2,
-    "companies": [
-      "systems architect consultant"
-    ]
-  },
-  "hashicorp": {
-    "score": 101,
-    "contributors": 3,
-    "companies": [
-      "bitaksi",
-      "devops engineer"
-    ]
-  },
-  "vitest-dev": {
-    "score": 101,
-    "contributors": 4,
-    "companies": [
-      "signhost/entrust"
+      "https://robotic.mobi"
     ]
   },
   "discordjs": {
@@ -2046,55 +1977,106 @@
       "wafoen"
     ]
   },
-  "ant-design": {
+  "widgetti": {
+    "score": 100,
+    "contributors": 1,
+    "companies": [
+      "payten"
+    ]
+  },
+  "vitest-dev": {
     "score": 100,
     "contributors": 3,
     "companies": [
-      "robolaunch",
-      "sodexo"
+      "signhost/entrust"
     ]
   },
-  "gradio-app": {
-    "score": 100,
-    "contributors": 3,
-    "companies": [
-      "fedora project",
-      "monstermmorpg"
-    ]
-  },
-  "EasyCorp": {
-    "score": 99,
-    "contributors": 1,
-    "companies": []
-  },
-  "pocketbase": {
+  "godotengine": {
     "score": 99,
     "contributors": 2,
     "companies": [
-      "turassistit"
+      "hacettepe university"
     ]
-  },
-  "getpelican": {
-    "score": 99,
-    "contributors": 1,
-    "companies": []
-  },
-  "golang": {
-    "score": 99,
-    "contributors": 2,
-    "companies": []
-  },
-  "projectfluent": {
-    "score": 98,
-    "contributors": 2,
-    "companies": []
   },
   "lichess-org": {
     "score": 98,
     "contributors": 1,
     "companies": []
   },
-  "cmss13-devs": {
+  "bitnami": {
+    "score": 97,
+    "contributors": 4,
+    "companies": [
+      "tyktechnologies",
+      "hazelcast"
+    ]
+  },
+  "gradio-app": {
+    "score": 97,
+    "contributors": 3,
+    "companies": [
+      "monstermmorpg",
+      "fedora project"
+    ]
+  },
+  "solana-labs": {
+    "score": 97,
+    "contributors": 1,
+    "companies": [
+      "bloom"
+    ]
+  },
+  "CodeYourFuture": {
+    "score": 97,
+    "contributors": 1,
+    "companies": []
+  },
+  "CesiumGS": {
+    "score": 95,
+    "contributors": 2,
+    "companies": [
+      "mobiliz"
+    ]
+  },
+  "bagisto": {
+    "score": 95,
+    "contributors": 2,
+    "companies": [
+      "fellows"
+    ]
+  },
+  "yandex-cloud": {
+    "score": 94,
+    "contributors": 1,
+    "companies": [
+      "yandex"
+    ]
+  },
+  "ClassicUO": {
+    "score": 94,
+    "contributors": 1,
+    "companies": []
+  },
+  "darktable-org": {
+    "score": 94,
+    "contributors": 2,
+    "companies": [
+      "yildiz technical university"
+    ]
+  },
+  "luraproject": {
+    "score": 94,
+    "contributors": 1,
+    "companies": []
+  },
+  "replicate": {
+    "score": 94,
+    "contributors": 2,
+    "companies": [
+      "hazelcast"
+    ]
+  },
+  "AutomaApp": {
     "score": 94,
     "contributors": 1,
     "companies": []
@@ -2106,16 +2088,40 @@
       "openanime"
     ]
   },
-  "AutomaApp": {
+  "analogjs": {
     "score": 94,
     "contributors": 1,
     "companies": []
   },
-  "fishfolk": {
+  "wevm": {
+    "score": 94,
+    "contributors": 2,
+    "companies": [
+      "heroes of nft"
+    ]
+  },
+  "ts-rest": {
+    "score": 94,
+    "contributors": 1,
+    "companies": []
+  },
+  "cmss13-devs": {
+    "score": 94,
+    "contributors": 1,
+    "companies": []
+  },
+  "oauth2-proxy": {
     "score": 94,
     "contributors": 1,
     "companies": [
-      "archlinux"
+      "r.o.s.s. golder ltd"
+    ]
+  },
+  "IntelRealSense": {
+    "score": 93,
+    "contributors": 3,
+    "companies": [
+      "metu/eee"
     ]
   },
   "nvim-treesitter": {
@@ -2123,17 +2129,55 @@
     "contributors": 1,
     "companies": []
   },
-  "reduxjs": {
+  "actions": {
     "score": 91,
-    "contributors": 3,
+    "contributors": 2,
     "companies": [
-      "codeventure"
+      "ubicloud"
     ]
   },
-  "hyprwm": {
+  "ReVanced": {
     "score": 91,
-    "contributors": 4,
+    "contributors": 1,
     "companies": []
+  },
+  "ton-blockchain": {
+    "score": 91,
+    "contributors": 2,
+    "companies": []
+  },
+  "babel": {
+    "score": 91,
+    "contributors": 1,
+    "companies": []
+  },
+  "github": {
+    "score": 91,
+    "contributors": 2,
+    "companies": [
+      "türkiye"
+    ]
+  },
+  "remarkjs": {
+    "score": 91,
+    "contributors": 1,
+    "companies": [
+      "odtü"
+    ]
+  },
+  "openai": {
+    "score": 91,
+    "contributors": 2,
+    "companies": [
+      "kairosfuture @financiai"
+    ]
+  },
+  "the-guild-org": {
+    "score": 91,
+    "contributors": 2,
+    "companies": [
+      "the-guild-org"
+    ]
   },
   "tinymanorg": {
     "score": 91,
@@ -2142,48 +2186,52 @@
       "hipo"
     ]
   },
+  "getpelican": {
+    "score": 90,
+    "contributors": 1,
+    "companies": []
+  },
+  "sveltejs": {
+    "score": 90,
+    "contributors": 4,
+    "companies": [
+      "pisoco",
+      "azatai, llp",
+      "bolu i̇zzet baysal üniversitesi"
+    ]
+  },
   "prometheus": {
     "score": 90,
     "contributors": 1,
     "companies": []
   },
-  "kubeshop": {
+  "ros-planning": {
     "score": 90,
     "contributors": 1,
     "companies": [
-      "namecheap"
+      "aeolusbot"
     ]
   },
-  "element-hq": {
-    "score": 88,
-    "contributors": 4,
-    "companies": [
-      "devos software"
-    ]
-  },
-  "oven-sh": {
-    "score": 88,
-    "contributors": 4,
-    "companies": [
-      "yemreak yazılım",
-      "merzigo"
-    ]
-  },
-  "bevyengine": {
-    "score": 88,
-    "contributors": 4,
-    "companies": []
-  },
-  "CodeBeamOrg": {
-    "score": 87,
-    "contributors": 1,
-    "companies": []
-  },
-  "cosmos": {
-    "score": 86,
+  "react-component": {
+    "score": 90,
     "contributors": 2,
     "companies": [
-      "secard"
+      "refinedev",
+      "paketmutfak"
+    ]
+  },
+  "pocketbase": {
+    "score": 90,
+    "contributors": 1,
+    "companies": [
+      "turassistit"
+    ]
+  },
+  "kubeshark": {
+    "score": 87,
+    "contributors": 5,
+    "companies": [
+      "kubeshark"
     ]
   },
   "zephyrproject-rtos": {
@@ -2193,85 +2241,28 @@
       "sparse-technology"
     ]
   },
-  "chainguard-dev": {
-    "score": 85,
+  "momentum-mod": {
+    "score": 86,
     "contributors": 1,
     "companies": []
   },
-  "wevm": {
-    "score": 85,
+  "uzh-rpg": {
+    "score": 86,
+    "contributors": 1,
+    "companies": [
+      "havelsan"
+    ]
+  },
+  "FirefoxCSS-Store": {
+    "score": 86,
     "contributors": 1,
     "companies": []
   },
-  "replicate": {
+  "lsd-rs": {
     "score": 85,
     "contributors": 1,
     "companies": [
-      "hazelcast"
-    ]
-  },
-  "Core-Node-Team": {
-    "score": 85,
-    "contributors": 1,
-    "companies": []
-  },
-  "vitejs": {
-    "score": 85,
-    "contributors": 3,
-    "companies": [
-      "freelancer",
-      "roadmape",
-      "beycanpress"
-    ]
-  },
-  "openmultiplayer": {
-    "score": 85,
-    "contributors": 1,
-    "companies": []
-  },
-  "cosmostation": {
-    "score": 85,
-    "contributors": 1,
-    "companies": [
-      "node101"
-    ]
-  },
-  "dyne": {
-    "score": 85,
-    "contributors": 1,
-    "companies": []
-  },
-  "rocky-linux": {
-    "score": 85,
-    "contributors": 1,
-    "companies": [
-      "çamalan company"
-    ]
-  },
-  "allure-framework": {
-    "score": 85,
-    "contributors": 1,
-    "companies": []
-  },
-  "ml-tooling": {
-    "score": 85,
-    "contributors": 1,
-    "companies": [
-      "bold-auto-transport"
-    ]
-  },
-  "maticnetwork": {
-    "score": 85,
-    "contributors": 1,
-    "companies": [
-      "getclave @itublockchain"
-    ]
-  },
-  "VirtoCommerce": {
-    "score": 85,
-    "contributors": 1,
-    "companies": [
-      "virtocommerce"
+      "archlinux"
     ]
   },
   "lycheeverse": {
@@ -2281,12 +2272,100 @@
       "archlinux"
     ]
   },
-  "AxaFrance": {
+  "linuxmint": {
+    "score": 85,
+    "contributors": 1,
+    "companies": []
+  },
+  "MicaForEveryone": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "i̇stanbul technical university"
+    ]
+  },
+  "rocky-linux": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "çamalan company"
+    ]
+  },
+  "home-assistant": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "pixery"
+    ]
+  },
+  "SteamDeckHomebrew": {
+    "score": 85,
+    "contributors": 1,
+    "companies": []
+  },
+  "KomodoPlatform": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "komodo platform"
+    ]
+  },
+  "espocrm": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "eblasoft"
+    ]
+  },
+  "Delta-Icons": {
+    "score": 85,
+    "contributors": 1,
+    "companies": []
+  },
+  "allure-framework": {
+    "score": 85,
+    "contributors": 1,
+    "companies": []
+  },
+  "graphprotocol": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "the-guild-org"
+    ]
+  },
+  "traderjoe-xyz": {
+    "score": 85,
+    "contributors": 1,
+    "companies": []
+  },
+  "coronalabs": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "sleepy bug studio"
+    ]
+  },
+  "ml-tooling": {
+    "score": 85,
+    "contributors": 1,
+    "companies": [
+      "bold-auto-transport"
+    ]
+  },
+  "nushell": {
+    "score": 85,
+    "contributors": 3,
+    "companies": [
+      "doofemshmirtz evil inc."
+    ]
+  },
+  "PaddlePaddle": {
     "score": 84,
     "contributors": 1,
     "companies": []
   },
-  "hoppscotch": {
+  "CosmWasm": {
     "score": 84,
     "contributors": 1,
     "companies": []
@@ -2296,36 +2375,12 @@
     "contributors": 1,
     "companies": []
   },
-  "yandex-cloud": {
-    "score": 84,
-    "contributors": 1,
-    "companies": [
-      "yandex"
-    ]
-  },
-  "CosmWasm": {
-    "score": 84,
-    "contributors": 1,
-    "companies": []
-  },
-  "helidon-io": {
-    "score": 84,
-    "contributors": 1,
-    "companies": [
-      "oracle"
-    ]
-  },
   "api-platform": {
     "score": 84,
     "contributors": 1,
     "companies": [
       "beyn"
     ]
-  },
-  "alliedmodders": {
-    "score": 84,
-    "contributors": 1,
-    "companies": []
   },
   "wp-graphql": {
     "score": 84,
@@ -2334,104 +2389,126 @@
       "zad"
     ]
   },
-  "LinuxForHealth": {
-    "score": 84,
-    "contributors": 1,
-    "companies": [
-      "tigahealth"
-    ]
-  },
-  "MicaForEveryone": {
-    "score": 84,
-    "contributors": 1,
-    "companies": [
-      "i̇stanbul technical university"
-    ]
-  },
-  "PaddlePaddle": {
+  "w3c": {
     "score": 84,
     "contributors": 1,
     "companies": []
   },
-  "sanity-io": {
-    "score": 83,
+  "alliedmodders": {
+    "score": 84,
+    "contributors": 1,
+    "companies": []
+  },
+  "AxaFrance": {
+    "score": 84,
+    "contributors": 1,
+    "companies": []
+  },
+  "steve-community": {
+    "score": 84,
+    "contributors": 1,
+    "companies": []
+  },
+  "trustwallet": {
+    "score": 84,
+    "contributors": 1,
+    "companies": []
+  },
+  "binance": {
+    "score": 84,
     "contributors": 1,
     "companies": [
-      "freelancer"
+      "devotag-open-source"
     ]
   },
-  "foundry-rs": {
+  "gnolang": {
     "score": 82,
+    "contributors": 2,
+    "companies": [
+      "director of devx @tendermint"
+    ]
+  },
+  "grapheneX": {
+    "score": 80,
+    "contributors": 1,
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "tailwindlabs": {
+    "score": 79,
+    "contributors": 3,
+    "companies": [
+      "modaltrans",
+      "oxygenvim"
+    ]
+  },
+  "AdguardTeam": {
+    "score": 79,
+    "contributors": 3,
+    "companies": []
+  },
+  "foundry-rs": {
+    "score": 79,
     "contributors": 3,
     "companies": [
       "fuellabs"
     ]
   },
-  "milvus-io": {
-    "score": 79,
-    "contributors": 3,
-    "companies": [
-      "zuzu",
-      "deepset-ai",
-      "turkai"
-    ]
-  },
-  "bitnami": {
-    "score": 79,
-    "contributors": 2,
-    "companies": [
-      "hazelcast",
-      "codemotion ninjas"
-    ]
-  },
-  "MarlinFirmware": {
-    "score": 79,
-    "contributors": 2,
-    "companies": [
-      "bd"
-    ]
-  },
-  "grpc": {
-    "score": 79,
-    "contributors": 2,
-    "companies": [
-      "otsimo",
-      "oracle"
-    ]
-  },
-  "desktop": {
-    "score": 78,
-    "contributors": 2,
-    "companies": [
-      "mavi uçak bilişim ve i̇leri teknoloji as"
-    ]
-  },
-  "pnpm": {
+  "codesandbox": {
     "score": 78,
     "contributors": 3,
     "companies": [
-      "yandex",
-      "firstbatchxyz"
+      "refinedev"
     ]
-  },
-  "shardeum": {
-    "score": 78,
-    "contributors": 3,
-    "companies": []
-  },
-  "wix": {
-    "score": 78,
-    "contributors": 2,
-    "companies": []
   },
   "linuxserver": {
     "score": 78,
     "contributors": 2,
     "companies": []
   },
+  "ant-design": {
+    "score": 78,
+    "contributors": 3,
+    "companies": [
+      "sodexo",
+      "refinedev"
+    ]
+  },
   "BuidlGuidl": {
     "score": 78,
     "contributors": 3,
+    "companies": []
+  },
+  "Incendo": {
+    "score": 75,
+    "contributors": 1,
+    "companies": [
+      "infumia"
+    ]
+  },
+  "sanity-io": {
+    "score": 74,
+    "contributors": 1,
+    "companies": [
+      "freelancer"
+    ]
+  },
+  "fluent": {
+    "score": 73,
+    "contributors": 1,
+    "companies": [
+      "kartaca"
+    ]
+  },
+  "AOMediaCodec": {
+    "score": 73,
+    "contributors": 1,
+    "companies": []
+  },
+  "FreeCAD": {
+    "score": 73,
+    "contributors": 1,
     "companies": []
   },
   "mdx-js": {
@@ -2441,83 +2518,63 @@
       "odtü"
     ]
   },
-  "solana-labs": {
-    "score": 73,
-    "contributors": 1,
-    "companies": [
-      "bloom"
-    ]
-  },
-  "lancedb": {
-    "score": 73,
-    "contributors": 2,
-    "companies": [
-      "safevideo"
-    ]
-  },
-  "libredirect": {
-    "score": 73,
-    "contributors": 5,
-    "companies": []
-  },
-  "harfbuzz": {
+  "CCBlueX": {
     "score": 73,
     "contributors": 1,
     "companies": []
   },
-  "planetscale": {
-    "score": 72,
-    "contributors": 2,
-    "companies": [
-      "planetscale"
-    ]
+  "notifo-io": {
+    "score": 73,
+    "contributors": 1,
+    "companies": []
   },
-  "celery": {
-    "score": 72,
+  "vitejs": {
+    "score": 71,
     "contributors": 3,
     "companies": [
-      "freelance developer",
-      "diktatorial"
+      "roadmape",
+      "freelancer",
+      "dreamonkey"
     ]
   },
-  "xyflow": {
+  "chartjs": {
     "score": 70,
     "contributors": 2,
     "companies": [
-      "çekino bilgi teknolojileri a.ş."
+      "omwo technology"
     ]
   },
-  "llvm": {
-    "score": 70,
-    "contributors": 2,
-    "companies": []
-  },
-  "EddieHubCommunity": {
-    "score": 70,
-    "contributors": 2,
-    "companies": []
-  },
-  "argoproj": {
+  "internetarchive": {
     "score": 70,
     "contributors": 2,
     "companies": [
-      "trendyol"
+      "loading..."
     ]
   },
-  "nextui-org": {
+  "astral-sh": {
     "score": 70,
-    "contributors": 1,
+    "contributors": 2,
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "vite-pwa": {
+    "score": 70,
+    "contributors": 2,
     "companies": []
   },
-  "nilearn": {
+  "dependabot": {
     "score": 70,
-    "contributors": 1,
+    "contributors": 2,
     "companies": []
   },
-  "gitpython-developers": {
+  "withastro": {
     "score": 70,
-    "contributors": 1,
-    "companies": []
+    "contributors": 2,
+    "companies": [
+      "doping tech",
+      "biges"
+    ]
   },
   "themesberg": {
     "score": 70,
@@ -2531,6 +2588,28 @@
       "icrontech"
     ]
   },
+  "gitpython-developers": {
+    "score": 70,
+    "contributors": 1,
+    "companies": [
+      "appsilon"
+    ]
+  },
+  "catppuccin": {
+    "score": 70,
+    "contributors": 2,
+    "companies": [
+      "opera"
+    ]
+  },
+  "element-plus": {
+    "score": 70,
+    "contributors": 2,
+    "companies": [
+      "tav technologies",
+      "helorobo"
+    ]
+  },
   "greenmail-mail-test": {
     "score": 70,
     "contributors": 1,
@@ -2538,27 +2617,53 @@
       "yodha"
     ]
   },
-  "Exiled-Team": {
-    "score": 70,
-    "contributors": 2,
-    "companies": []
-  },
-  "aws-amplify": {
-    "score": 70,
-    "contributors": 1,
-    "companies": []
-  },
-  "StackExchange": {
+  "grafana": {
     "score": 70,
     "contributors": 2,
     "companies": [
-      "nullovy"
+      "doofemshmirtz evil inc."
     ]
   },
-  "windmill-labs": {
+  "grpc": {
+    "score": 70,
+    "contributors": 1,
+    "companies": [
+      "otsimo"
+    ]
+  },
+  "paradigmxyz": {
+    "score": 70,
+    "contributors": 1,
+    "companies": [
+      "sweephy"
+    ]
+  },
+  "acryldata": {
     "score": 70,
     "contributors": 1,
     "companies": []
+  },
+  "strapi": {
+    "score": 70,
+    "contributors": 2,
+    "companies": []
+  },
+  "aws": {
+    "score": 70,
+    "contributors": 2,
+    "companies": []
+  },
+  "solidjs": {
+    "score": 70,
+    "contributors": 2,
+    "companies": []
+  },
+  "firecmsco": {
+    "score": 70,
+    "contributors": 1,
+    "companies": [
+      "full-stack developer"
+    ]
   },
   "kiali": {
     "score": 70,
@@ -2575,30 +2680,11 @@
     "contributors": 1,
     "companies": []
   },
-  "astral-sh": {
+  "chainguard-dev": {
     "score": 70,
     "contributors": 2,
     "companies": [
-      "archlinux"
-    ]
-  },
-  "gravitational": {
-    "score": 70,
-    "contributors": 1,
-    "companies": [
-      "epam"
-    ]
-  },
-  "notifo-io": {
-    "score": 70,
-    "contributors": 1,
-    "companies": []
-  },
-  "paradigmxyz": {
-    "score": 70,
-    "contributors": 1,
-    "companies": [
-      "sweephy"
+      "trendyol"
     ]
   },
   "babelfish-for-postgresql": {
@@ -2606,17 +2692,9 @@
     "contributors": 1,
     "companies": []
   },
-  "element-plus": {
+  "windmill-labs": {
     "score": 70,
-    "contributors": 2,
-    "companies": [
-      "helorobo",
-      "tav technologies"
-    ]
-  },
-  "ton-society": {
-    "score": 70,
-    "contributors": 2,
+    "contributors": 1,
     "companies": []
   },
   "observablehq": {
@@ -2624,46 +2702,62 @@
     "contributors": 1,
     "companies": []
   },
-  "luraproject": {
-    "score": 69,
+  "htmlstreamofficial": {
+    "score": 70,
     "contributors": 1,
     "companies": []
   },
-  "remarkjs": {
-    "score": 69,
+  "radix-ui": {
+    "score": 70,
     "contributors": 2,
-    "companies": [
-      "odtü",
-      "coder"
-    ]
+    "companies": []
   },
-  "yiisoft": {
+  "appwrite": {
+    "score": 70,
+    "contributors": 1,
+    "companies": []
+  },
+  "omnifaces": {
     "score": 69,
     "contributors": 1,
     "companies": [
-      "illaftrain"
+      "aripd"
     ]
   },
-  "dart-lang": {
+  "pnpm": {
     "score": 69,
     "contributors": 2,
     "companies": [
-      "upwork"
+      "yandex"
     ]
   },
-  "pallets": {
+  "HKUST-Aerial-Robotics": {
+    "score": 69,
+    "contributors": 1,
+    "companies": [
+      "ems elektronik ve medikal sistemler a.ş"
+    ]
+  },
+  "namidaco": {
     "score": 69,
     "contributors": 2,
     "companies": []
   },
-  "codesandbox": {
+  "dbeaver": {
     "score": 69,
     "contributors": 2,
     "companies": [
-      "refinedev"
+      "lifemote"
     ]
   },
-  "fireship-io": {
+  "curl": {
+    "score": 69,
+    "contributors": 2,
+    "companies": [
+      "virtuozzo research"
+    ]
+  },
+  "darkreader": {
     "score": 69,
     "contributors": 2,
     "companies": []
@@ -2675,6 +2769,26 @@
       "primefaces"
     ]
   },
+  "rapid7": {
+    "score": 69,
+    "contributors": 1,
+    "companies": []
+  },
+  "playcanvas": {
+    "score": 69,
+    "contributors": 2,
+    "companies": []
+  },
+  "fireship-io": {
+    "score": 69,
+    "contributors": 2,
+    "companies": []
+  },
+  "shardeum": {
+    "score": 69,
+    "contributors": 2,
+    "companies": []
+  },
   "cypress-io": {
     "score": 69,
     "contributors": 2,
@@ -2682,52 +2796,32 @@
       "tbayaa"
     ]
   },
-  "RobotWebTools": {
+  "termux": {
     "score": 69,
     "contributors": 2,
     "companies": [
-      "robolaunch"
+      "mobileporting",
+      "databoss"
     ]
   },
-  "Genymobile": {
-    "score": 69,
-    "contributors": 2,
-    "companies": [
-      "alrightstudios"
-    ]
-  },
-  "playcanvas": {
-    "score": 69,
-    "contributors": 2,
-    "companies": []
-  },
-  "omnifaces": {
-    "score": 69,
-    "contributors": 1,
-    "companies": [
-      "aripd"
-    ]
-  },
-  "lucia-auth": {
-    "score": 69,
-    "contributors": 2,
-    "companies": [
-      "freelancer"
-    ]
-  },
-  "firecmsco": {
-    "score": 69,
-    "contributors": 1,
-    "companies": [
-      "full-stack developer"
-    ]
-  },
-  "headintheclouddev": {
+  "unifyai": {
     "score": 69,
     "contributors": 1,
     "companies": []
   },
-  "htmlstreamofficial": {
+  "flyerhq": {
+    "score": 69,
+    "contributors": 1,
+    "companies": [
+      "centirir"
+    ]
+  },
+  "desktop": {
+    "score": 69,
+    "contributors": 1,
+    "companies": []
+  },
+  "golang": {
     "score": 69,
     "contributors": 1,
     "companies": []
@@ -2739,62 +2833,15 @@
       "kodland"
     ]
   },
-  "ClassicUO": {
+  "wix": {
     "score": 69,
     "contributors": 1,
     "companies": []
   },
-  "termux": {
-    "score": 69,
-    "contributors": 2,
-    "companies": [
-      "databoss",
-      "mobileporting"
-    ]
-  },
-  "dbeaver": {
-    "score": 69,
-    "contributors": 2,
-    "companies": [
-      "lifemote"
-    ]
-  },
-  "unifyai": {
-    "score": 69,
+  "xtermjs": {
+    "score": 63,
     "contributors": 1,
     "companies": []
-  },
-  "LayerZero-Labs": {
-    "score": 69,
-    "contributors": 1,
-    "companies": [
-      "cukurovablock"
-    ]
-  },
-  "twitter": {
-    "score": 69,
-    "contributors": 2,
-    "companies": [
-      "cukurovablock",
-      "mobillium"
-    ]
-  },
-  "cubewise-code": {
-    "score": 69,
-    "contributors": 1,
-    "companies": []
-  },
-  "platformio": {
-    "score": 69,
-    "contributors": 1,
-    "companies": []
-  },
-  "terraform-lxd": {
-    "score": 66,
-    "contributors": 1,
-    "companies": [
-      "coder"
-    ]
   },
   "ublue-os": {
     "score": 63,
@@ -2803,96 +2850,38 @@
       "trimoon-inc"
     ]
   },
-  "xtermjs": {
+  "terraform-lxd": {
     "score": 63,
     "contributors": 1,
-    "companies": []
+    "companies": [
+      "coder"
+    ]
   },
-  "wasmCloud": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "go-gorm": {
+  "gohugoio": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "fairmoney"
+      "lunar-hill"
     ]
   },
   "acikyazilimagi": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "roofstacks"
+      "loading..."
     ]
   },
-  "buildkite": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "intenseye.com"
-    ]
-  },
-  "terraform-aws-modules": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "devops engineer"
-    ]
-  },
-  "zincsearch": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "hazelcast"
-    ]
-  },
-  "k2-fsa": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "sestek"
-    ]
-  },
-  "elysiajs": {
+  "ton-community": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "intlify": {
+  "ompl": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "MobiFlight": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "core havacılık teknolojileri ltd. şti̇."
-    ]
-  },
-  "Azure": {
-    "score": 61,
-    "contributors": 2,
-    "companies": [
-      "upbound",
-      "nullovy"
-    ]
-  },
-  "FastEndpoints": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "RonanPlugins": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "quezly , @hunnicmc"
-    ]
-  },
-  "chakra-ui": {
+  "xyflow": {
     "score": 61,
     "contributors": 1,
     "companies": []
@@ -2904,91 +2893,19 @@
       "yandex"
     ]
   },
-  "turbot": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "sre"
-    ]
-  },
-  "Helicone": {
+  "StarRocks": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "wiremock": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "localsend": {
+  "oxsecurity": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "yazilimcimekani"
+      "ciceksepeti.com / lolaflora.com"
     ]
   },
-  "ompl": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "aws": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "oauth2-proxy": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "r.o.s.s. golder ltd"
-    ]
-  },
-  "kubernetes-sigs": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "tyktechnologies"
-    ]
-  },
-  "galacticcouncil": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "helikon"
-    ]
-  },
-  "logseq": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "gravity robotics"
-    ]
-  },
-  "irtlab": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "flatpak": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "turkman - pardus - muslimlinux"
-    ]
-  },
-  "react-native-community": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "ohmyzsh": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "snapcore": {
+  "openai-translator": {
     "score": 61,
     "contributors": 1,
     "companies": []
@@ -3000,135 +2917,122 @@
       "neverends digital ltd."
     ]
   },
-  "betaflight": {
+  "FastEndpoints": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "0xPolygon": {
+  "SchemaStore": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "eya"
+    ]
+  },
+  "kubermatic": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "PHP-FFMpeg": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "beyn"
-    ]
-  },
-  "dompdf": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "beyn"
-    ]
-  },
-  "composer": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "beyn"
-    ]
-  },
-  "DataDog": {
+  "awesome-windows11": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "catppuccin": {
+  "processing": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "filikadesign"
+    ]
+  },
+  "OpenBMB": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "nats-io": {
+  "FreeOpcUa": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "the george washington university"
+      "enforma information and communication technologies"
     ]
   },
-  "hub4j": {
+  "duneanalytics": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "ankara üniversitesi"
+      "dkodalabs"
     ]
   },
-  "gazebosim": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "ems elektronik ve medikal sistemler a.ş"
-    ]
-  },
-  "red": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "hybrone"
-    ]
-  },
-  "obsidianmd": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "adjo-digital"
-    ]
-  },
-  "RedisGears": {
+  "sqlparser-rs": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "pre-commit": {
+  "dfinity": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "deepinfo"
+      "b3pay"
     ]
   },
-  "BlueMap-Minecraft": {
+  "caprover": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "turkish ministry of education"
+    ]
+  },
+  "aptos-labs": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "bigskysoftware": {
+  "argoproj": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "casper-ecosystem": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "bold-auto-transport"
+      "freelancer | full stack software engineer"
     ]
   },
-  "primer": {
+  "irtlab": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "EddieHubCommunity": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "r-lib": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "nullovy"
+      "turkish aerospace"
     ]
   },
-  "IBM-Cloud": {
+  "localsend": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "nullovy"
+      "yazilimcimekani"
     ]
   },
-  "easysoft": {
+  "PreMiD": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "nullovy"
+      "poketube-org, @openbotlist, fsf, gnu"
     ]
   },
-  "diffgram": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "nullovy"
-    ]
-  },
-  "bitrise-io": {
+  "llvm": {
     "score": 61,
     "contributors": 1,
     "companies": []
@@ -3138,52 +3042,28 @@
     "contributors": 1,
     "companies": []
   },
-  "duneanalytics": {
+  "terraform-aws-modules": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "dkodalabs"
+      "devops engineer"
     ]
   },
-  "OpenBMB": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "hexlet-components": {
-    "score": 61,
-    "contributors": 1,
-    "companies": []
-  },
-  "ourzora": {
+  "lambdaclass": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "cukurovablock"
+      "firstbatchxyz"
     ]
   },
-  "axiom-crypto": {
+  "fraunhoferhhi": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "cukurovablock"
+      "wite"
     ]
   },
-  "eth-infinitism": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "getclave @itublockchain"
-    ]
-  },
-  "strimzi": {
-    "score": 61,
-    "contributors": 1,
-    "companies": [
-      "odeal"
-    ]
-  },
-  "matrix-org": {
+  "miniflux": {
     "score": 61,
     "contributors": 1,
     "companies": []
@@ -3195,14 +3075,24 @@
       "hire me please"
     ]
   },
-  "casper-ecosystem": {
+  "jdm-contrib": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "freelancer | full stack software engineer"
+      "put.io"
     ]
   },
-  "ton-community": {
+  "dappradar": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "chakra-ui": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "macports": {
     "score": 61,
     "contributors": 1,
     "companies": []
@@ -3212,171 +3102,244 @@
     "contributors": 1,
     "companies": []
   },
-  "gohugoio": {
+  "bitrise-io": {
     "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "OpenEmu": {
+  "stakwork": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "galacticcouncil": {
     "score": 61,
     "contributors": 1,
     "companies": [
-      "celal bayar university"
+      "helikon"
     ]
   },
-  "ordinals": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "self-employed(remote)"
-    ]
-  },
-  "cloudflare": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "rust-in-blockchain": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "masscollabs"
-    ]
-  },
-  "ckan": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "masscollabs"
-    ]
-  },
-  "Significant-Gravitas": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "loopbackio": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "atez"
-    ]
-  },
-  "desenvolvedor-io": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "configu": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "pixel-point"
-    ]
-  },
-  "aws-solutions": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "madlenio"
-    ]
-  },
-  "open-domains": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "FOSSBilling": {
-    "score": 60,
+  "paritytech": {
+    "score": 61,
     "contributors": 2,
     "companies": [
-      "ifyazilim"
+      "helikon",
+      "gear"
     ]
   },
-  "mautic": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "roofstacks"
-    ]
-  },
-  "open-telemetry": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "thundra-io"
-    ]
-  },
-  "operator-framework": {
-    "score": 60,
+  "zincsearch": {
+    "score": 61,
     "contributors": 1,
     "companies": [
       "hazelcast"
     ]
   },
-  "sherlock-project": {
-    "score": 60,
+  "kubernetes-sigs": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "hazelcast"
+    ]
+  },
+  "solana-foundation": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "bloom"
+    ]
+  },
+  "Helicone": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "cachix": {
-    "score": 60,
+  "nats-io": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "the george washington university"
+    ]
+  },
+  "lobehub": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "apolytus"
+    ]
+  },
+  "axiom-crypto": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "maticnetwork": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "getclave @itublockchain"
+    ]
+  },
+  "eth-infinitism": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "getclave @itublockchain"
+    ]
+  },
+  "mlcommons": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "relayjs": {
-    "score": 60,
+  "intlify": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "brooklyn-data": {
-    "score": 60,
+  "projectdiscovery": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "Atlas-OS": {
-    "score": 60,
+  "cloudflare": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "academind": {
-    "score": 60,
+  "openupm": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "ondokuz mayıs üniversitesi"
+    ]
+  },
+  "DeepSourceCorp": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "coder"
+    ]
+  },
+  "buildkite": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "intenseye.com"
+    ]
+  },
+  "invertase": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "UpliftGames": {
-    "score": 60,
+  "Exiled-Team": {
+    "score": 61,
     "contributors": 1,
     "companies": []
   },
-  "hacs": {
+  "lancedb": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "signalapp": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "gravity-ui": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "0xPolygon": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "wasmCloud": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "openshift-metal3": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "red hat"
+    ]
+  },
+  "digitalocean": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "bigskysoftware": {
+    "score": 61,
+    "contributors": 1,
+    "companies": [
+      "bold-auto-transport"
+    ]
+  },
+  "nextui-org": {
+    "score": 61,
+    "contributors": 1,
+    "companies": []
+  },
+  "hummingbot": {
     "score": 60,
     "contributors": 1,
     "companies": [
-      "pixery"
+      "meshllc @msamex"
     ]
   },
-  "AztecProtocol": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "organicmaps": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "travis-ci": {
+  "meteor": {
     "score": 60,
     "contributors": 1,
     "companies": [
-      "longhorn games"
+      "bordo.io"
     ]
   },
-  "pusher": {
+  "strimzi": {
     "score": 60,
     "contributors": 1,
     "companies": []
+  },
+  "mautic": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "loading..."
+    ]
+  },
+  "spring-io": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "spring-gradle-plugins": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "netology-code": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "tikv": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "googledatastudio": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "sr. frontend developer @code2io"
+    ]
   },
   "e2b-dev": {
     "score": 60,
@@ -3385,127 +3348,68 @@
       "wopehq"
     ]
   },
-  "awesome-windows11": {
+  "pioneerspacesim": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "Pushwoosh": {
     "score": 60,
     "contributors": 1,
     "companies": []
+  },
+  "SonarSource": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "nmslib": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "gebze teknik üniversitesi"
+    ]
   },
   "statamic": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "infinitered": {
+  "xonsh": {
     "score": 60,
     "contributors": 1,
     "companies": [
-      "a developer who suffers from the disease of selectivity in learning from unnecessary real-life experience."
+      "sahibinden"
     ]
   },
-  "wandb": {
+  "celzero": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "juice-shop": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "reviewpad @explore-dev @snyk"
-    ]
-  },
-  "quran": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "ankara medipol university"
-    ]
-  },
-  "argoproj-labs": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "r.o.s.s. golder ltd"
-    ]
-  },
-  "gridcoin-community": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "hacettepeoyt"
-    ]
-  },
-  "Phala-Network": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "helikon"
-    ]
-  },
-  "hackclub": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "hackclub"
-    ]
-  },
-  "awesome-selfhosted": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "wope"
-    ]
-  },
-  "thuml": {
+  "LibChecker": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "LSPosed": {
+  "Team-xManager": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "BetterDiscord": {
+  "ubuntu": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "osmdroid": {
+  "sherlock-project": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "FlareSolverr": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "flathub-infra": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "turkman - pardus - muslimlinux"
-    ]
-  },
-  "df-mc": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "reddit": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "dockersamples": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "dotdoc-academy"
-    ]
-  },
-  "gotenberg": {
+  "desenvolvedor-io": {
     "score": 60,
     "contributors": 1,
     "companies": []
@@ -3517,7 +3421,181 @@
       "merkezi kayıt kuruluşu a.ş."
     ]
   },
-  "netology-code": {
+  "deus-labs": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "OpenFlutter": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "react-figma": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "roadmape"
+    ]
+  },
+  "loopbackio": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "atez"
+    ]
+  },
+  "life-itself": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "frontend developer"
+    ]
+  },
+  "cesanta": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "sparse-technology"
+    ]
+  },
+  "reddit": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "gotenberg": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "quran": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "ankara medipol university"
+    ]
+  },
+  "travis-ci": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "longhorn games"
+    ]
+  },
+  "gizatechxyz": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "middle east technical university"
+    ]
+  },
+  "w3f": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "organicmaps": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "awesome-selfhosted": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "wope"
+    ]
+  },
+  "x64dbg": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "tronprotocol": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "getumbrel": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "nomee6-inc"
+    ]
+  },
+  "brimdata": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "cerbos"
+    ]
+  },
+  "Significant-Gravitas": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "hackclub": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "hackclub"
+    ]
+  },
+  "InQuest": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "crypttech"
+    ]
+  },
+  "datahub-project": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "udemy"
+    ]
+  },
+  "InsertKoinIO": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "hacs": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "pixery"
+    ]
+  },
+  "RiotGames": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "ckan": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "masscollabs"
+    ]
+  },
+  "rust-in-blockchain": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "masscollabs"
+    ]
+  },
+  "neuropsychology": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "turkish aerospace"
+    ]
+  },
+  "Genymobile": {
     "score": 60,
     "contributors": 1,
     "companies": []
@@ -3529,101 +3607,29 @@
       "hazelcast"
     ]
   },
-  "open-metadata": {
+  "StyleCop": {
     "score": 60,
     "contributors": 1,
     "companies": []
   },
-  "life-itself": {
+  "questdb": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "academind": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "lucia-auth": {
     "score": 60,
     "contributors": 1,
     "companies": [
-      "frontend developer"
+      "freelancer"
     ]
   },
-  "LedgerHQ": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "momentum-mod": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "su2code": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "Synthetixio": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "vllm-project": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "deepset-ai"
-    ]
-  },
-  "fullstack-hy2020": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "steve-community": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "hummingbot": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "meshllc @msamex"
-    ]
-  },
-  "LawnchairLauncher": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "tortecktime"
-    ]
-  },
-  "antlr": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "w3f": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "picqer": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "it manager at api masters b.v"
-    ]
-  },
-  "ethereum-optimism": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "openzeppelin"
-    ]
-  },
-  "meteor": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "bordo.io"
-    ]
-  },
-  "tronprotocol": {
+  "cachix": {
     "score": 60,
     "contributors": 1,
     "companies": []
@@ -3633,29 +3639,290 @@
     "contributors": 1,
     "companies": []
   },
-  "gogs": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "CesiumGS": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "mobiliz"
-    ]
-  },
-  "FreeOpcUa": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "enforma information and communication technologies"
-    ]
-  },
   "zendesk": {
     "score": 60,
     "contributors": 1,
     "companies": []
+  },
+  "Stacked-Org": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "tsoding": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "Codecademy": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "open-metadata": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "dateutil": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "bentoml": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "epam systems"
+    ]
+  },
+  "fairy-stockfish": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "infinitered": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "a developer who suffers from the disease of selectivity in learning from unnecessary real-life experience."
+    ]
+  },
+  "Phala-Network": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "helikon"
+    ]
+  },
+  "dockersamples": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "dotdoc-academy"
+    ]
+  },
+  "operator-framework": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "hazelcast"
+    ]
+  },
+  "fmhy": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "wandb": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "zkLinkProtocol": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "dusk-network": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "celestiaorg": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "risc0": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "cukurovablock"
+    ]
+  },
+  "react-native-webview": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "pusher": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "Farfetch": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "UpliftGames": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "android": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "dogus teknoloji"
+    ]
+  },
+  "juice-shop": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "reviewpad @explore-dev @snyk"
+    ]
+  },
+  "antlr": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "bioconda": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "parcel-bundler": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "oxygenvim"
+    ]
+  },
+  "chronotruck": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "composite-primary-keys": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "SuperDuperDB": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "charmbracelet": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "teammadduck"
+    ]
+  },
+  "kserve": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "mtrm"
+    ]
+  },
+  "kodekloudhub": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "konsalt"
+    ]
+  },
+  "DiscordSRV": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "argoproj-labs": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "r.o.s.s. golder ltd"
+    ]
+  },
+  "edenai": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "istanbul university"
+    ]
+  },
+  "LedgerHQ": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "nohello-net": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "intertech"
+    ]
+  },
+  "peak": {
+    "score": 60,
+    "contributors": 2,
+    "companies": [
+      "peak"
+    ]
+  },
+  "trinodb": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "XcodesOrg": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "adessoturkey"
+    ]
+  },
+  "ethereum-optimism": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "openzeppelin"
+    ]
+  },
+  "VictoriaMetrics": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "trendyol.com"
+    ]
+  },
+  "picqer": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "it manager at api masters b.v"
+    ]
+  },
+  "pyg-team": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "mila"
+    ]
+  },
+  "knuckleswtf": {
+    "score": 60,
+    "contributors": 1,
+    "companies": []
+  },
+  "tauri-apps": {
+    "score": 60,
+    "contributors": 1,
+    "companies": [
+      "proteintech"
+    ]
   },
   "fastapi-admin": {
     "score": 60,
@@ -3671,318 +3938,91 @@
       "bold-auto-transport"
     ]
   },
-  "pydantic": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "bold-auto-transport"
-    ]
-  },
-  "Pushwoosh": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "immutability-io": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "dokuz eylül üniversitesi"
-    ]
-  },
-  "hcengineering": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "dateutil": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "kodekloudhub": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "konsalt"
-    ]
-  },
-  "SonarSource": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "bentoml": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "epam systems"
-    ]
-  },
-  "software-mansion": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "bumper (bumper.co.uk)"
-    ]
-  },
-  "Farfetch": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "SuperDuperDB": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "makeplane": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "x64dbg": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "risc0": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "cukurovablock"
-    ]
-  },
-  "celestiaorg": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "cukurovablock"
-    ]
-  },
-  "trustwallet": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "flyerhq": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "react-native-webview": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "datahub-project": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "udemy"
-    ]
-  },
-  "AstroNvim": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "archlinux"
-    ]
-  },
-  "nmslib": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "gebze teknik üniversitesi"
-    ]
-  },
-  "DevArchitecture": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "StyleCop": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "XcodesOrg": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "adessoturkey"
-    ]
-  },
-  "neuropsychology": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "turkish aerospace"
-    ]
-  },
-  "r-lib": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "turkish aerospace"
-    ]
-  },
-  "react-component": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "paketmutfak"
-    ]
-  },
-  "tikv": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "inertiajs": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "swc-project": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "akinon"
-    ]
-  },
-  "danger": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "trendyol"
-    ]
-  },
-  "RiotGames": {
-    "score": 60,
-    "contributors": 1,
-    "companies": []
-  },
-  "nohello-net": {
-    "score": 60,
-    "contributors": 1,
-    "companies": [
-      "intertech"
-    ]
-  },
-  "ShareX": {
-    "score": 53,
-    "contributors": 4,
-    "companies": [
-      "sharex"
-    ]
-  },
-  "ValveSoftware": {
-    "score": 51,
-    "contributors": 5,
-    "companies": [
-      "marmara university"
-    ]
-  },
-  "sclorg": {
-    "score": 51,
-    "contributors": 1,
-    "companies": [
-      "red hat"
-    ]
-  },
   "typst": {
     "score": 51,
-    "contributors": 2,
+    "contributors": 1,
     "companies": []
   },
-  "angular": {
+  "getsentry": {
     "score": 48,
     "contributors": 3,
     "companies": [
-      "assistt",
-      "kant"
+      "tumantra",
+      "dotdoc-academy",
+      "vardot"
     ]
   },
-  "airbytehq": {
+  "expo": {
     "score": 48,
+    "contributors": 5,
+    "companies": [
+      "telostat",
+      "a developer who suffers from the disease of selectivity in learning from unnecessary real-life experience.",
+      "emrecolak.net"
+    ]
+  },
+  "pytorch": {
+    "score": 43,
+    "contributors": 3,
+    "companies": []
+  },
+  "fyne-io": {
+    "score": 42,
+    "contributors": 1,
+    "companies": [
+      "vuelto-org, @lidmap2d-org"
+    ]
+  },
+  "prebid": {
+    "score": 39,
+    "contributors": 2,
+    "companies": [
+      "loading..."
+    ]
+  },
+  "openwrt": {
+    "score": 39,
+    "contributors": 2,
+    "companies": []
+  },
+  "cube-js": {
+    "score": 39,
+    "contributors": 2,
+    "companies": [
+      "haystack"
+    ]
+  },
+  "angular": {
+    "score": 39,
+    "contributors": 2,
+    "companies": [
+      "assistt"
+    ]
+  },
+  "msys2": {
+    "score": 39,
+    "contributors": 1,
+    "companies": []
+  },
+  "airbytehq": {
+    "score": 39,
     "contributors": 2,
     "companies": [
       "y42",
       "data in action"
     ]
   },
-  "pytorch": {
-    "score": 45,
-    "contributors": 3,
-    "companies": []
-  },
-  "sveltejs": {
-    "score": 45,
-    "contributors": 5,
-    "companies": [
-      "kaira network",
-      "pisoco",
-      "bolu i̇zzet baysal üniversitesi"
-    ]
-  },
-  "fyne-io": {
-    "score": 45,
+  "openfl": {
+    "score": 39,
     "contributors": 1,
     "companies": [
-      "lidmap2d-org"
+      "mobileporting"
     ]
-  },
-  "scaffold-eth": {
-    "score": 43,
-    "contributors": 1,
-    "companies": []
-  },
-  "NVIDIA": {
-    "score": 42,
-    "contributors": 4,
-    "companies": [
-      "trendyol",
-      "mlops at codeway studios",
-      "monstermmorpg"
-    ]
-  },
-  "atlassian-labs": {
-    "score": 42,
-    "contributors": 1,
-    "companies": []
   },
   "libretro": {
-    "score": 41,
-    "contributors": 5,
+    "score": 39,
+    "contributors": 3,
     "companies": []
-  },
-  "prebid": {
-    "score": 40,
-    "contributors": 2,
-    "companies": [
-      "roofstacks"
-    ]
-  },
-  "iptv-org": {
-    "score": 39,
-    "contributors": 1,
-    "companies": []
-  },
-  "python-poetry": {
-    "score": 39,
-    "contributors": 2,
-    "companies": [
-      "orangery gmbh",
-      "freelance developer"
-    ]
-  },
-  "mariadb-operator": {
-    "score": 39,
-    "contributors": 1,
-    "companies": [
-      "purestorage"
-    ]
   },
   "wtforms": {
     "score": 39,
@@ -3991,39 +4031,24 @@
       "bold-auto-transport"
     ]
   },
-  "msys2": {
-    "score": 39,
-    "contributors": 1,
+  "common-voice": {
+    "score": 37,
+    "contributors": 2,
     "companies": []
   },
-  "facebookresearch": {
+  "storybookjs": {
     "score": 36,
+    "contributors": 4,
+    "companies": [
+      "yandex",
+      "t.o.m."
+    ]
+  },
+  "ValveSoftware": {
+    "score": 33,
     "contributors": 3,
     "companies": [
-      "delivers.ai",
-      "hubx",
-      "monstermmorpg"
-    ]
-  },
-  "YoYoGames": {
-    "score": 35,
-    "contributors": 2,
-    "companies": [
-      "efe berk ucar"
-    ]
-  },
-  "obss": {
-    "score": 31,
-    "contributors": 1,
-    "companies": [
-      "safevideo @ultralytics"
-    ]
-  },
-  "readthedocs": {
-    "score": 31,
-    "contributors": 1,
-    "companies": [
-      "scorpions-robotics, @antalya-isas"
+      "marmara university"
     ]
   },
   "tinted-theming": {
@@ -4033,16 +4058,18 @@
       "archlinux"
     ]
   },
-  "ton-blockchain": {
+  "obss": {
     "score": 31,
-    "contributors": 2,
-    "companies": []
+    "contributors": 1,
+    "companies": [
+      "safevideo @ultralytics"
+    ]
   },
-  "margelo": {
+  "FOSSBilling": {
     "score": 30,
     "contributors": 1,
     "companies": [
-      "papyon-apps"
+      "ifyazilim"
     ]
   },
   "react-native-voice": {
@@ -4052,20 +4079,6 @@
       "trendyol"
     ]
   },
-  "IntelRealSense": {
-    "score": 30,
-    "contributors": 3,
-    "companies": [
-      "metu/eee"
-    ]
-  },
-  "cube-js": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "haystack"
-    ]
-  },
   "neondatabase": {
     "score": 30,
     "contributors": 1,
@@ -4073,9 +4086,9 @@
       "pixel-point"
     ]
   },
-  "slackhq": {
+  "hyprwm": {
     "score": 30,
-    "contributors": 1,
+    "contributors": 3,
     "companies": []
   },
   "dooboolab-community": {
@@ -4088,96 +4101,24 @@
     "contributors": 1,
     "companies": []
   },
-  "IBM": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "coder"
-    ]
-  },
-  "jenkinsci": {
+  "KlimaDAO": {
     "score": 30,
     "contributors": 1,
     "companies": []
-  },
-  "publicsuffix": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "yöncü bilişim çözümleri limited şirketi"
-    ]
-  },
-  "opencv": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "algocor"
-    ]
-  },
-  "getsentry": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "dotdoc-academy"
-    ]
   },
   "LuckPerms": {
     "score": 30,
     "contributors": 1,
     "companies": []
   },
-  "pylint-dev": {
+  "sui-foundation": {
     "score": 30,
     "contributors": 1,
     "companies": [
-      "freelance developer"
+      "mystenlabs"
     ]
   },
-  "FactoryBoy": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "freelance developer"
-    ]
-  },
-  "django-extensions": {
-    "score": 30,
-    "contributors": 1,
-    "companies": [
-      "freelance developer"
-    ]
-  },
-  "CombineCommunity": {
-    "score": 30,
-    "contributors": 1,
-    "companies": []
-  },
-  "elk-zone": {
-    "score": 30,
-    "contributors": 1,
-    "companies": []
-  },
-  "KlimaDAO": {
-    "score": 30,
-    "contributors": 1,
-    "companies": []
-  },
-  "UniSharp": {
-    "score": 30,
-    "contributors": 1,
-    "companies": []
-  },
-  "mongodb": {
-    "score": 30,
-    "contributors": 1,
-    "companies": []
-  },
-  "luarocks": {
-    "score": 30,
-    "contributors": 1,
-    "companies": []
-  },
-  "ledger": {
+  "unocss": {
     "score": 30,
     "contributors": 1,
     "companies": []
@@ -4187,47 +4128,38 @@
     "contributors": 1,
     "companies": []
   },
-  "openai": {
+  "zalando-incubator": {
     "score": 30,
     "contributors": 1,
     "companies": [
-      "kairosfuture @financiai"
+      "the-guild-org"
     ]
   },
-  "crystal-lang": {
+  "elk-zone": {
     "score": 30,
     "contributors": 1,
-    "companies": [
-      "mantikafasicorp"
-    ]
+    "companies": []
   },
-  "libusual": {
+  "scaffold-eth": {
     "score": 30,
     "contributors": 1,
-    "companies": [
-      "citusdata"
-    ]
+    "companies": []
   },
   "TGX-Android": {
     "score": 30,
     "contributors": 1,
     "companies": []
   },
-  "ethers-io": {
-    "score": 27,
-    "contributors": 3,
-    "companies": [
-      "gelatodigital",
-      "ava-labs",
-      "beycanpress"
-    ]
+  "charmed-kubernetes": {
+    "score": 30,
+    "contributors": 1,
+    "companies": []
   },
-  "expo": {
-    "score": 27,
-    "contributors": 3,
+  "mongodb": {
+    "score": 30,
+    "contributors": 1,
     "companies": [
-      "emrecolak.net",
-      "telostat"
+      "ferisoft"
     ]
   },
   "brave": {
@@ -4237,11 +4169,29 @@
       "qteknoloji software solutions"
     ]
   },
-  "storybookjs": {
+  "lvgl": {
     "score": 27,
     "contributors": 3,
     "companies": [
-      "t.o.m."
+      "app digital solutions",
+      "superpay ödeme hizmetleri ve elektronik para a.ş."
+    ]
+  },
+  "ethers-io": {
+    "score": 27,
+    "contributors": 3,
+    "companies": [
+      "beycanpress",
+      "gelatodigital",
+      "ava-labs"
+    ]
+  },
+  "sequelize": {
+    "score": 27,
+    "contributors": 3,
+    "companies": [
+      "luppux",
+      "ccr"
     ]
   },
   "espressif": {
@@ -4249,26 +4199,12 @@
     "contributors": 3,
     "companies": []
   },
-  "nvim-telescope": {
-    "score": 27,
-    "contributors": 3,
+  "duckdb": {
+    "score": 24,
+    "contributors": 2,
     "companies": [
-      "özgür yazılım a.ş"
+      "peak"
     ]
-  },
-  "firebase": {
-    "score": 27,
-    "contributors": 3,
-    "companies": [
-      "grandmount",
-      "lapuske team",
-      "fuse"
-    ]
-  },
-  "common-voice": {
-    "score": 26,
-    "contributors": 1,
-    "companies": []
   },
   "rstudio": {
     "score": 24,
@@ -4278,22 +4214,28 @@
       "istanbul technical university @careitu"
     ]
   },
-  "matomo-org": {
-    "score": 23,
-    "contributors": 1,
-    "companies": []
-  },
   "MohistMC": {
     "score": 22,
     "contributors": 1,
     "companies": []
   },
-  "withastro": {
-    "score": 22,
-    "contributors": 3,
+  "celery": {
+    "score": 21,
+    "contributors": 2,
     "companies": [
-      "biges",
-      "archlinux"
+      "diktatorial"
+    ]
+  },
+  "ruffle-rs": {
+    "score": 21,
+    "contributors": 2,
+    "companies": []
+  },
+  "pixijs": {
+    "score": 21,
+    "contributors": 2,
+    "companies": [
+      "playable-factory"
     ]
   },
   "intel": {
@@ -4303,67 +4245,55 @@
       "dcipher analytics"
     ]
   },
-  "pixijs": {
-    "score": 21,
-    "contributors": 2,
-    "companies": [
-      "playable-factory"
-    ]
-  },
   "TypeStrong": {
     "score": 21,
     "contributors": 2,
     "companies": [
-      "a developer who suffers from the disease of selectivity in learning from unnecessary real-life experience.",
-      "prinwork/shipentegra"
+      "prinwork/shipentegra",
+      "a developer who suffers from the disease of selectivity in learning from unnecessary real-life experience."
     ]
   },
-  "AvaloniaUI": {
+  "reduxjs": {
     "score": 21,
-    "contributors": 2,
-    "companies": [
-      "vataga-trading"
-    ]
-  },
-  "nextauthjs": {
-    "score": 19,
-    "contributors": 3,
-    "companies": [
-      "rexven-company"
-    ]
-  },
-  "krakend": {
-    "score": 18,
     "contributors": 2,
     "companies": []
   },
-  "lvgl": {
-    "score": 18,
+  "ROCm": {
+    "score": 21,
     "contributors": 2,
+    "companies": []
+  },
+  "PX4": {
+    "score": 21,
+    "contributors": 2,
+    "companies": []
+  },
+  "vidstack": {
+    "score": 20,
+    "contributors": 1,
     "companies": [
-      "superpay ödeme hizmetleri ve elektronik para a.ş."
+      "90pixel"
     ]
   },
-  "helix-editor": {
-    "score": 18,
-    "contributors": 2,
+  "OneUptime": {
+    "score": 20,
+    "contributors": 1,
     "companies": [
-      "unemployed"
+      "ödeal"
     ]
   },
-  "mpv-player": {
+  "defold": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "deeplab studio"
+      "lunar-hill"
     ]
   },
-  "googleads": {
+  "directus": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "deeplab studio",
-      "grandmount"
+      "preflight-hq"
     ]
   },
   "keycloak": {
@@ -4373,34 +4303,47 @@
       "useinsider"
     ]
   },
-  "SortableJS": {
+  "checkpoint-restore": {
+    "score": 18,
+    "contributors": 1,
+    "companies": [
+      "upbound"
+    ]
+  },
+  "python-pillow": {
     "score": 18,
     "contributors": 2,
     "companies": []
   },
-  "eclipse-ee4j": {
+  "googleapis": {
     "score": 18,
     "contributors": 2,
     "companies": []
   },
-  "directus": {
+  "Facepunch": {
+    "score": 18,
+    "contributors": 2,
+    "companies": []
+  },
+  "nvim-telescope": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "preflight-hq"
+      "özgür yazılım a.ş"
     ]
   },
-  "aniyomiorg": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
-  },
-  "dependabot": {
+  "alphacep": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "ubicloud"
+      "for personal use",
+      "openanime"
     ]
+  },
+  "ansible-collections": {
+    "score": 18,
+    "contributors": 2,
+    "companies": []
   },
   "livekit-examples": {
     "score": 18,
@@ -4409,120 +4352,36 @@
       "playgra ltd."
     ]
   },
-  "livekit": {
+  "bigcode-project": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "playgra ltd.",
-      "devos software"
+      "boğaziçi university @bouncmpe"
     ]
-  },
-  "alphacep": {
-    "score": 18,
-    "contributors": 2,
-    "companies": [
-      "openanime",
-      "for personal use"
-    ]
-  },
-  "ansible-collections": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
-  },
-  "OpenZeppelin": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
   },
   "conan-io": {
     "score": 18,
     "contributors": 2,
-    "companies": [
-      "nokta makro detectors"
-    ]
+    "companies": []
   },
-  "qbittorrent": {
+  "docker": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "obilet",
-      "ageras - kontist"
+      "trendyol"
     ]
   },
-  "infernojs": {
-    "score": 18,
-    "contributors": 2,
-    "companies": [
-      "yapı kredi teknoloji via metasis"
-    ]
-  },
-  "googleapis": {
-    "score": 18,
-    "contributors": 2,
-    "companies": [
-      "migroscomtr"
-    ]
-  },
-  "WalletConnect": {
-    "score": 18,
-    "contributors": 2,
-    "companies": [
-      "beycanpress",
-      "fuse"
-    ]
-  },
-  "antvis": {
+  "GeyserMC": {
     "score": 18,
     "contributors": 2,
     "companies": []
   },
-  "lnis-uofu": {
-    "score": 18,
-    "contributors": 1,
-    "companies": []
-  },
-  "marmelab": {
+  "FortAwesome": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "ibtech"
+      "turkish aerospace"
     ]
-  },
-  "nix-community": {
-    "score": 18,
-    "contributors": 2,
-    "companies": [
-      "doofemshmirtz evil inc.",
-      "soostone"
-    ]
-  },
-  "open-watcom": {
-    "score": 18,
-    "contributors": 1,
-    "companies": []
-  },
-  "broadinstitute": {
-    "score": 18,
-    "contributors": 1,
-    "companies": [
-      "genomize"
-    ]
-  },
-  "spicetify": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
-  },
-  "darkreader": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
-  },
-  "ROCm": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
   },
   "vaadin": {
     "score": 18,
@@ -4531,17 +4390,44 @@
       "assistt"
     ]
   },
+  "aniyomiorg": {
+    "score": 18,
+    "contributors": 2,
+    "companies": []
+  },
+  "mpv-player": {
+    "score": 18,
+    "contributors": 2,
+    "companies": [
+      "deeplab studio"
+    ]
+  },
+  "safe-global": {
+    "score": 18,
+    "contributors": 2,
+    "companies": []
+  },
+  "spicetify": {
+    "score": 18,
+    "contributors": 2,
+    "companies": []
+  },
+  "SortableJS": {
+    "score": 18,
+    "contributors": 2,
+    "companies": []
+  },
   "Infisical": {
     "score": 18,
     "contributors": 2,
     "companies": []
   },
-  "appwrite": {
+  "googleads": {
     "score": 18,
     "contributors": 2,
     "companies": [
-      "softtech",
-      "profabric"
+      "grandmount",
+      "akbank"
     ]
   },
   "GLVis": {
@@ -4551,28 +4437,35 @@
       "altineller robotik ve yazılım a.ş."
     ]
   },
-  "FortAwesome": {
-    "score": 18,
-    "contributors": 2,
-    "companies": [
-      "turkish aerospace"
-    ]
-  },
-  "defold": {
-    "score": 18,
-    "contributors": 2,
-    "companies": []
-  },
-  "metabase": {
+  "open-watcom": {
     "score": 15,
     "contributors": 1,
     "companies": []
+  },
+  "keplergl": {
+    "score": 15,
+    "contributors": 1,
+    "companies": []
+  },
+  "YoYoGames": {
+    "score": 15,
+    "contributors": 1,
+    "companies": [
+      "efe berk ucar"
+    ]
   },
   "systemd": {
     "score": 15,
     "contributors": 1,
     "companies": [
       "trimoon-inc"
+    ]
+  },
+  "Stability-AI": {
+    "score": 15,
+    "contributors": 1,
+    "companies": [
+      "monstermmorpg"
     ]
   },
   "mfem": {
@@ -4582,47 +4475,18 @@
       "altineller robotik ve yazılım a.ş."
     ]
   },
-  "kubeedge": {
+  "owncast": {
     "score": 12,
     "contributors": 1,
     "companies": [
-      "marmara university"
+      "0verl0rd"
     ]
-  },
-  "firefly-iii": {
-    "score": 12,
-    "contributors": 1,
-    "companies": []
-  },
-  "duckdb": {
-    "score": 12,
-    "contributors": 1,
-    "companies": []
   },
   "dapr": {
     "score": 12,
     "contributors": 1,
     "companies": [
       "defacto technology"
-    ]
-  },
-  "coreos": {
-    "score": 12,
-    "contributors": 1,
-    "companies": []
-  },
-  "checkpoint-restore": {
-    "score": 12,
-    "contributors": 1,
-    "companies": [
-      "upbound"
-    ]
-  },
-  "ProjectElixir-Devices": {
-    "score": 12,
-    "contributors": 1,
-    "companies": [
-      "openanime"
     ]
   },
   "ixmilia": {
@@ -4632,36 +4496,83 @@
       "leo drive"
     ]
   },
-  "kubernetes-client": {
+  "tinygo-org": {
     "score": 12,
     "contributors": 1,
     "companies": [
-      "huawei"
+      "vuelto-org, @lidmap2d-org"
     ]
   },
-  "openNDS": {
+  "OpenRA": {
     "score": 12,
     "contributors": 1,
     "companies": []
   },
-  "AOMediaCodec": {
-    "score": 12,
-    "contributors": 1,
-    "companies": []
-  },
-  "discord": {
-    "score": 12,
-    "contributors": 1,
-    "companies": []
-  },
-  "files-community": {
+  "ProjectElixir-Devices": {
     "score": 12,
     "contributors": 1,
     "companies": [
-      "working from home"
+      "openanime"
     ]
+  },
+  "ShareX": {
+    "score": 12,
+    "contributors": 3,
+    "companies": [
+      "sharex"
+    ]
+  },
+  "pqina": {
+    "score": 12,
+    "contributors": 1,
+    "companies": [
+      "ega yazilim"
+    ]
+  },
+  "mui": {
+    "score": 12,
+    "contributors": 1,
+    "companies": []
+  },
+  "mozilla": {
+    "score": 12,
+    "contributors": 1,
+    "companies": [
+      "signhost/entrust"
+    ]
+  },
+  "coreos": {
+    "score": 12,
+    "contributors": 1,
+    "companies": []
   },
   "zsh-users": {
+    "score": 12,
+    "contributors": 1,
+    "companies": []
+  },
+  "trpc": {
+    "score": 12,
+    "contributors": 1,
+    "companies": [
+      "opera"
+    ]
+  },
+  "vllm-project": {
+    "score": 12,
+    "contributors": 1,
+    "companies": [
+      "epam systems"
+    ]
+  },
+  "hawtio": {
+    "score": 12,
+    "contributors": 1,
+    "companies": [
+      "ing"
+    ]
+  },
+  "NdoleStudio": {
     "score": 12,
     "contributors": 1,
     "companies": []
@@ -4673,12 +4584,22 @@
       "monstermmorpg"
     ]
   },
-  "Stability-AI": {
+  "palomachain": {
+    "score": 12,
+    "contributors": 1,
+    "companies": []
+  },
+  "sktime": {
     "score": 12,
     "contributors": 1,
     "companies": [
-      "monstermmorpg"
+      "hacettepe university cs '19"
     ]
+  },
+  "metabase": {
+    "score": 12,
+    "contributors": 1,
+    "companies": []
   },
   "Immediate-Mode-UI": {
     "score": 12,
@@ -4687,22 +4608,158 @@
       "altineller robotik ve yazılım a.ş."
     ]
   },
-  "tinygo-org": {
-    "score": 12,
-    "contributors": 1,
-    "companies": [
-      "lidmap2d-org"
-    ]
-  },
-  "FreeCAD": {
-    "score": 12,
+  "BeamMP": {
+    "score": 10,
     "contributors": 1,
     "companies": []
+  },
+  "siemens": {
+    "score": 10,
+    "contributors": 2,
+    "companies": [
+      "nullovy"
+    ]
   },
   "iced-rs": {
     "score": 10,
     "contributors": 2,
     "companies": []
+  },
+  "Droid-ify": {
+    "score": 10,
+    "contributors": 1,
+    "companies": []
+  },
+  "sourcegraph": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "persepolisdm": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "loading..."
+    ]
+  },
+  "endoflife-date": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "loading..."
+    ]
+  },
+  "filebrowser": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "robolaunch"
+    ]
+  },
+  "acacode": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "ton-society": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "PyO3": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "crate-ci": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "nextest-rs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "archlinux"
+    ]
+  },
+  "Xinyuan-LilyGO": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "app digital solutions"
+    ]
+  },
+  "ipfs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "ARMmbed": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "runpod": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "hubx"
+    ]
+  },
+  "ppy": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "pgcentralfoundation": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "citusdata"
+    ]
+  },
+  "rollup": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "beycanpress"
+    ]
+  },
+  "puppeteer": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "python-poetry": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "orangery gmbh"
+    ]
+  },
+  "Azure": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "kubeedge": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "marmara university"
+    ]
+  },
+  "containerd": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "marmara university"
+    ]
   },
   "libp2p": {
     "score": 9,
@@ -4711,11 +4768,274 @@
       "gelatodigital"
     ]
   },
-  "npgsql": {
+  "DeterminateSystems": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "sqlitebrowser": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "ClickHouse": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "eclipse-sumo": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "mavi uçak bilişim ve i̇leri teknoloji as"
+      "mosaş group"
+    ]
+  },
+  "massgravel": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "docker-library": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "digital science"
+    ]
+  },
+  "googlemaps": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "dotnet-outdated": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "styled-components": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "favger"
+    ]
+  },
+  "rails": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "modaltrans"
+    ]
+  },
+  "netbox-community": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "boğaziçi üniversitesi"
+    ]
+  },
+  "iv-org": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "emscripten-core": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "pulpoar"
+    ]
+  },
+  "Netflix": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "ddosify"
+    ]
+  },
+  "powa-team": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "cocos": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "element-hq": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "livekit": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "playgra ltd."
+    ]
+  },
+  "twbs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "bozworks"
+    ]
+  },
+  "typeorm": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "prinwork/shipentegra"
+    ]
+  },
+  "pallets": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "simple-icons": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "altıntaş"
+    ]
+  },
+  "freqtrade": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "çukurova university"
+    ]
+  },
+  "telegraf": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "luppux"
+    ]
+  },
+  "typescript-eslint": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "yapı kredi teknoloji via metasis"
+    ]
+  },
+  "trailofbits": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "boğaziçi university"
+    ]
+  },
+  "ebitenui": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "vuelto-org, @lidmap2d-org"
+    ]
+  },
+  "pgjdbc": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "yodha"
+    ]
+  },
+  "storj": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "quarkiverse": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "codex-team": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "mohimmatech"
+    ]
+  },
+  "siyuan-note": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "qtile": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "ente-io": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "teknasyon"
+    ]
+  },
+  "manga-download": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "TencentARC": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "wiro ai"
+    ]
+  },
+  "eclipse-zenoh": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "boğaziçi university @bouncmpe"
+    ]
+  },
+  "boostorg": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "boğaziçi university @bouncmpe"
+    ]
+  },
+  "coqui-ai": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "jhipster": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "thingsboard": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "MarlinFirmware": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "bd"
+    ]
+  },
+  "PrestaShop": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "prestaconnect"
+    ]
+  },
+  "nCine": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "masscollabs"
     ]
   },
   "authpass": {
@@ -4725,15 +5045,120 @@
       "masscollabs"
     ]
   },
-  "react-native-maps": {
+  "CocoaPods": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "ipfs": {
+  "iina": {
     "score": 9,
     "contributors": 1,
     "companies": []
+  },
+  "cockroachdb": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "trendyol"
+    ]
+  },
+  "next-step": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "assistt"
+    ]
+  },
+  "rhboot": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "cloud linux"
+    ]
+  },
+  "aria2": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "libjxl": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "hapijs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "yazilimcimekani"
+    ]
+  },
+  "Free-TV": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "open-mmlab": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "highcharts": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "fornax software"
+    ]
+  },
+  "magento": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "kovinet web solutions"
+    ]
+  },
+  "zarr-developers": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "vitus-commodities"
+    ]
+  },
+  "trezor": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "istanbul technical university"
+    ]
+  },
+  "massalabs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "istanbul technical university"
+    ]
+  },
+  "knex": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "git-tfs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "getredash": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "bluenviron": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "deeplab studio"
+    ]
   },
   "arthenica": {
     "score": 9,
@@ -4763,106 +5188,6 @@
       "deeplab studio"
     ]
   },
-  "netbox-community": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "boğaziçi üniversitesi"
-    ]
-  },
-  "emscripten-core": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "pulpoar"
-    ]
-  },
-  "storj": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "siemens": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "Netflix": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "ddosify"
-    ]
-  },
-  "containerd": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "marmara university"
-    ]
-  },
-  "immich-app": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "tusaş"
-    ]
-  },
-  "caprover": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "tusaş"
-    ]
-  },
-  "trpc": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "opera"
-    ]
-  },
-  "internetarchive": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "roofstacks"
-    ]
-  },
-  "endoflife-date": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "roofstacks"
-    ]
-  },
-  "macvim-dev": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "envoyproxy": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "fish-shell": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "kartaca"
-    ]
-  },
-  "Free-TV": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "invertase": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
   "adobe": {
     "score": 9,
     "contributors": 1,
@@ -4873,42 +5198,6 @@
     "contributors": 1,
     "companies": []
   },
-  "nyaruka": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "HumanSignal": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "HabitRPG": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "jetty": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "migroscomtr"
-    ]
-  },
-  "pulumi": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "rent ready llc"
-    ]
-  },
-  "codex-team": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "mohimmatech"
-    ]
-  },
   "expressjs": {
     "score": 9,
     "contributors": 1,
@@ -4916,406 +5205,46 @@
       "trendyol"
     ]
   },
-  "PyCQA": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "delivers.ai"
-    ]
-  },
-  "vuetifyjs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "odeontechnology"
-    ]
-  },
-  "pixelfed": {
+  "AvaloniaUI": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "charmbracelet": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "getir"
-    ]
-  },
-  "vite-pwa": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "kaira network"
-    ]
-  },
-  "ToolJet": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "indata industrial data tech"
-    ]
-  },
-  "uNetworking": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "the-guild-org"
-    ]
-  },
-  "trinodb": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "vlmedia"
-    ]
-  },
-  "TeamNewPipe": {
+  "serilog": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "odoo": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "freelancer"
-    ]
-  },
-  "dotnet-outdated": {
+  "unoplatform": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "rails": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "modaltrans"
-    ]
-  },
-  "filebrowser": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "robolaunch"
-    ]
-  },
-  "BuilderIO": {
+  "bootstrap-ruby": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "powa-team": {
+  "web3": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "spesmilo": {
+  "containers": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "lxc": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "coder"
-    ]
-  },
-  "kreuzwerker": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "coder"
-    ]
-  },
-  "puppeteer": {
+  "helix-editor": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "esp8266": {
+  "nrwl": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "bd"
-    ]
-  },
-  "massalabs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "istanbul technical university"
-    ]
-  },
-  "cocos": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "vmware": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "RPCS3": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "mozilla": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "signhost/entrust"
-    ]
-  },
-  "react-navigation": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "SceneView": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "helikon"
-    ]
-  },
-  "saleor": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "ReClassNET": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "thingsboard": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "SimformSolutionsPvtLtd": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "fennel"
-    ]
-  },
-  "spm": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "eclipse-sumo": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "mosaş group"
-    ]
-  },
-  "XiaomiFirmwareUpdater": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "originjs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "helorobo"
-    ]
-  },
-  "alibaba": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "huawei"
-    ]
-  },
-  "openwrt": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "modal-labs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "safevideo @ultralytics"
-    ]
-  },
-  "fluentmigrator": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "serenity.is"
-    ]
-  },
-  "magento": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "kovinet web solutions"
-    ]
-  },
-  "pimcore": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "kovinet web solutions"
-    ]
-  },
-  "pyg-team": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "vispera"
-    ]
-  },
-  "NvChad": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "ARMmbed": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "nvim-neo-tree": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "mrgnlabs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "SymmetricDevs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "sourcegraph": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "rollup": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "beycanpress"
-    ]
-  },
-  "10up": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "beycanpress"
-    ]
-  },
-  "AgoraIO": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "ekos.ai"
-    ]
-  },
-  "prometheus-community": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "docker-library": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "digital science"
-    ]
-  },
-  "denoland": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "nordeck"
-    ]
-  },
-  "chartjs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "omwo technology"
-    ]
-  },
-  "runpod": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "hubx"
-    ]
-  },
-  "wailsapp": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "kadir gün"
-    ]
-  },
-  "quilljs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "autogluon": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "trendyol"
-    ]
-  },
-  "postmanlabs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "remix-run": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "telenity"
-    ]
-  },
-  "GeyserMC": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "SteelSeries": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "code-hike": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "remotion-dev": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "TencentARC": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "wiro ai"
+      "sharz.net"
     ]
   },
   "vlang": {
@@ -5325,205 +5254,61 @@
       "teknasyon-teknoloji"
     ]
   },
-  "gitbutlerapp": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "ubports": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "radix-ui": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "OpenLiberty": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "tigahealth"
-    ]
-  },
   "prisma": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "SeleniumHQ": {
+  "Elytrium": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "hire me please"
+    ]
+  },
+  "modrinth": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "hire me please"
+    ]
+  },
+  "envoyproxy": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "unum-cloud": {
+  "centrifugal": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "tumantra"
+    ]
+  },
+  "rainbow-me": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "heroes of nft"
+    ]
+  },
+  "electron-userland": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "PX4": {
+  "qdrant": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "ems elektronik ve medikal sistemler a.ş"
+      "kairosfuture @financiai"
     ]
   },
-  "freqtrade": {
+  "lutris": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "çukurova university"
-    ]
-  },
-  "pinpoint-apm": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "tubitak bilgem yte"
-    ]
-  },
-  "ente-io": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "teknasyon"
-    ]
-  },
-  "fontsource": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "bolu i̇zzet baysal üniversitesi"
-    ]
-  },
-  "verilog-to-routing": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "IridiumIO": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "cargo2nix": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "doofemshmirtz evil inc."
-    ]
-  },
-  "lobsters": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "doofemshmirtz evil inc."
-    ]
-  },
-  "coqui-ai": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "siyuan-note": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "qtile": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "libjxl": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "Wox-launcher": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "frumatic"
-    ]
-  },
-  "iina": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "transloadit": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "artrepreneur"
-    ]
-  },
-  "dellytools": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "genomize"
-    ]
-  },
-  "quinlan-lab": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "genomize"
-    ]
-  },
-  "aws-ia": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "genomize"
-    ]
-  },
-  "PacificBiosciences": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "genomize"
-    ]
-  },
-  "FreeTubeApp": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "primocms": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "modernweb-dev": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "trendyol"
-    ]
-  },
-  "material-foundation": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "grandmount"
-    ]
-  },
-  "yt-dlp": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "put.io"
-    ]
-  },
-  "nrwl": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "jotform"
+      "trimoon-inc"
     ]
   },
   "uBlockOrigin": {
@@ -5531,146 +5316,15 @@
     "contributors": 1,
     "companies": []
   },
-  "nvim-tree": {
+  "twitter": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "assimp": {
+  "pygraphviz": {
     "score": 9,
     "contributors": 1,
     "companies": []
-  },
-  "Authenticator-Extension": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "next-step": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "assistt"
-    ]
-  },
-  "pi-hole": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "sidebase": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "greensock": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "playable-factory"
-    ]
-  },
-  "zopefoundation": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "dcipher analytics"
-    ]
-  },
-  "OpenRA": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "geode-sdk": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "bitwarden": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "tensorflow": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "ScoopInstaller": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "working from home"
-    ]
-  },
-  "telegraf": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "luppux"
-    ]
-  },
-  "lottie-react-native": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "allwere"
-    ]
-  },
-  "gevent": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "parca-dev": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "esphome": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "nwjs": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "makenotion": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "sqlitebrowser": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "OneSignal": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "smart station"
-    ]
-  },
-  "markdown-it": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "nuxt-community": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "uqfoundation": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "fal-ai"
-    ]
   },
   "matterhorn-chat": {
     "score": 9,
@@ -5687,106 +5341,84 @@
     "contributors": 1,
     "companies": []
   },
-  "lutris": {
+  "clap-rs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "console-rs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "HaxeFlixel": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "trimoon-inc"
+      "mobileporting"
     ]
   },
-  "swagger-api": {
+  "ocaml": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "t.o.m."
+      "mobileporting"
     ]
   },
-  "cockroachdb": {
+  "type-challenges": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "paramtech financial solutions"
+    ]
+  },
+  "supabase": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "OpenZeppelin": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "pinpoint-apm": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "tubitak bilgem yte"
+    ]
+  },
+  "telegramdesktop": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "PHPMailer": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "moverals"
+    ]
+  },
+  "kedacore": {
     "score": 9,
     "contributors": 1,
     "companies": [
       "trendyol"
     ]
   },
-  "komodorio": {
+  "OneSignal": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "epam"
+      "smart station"
     ]
   },
-  "CocoaPods": {
+  "thunderbird": {
     "score": 9,
     "contributors": 1,
     "companies": []
-  },
-  "open-mmlab": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
-  "taiga-family": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "kant"
-    ]
-  },
-  "kubesphere": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "trendyol"
-    ]
-  },
-  "django-import-export": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "codemotion ninjas"
-    ]
-  },
-  "modelscope": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "monstermmorpg"
-    ]
-  },
-  "SYSTRAN": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "monstermmorpg"
-    ]
-  },
-  "Softcatala": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "monstermmorpg"
-    ]
-  },
-  "owncast": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "izmirfen"
-    ]
-  },
-  "alacritty": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "izmirfen"
-    ]
-  },
-  "ovity": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "teammadduck"
-    ]
   },
   "couchbase": {
     "score": 9,
@@ -5798,12 +5430,72 @@
     "contributors": 1,
     "companies": []
   },
-  "mitsuba-renderer": {
+  "milvus-io": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "altineller robotik ve yazılım a.ş."
+      "zingo yapay zeka"
     ]
+  },
+  "SceneView": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "helikon"
+    ]
+  },
+  "keepassxreboot": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "facebookresearch": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "delivers.ai"
+    ]
+  },
+  "StackExchange": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "NuGet": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "FreeTubeApp": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "chaos-mesh": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "hazelcast"
+    ]
+  },
+  "fontsource": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "bolu i̇zzet baysal üniversitesi"
+    ]
+  },
+  "transloadit": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "artrepreneur"
+    ]
+  },
+  "moderngl": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
   },
   "coral-xyz": {
     "score": 9,
@@ -5833,243 +5525,369 @@
       "cukurovablock"
     ]
   },
-  "safe-global": {
+  "wailsapp": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "kadir gün"
+    ]
+  },
+  "fluentmigrator": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "serenity.is"
+    ]
+  },
+  "code-hike": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "supabase": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "quickload"
-    ]
-  },
-  "BinomialLLC": {
+  "remotion-dev": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "HaxeFlixel": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "mobileporting"
-    ]
-  },
-  "ocaml": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "mobileporting"
-    ]
-  },
-  "type-challenges": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "paramtech financial solutions"
-    ]
-  },
-  "bootstrap-ruby": {
+  "ubports": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "serilog": {
+  "uqfoundation": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "fal-ai"
+    ]
+  },
+  "modelscope": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "monstermmorpg"
+    ]
+  },
+  "SYSTRAN": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "monstermmorpg"
+    ]
+  },
+  "Softcatala": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "monstermmorpg"
+    ]
+  },
+  "originjs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "helorobo"
+    ]
+  },
+  "eclipse-ee4j": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "unoplatform": {
+  "kubesphere": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "trendyol"
+    ]
+  },
+  "weaviate": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "havelsan"
+    ]
+  },
+  "ToolJet": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "indata industrial data tech"
+    ]
+  },
+  "streetsidesoftware": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "gain-medya"
+    ]
+  },
+  "searxng": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "crate-ci": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "archlinux"
-    ]
-  },
-  "PyO3": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "archlinux"
-    ]
-  },
-  "knex": {
+  "pi-hole": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "drizzle-team": {
+  "denoland": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "merzigo"
+      "nordeck"
     ]
+  },
+  "spring-guides": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "postmanlabs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "honojs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "icons8": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "saya for everyone (sayafe.org)"
+    ]
+  },
+  "Authenticator-Extension": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
   },
   "istio": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "ppy": {
+  "ovity": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "teammadduck"
+    ]
+  },
+  "axios": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "t.o.m."
+    ]
+  },
+  "googleforgames": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "infumia"
+    ]
+  },
+  "ScoopInstaller": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "working from home"
+    ]
+  },
+  "ONLYOFFICE": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "working from home"
+    ]
+  },
+  "AntennaPod": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "working from home"
+    ]
+  },
+  "RustAudio": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "NVIDIAGameWorks": {
+  "jfrog": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "metu eee 20 - ceng 21"
+      "coder"
     ]
   },
-  "Nuitka": {
+  "lxc": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "metu eee 20 - ceng 21"
+      "coder"
     ]
   },
-  "warmcat": {
+  "firebase": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "frozen forest"
+      "grandmount"
     ]
   },
-  "EpicGames": {
+  "material-foundation": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "frozen forest"
+      "grandmount"
     ]
   },
-  "open62541": {
+  "exyte": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "frozen forest"
+      "akbank"
     ]
   },
-  "ebitenui": {
+  "IsThereAnyDeal": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "lidmap2d-org"
+      "akbank"
     ]
   },
-  "pgcentralfoundation": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "citusdata"
-    ]
-  },
-  "qdrant": {
+  "NvChad": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "calcom": {
+  "framer": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "Elytrium": {
+  "phpstan": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "hire me please"
+      "vardot"
     ]
   },
-  "modrinth": {
+  "lando": {
     "score": 9,
     "contributors": 1,
     "companies": [
-      "hire me please"
+      "vardot"
     ]
   },
-  "acacode": {
+  "sulu": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "vardot"
+    ]
+  },
+  "qbittorrent": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "obilet"
+    ]
+  },
+  "fluttercommunity": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "mui": {
+  "jetty": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "migroscomtr"
+    ]
+  },
+  "mesonbuild": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "turkman - pardus - muslimlinux"
+    ]
+  },
+  "redwoodjs": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "palomachain": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "secard"
-    ]
-  },
-  "moderngl": {
+  "sidebase": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "trailofbits": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "boğaziçi university"
-    ]
-  },
-  "Avaiga": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "bahcesehir university"
-    ]
-  },
-  "nomic-ai": {
-    "score": 9,
-    "contributors": 1,
-    "companies": [
-      "bahcesehir university"
-    ]
-  },
-  "terser": {
+  "TeamNewPipe": {
     "score": 9,
     "contributors": 1,
     "companies": []
+  },
+  "mitsuba-renderer": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "altineller robotik ve yazılım a.ş."
+    ]
+  },
+  "SimformSolutionsPvtLtd": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "fennel"
+    ]
+  },
+  "mrgnlabs": {
+    "score": 9,
+    "contributors": 1,
+    "companies": []
+  },
+  "react-tags": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "qenzy"
+    ]
+  },
+  "tabler": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "qenzy"
+    ]
+  },
+  "pydantic": {
+    "score": 9,
+    "contributors": 1,
+    "companies": [
+      "bold-auto-transport"
+    ]
   },
   "n8n-io": {
     "score": 9,
     "contributors": 1,
     "companies": []
   },
-  "NuGet": {
-    "score": 9,
-    "contributors": 1,
-    "companies": []
-  },
   "openembedded": {
-    "score": 8,
+    "score": 7,
     "contributors": 1,
     "companies": []
   },
-  "LibreOffice": {
-    "score": 5,
-    "contributors": 3,
-    "companies": [
-      "pisi gnu/linux",
-      "collabora productivity"
-    ]
-  },
-  "blackfireio": {
-    "score": 5,
+  "Unboxed-Software": {
+    "score": 6,
     "contributors": 4,
-    "companies": []
+    "companies": [
+      "bloom"
+    ]
   },
   "alpinelinux": {
     "score": 5,
@@ -6078,70 +5896,29 @@
       "archlinux"
     ]
   },
+  "LibreOffice": {
+    "score": 5,
+    "contributors": 2,
+    "companies": [
+      "collabora productivity"
+    ]
+  },
   "postgres-ai": {
     "score": 4,
     "contributors": 3,
     "companies": []
-  },
-  "pathwaycom": {
-    "score": 4,
-    "contributors": 2,
-    "companies": []
-  },
-  "Unboxed-Software": {
-    "score": 3,
-    "contributors": 2,
-    "companies": [
-      "bloom"
-    ]
-  },
-  "moonbeam-foundation": {
-    "score": 1,
-    "contributors": 1,
-    "companies": []
-  },
-  "polkadot-evm": {
-    "score": 1,
-    "contributors": 1,
-    "companies": []
-  },
-  "UniversalDependencies": {
-    "score": 1,
-    "contributors": 1,
-    "companies": [
-      "bouncmpe"
-    ]
-  },
-  "tidyverse": {
-    "score": 1,
-    "contributors": 1,
-    "companies": [
-      "istanbul technical university"
-    ]
   },
   "reaviz": {
     "score": 1,
     "contributors": 1,
     "companies": []
   },
-  "typeorm": {
+  "primer": {
     "score": 1,
     "contributors": 1,
     "companies": [
-      "istanbul technical university"
+      "nullovy"
     ]
-  },
-  "daisyui": {
-    "score": 1,
-    "contributors": 1,
-    "companies": [
-      "daisyui. prev: @manasky @atbox"
-    ]
-  },
-  "strangelove-ventures": {
-    "score": 1,
-    "contributors": 1,
-    "companies": []
   },
   "webmproject": {
     "score": 1,
@@ -6153,30 +5930,33 @@
     "contributors": 1,
     "companies": []
   },
-  "openzipkin": {
+  "dracula": {
+    "score": 1,
+    "contributors": 1,
+    "companies": [
+      "trendyol"
+    ]
+  },
+  "python-lsp": {
     "score": 1,
     "contributors": 1,
     "companies": []
   },
-  "KubeOperator": {
+  "archlinux": {
+    "score": 1,
+    "contributors": 1,
+    "companies": []
+  },
+  "UniversalDependencies": {
     "score": 1,
     "contributors": 1,
     "companies": [
-      "nullovy"
+      "bouncmpe"
     ]
   },
-  "signalapp": {
+  "thirdweb-dev": {
     "score": 1,
     "contributors": 1,
-    "companies": [
-      "nullovy"
-    ]
-  },
-  "shuttle-hq": {
-    "score": 1,
-    "contributors": 1,
-    "companies": [
-      "archlinux"
-    ]
+    "companies": []
   }
 }
