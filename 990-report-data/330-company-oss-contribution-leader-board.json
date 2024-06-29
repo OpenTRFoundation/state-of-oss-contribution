@@ -115,8 +115,6 @@
       "99designs/gqlgen": 9,
       "CollaboraOnline/online": 630,
       "ParadiseSS13/Paradise": 393,
-      "opencv/opencv": 165,
-      "opencv/opencv_contrib": 85,
       "breez/c-breez": 461,
       "breez/breez-liquid-sdk": 419,
       "breez/breez-sdk": 410,
@@ -128,6 +126,8 @@
       "breez/breez-sdk-rn-generator": 60,
       "breez/breez-liquid-sdk-swift": 30,
       "breez/breez-sdk-swift": 30,
+      "opencv/opencv": 165,
+      "opencv/opencv_contrib": 85,
       "odoo/odoo": 146,
       "ironhack-labs/lab-react-iron-travels": 84,
       "ironhack-labs/lab-js-countdown": 60,
@@ -280,15 +280,15 @@
       "babel/website": 91,
       "sveltejs/kit": 60,
       "vite-pwa/vite-plugin-pwa": 9,
+      "flutter/website": 61,
+      "localsend/website": 61,
+      "localsend/localsend": 70,
       "open-sauced/app": 20,
       "nextauthjs/next-auth": 108,
       "open-sauced/landing-page": 9,
       "shadcn-ui/ui": 78,
       "open-sauced/.github": 1,
       "ant-design/ant-design": 60,
-      "flutter/website": 61,
-      "localsend/website": 61,
-      "localsend/localsend": 70,
       "jenkinsci/jenkins": 122,
       "aws-amplify/amplify-flutter": 97,
       "aws-amplify/amplify-backend": 69,
@@ -329,13 +329,13 @@
       "public-awesome/launchpad": 220,
       "public-awesome/names": 104,
       "public-awesome/stargaze-tools": 60,
+      "duckdb/duckdb": 79,
+      "ClickHouse/ClickBench": 60,
       "symfony/symfony": 69,
       "common-voice/common-voice": 122,
       "common-voice/cv-dataset": 69,
       "mozilla/discourse": 9,
       "IridiumIO/CompactGUI": 9,
-      "duckdb/duckdb": 79,
-      "ClickHouse/ClickBench": 60,
       "quarkusio/quarkus": 61,
       "quarkiverse/quarkus-web-bundler": 9,
       "commaai/openpilot": 60,
@@ -347,20 +347,11 @@
       "supabase/supabase": 70,
       "withastro/astro": 61,
       "gleam-lang/crypto": 9,
-      "fluencelabs/deal": 331,
-      "fluencelabs/network-explorer": 233,
-      "fluencelabs/dao": 105,
-      "fluencelabs/selectors-telegram-bot": 66,
-      "fluencelabs/email-faucet": 61,
-      "fluencelabs/safe-tasks": 60,
-      "fluencelabs/cli": 30,
-      "safe-global/safe-singleton-factory": 9,
-      "fluencelabs/tx-debug": 3,
       "rotki/rotki": 100,
       "electric-capital/crypto-ecosystems": 61,
       "ddnet/ddnet": 161,
-      "huggingface/diffusers": 85,
       "massgravel/Microsoft-Activation-Scripts": 69,
+      "huggingface/diffusers": 85,
       "iamkun/dayjs": 60,
       "BitBoxSwiss/bitbox-wallet-app": 9,
       "kubernetes/website": 61,
@@ -368,11 +359,11 @@
       "primefaces/primevue": 113,
       "dair-ai/Prompt-Engineering-Guide": 60,
       "microsoft/vscode-data-wrangler": 9,
-      "kubernetes-client/c": 95,
-      "conan-io/conan-center-index": 69,
       "runtimeverification/mx-semantics": 363,
       "runtimeverification/wasm-semantics": 179,
       "runtimeverification/k": 30,
+      "kubernetes-client/c": 95,
+      "conan-io/conan-center-index": 69,
       "carbon-design-system/carbon": 85,
       "openai/openai-cookbook": 61,
       "microsoft/BatteryML": 69,
@@ -453,14 +444,14 @@
       "tonkeeper/api_monitoring_stats": 1,
       "tonkeeper/scam_backoffice_rules": 1,
       "raycast/extensions": 87,
-      "mui/material-ui": 24,
-      "knex/knex": 9,
       "DefiLlama/dimension-adapters": 61,
       "axelarnetwork/axelar-configs": 61,
       "DefiLlama/yield-server": 122,
       "microsoft/clarity-apps": 9,
-      "questdb/questdb": 60,
       "cloudflare/cloudflare-docs": 61,
+      "mui/material-ui": 24,
+      "knex/knex": 9,
+      "questdb/questdb": 60,
       "OpenRA/OpenRA": 42,
       "autowarefoundation/AWSIM-Labs": 385,
       "autowarefoundation/autoware_individual_params": 104,
@@ -476,6 +467,14 @@
       "WordPress/openverse": 90,
       "esphome/esphome": 61,
       "pqina/filepond": 60,
+      "fluencelabs/network-explorer": 233,
+      "fluencelabs/dao": 105,
+      "fluencelabs/selectors-telegram-bot": 66,
+      "fluencelabs/email-faucet": 61,
+      "fluencelabs/safe-tasks": 60,
+      "fluencelabs/cli": 30,
+      "safe-global/safe-singleton-factory": 9,
+      "fluencelabs/tx-debug": 3,
       "nodejs/nodejs.org": 61,
       "86Box/roms": 61,
       "86Box/86Box": 61,
@@ -507,13 +506,6 @@
       "minbrowser/min": 61,
       "blueman-project/blueman": 71,
       "letsencrypt/website": 9,
-      "minetest/minetest": 9,
-      "libre-tube/LibreTube": 9,
-      "TeamNewPipe/NewPipe": 9,
-      "espresso-cash/espresso-cash-public": 60,
-      "redhat-cop/cloud.aws_ops": 9,
-      "ansible-collections/amazon.aws": 9,
-      "o1-labs/docs2": 9,
       "canonical/temporal-worker-k8s-operator": 164,
       "canonical/trino-k8s-operator": 84,
       "canonical/airbyte-k8s": 73,
@@ -529,6 +521,13 @@
       "canonical/temporal-ui-k8s-operator": 30,
       "canonical/airbyte": 90,
       "canonical/charmed-ranger-rock": 30,
+      "minetest/minetest": 9,
+      "libre-tube/LibreTube": 9,
+      "TeamNewPipe/NewPipe": 9,
+      "espresso-cash/espresso-cash-public": 60,
+      "redhat-cop/cloud.aws_ops": 9,
+      "ansible-collections/amazon.aws": 9,
+      "o1-labs/docs2": 9,
       "betaflight/config": 91,
       "betaflight/unified-targets": 90,
       "graphprotocol/graph-node": 60,
@@ -573,6 +572,7 @@
       "keep-starknet-strange/rosettanet": 299,
       "allure-framework/allure2": 60,
       "akveo/ngx-admin": 30,
+      "pytorch/torchtune": 69,
       "fern-api/fern": 39,
       "Azure/autorest": 9,
       "unrealcv/unrealcv": 103,
@@ -585,7 +585,6 @@
       "apple/app-store-server-library-java": 9,
       "MarathonLabs/marathon": 91,
       "MarathonLabs/marathon-cloud-cli": 73,
-      "pytorch/torchtune": 69,
       "airbytehq/airbyte": 18,
       "withastro/starlight": 61,
       "rime/weasel": 60,
@@ -596,6 +595,8 @@
       "postmanlabs/postman-app-support": 18,
       "cosmos/chain-registry": 61,
       "PKief/vscode-material-icon-theme": 60,
+      "FirefoxCSS-Store/FirefoxCSS-Store.github.io": 86,
+      "sddm/sddm": 9,
       "railsgirls/railsgirls.com": 85,
       "OpenFlutter/flutter_screenutil": 61,
       "balena-io/etcher": 9,
@@ -606,21 +607,20 @@
       "jup-ag/token-list": 60,
       "vuejs/language-tools": 9,
       "microsoft/playwright": 21,
+      "MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot": 114,
+      "MicrosoftLearning/Guided-project-Build-an-Autosuggest-Engine-with-Copilot": 60,
+      "docker/for-win": 18,
       "unocss/unocss": 30,
-      "FirefoxCSS-Store/FirefoxCSS-Store.github.io": 86,
-      "sddm/sddm": 9,
       "vmware-tanzu/secrets-manager": 94,
       "SerenityOS/jakt": 61,
+      "spatie/laravel-html": 122,
       "redis/jedis": 31,
       "segmentio/action-destinations": 85,
       "bitnami/charts": 18,
       "bitnami/containers": 9,
       "mage-ai/helm-charts": 9,
       "git-tfs/git-tfs": 9,
-      "MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot": 114,
-      "MicrosoftLearning/Guided-project-Build-an-Autosuggest-Engine-with-Copilot": 60,
       "eco-stake/validator-registry": 61,
-      "docker/for-win": 18,
       "easypanel-io/templates": 136,
       "Codecademy/wedding-rsvp-off-platform-project": 120,
       "HKUST-Aerial-Robotics/VINS-Fusion": 60,
@@ -629,7 +629,6 @@
       "grafana/grafana": 9,
       "vercel/next.js": 18,
       "citusdata/tools": 160,
-      "spatie/laravel-html": 122,
       "kubermatic/docs": 85,
       "facebook/react-native": 9,
       "fullcalendar/fullcalendar": 9,
@@ -645,8 +644,12 @@
       "softwaremill/elasticmq": 60,
       "tauri-apps/tauri-docs": 60,
       "strapi/documentation": 61,
+      "IntellectualSites/FastAsyncWorldEdit": 12,
+      "itzg/docker-minecraft-server": 9,
+      "IrisShaders/Iris": 9,
       "near/docs": 61,
       "spatie/laravel-translatable": 61,
+      "ValveSoftware/Dota2-Gameplay": 27,
       "flathub/io.github.libredirect.frontends-manager": 86,
       "georust/geos": 70,
       "libredirect/browser_extension": 5,
@@ -664,19 +667,18 @@
       "aws/aws-mwaa-local-runner": 84,
       "irontec/ivozprovider": 60,
       "Trendyol/react-carousel": 134,
-      "IntellectualSites/FastAsyncWorldEdit": 12,
-      "itzg/docker-minecraft-server": 9,
-      "IrisShaders/Iris": 9,
       "DataDog/integrations-extras": 61,
       "spatie/image-optimizer": 60,
       "antvis/G6": 25,
       "SteamDeckHomebrew/decky-plugin-database": 61,
       "thunderclient/thunder-client-support": 9,
       "steve-community/steve": 60,
-      "ValveSoftware/Dota2-Gameplay": 27,
       "acquia/cli": 69,
       "expo/expo": 33,
       "knuckleswtf/scribe": 60,
+      "devaslanphp/project-management": 9,
+      "Leantime/leantime": 9,
+      "goauthentik/authentik": 9,
       "openconfig/public": 60,
       "laravel/reverb": 9,
       "inertiajs/inertia-laravel": 60,
@@ -694,9 +696,6 @@
       "louislam/uptime-kuma": 9,
       "supabase/supabase-flutter": 9,
       "huggingface/huggingface.js": 61,
-      "devaslanphp/project-management": 9,
-      "Leantime/leantime": 9,
-      "goauthentik/authentik": 9,
       "react-native-community/directory": 61,
       "open-domains/register": 60,
       "uhub/awesome-go": 60,
@@ -714,6 +713,7 @@
       "fedora-infra/webhook-to-fedora-messaging": 104,
       "fedora-infra/pagure-exporter": 85,
       "fedora-infra/webhook-to-fedora-messaging-messages": 60,
+      "appwrite/website": 70,
       "tgstation/tgstation": 9,
       "Genymobile/scrcpy": 9,
       "huggingface/cookbook": 62,
@@ -722,7 +722,6 @@
       "aria2/aria2": 9,
       "OpenBoard-org/OpenBoard": 9,
       "nuxt/nuxt": 9,
-      "appwrite/website": 70,
       "ProtonVPN/proton-vpn-gtk-app": 9,
       "telegramdesktop/tdesktop": 9,
       "strapi/strapi": 9,
@@ -767,6 +766,7 @@
       "Trendyol/android-ui-components": 91,
       "aws/aws-elastic-beanstalk-cli-setup": 60,
       "chronotruck/FlagPhoneNumber": 62,
+      "pmndrs/zustand": 9,
       "CodeYourFuture/curriculum": 60,
       "redwoodjs/redwood": 12,
       "teslamotors/fleet-telemetry": 60,
@@ -783,7 +783,6 @@
       "surrealdb/docs.surrealdb.com": 61,
       "FOSSBilling/FOSSBilling": 30,
       "huggingface/data-is-better-together": 91,
-      "pmndrs/zustand": 9,
       "AlmaLinux/wiki": 70,
       "vectordotdev/vector": 9,
       "ShareX/ShareX": 9,
@@ -803,7 +802,9 @@
       "keplergl/kepler.gl": 15,
       "pop-os/cosmic-term": 61,
       "leggedrobotics/elevation_mapping_cupy": 61,
+      "coollabsio/coolify": 9,
       "Ludeon/RimWorld-Turkish": 61,
+      "firefly-iii/firefly-iii": 9,
       "electron-userland/electron-builder": 9,
       "pathwaycom/pathway": 14,
       "pathwaycom/llm-app": 3,
@@ -817,16 +818,15 @@
       "GDQuest/learn-gdscript-translations": 1,
       "kubernetes/dashboard": 9,
       "ruby/TryRuby": 61,
-      "coollabsio/coolify": 9,
       "SpacehuhnTech/espwebtool": 60,
       "SpacehuhnTech/serialterminal": 60,
       "nextui-org/nextui": 27,
-      "firefly-iii/firefly-iii": 9,
       "dbt-labs/dbt-core": 9,
       "framer/motion": 9,
       "trinodb/charts": 60,
       "NuGet/Home": 9,
       "SysCV/MaskFreeVIS": 60,
+      "netbirdio/netbird": 12,
       "TigerVNC/tigervnc": 9,
       "termux-user-repository/tur": 9,
       "typesense/typesense-go": 61,
@@ -834,12 +834,12 @@
       "sushiswap/list": 30,
       "CCBlueX/LiquidCloud": 61
     },
-    "sumOfUserScores": 24517,
-    "score": 414896594,
-    "numberOfUsers": 491,
-    "userDiversityMultiplier": 123.75,
-    "contributedFocusOrgCount": 543,
-    "contributionDiversityMultiplier": 136.75
+    "sumOfUserScores": 24543,
+    "score": 416936484,
+    "numberOfUsers": 492,
+    "userDiversityMultiplier": 124,
+    "contributedFocusOrgCount": 544,
+    "contributionDiversityMultiplier": 137
   },
   {
     "name": "trendyol",
@@ -998,8 +998,8 @@
       "1Password/for-open-source": 9,
       "cncf/communitygroups": 9
     },
-    "sumOfUserScores": 584,
-    "score": 2628,
+    "sumOfUserScores": 585,
+    "score": 2632,
     "numberOfUsers": 2,
     "userDiversityMultiplier": 1.5,
     "contributedFocusOrgCount": 8,
@@ -1026,8 +1026,8 @@
       "archlinux/state": 19,
       "wez/wezterm": 1
     },
-    "sumOfUserScores": 433,
-    "score": 2300,
+    "sumOfUserScores": 434,
+    "score": 2305,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 13,
@@ -1078,8 +1078,8 @@
       "cncf/mentoring": 30,
       "upbound/terraform-provider-aws": 30
     },
-    "sumOfUserScores": 454,
-    "score": 1816,
+    "sumOfUserScores": 455,
+    "score": 1820,
     "numberOfUsers": 4,
     "userDiversityMultiplier": 2,
     "contributedFocusOrgCount": 4,
@@ -1261,22 +1261,6 @@
     "contributionDiversityMultiplier": 2.5
   },
   {
-    "name": "the-guild-org",
-    "contributionScoresPerRepository": {
-      "ardatan/graphql-tools": 468,
-      "graphql/graphql-js": 112,
-      "graphql-compose/graphql-compose": 70,
-      "graphprotocol/graph-client": 61,
-      "zalando-incubator/graphql-jit": 30
-    },
-    "sumOfUserScores": 201,
-    "score": 565,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 5,
-    "contributionDiversityMultiplier": 2.25
-  },
-  {
     "name": "fedora project",
     "contributionScoresPerRepository": {
       "roboflow/supervision": 497,
@@ -1284,6 +1268,22 @@
       "conda-forge/supervision-feedstock": 92,
       "fedora-infra/matrix-bots": 9,
       "coreos/fedora-coreos-tracker": 9
+    },
+    "sumOfUserScores": 202,
+    "score": 568,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 5,
+    "contributionDiversityMultiplier": 2.25
+  },
+  {
+    "name": "the-guild-org",
+    "contributionScoresPerRepository": {
+      "ardatan/graphql-tools": 468,
+      "graphql/graphql-js": 112,
+      "graphql-compose/graphql-compose": 70,
+      "graphprotocol/graph-client": 61,
+      "zalando-incubator/graphql-jit": 30
     },
     "sumOfUserScores": 201,
     "score": 565,
@@ -1303,8 +1303,8 @@
       "primefaces/sakai-nuxt": 2,
       "unplugin/unplugin-vue-components": 1
     },
-    "sumOfUserScores": 246,
-    "score": 553,
+    "sumOfUserScores": 248,
+    "score": 558,
     "numberOfUsers": 2,
     "userDiversityMultiplier": 1.5,
     "contributedFocusOrgCount": 2,
@@ -1353,8 +1353,8 @@
       "autowarefoundation/autoware_msgs": 30,
       "tier4/nebula": 30
     },
-    "sumOfUserScores": 224,
-    "score": 490,
+    "sumOfUserScores": 225,
+    "score": 492,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 3,
@@ -1371,8 +1371,8 @@
       "coroot/logparser": 1,
       "coroot/coroot-cluster-agent": 1
     },
-    "sumOfUserScores": 216,
-    "score": 486,
+    "sumOfUserScores": 218,
+    "score": 490,
     "numberOfUsers": 2,
     "userDiversityMultiplier": 1.5,
     "contributedFocusOrgCount": 2,
@@ -1519,8 +1519,8 @@
       "canonical/sdcore-upf-pfcpiface-rock": 42,
       "canonical/sdcore-nssf-rock": 42
     },
-    "sumOfUserScores": 193,
-    "score": 422,
+    "sumOfUserScores": 194,
+    "score": 424,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 3,
@@ -1577,7 +1577,7 @@
     "contributionDiversityMultiplier": 2
   },
   {
-    "name": "hazelcast",
+    "name": "freelancer",
     "contributionScoresPerRepository": {
       "nuxt/nuxt": 61,
       "unjs/unstorage": 60,
@@ -1618,8 +1618,8 @@
       "langchain-ai/langchainjs": 94,
       "run-llama/LlamaIndexTS": 85
     },
-    "sumOfUserScores": 184,
-    "score": 345,
+    "sumOfUserScores": 185,
+    "score": 346,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 2,
@@ -1681,15 +1681,15 @@
       "ultralytics/JSON2YOLO": 9,
       "ultralytics/assets": 9
     },
-    "sumOfUserScores": 148,
-    "score": 323,
+    "sumOfUserScores": 149,
+    "score": 325,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 3,
     "contributionDiversityMultiplier": 1.75
   },
   {
-    "name": "citusdata",
+    "name": "tyk.io",
     "contributionScoresPerRepository": {
       "TykTechnologies/tyk-docs": 1083,
       "TykTechnologies/tyk": 466,
@@ -1697,8 +1697,8 @@
       "TykTechnologies/tyk-demo": 1,
       "TykTechnologies/tyk-ci": 1
     },
-    "sumOfUserScores": 206,
-    "score": 321,
+    "sumOfUserScores": 207,
+    "score": 323,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 1,
@@ -1838,12 +1838,28 @@
       "microsoft/chat-copilot": 61,
       "langchain-ai/langchain": 9
     },
-    "sumOfUserScores": 106,
-    "score": 265,
+    "sumOfUserScores": 107,
+    "score": 267,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 4,
     "contributionDiversityMultiplier": 2
+  },
+  {
+    "name": "ubicloud",
+    "contributionScoresPerRepository": {
+      "ubicloud/ubicloud": 741,
+      "ubicloud/toolkit": 60,
+      "ubicloud/runner-images": 60,
+      "actions/runner": 9,
+      "ubicloud/github-e2e-test-workflows": 2
+    },
+    "sumOfUserScores": 139,
+    "score": 260,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5
   },
   {
     "name": "trendyol.com",
@@ -1861,29 +1877,13 @@
     "contributionDiversityMultiplier": 1.75
   },
   {
-    "name": "ubicloud",
-    "contributionScoresPerRepository": {
-      "ubicloud/ubicloud": 741,
-      "ubicloud/toolkit": 60,
-      "ubicloud/runner-images": 60,
-      "actions/runner": 9,
-      "ubicloud/github-e2e-test-workflows": 2
-    },
-    "sumOfUserScores": 138,
-    "score": 258,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5
-  },
-  {
     "name": "izmirfen",
     "contributionScoresPerRepository": {
       "NixOS/nixpkgs": 75,
       "logseq/logseq": 30
     },
-    "sumOfUserScores": 135,
-    "score": 253,
+    "sumOfUserScores": 136,
+    "score": 255,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 2,
@@ -2122,6 +2122,18 @@
     "contributionDiversityMultiplier": 1.25
   },
   {
+    "name": "synnada-ai",
+    "contributionScoresPerRepository": {
+      "apache/datafusion": 305
+    },
+    "sumOfUserScores": 123,
+    "score": 192,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 1,
+    "contributionDiversityMultiplier": 1.25
+  },
+  {
     "name": "speckle",
     "contributionScoresPerRepository": {
       "specklesystems/speckle-sharp": 485,
@@ -2152,18 +2164,6 @@
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 3,
     "contributionDiversityMultiplier": 1.75
-  },
-  {
-    "name": "synnada-ai",
-    "contributionScoresPerRepository": {
-      "apache/datafusion": 305
-    },
-    "sumOfUserScores": 122,
-    "score": 190,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 1,
-    "contributionDiversityMultiplier": 1.25
   },
   {
     "name": "deepset-ai",
@@ -2199,6 +2199,20 @@
     "contributionDiversityMultiplier": 1.5
   },
   {
+    "name": "apolytus",
+    "contributionScoresPerRepository": {
+      "nuxt/nuxt": 69,
+      "unjs/h3": 69,
+      "nuxt/ui": 12
+    },
+    "sumOfUserScores": 97,
+    "score": 181,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5
+  },
+  {
     "name": "ems elektronik ve medikal sistemler a.ş",
     "contributionScoresPerRepository": {
       "HKUST-Aerial-Robotics/VINS-Mono": 112,
@@ -2212,20 +2226,6 @@
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 3,
     "contributionDiversityMultiplier": 1.75
-  },
-  {
-    "name": "apolytus",
-    "contributionScoresPerRepository": {
-      "nuxt/nuxt": 69,
-      "unjs/h3": 69,
-      "nuxt/ui": 12
-    },
-    "sumOfUserScores": 96,
-    "score": 180,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5
   },
   {
     "name": "cerbos",
@@ -2257,19 +2257,6 @@
     "contributionDiversityMultiplier": 1.25
   },
   {
-    "name": "microsoft",
-    "contributionScoresPerRepository": {
-      "pgvector/pgvector": 69,
-      "microsoft/everyonecancode": 84
-    },
-    "sumOfUserScores": 74,
-    "score": 166,
-    "numberOfUsers": 2,
-    "userDiversityMultiplier": 1.5,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5
-  },
-  {
     "name": "stanford university",
     "contributionScoresPerRepository": {
       "StanfordVL/OmniGibson": 401,
@@ -2279,10 +2266,23 @@
       "cs231n/cs231n.github.io": 2,
       "StanfordVL/behavior": 2
     },
-    "sumOfUserScores": 88,
-    "score": 165,
+    "sumOfUserScores": 89,
+    "score": 166,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5
+  },
+  {
+    "name": "microsoft",
+    "contributionScoresPerRepository": {
+      "pgvector/pgvector": 69,
+      "microsoft/everyonecancode": 84
+    },
+    "sumOfUserScores": 74,
+    "score": 166,
+    "numberOfUsers": 2,
+    "userDiversityMultiplier": 1.5,
     "contributedFocusOrgCount": 2,
     "contributionDiversityMultiplier": 1.5
   },
@@ -2300,6 +2300,22 @@
     "contributionDiversityMultiplier": 1.25
   },
   {
+    "name": "bloom",
+    "contributionScoresPerRepository": {
+      "metaplex-foundation/developer-hub": 61,
+      "solana-foundation/developer-content": 61,
+      "solana-labs/solana-program-library": 61,
+      "Unboxed-Software/solana-lab-transfer-hooks": 2,
+      "Unboxed-Software/solana-lab-durable-nonces": 1
+    },
+    "sumOfUserScores": 65,
+    "score": 162,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 4,
+    "contributionDiversityMultiplier": 2
+  },
+  {
     "name": "eresbiotech @workouse",
     "contributionScoresPerRepository": {
       "NixOS/nixpkgs": 60
@@ -2310,22 +2326,6 @@
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 1,
     "contributionDiversityMultiplier": 1.25
-  },
-  {
-    "name": "bloom",
-    "contributionScoresPerRepository": {
-      "metaplex-foundation/developer-hub": 61,
-      "solana-foundation/developer-content": 61,
-      "solana-labs/solana-program-library": 61,
-      "Unboxed-Software/solana-lab-transfer-hooks": 2,
-      "Unboxed-Software/solana-lab-durable-nonces": 1
-    },
-    "sumOfUserScores": 64,
-    "score": 160,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 4,
-    "contributionDiversityMultiplier": 2
   },
   {
     "name": "software developer",
@@ -2384,6 +2384,19 @@
     "contributionDiversityMultiplier": 1.25
   },
   {
+    "name": "smart-alpha",
+    "contributionScoresPerRepository": {
+      "cvat-ai/cvat": 113,
+      "microsoft/onnxruntime": 9
+    },
+    "sumOfUserScores": 83,
+    "score": 155,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5
+  },
+  {
     "name": "anchor",
     "contributionScoresPerRepository": {
       "MicrosoftDocs/azure-docs": 20,
@@ -2429,19 +2442,6 @@
     "contributionDiversityMultiplier": 1.75
   },
   {
-    "name": "smart-alpha",
-    "contributionScoresPerRepository": {
-      "cvat-ai/cvat": 113,
-      "microsoft/onnxruntime": 9
-    },
-    "sumOfUserScores": 82,
-    "score": 153,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5
-  },
-  {
     "name": "poketube-org, @openbotlist, fsf, gnu",
     "contributionScoresPerRepository": {
       "iv-org/invidious": 84,
@@ -2468,6 +2468,24 @@
     "contributionDiversityMultiplier": 1.5
   },
   {
+    "name": "planning & control @ leo drive",
+    "contributionScoresPerRepository": {
+      "autowarefoundation/autoware.universe": 140,
+      "autowarefoundation/autoware-documentation": 60,
+      "autowarefoundation/autoware_internal_msgs": 30,
+      "autowarefoundation/AWSIM-Labs": 30,
+      "autowarefoundation/autoware.core": 30,
+      "autowarefoundation/autoware": 9,
+      "tier4/scenario_simulator_v2": 9
+    },
+    "sumOfUserScores": 80,
+    "score": 150,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5
+  },
+  {
     "name": "simulation",
     "contributionScoresPerRepository": {
       "kuleshov-group/llmtools": 60,
@@ -2482,24 +2500,6 @@
     "userDiversityMultiplier": 1.25,
     "contributedFocusOrgCount": 4,
     "contributionDiversityMultiplier": 2
-  },
-  {
-    "name": "planning & control @ leo drive",
-    "contributionScoresPerRepository": {
-      "autowarefoundation/autoware.universe": 140,
-      "autowarefoundation/autoware-documentation": 60,
-      "autowarefoundation/autoware_internal_msgs": 30,
-      "autowarefoundation/AWSIM-Labs": 30,
-      "autowarefoundation/autoware.core": 30,
-      "autowarefoundation/autoware": 9,
-      "tier4/scenario_simulator_v2": 9
-    },
-    "sumOfUserScores": 79,
-    "score": 148,
-    "numberOfUsers": 1,
-    "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 2,
-    "contributionDiversityMultiplier": 1.5
   },
   {
     "name": "mobileporting",
