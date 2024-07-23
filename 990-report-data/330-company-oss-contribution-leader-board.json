@@ -234,11 +234,11 @@
       "pnpm/pnpm": 9,
       "commaai/openpilot": 85,
       "hashgraph/hedera-sdk-java": 9,
+      "raysan5/raylib": 70,
+      "coronalabs/corona": 60,
       "zephyrproject-rtos/zephyr": 62,
       "analogdevicesinc/msdk": 61,
       "llvm/llvm-project": 60,
-      "raysan5/raylib": 70,
-      "coronalabs/corona": 60,
       "apache/superset": 70,
       "ant-design/ant-design": 122,
       "coollabsio/coolify": 89,
@@ -298,10 +298,10 @@
       "public-awesome/names": 104,
       "public-awesome/stargaze-tools": 60,
       "kubernetes/website": 61,
-      "dair-ai/Prompt-Engineering-Guide": 61,
-      "microsoft/vscode-data-wrangler": 9,
       "iamkun/dayjs": 60,
       "BitBoxSwiss/bitbox-wallet-app": 9,
+      "dair-ai/Prompt-Engineering-Guide": 61,
+      "microsoft/vscode-data-wrangler": 9,
       "etcd-io/etcd": 60,
       "flutter/flutter": 72,
       "kubernetes-client/c": 86,
@@ -476,6 +476,7 @@
       "xdp-project/xdp-tutorial": 113,
       "exercism/batch": 190,
       "minbrowser/min": 61,
+      "sidorares/node-mysql2": 70,
       "celestiaorg/docs": 72,
       "celestiaorg/awesome-celestia": 60,
       "aptos-labs/developer-docs": 10,
@@ -488,7 +489,6 @@
       "ironhack-labs/lab-advance-querying-mongo": 60,
       "peak/s5cmd": 104,
       "heroiclabs/nakama": 60,
-      "sidorares/node-mysql2": 70,
       "rrousselGit/riverpod": 61,
       "cdk8s-team/cdk8s-plus": 86,
       "miniflux/v2": 60,
@@ -559,6 +559,8 @@
       "MicrosoftLearning/Guided-project-Build-an-Autosuggest-Engine-with-Copilot": 60,
       "microsoft/playwright": 21,
       "tighten/ziggy": 61,
+      "Azure/azure-sdk-for-python": 12,
+      "carltongibson/django-filter": 9,
       "googleapis/python-bigquery": 69,
       "citusdata/tools": 171,
       "ferdium/ferdium-recipes": 61,
@@ -571,7 +573,6 @@
       "bitnami/containers": 9,
       "segmentio/action-destinations": 85,
       "spatie/laravel-html": 122,
-      "Codecademy/wedding-rsvp-off-platform-project": 60,
       "EmulatorJS/EmulatorJS": 61,
       "react-figma/awesome-figma": 1,
       "grafana/grafana": 9,
@@ -582,6 +583,7 @@
       "teloxide/teloxide": 62,
       "storybookjs/storybook": 9,
       "chromaui/addon-visual-tests": 9,
+      "Codecademy/wedding-rsvp-off-platform-project": 60,
       "softwaremill/elasticmq": 61,
       "mozilla-mobile/mozilla-vpn-client": 9,
       "mozilla/fxa": 9,
@@ -615,8 +617,6 @@
       "tiann/KernelSU": 1,
       "ValveSoftware/Dota2-Gameplay": 27,
       "brave/brave-browser": 21,
-      "TypeFox/monaco-languageclient": 12,
-      "microsoft/monaco-editor": 9,
       "PaloAltoNetworks/terraform-azurerm-swfw-modules": 74,
       "PaloAltoNetworks/pan-os-ansible": 51,
       "PaloAltoNetworks/pan-os-upgrade-assurance": 30,
@@ -643,6 +643,8 @@
       "openconfig/public": 60,
       "dotnet/aspnetcore": 9,
       "expo/expo": 21,
+      "TypeFox/monaco-languageclient": 12,
+      "microsoft/monaco-editor": 9,
       "devaslanphp/project-management": 9,
       "Leantime/leantime": 9,
       "goauthentik/authentik": 9,
@@ -668,7 +670,6 @@
       "CosmosContracts/council": 61,
       "tgstation/tgstation": 9,
       "mage-ai/helm-charts": 9,
-      "Azure/azure-sdk-for-python": 12,
       "Genymobile/scrcpy": 9,
       "microsoft/vcpkg": 9,
       "DefiLlama/yield-server": 61,
@@ -810,12 +811,12 @@
       "Telegram-Mini-Apps/TelegramUI": 70,
       "ViaVersion/ViaVersion": 15
     },
-    "sumOfUserScores": 24034,
-    "score": 395389342,
+    "sumOfUserScores": 24040,
+    "score": 396227280,
     "numberOfUsers": 488,
     "userDiversityMultiplier": 123,
-    "contributedFocusOrgCount": 531,
-    "contributionDiversityMultiplier": 133.75
+    "contributedFocusOrgCount": 532,
+    "contributionDiversityMultiplier": 134
   },
   {
     "name": "trendyol",
@@ -2650,6 +2651,19 @@
     "contributionDiversityMultiplier": 1.25
   },
   {
+    "name": "zeplin",
+    "contributionScoresPerRepository": {
+      "SchemaStore/schemastore": 85,
+      "SBoudrias/Inquirer.js": 61
+    },
+    "sumOfUserScores": 76,
+    "score": 142,
+    "numberOfUsers": 1,
+    "userDiversityMultiplier": 1.25,
+    "contributedFocusOrgCount": 2,
+    "contributionDiversityMultiplier": 1.5
+  },
+  {
     "name": "cerbos",
     "contributionScoresPerRepository": {
       "cerbos/cerbos-sdk-javascript": 51,
@@ -2662,20 +2676,6 @@
     "score": 142,
     "numberOfUsers": 1,
     "userDiversityMultiplier": 1.25,
-    "contributedFocusOrgCount": 3,
-    "contributionDiversityMultiplier": 1.75
-  },
-  {
-    "name": "istanbul technical university",
-    "contributionScoresPerRepository": {
-      "RocketChat/Rocket.Chat": 9,
-      "noir-lang/noir-starter": 84,
-      "massalabs/station": 9
-    },
-    "sumOfUserScores": 54,
-    "score": 141,
-    "numberOfUsers": 2,
-    "userDiversityMultiplier": 1.5,
     "contributedFocusOrgCount": 3,
     "contributionDiversityMultiplier": 1.75
   }
