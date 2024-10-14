@@ -107,7 +107,7 @@ export async function main(config:Config) {
     header(`Going to write the truth maps to files`);
     // write the truth maps to files
     writePartitioned(config.outputDirectory, "truth-map-focus-repositories", 50000, repositoryTruthMap);
-    writePartitioned(config.outputDirectory, "truth-map-focus-organizations", 500, orgTruthMap);
+    writePartitioned(config.outputDirectory, "truth-map-focus-organizations", 400, orgTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-locations", 50000, locationTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-user-locations", 50000, userLocationTruthMap);
     writePartitioned(config.outputDirectory, "truth-map-user-and-contrib", 10000, userAndContribTruthMap);
