@@ -171,6 +171,20 @@
       "pageSize": 100,
       "startCursor": null
     },
+    "1ab13c15-e3d9-4857-afaa-3c8be8ada719": {
+      "id": "1ab13c15-e3d9-4857-afaa-3c8be8ada719",
+      "parentId": "1ec4c046-060b-4f8e-af46-ff1095a348f7",
+      "originatingTaskId": null,
+      "location": "Istanbul",
+      "minRepositories": 0,
+      "minFollowers": 0,
+      "signedUpAfter": "2021-01-16",
+      "signedUpBefore": "2021-01-16",
+      "contribFromDate": "2024-12-13",
+      "contribToDate": "2024-12-13",
+      "pageSize": 50,
+      "startCursor": null
+    },
     "1c70c217-a133-4808-9656-d31f4cf4b57a": {
       "id": "1c70c217-a133-4808-9656-d31f4cf4b57a",
       "parentId": "d2246c2d-7eae-4553-9987-7bc2caaabc28",
@@ -182,20 +196,6 @@
       "signedUpBefore": "2021-01-16",
       "contribFromDate": "2024-11-02",
       "contribToDate": "2024-11-02",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "1ec4c046-060b-4f8e-af46-ff1095a348f7": {
-      "id": "1ec4c046-060b-4f8e-af46-ff1095a348f7",
-      "parentId": "d26d7628-1f5b-47ba-9f10-d01d176df223",
-      "originatingTaskId": null,
-      "location": "Istanbul",
-      "minRepositories": 0,
-      "minFollowers": 0,
-      "signedUpAfter": "2021-01-16",
-      "signedUpBefore": "2021-01-16",
-      "contribFromDate": "2024-12-13",
-      "contribToDate": "2024-12-13",
       "pageSize": 100,
       "startCursor": null
     },
@@ -408,34 +408,6 @@
       "contribToDate": "2024-10-15",
       "pageSize": 50,
       "startCursor": "Y3Vyc29yOjEwMA=="
-    },
-    "35f874f0-dbd1-48a4-8281-f756d4f70347": {
-      "id": "35f874f0-dbd1-48a4-8281-f756d4f70347",
-      "parentId": null,
-      "originatingTaskId": "cba58bff-65d1-406b-a66b-034aa83a0b75",
-      "location": "Istanbul",
-      "signedUpAfter": "2021-01-16",
-      "signedUpBefore": "2021-01-16",
-      "minRepositories": 0,
-      "minFollowers": 0,
-      "contribFromDate": "2024-11-15",
-      "contribToDate": "2024-11-15",
-      "pageSize": 50,
-      "startCursor": "Y3Vyc29yOjEwMA=="
-    },
-    "3700aa54-c74d-4e53-8fd7-5228bfe55f3a": {
-      "id": "3700aa54-c74d-4e53-8fd7-5228bfe55f3a",
-      "parentId": null,
-      "originatingTaskId": "5a369010-070d-4870-89b2-ff2f15199e0d",
-      "location": "Turkey",
-      "signedUpAfter": "2021-01-16",
-      "signedUpBefore": "2021-01-16",
-      "minRepositories": 0,
-      "minFollowers": 0,
-      "contribFromDate": "2024-09-23",
-      "contribToDate": "2024-09-23",
-      "pageSize": 50,
-      "startCursor": "Y3Vyc29yOjUw"
     },
     "37767b92-d4b5-40ef-9601-40df79a538a9": {
       "id": "37767b92-d4b5-40ef-9601-40df79a538a9",
@@ -969,20 +941,6 @@
       "pageSize": 100,
       "startCursor": null
     },
-    "7d4177e6-bf3d-4fe3-9129-e9ab4ac1780b": {
-      "id": "7d4177e6-bf3d-4fe3-9129-e9ab4ac1780b",
-      "parentId": null,
-      "originatingTaskId": "e401bb28-10d5-47e5-a60b-e1da27151b8b",
-      "location": "Istanbul",
-      "signedUpAfter": "2021-01-16",
-      "signedUpBefore": "2021-01-16",
-      "minRepositories": 0,
-      "minFollowers": 0,
-      "contribFromDate": "2024-12-08",
-      "contribToDate": "2024-12-08",
-      "pageSize": 50,
-      "startCursor": "Y3Vyc29yOjEwMA=="
-    },
     "7fadc97f-3546-4a65-b519-98e4b22f56ed": {
       "id": "7fadc97f-3546-4a65-b519-98e4b22f56ed",
       "parentId": "371c5e8f-1558-43aa-956b-a2af7f8c03c9",
@@ -1204,6 +1162,20 @@
       "minFollowers": 0,
       "contribFromDate": "2024-09-26",
       "contribToDate": "2024-09-26",
+      "pageSize": 50,
+      "startCursor": "Y3Vyc29yOjEwMA=="
+    },
+    "9d91af0d-aad7-499a-8f11-7d07deface63": {
+      "id": "9d91af0d-aad7-499a-8f11-7d07deface63",
+      "parentId": null,
+      "originatingTaskId": "3700aa54-c74d-4e53-8fd7-5228bfe55f3a",
+      "location": "Turkey",
+      "signedUpAfter": "2021-01-16",
+      "signedUpBefore": "2021-01-16",
+      "minRepositories": 0,
+      "minFollowers": 0,
+      "contribFromDate": "2024-09-23",
+      "contribToDate": "2024-09-23",
       "pageSize": 50,
       "startCursor": "Y3Vyc29yOjEwMA=="
     },
@@ -1613,20 +1585,6 @@
       "pageSize": 50,
       "startCursor": null
     },
-    "c6395792-0e05-4ec0-8446-50e3b7b5b29e": {
-      "id": "c6395792-0e05-4ec0-8446-50e3b7b5b29e",
-      "parentId": "1652a7ca-6466-40b1-bcb3-8d16c26a9626",
-      "originatingTaskId": null,
-      "location": "Turkey",
-      "minRepositories": 0,
-      "minFollowers": 0,
-      "signedUpAfter": "2021-01-16",
-      "signedUpBefore": "2021-01-16",
-      "contribFromDate": "2024-10-02",
-      "contribToDate": "2024-10-02",
-      "pageSize": 50,
-      "startCursor": null
-    },
     "c63edb83-f147-436d-a9d9-a72392a93b9f": {
       "id": "c63edb83-f147-436d-a9d9-a72392a93b9f",
       "parentId": "6136ad78-427d-4c7a-b8dd-af0d03d56d58",
@@ -1738,6 +1696,20 @@
       "contribToDate": "2024-11-03",
       "pageSize": 100,
       "startCursor": null
+    },
+    "da7d6d11-cd8e-4e3f-9405-4de1cc9eeba1": {
+      "id": "da7d6d11-cd8e-4e3f-9405-4de1cc9eeba1",
+      "parentId": null,
+      "originatingTaskId": "c6395792-0e05-4ec0-8446-50e3b7b5b29e",
+      "location": "Turkey",
+      "signedUpAfter": "2021-01-16",
+      "signedUpBefore": "2021-01-16",
+      "minRepositories": 0,
+      "minFollowers": 0,
+      "contribFromDate": "2024-10-02",
+      "contribToDate": "2024-10-02",
+      "pageSize": 50,
+      "startCursor": "Y3Vyc29yOjUw"
     },
     "db40cf46-f420-455c-b569-9e88fc29da2a": {
       "id": "db40cf46-f420-455c-b569-9e88fc29da2a",
@@ -60211,6 +60183,22 @@
         "startCursor": null
       }
     },
+    "35f874f0-dbd1-48a4-8281-f756d4f70347": {
+      "task": {
+        "id": "35f874f0-dbd1-48a4-8281-f756d4f70347",
+        "parentId": null,
+        "originatingTaskId": "cba58bff-65d1-406b-a66b-034aa83a0b75",
+        "location": "Istanbul",
+        "signedUpAfter": "2021-01-16",
+        "signedUpBefore": "2021-01-16",
+        "minRepositories": 0,
+        "minFollowers": 0,
+        "contribFromDate": "2024-11-15",
+        "contribToDate": "2024-11-15",
+        "pageSize": 50,
+        "startCursor": "Y3Vyc29yOjEwMA=="
+      }
+    },
     "35f9c456-1f69-473e-ace5-8b9c64e3623a": {
       "task": {
         "id": "35f9c456-1f69-473e-ace5-8b9c64e3623a",
@@ -61089,6 +61077,22 @@
         "contribToDate": "2024-12-21",
         "pageSize": 100,
         "startCursor": null
+      }
+    },
+    "3700aa54-c74d-4e53-8fd7-5228bfe55f3a": {
+      "task": {
+        "id": "3700aa54-c74d-4e53-8fd7-5228bfe55f3a",
+        "parentId": null,
+        "originatingTaskId": "5a369010-070d-4870-89b2-ff2f15199e0d",
+        "location": "Turkey",
+        "signedUpAfter": "2021-01-16",
+        "signedUpBefore": "2021-01-16",
+        "minRepositories": 0,
+        "minFollowers": 0,
+        "contribFromDate": "2024-09-23",
+        "contribToDate": "2024-09-23",
+        "pageSize": 50,
+        "startCursor": "Y3Vyc29yOjUw"
       }
     },
     "3700e386-6731-494d-855b-5822bf5531d5": {
@@ -136545,6 +136549,22 @@
         "contribToDate": "2024-12-21",
         "pageSize": 100,
         "startCursor": null
+      }
+    },
+    "7d4177e6-bf3d-4fe3-9129-e9ab4ac1780b": {
+      "task": {
+        "id": "7d4177e6-bf3d-4fe3-9129-e9ab4ac1780b",
+        "parentId": null,
+        "originatingTaskId": "e401bb28-10d5-47e5-a60b-e1da27151b8b",
+        "location": "Istanbul",
+        "signedUpAfter": "2021-01-16",
+        "signedUpBefore": "2021-01-16",
+        "minRepositories": 0,
+        "minFollowers": 0,
+        "contribFromDate": "2024-12-08",
+        "contribToDate": "2024-12-08",
+        "pageSize": 50,
+        "startCursor": "Y3Vyc29yOjEwMA=="
       }
     },
     "7d4643f9-5ac3-4709-b333-d1febe54b766": {
@@ -216355,6 +216375,22 @@
         "startCursor": null
       }
     },
+    "c6395792-0e05-4ec0-8446-50e3b7b5b29e": {
+      "task": {
+        "id": "c6395792-0e05-4ec0-8446-50e3b7b5b29e",
+        "parentId": "1652a7ca-6466-40b1-bcb3-8d16c26a9626",
+        "originatingTaskId": null,
+        "location": "Turkey",
+        "minRepositories": 0,
+        "minFollowers": 0,
+        "signedUpAfter": "2021-01-16",
+        "signedUpBefore": "2021-01-16",
+        "contribFromDate": "2024-10-02",
+        "contribToDate": "2024-10-02",
+        "pageSize": 50,
+        "startCursor": null
+      }
+    },
     "c63d68a6-8abe-46b2-80f0-a5373dceb9f6": {
       "task": {
         "id": "c63d68a6-8abe-46b2-80f0-a5373dceb9f6",
@@ -279233,33 +279269,6 @@
         }
       ]
     },
-    "1ec4c046-060b-4f8e-af46-ff1095a348f7": {
-      "task": {
-        "id": "1ec4c046-060b-4f8e-af46-ff1095a348f7",
-        "parentId": "d26d7628-1f5b-47ba-9f10-d01d176df223",
-        "originatingTaskId": null,
-        "location": "Istanbul",
-        "minRepositories": 0,
-        "minFollowers": 0,
-        "signedUpAfter": "2021-01-16",
-        "signedUpBefore": "2021-01-16",
-        "contribFromDate": "2024-12-13",
-        "contribToDate": "2024-12-13",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery UserAndContribSearch($searchString: String!, $first: Int!, $after:String, $contribFrom: DateTime!, $contribTo: DateTime!){\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type: USER, query:$searchString, first:$first, after:$after) {\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        userCount\\n        nodes {\\n            ... on User {\\n                ...UserAndContribSearchResult\\n            }\\n        }\\n    }\\n}\\nfragment UserAndContribSearchResult on User {\\n    login\\n    company\\n    name\\n    createdAt\\n    email\\n    followers {\\n        totalCount\\n    }\\n    gists {\\n        totalCount\\n    }\\n    issueComments {\\n        totalCount\\n    }\\n    issues {\\n        totalCount\\n    }\\n    location\\n    pullRequests {\\n        totalCount\\n    }\\n    repositories {\\n        totalCount\\n    }\\n    repositoriesContributedTo {\\n        totalCount\\n    }\\n    repositoryDiscussionComments {\\n        totalCount\\n    }\\n    repositoryDiscussions {\\n        totalCount\\n    }\\n    socialAccounts(first: 100) {\\n        edges {\\n            node {\\n                ... on SocialAccount {\\n                    displayName\\n                    provider\\n                    url\\n                }\\n            }\\n        }\\n    }\\n    sponsoring {\\n        totalCount\\n    }\\n    sponsors {\\n        totalCount\\n    }\\n    twitterUsername\\n    websiteUrl\\n    contributionsCollection(from: $contribFrom, to: $contribTo) {\\n        startedAt\\n        endedAt\\n        totalIssueContributions\\n        totalCommitContributions\\n        totalPullRequestContributions\\n        totalPullRequestReviewContributions\\n        totalRepositoriesWithContributedIssues\\n        totalRepositoriesWithContributedCommits\\n        totalRepositoriesWithContributedPullRequests\\n        totalRepositoriesWithContributedPullRequestReviews\\n        issueContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n        commitContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n        pullRequestContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n        pullRequestReviewContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n    }\\n}\\nfragment UserSearchRepositoryId on Repository {\\n    nameWithOwner\\n    isInOrganization\\n    owner {\\n        login\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"location:Istanbul followers:>=0 repos:>=0 created:2021-01-16..2021-01-16\",\n    \"first\": 100,\n    \"after\": null,\n    \"contribFrom\": \"2024-12-13T00:00:00+00:00\",\n    \"contribTo\": \"2024-12-13T23:59:59+00:00\"\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 1ec4c046-060b-4f8e-af46-ff1095a348f7: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `CC81:2344A9:4EBFAB6:9DC9DF9:676882E9` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Sun, 22 Dec 2024 21:21:55 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"CC81:2344A9:4EBFAB6:9DC9DF9:676882E9\"}.",
-          "date": "2024-12-22T21:21:55.828Z"
-        },
-        {
-          "message": "Error in task 1ec4c046-060b-4f8e-af46-ff1095a348f7: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `3002:30DF5B:4687A4E:4859AC1:67689538` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Sun, 22 Dec 2024 22:40:02 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"3002:30DF5B:4687A4E:4859AC1:67689538\"}.",
-          "date": "2024-12-22T22:40:02.541Z"
-        }
-      ]
-    },
     "2170a5e9-36d9-46a0-b563-f5c7acc23c03": {
       "task": {
         "id": "2170a5e9-36d9-46a0-b563-f5c7acc23c03",
@@ -279303,6 +279312,10 @@
         {
           "message": "Error in task 249b96b7-17fe-46ce-88ba-a43d4e7ef64d: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `1C14:242553:BE3CA02:17BC5EA1:6768A6E3` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Sun, 22 Dec 2024 23:55:25 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"1C14:242553:BE3CA02:17BC5EA1:6768A6E3\"}.",
           "date": "2024-12-22T23:55:25.782Z"
+        },
+        {
+          "message": "Error in task 249b96b7-17fe-46ce-88ba-a43d4e7ef64d: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `4002:3F4013:607A5AF:C0D4457:6768E72A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Mon, 23 Dec 2024 04:29:41 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"4002:3F4013:607A5AF:C0D4457:6768E72A\"}.",
+          "date": "2024-12-23T04:29:41.336Z"
         }
       ]
     },
@@ -279622,6 +279635,10 @@
         {
           "message": "Error in task 5afbca9e-32aa-4b97-9268-6b466da83497: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `4004:2344A9:5B911EB:B762FD9:6768DABC` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Mon, 23 Dec 2024 03:36:39 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"4004:2344A9:5B911EB:B762FD9:6768DABC\"}.",
           "date": "2024-12-23T03:36:39.208Z"
+        },
+        {
+          "message": "Error in task 5afbca9e-32aa-4b97-9268-6b466da83497: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `4001:FC906:694B5FA:D2E9227:6768E72A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Mon, 23 Dec 2024 04:29:41 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"4001:FC906:694B5FA:D2E9227:6768E72A\"}.",
+          "date": "2024-12-23T04:29:41.488Z"
         }
       ]
     },
@@ -281685,6 +281702,37 @@
         {
           "message": "Error in task 1dcabfc7-abe9-4cf5-89c2-cb07669c83c7: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `04C8:13F1C2:166218F9:2C71E1A7:67687C23` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Sun, 22 Dec 2024 20:53:02 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"04C8:13F1C2:166218F9:2C71E1A7:67687C23\"}.",
           "date": "2024-12-22T20:53:02.377Z"
+        }
+      ]
+    },
+    "1ec4c046-060b-4f8e-af46-ff1095a348f7": {
+      "task": {
+        "id": "1ec4c046-060b-4f8e-af46-ff1095a348f7",
+        "parentId": "d26d7628-1f5b-47ba-9f10-d01d176df223",
+        "originatingTaskId": null,
+        "location": "Istanbul",
+        "minRepositories": 0,
+        "minFollowers": 0,
+        "signedUpAfter": "2021-01-16",
+        "signedUpBefore": "2021-01-16",
+        "contribFromDate": "2024-12-13",
+        "contribToDate": "2024-12-13",
+        "pageSize": 100,
+        "startCursor": null
+      },
+      "debug": "{\n  \"query\": \"\\nquery UserAndContribSearch($searchString: String!, $first: Int!, $after:String, $contribFrom: DateTime!, $contribTo: DateTime!){\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type: USER, query:$searchString, first:$first, after:$after) {\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        userCount\\n        nodes {\\n            ... on User {\\n                ...UserAndContribSearchResult\\n            }\\n        }\\n    }\\n}\\nfragment UserAndContribSearchResult on User {\\n    login\\n    company\\n    name\\n    createdAt\\n    email\\n    followers {\\n        totalCount\\n    }\\n    gists {\\n        totalCount\\n    }\\n    issueComments {\\n        totalCount\\n    }\\n    issues {\\n        totalCount\\n    }\\n    location\\n    pullRequests {\\n        totalCount\\n    }\\n    repositories {\\n        totalCount\\n    }\\n    repositoriesContributedTo {\\n        totalCount\\n    }\\n    repositoryDiscussionComments {\\n        totalCount\\n    }\\n    repositoryDiscussions {\\n        totalCount\\n    }\\n    socialAccounts(first: 100) {\\n        edges {\\n            node {\\n                ... on SocialAccount {\\n                    displayName\\n                    provider\\n                    url\\n                }\\n            }\\n        }\\n    }\\n    sponsoring {\\n        totalCount\\n    }\\n    sponsors {\\n        totalCount\\n    }\\n    twitterUsername\\n    websiteUrl\\n    contributionsCollection(from: $contribFrom, to: $contribTo) {\\n        startedAt\\n        endedAt\\n        totalIssueContributions\\n        totalCommitContributions\\n        totalPullRequestContributions\\n        totalPullRequestReviewContributions\\n        totalRepositoriesWithContributedIssues\\n        totalRepositoriesWithContributedCommits\\n        totalRepositoriesWithContributedPullRequests\\n        totalRepositoriesWithContributedPullRequestReviews\\n        issueContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n        commitContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n        pullRequestContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n        pullRequestReviewContributionsByRepository(maxRepositories: 100) {\\n            contributions{\\n                totalCount\\n            }\\n            repository {\\n                ...UserSearchRepositoryId\\n            }\\n        }\\n    }\\n}\\nfragment UserSearchRepositoryId on Repository {\\n    nameWithOwner\\n    isInOrganization\\n    owner {\\n        login\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"location:Istanbul followers:>=0 repos:>=0 created:2021-01-16..2021-01-16\",\n    \"first\": 100,\n    \"after\": null,\n    \"contribFrom\": \"2024-12-13T00:00:00+00:00\",\n    \"contribTo\": \"2024-12-13T23:59:59+00:00\"\n  }\n}",
+      "errors": [
+        {
+          "message": "Error in task 1ec4c046-060b-4f8e-af46-ff1095a348f7: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `CC81:2344A9:4EBFAB6:9DC9DF9:676882E9` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Sun, 22 Dec 2024 21:21:55 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"CC81:2344A9:4EBFAB6:9DC9DF9:676882E9\"}.",
+          "date": "2024-12-22T21:21:55.828Z"
+        },
+        {
+          "message": "Error in task 1ec4c046-060b-4f8e-af46-ff1095a348f7: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `3002:30DF5B:4687A4E:4859AC1:67689538` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Sun, 22 Dec 2024 22:40:02 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"3002:30DF5B:4687A4E:4859AC1:67689538\"}.",
+          "date": "2024-12-22T22:40:02.541Z"
+        },
+        {
+          "message": "Error in task 1ec4c046-060b-4f8e-af46-ff1095a348f7: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `4004:2344A9:5D8D63F:BB59646:6768E72A` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Mon, 23 Dec 2024 04:29:41 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"4004:2344A9:5D8D63F:BB59646:6768E72A\"}.",
+          "date": "2024-12-23T04:29:41.424Z"
         }
       ]
     },
