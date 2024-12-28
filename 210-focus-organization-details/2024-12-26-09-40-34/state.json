@@ -3,29 +3,29 @@
   "completionDate": null,
   "completionError": null,
   "unresolved": {
-    "0d22e6c4-c4c4-4d46-9ad7-c8dc262e7b9d": {
-      "id": "0d22e6c4-c4c4-4d46-9ad7-c8dc262e7b9d",
+    "89a2407a-919d-4d51-8a43-efb1b6174480": {
+      "id": "89a2407a-919d-4d51-8a43-efb1b6174480",
       "parentId": null,
-      "originatingTaskId": "a2f1b173-11e9-45a3-8baa-f313421c97f3",
-      "orgName": "conda-forge",
-      "pageSize": 25,
-      "startCursor": "Y3Vyc29yOnYyOpHOD8P8SA=="
-    },
-    "57c0996a-9f4b-46f0-ba8b-ce49c0e45a1d": {
-      "id": "57c0996a-9f4b-46f0-ba8b-ce49c0e45a1d",
-      "parentId": null,
-      "originatingTaskId": "f63dbc17-c9e4-440e-9a68-5555a7b118d0",
-      "orgName": "microsoft",
-      "pageSize": 12,
-      "startCursor": "Y3Vyc29yOnYyOpHOJLd_fg=="
-    },
-    "bf51201e-d8a2-4131-93c1-80ffadbdfb77": {
-      "id": "bf51201e-d8a2-4131-93c1-80ffadbdfb77",
-      "parentId": null,
-      "originatingTaskId": "443d9866-fa2e-49c5-875b-db4f7a14d009",
+      "originatingTaskId": "e5e15013-efa5-4f5b-8d25-427905a60912",
       "orgName": "4GeeksAcademy",
       "pageSize": 25,
-      "startCursor": "Y3Vyc29yOnYyOpHOKSTQEw=="
+      "startCursor": "Y3Vyc29yOnYyOpHOKTRsrA=="
+    },
+    "a5af5542-6621-4054-82ef-4dd269837c80": {
+      "id": "a5af5542-6621-4054-82ef-4dd269837c80",
+      "parentId": null,
+      "originatingTaskId": "49dd9cb0-9642-4f78-a436-a8cc8d3edebc",
+      "orgName": "microsoft",
+      "pageSize": 12,
+      "startCursor": "Y3Vyc29yOnYyOpHOJV8hnw=="
+    },
+    "f8344a63-cd12-4eb6-af75-9df0020995ec": {
+      "id": "f8344a63-cd12-4eb6-af75-9df0020995ec",
+      "parentId": null,
+      "originatingTaskId": "0471ce5c-8694-4541-b07e-fd39c2b62e32",
+      "orgName": "conda-forge",
+      "pageSize": 25,
+      "startCursor": "Y3Vyc29yOnYyOpHOEANSRw=="
     }
   },
   "resolved": {
@@ -7357,6 +7357,16 @@
         "orgName": "onaio",
         "pageSize": 25,
         "startCursor": "Y3Vyc29yOnYyOpHOBpyYMA=="
+      }
+    },
+    "0471ce5c-8694-4541-b07e-fd39c2b62e32": {
+      "task": {
+        "id": "0471ce5c-8694-4541-b07e-fd39c2b62e32",
+        "parentId": null,
+        "originatingTaskId": "21db8a69-d3eb-4de5-afd5-c2488b9028ec",
+        "orgName": "conda-forge",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOD_qfOw=="
       }
     },
     "04722df8-56d6-4573-8cb4-404361c1be7f": {
@@ -21607,6 +21617,16 @@
         "orgName": "blackducksoftware",
         "pageSize": 25,
         "startCursor": null
+      }
+    },
+    "0d22e6c4-c4c4-4d46-9ad7-c8dc262e7b9d": {
+      "task": {
+        "id": "0d22e6c4-c4c4-4d46-9ad7-c8dc262e7b9d",
+        "parentId": null,
+        "originatingTaskId": "a2f1b173-11e9-45a3-8baa-f313421c97f3",
+        "orgName": "conda-forge",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOD8P8SA=="
       }
     },
     "0d230ec2-d41b-47fe-8af5-1668668a9ad5": {
@@ -43009,6 +43029,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHOJnTI8Q=="
       }
     },
+    "1a065f20-e897-4c47-aced-ed7c49c3f19b": {
+      "task": {
+        "id": "1a065f20-e897-4c47-aced-ed7c49c3f19b",
+        "parentId": null,
+        "originatingTaskId": "57c0996a-9f4b-46f0-ba8b-ce49c0e45a1d",
+        "orgName": "microsoft",
+        "pageSize": 12,
+        "startCursor": "Y3Vyc29yOnYyOpHOJN-Gyg=="
+      }
+    },
     "1a08e6d9-6c7f-496a-86bf-9d5795408466": {
       "task": {
         "id": "1a08e6d9-6c7f-496a-86bf-9d5795408466",
@@ -56387,6 +56417,16 @@
         "orgName": "conda-forge",
         "pageSize": 25,
         "startCursor": "Y3Vyc29yOnYyOpHODmRYyw=="
+      }
+    },
+    "21db8a69-d3eb-4de5-afd5-c2488b9028ec": {
+      "task": {
+        "id": "21db8a69-d3eb-4de5-afd5-c2488b9028ec",
+        "parentId": null,
+        "originatingTaskId": "fbd5f7d7-2ea1-4a39-baa5-e9ae7efe44d1",
+        "orgName": "conda-forge",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOD_HdPg=="
       }
     },
     "21dd1f41-872f-440d-bd78-4106877c8e8c": {
@@ -112609,6 +112649,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHOJiCXQg=="
       }
     },
+    "43985236-fde1-45f4-9f49-9a0280e81e41": {
+      "task": {
+        "id": "43985236-fde1-45f4-9f49-9a0280e81e41",
+        "parentId": null,
+        "originatingTaskId": "612c2c53-20be-499a-a2ff-3dfe5a053508",
+        "orgName": "4GeeksAcademy",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOKSh4OA=="
+      }
+    },
     "439a31a4-ca69-40c3-b79f-9509e31cb021": {
       "task": {
         "id": "439a31a4-ca69-40c3-b79f-9509e31cb021",
@@ -123427,6 +123477,16 @@
         "orgName": "CollaboratingPlatypus",
         "pageSize": 25,
         "startCursor": null
+      }
+    },
+    "49dd9cb0-9642-4f78-a436-a8cc8d3edebc": {
+      "task": {
+        "id": "49dd9cb0-9642-4f78-a436-a8cc8d3edebc",
+        "parentId": null,
+        "originatingTaskId": "f6205a93-c7c5-4624-bc73-0d03f22a5a0c",
+        "orgName": "microsoft",
+        "pageSize": 12,
+        "startCursor": "Y3Vyc29yOnYyOpHOJTrGmA=="
       }
     },
     "49ddeabe-c7e9-4599-a3e6-e99936a72d97": {
@@ -146549,6 +146609,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHONZ7FgA=="
       }
     },
+    "57c0996a-9f4b-46f0-ba8b-ce49c0e45a1d": {
+      "task": {
+        "id": "57c0996a-9f4b-46f0-ba8b-ce49c0e45a1d",
+        "parentId": null,
+        "originatingTaskId": "f63dbc17-c9e4-440e-9a68-5555a7b118d0",
+        "orgName": "microsoft",
+        "pageSize": 12,
+        "startCursor": "Y3Vyc29yOnYyOpHOJLd_fg=="
+      }
+    },
     "57c1444a-7807-496f-bacc-04aed32af9b3": {
       "task": {
         "id": "57c1444a-7807-496f-bacc-04aed32af9b3",
@@ -161717,6 +161787,16 @@
         "orgName": "pytorch",
         "pageSize": 25,
         "startCursor": "Y3Vyc29yOnYyOpHOCOZVNw=="
+      }
+    },
+    "612c2c53-20be-499a-a2ff-3dfe5a053508": {
+      "task": {
+        "id": "612c2c53-20be-499a-a2ff-3dfe5a053508",
+        "parentId": null,
+        "originatingTaskId": "bf51201e-d8a2-4131-93c1-80ffadbdfb77",
+        "orgName": "4GeeksAcademy",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOKSV6Dg=="
       }
     },
     "612e7552-0c25-45ea-b42e-284dcad60a05": {
@@ -265354,6 +265434,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHOA32n-Q=="
       }
     },
+    "a056c7e7-27ab-402d-aaa0-81b60ccca9f9": {
+      "task": {
+        "id": "a056c7e7-27ab-402d-aaa0-81b60ccca9f9",
+        "parentId": null,
+        "originatingTaskId": "baf96195-549a-4b4e-986a-95ebbe2b5871",
+        "orgName": "4GeeksAcademy",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOKTB8eQ=="
+      }
+    },
     "a056f1e1-1d6c-4be9-ba82-665dded6cc23": {
       "task": {
         "id": "a056f1e1-1d6c-4be9-ba82-665dded6cc23",
@@ -309039,6 +309129,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHOBEEH0Q=="
       }
     },
+    "baf96195-549a-4b4e-986a-95ebbe2b5871": {
+      "task": {
+        "id": "baf96195-549a-4b4e-986a-95ebbe2b5871",
+        "parentId": null,
+        "originatingTaskId": "43985236-fde1-45f4-9f49-9a0280e81e41",
+        "orgName": "4GeeksAcademy",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOKS1JcQ=="
+      }
+    },
     "baf9854e-6758-4a52-ac6c-d91a6bc755b1": {
       "task": {
         "id": "baf9854e-6758-4a52-ac6c-d91a6bc755b1",
@@ -316387,6 +316487,16 @@
         "orgName": "openprocurement",
         "pageSize": 25,
         "startCursor": null
+      }
+    },
+    "bf51201e-d8a2-4131-93c1-80ffadbdfb77": {
+      "task": {
+        "id": "bf51201e-d8a2-4131-93c1-80ffadbdfb77",
+        "parentId": null,
+        "originatingTaskId": "443d9866-fa2e-49c5-875b-db4f7a14d009",
+        "orgName": "4GeeksAcademy",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOKSTQEw=="
       }
     },
     "bf5467e8-5781-4164-8082-89c1c4809d23": {
@@ -365894,6 +366004,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHOBZ2Yow=="
       }
     },
+    "dd900881-4b57-4a03-82ac-77278ce665dd": {
+      "task": {
+        "id": "dd900881-4b57-4a03-82ac-77278ce665dd",
+        "parentId": null,
+        "originatingTaskId": "0d22e6c4-c4c4-4d46-9ad7-c8dc262e7b9d",
+        "orgName": "conda-forge",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOD85fjg=="
+      }
+    },
     "dd91aeca-d765-4e16-9c9b-50bdaeb35dc9": {
       "task": {
         "id": "dd91aeca-d765-4e16-9c9b-50bdaeb35dc9",
@@ -379827,6 +379947,16 @@
         "orgName": "GetStream",
         "pageSize": 25,
         "startCursor": "Y3Vyc29yOnYyOpHOKNPQuA=="
+      }
+    },
+    "e5e15013-efa5-4f5b-8d25-427905a60912": {
+      "task": {
+        "id": "e5e15013-efa5-4f5b-8d25-427905a60912",
+        "parentId": null,
+        "originatingTaskId": "a056c7e7-27ab-402d-aaa0-81b60ccca9f9",
+        "orgName": "4GeeksAcademy",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOKTMd2g=="
       }
     },
     "e5e496eb-1921-442d-b392-e2a6fc8ec2b8": {
@@ -406199,6 +406329,16 @@
         "startCursor": "Y3Vyc29yOnYyOpHONbexnA=="
       }
     },
+    "f6205a93-c7c5-4624-bc73-0d03f22a5a0c": {
+      "task": {
+        "id": "f6205a93-c7c5-4624-bc73-0d03f22a5a0c",
+        "parentId": null,
+        "originatingTaskId": "1a065f20-e897-4c47-aced-ed7c49c3f19b",
+        "orgName": "microsoft",
+        "pageSize": 12,
+        "startCursor": "Y3Vyc29yOnYyOpHOJRFn8w=="
+      }
+    },
     "f6224b7f-d928-481f-895a-3974243c9f6c": {
       "task": {
         "id": "f6224b7f-d928-481f-895a-3974243c9f6c",
@@ -415667,6 +415807,16 @@
         "orgName": "plfa",
         "pageSize": 25,
         "startCursor": null
+      }
+    },
+    "fbd5f7d7-2ea1-4a39-baa5-e9ae7efe44d1": {
+      "task": {
+        "id": "fbd5f7d7-2ea1-4a39-baa5-e9ae7efe44d1",
+        "parentId": null,
+        "originatingTaskId": "dd900881-4b57-4a03-82ac-77278ce665dd",
+        "orgName": "conda-forge",
+        "pageSize": 25,
+        "startCursor": "Y3Vyc29yOnYyOpHOD-Ddrw=="
       }
     },
     "fbd97074-4994-4841-a161-c61e3a3989cf": {
