@@ -1,35 +1,8 @@
 {
   "startDate": "2025-01-16T19:34:12.929Z",
-  "completionDate": null,
+  "completionDate": "2025-01-16T22:54:30.841Z",
   "completionError": null,
-  "unresolved": {
-    "0378fc0f-3ff2-46b6-9765-f92b843af2e9": {
-      "id": "0378fc0f-3ff2-46b6-9765-f92b843af2e9",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2024-10-18",
-      "createdAfter": "2019-06-17",
-      "createdBefore": "2019-06-21",
-      "pageSize": 100,
-      "startCursor": null
-    },
-    "939fa225-55a7-432d-88d9-6be4c04c453f": {
-      "id": "939fa225-55a7-432d-88d9-6be4c04c453f",
-      "parentId": null,
-      "originatingTaskId": null,
-      "minStars": 50,
-      "minForks": 50,
-      "minSizeInKb": 1000,
-      "hasActivityAfter": "2024-10-18",
-      "createdAfter": "2018-01-23",
-      "createdBefore": "2018-01-27",
-      "pageSize": 100,
-      "startCursor": null
-    }
-  },
+  "unresolved": {},
   "resolved": {
     "003e8882-5733-4fa8-b2dc-a8788a148083": {
       "task": {
@@ -202,6 +175,21 @@
         "hasActivityAfter": "2024-10-18",
         "createdAfter": "2022-05-27",
         "createdBefore": "2022-05-31",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
+    "0378fc0f-3ff2-46b6-9765-f92b843af2e9": {
+      "task": {
+        "id": "0378fc0f-3ff2-46b6-9765-f92b843af2e9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2024-10-18",
+        "createdAfter": "2019-06-17",
+        "createdBefore": "2019-06-21",
         "pageSize": 100,
         "startCursor": null
       }
@@ -10496,6 +10484,21 @@
         "startCursor": null
       }
     },
+    "939fa225-55a7-432d-88d9-6be4c04c453f": {
+      "task": {
+        "id": "939fa225-55a7-432d-88d9-6be4c04c453f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "minStars": 50,
+        "minForks": 50,
+        "minSizeInKb": 1000,
+        "hasActivityAfter": "2024-10-18",
+        "createdAfter": "2018-01-23",
+        "createdBefore": "2018-01-27",
+        "pageSize": 100,
+        "startCursor": null
+      }
+    },
     "9420e9da-c0a2-40df-96be-8e43306645f7": {
       "task": {
         "id": "9420e9da-c0a2-40df-96be-8e43306645f7",
@@ -18132,56 +18135,7 @@
       }
     }
   },
-  "errored": {
-    "0378fc0f-3ff2-46b6-9765-f92b843af2e9": {
-      "task": {
-        "id": "0378fc0f-3ff2-46b6-9765-f92b843af2e9",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2024-10-18",
-        "createdAfter": "2019-06-17",
-        "createdBefore": "2019-06-21",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n    discussions{\\n        totalCount\\n    }    \\n    createdAt\\n    isPrivate\\n    pushedAt\\n    visibility\\n    primaryLanguage{\\n        name\\n    }\\n    languages(first:100){\\n        edges{\\n            size\\n            node{\\n              name\\n            }\\n        }\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2024-10-18 created:2019-06-17..2019-06-21\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 0378fc0f-3ff2-46b6-9765-f92b843af2e9: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `6445:3FF5DB:E624B5:1CA8505:67897370` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Thu, 16 Jan 2025 21:00:43 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"6445:3FF5DB:E624B5:1CA8505:67897370\"}.",
-          "date": "2025-01-16T21:00:43.079Z"
-        },
-        {
-          "message": "Error in task 0378fc0f-3ff2-46b6-9765-f92b843af2e9: Task 0378fc0f-3ff2-46b6-9765-f92b843af2e9 returned null output..",
-          "date": "2025-01-16T22:40:56.117Z"
-        }
-      ]
-    },
-    "939fa225-55a7-432d-88d9-6be4c04c453f": {
-      "task": {
-        "id": "939fa225-55a7-432d-88d9-6be4c04c453f",
-        "parentId": null,
-        "originatingTaskId": null,
-        "minStars": 50,
-        "minForks": 50,
-        "minSizeInKb": 1000,
-        "hasActivityAfter": "2024-10-18",
-        "createdAfter": "2018-01-23",
-        "createdBefore": "2018-01-27",
-        "pageSize": 100,
-        "startCursor": null
-      },
-      "debug": "{\n  \"query\": \"\\nquery FocusProjectCandidateSearch($searchString: String!, $first: Int!, $after:String) {\\n    rateLimit{\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    search(type:REPOSITORY, query:$searchString, first:$first, after:$after){\\n        pageInfo {\\n            startCursor\\n            hasNextPage\\n            endCursor\\n        }\\n        repositoryCount\\n        nodes{\\n            ...RepositorySummary\\n        }\\n    }\\n}\\nfragment RepositorySummary on Repository{\\n    nameWithOwner\\n    isInOrganization\\n    owner{\\n        login\\n    }\\n    forkCount\\n    stargazerCount\\n    pullRequests{\\n        totalCount\\n    }\\n    issues{\\n        totalCount\\n    }\\n    mentionableUsers{\\n        totalCount\\n    }\\n    watchers{\\n        totalCount\\n    }\\n    discussions{\\n        totalCount\\n    }    \\n    createdAt\\n    isPrivate\\n    pushedAt\\n    visibility\\n    primaryLanguage{\\n        name\\n    }\\n    languages(first:100){\\n        edges{\\n            size\\n            node{\\n              name\\n            }\\n        }\\n    }\\n}\\n\",\n  \"variables\": {\n    \"searchString\": \"is:public template:false archived:false stars:>=50 forks:>=50 size:>=1000 pushed:>=2024-10-18 created:2018-01-23..2018-01-27\",\n    \"first\": 100,\n    \"after\": null\n  }\n}",
-      "errors": [
-        {
-          "message": "Error in task 939fa225-55a7-432d-88d9-6be4c04c453f: Unknown error: {\"data\":null,\"errors\":[{\"message\":\"Something went wrong while executing your query. This may be the result of a timeout, or it could be a GitHub bug. Please include `6443:35F2BC:B59CA2:16A1741:678976E0` when reporting this issue.\"}]}. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\",\"connection\":\"close\",\"content-type\":\"application/json\",\"date\":\"Thu, 16 Jan 2025 21:15:22 GMT\",\"server\":\"github.com\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-github-request-id\":\"6443:35F2BC:B59CA2:16A1741:678976E0\"}.",
-          "date": "2025-01-16T21:15:22.739Z"
-        }
-      ]
-    }
-  },
+  "errored": {},
   "archived": {
     "201c279d-6486-4ddb-bc8c-585723cc1513": {
       "task": {
