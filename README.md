@@ -1,12 +1,12 @@
 # OpenTR - State of Open Source Contribution in Turkey - Data
 
-This repository contains the data used in the OpenTR's [State of Open Source Contribution in Turkey](https://state.opentr.foundation/) report.
+This repository contains the data used in the OpenTR's [State of Open Source Contribution in Turkey](https://state-of-oss-contribution-report.netlify.app/) report.
 
 Data from GitHub is collected using [Cuttlecat](https://github.com/OpenTRFoundation/cuttlecat) and stored in the repository.
 
 Later on, these data is processed and used to generate the report.
 
-To see the report, visit [https://state.opentr.foundation](https://state.opentr.foundation/).
+To see the report, visit [https://state-of-oss-contribution-report.netlify.app/](https://state-of-oss-contribution-report.netlify.app/).
 
 # Implementation
 
